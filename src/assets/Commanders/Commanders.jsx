@@ -6,12 +6,10 @@ import "./commanders.css"
 function Commanders(){
     const renderItems = () => {
         return Example.map((data, id) => (
-            <div key={id} >
-                <div className='heroFrame'>
+            <span key={id} className='heroFrame'>
                     <img className='thumbnail' src={data.thumbnail} alt={data.thumbnailAlt} loading="lazy" onError={(e) => { e.target.src = ''; }} />
                     <h2 className=''>{data.title}</h2>
-                </div>
-            </div>
+            </span>
           ));
     }
 
