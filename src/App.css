@@ -1,0 +1,35 @@
+#root {
+  max-width: 100%;
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  border: solid 2px red;
+  background-color: #3f3e3f;
+}
+
+.HeaderPosition{
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+}
+
+.NavbarPosition{
+  display: flex;
+  flex-direction: column;
+  height: 10%;
+}
+
+.OutputPosition{
+  display: flex;
+  flex-direction: column;
+  height: 70%;
+}
+
+.FooterPosition{
+  display: flex;
+  flex-direction: column;
+  height: 6rem;
+}
+

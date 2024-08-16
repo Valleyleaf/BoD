@@ -1,0 +1,39 @@
+.logo{
+    width:440px;
+    height: auto;
+}
+
+.roster{
+    display: flex;
+    flex-direction: row;
+    margin: 15px;
+}
+
+.heroFrame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100px;
+    height: 150px;
+    padding: 20px;
+    font-size: 12px;
+    font-style: italic;
+    white-space: nowrap;
+    transition: ease 0.3s;
+    cursor: pointer;
+}
+
+.heroFrame:hover{
+    transition: ease 0.3s;
+    transform: scale(1.09);
+}
+
+.thumbnail{
+    width: 100px;
+    height: 100px;
+    border: solid 1px rgb(174, 232, 240);
+    border-style: double;
+    box-shadow: 5px 5px 5px #8bdaff4f;
+}
