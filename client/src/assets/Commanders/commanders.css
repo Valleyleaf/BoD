@@ -6,6 +6,8 @@
 .roster{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: 15px;
 }
 
@@ -15,25 +17,83 @@
     justify-content: center;
     align-items: center;
     color: white;
-    width: 100px;
-    height: 150px;
-    padding: 20px;
+    width: 200px;
+    height: 350px;
+    padding: 10px;
     font-size: 12px;
     font-style: italic;
     white-space: nowrap;
     transition: ease 0.3s;
     cursor: pointer;
-}
-
-.heroFrame:hover{
-    transition: ease 0.3s;
-    transform: scale(1.09);
+    transition: opacity 0.5s ease;
 }
 
 .thumbnail{
-    width: 100px;
-    height: 100px;
+    display: block;
+    object-fit: cover;
+    width: 200px;
+    height: 300px;
     border: solid 1px rgb(174, 232, 240);
-    border-style: double;
-    box-shadow: 5px 5px 5px #8bdaff4f;
 }
+
+
+.comList{
+    transform-style: preserve-3d;
+    transform: perspective(5000px);
+}
+
+.comList .comImg{
+    transition: .5s;
+    filter: brightness(0.5);
+}
+
+.comList .comImg:hover{
+    filter: brightness(1);
+    transform: translateZ(200px);
+}
+
+/* .comList .comImg:hover + *{
+    filter: brightness(0.6);
+    transform: translateZ(150px) rotateY(40deg);
+}
+
+.comList .comImg:hover + * + *{
+    filter: brightness(0.8);
+    transform: translateZ(70px) rotateY(20deg);
+}
+
+.comList .comImg:hover + * + * + *{
+    filter: brightness(0.9);
+    transform: translateZ(30px) rotateY(10deg);
+}
+
+.comList .comImg:has(+ *:hover){
+    filter: brightness(0.6);
+    transform: translateZ(150px) rotateY(-40deg);
+}
+
+.comList .comImg:has(+ * + *:hover){
+    filter: brightness(0.6);
+    transform: translateZ(70px) rotateY(-20deg);
+}
+
+.comList .comImg:has(+ * + * + *:hover){
+    filter: brightness(0.6);
+    transform: translateZ(30px) rotateY(-10deg);
+} */
+
+.hoverTitle {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, 400%);
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.heroFrame:hover .hoverTitle {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
