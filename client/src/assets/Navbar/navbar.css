@@ -12,16 +12,14 @@
     height: 30px;
     margin: 0px 2px 2px 2px;
     border-bottom: 5px solid black ;
-    border-radius: 0px 0px 15px 5px;
     transition: ease 0.3s;
 }
 
 .buttonClass:hover{
+    background-color: var(--button-color);
     color: rgb(78, 234, 255);
     width: 25%;
     height: 30px;
     margin: 0px 2px 2px 2px;
-    border-bottom: 5px solid black ;
-    border-radius: 0px 0px 15px 5px;
     transition: ease 0.3s;
 }

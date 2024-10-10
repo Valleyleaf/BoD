@@ -1,0 +1,58 @@
+
+.LoadingMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.Logo-container {
+    position: relative;
+    display: inline-block;
+  }
+
+  .Logo-container::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 0;
+    box-shadow: 0 0 90px 5px rgba(0, 255, 255, 0.7);
+    animation: pulseGlow 2s infinite;
+  }
+
+.Loadinglogo{
+    width:840px;
+    height: auto;
+
+}
+
+  @keyframes pulseGlow {
+    0% {
+      box-shadow: 0 0 90px 55px rgba(0, 255, 255, 0.7);
+    }
+    50% {
+      box-shadow: 0 0 150px 50px rgba(0, 255, 255, 1);
+    }
+    100% {
+      box-shadow: 0 0 90px 55px rgba(0, 255, 255, 0.7);
+    }
+  }
+  
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .bounce {
+    animation: bounce 2s infinite;
+  }
+  

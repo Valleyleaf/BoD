@@ -15,8 +15,10 @@ function Commanders(){
     }
 
     return(
-            <div className='roster comList'>
-                {renderItems()}
+            <div className="fade-slide-up">
+                <div className='roster comList'>
+                    {renderItems()}
+                </div>
             </div>
     );
 };

@@ -49,7 +49,7 @@
 
 .comList .comImg:hover{
     filter: brightness(1);
-    transform: translateZ(200px);
+    transform: translateZ(100px);
 }
 
 /* .comList .comImg:hover + *{
@@ -95,5 +95,25 @@
     display: block;
     opacity: 1;
     transition: opacity 0.3s ease;
+    background: linear-gradient(to top, #000000, #feb47b00);
+    width: 90%;
 }
+
+.fade-slide-up {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: fadeSlideUp 1s ease-out forwards;
+  }
+  
+  @keyframes fadeSlideUp {
+    0% {
+      opacity: 0;
+      transform: translateY(25px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
 

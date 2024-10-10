@@ -1,4 +1,11 @@
 .logo{
     width:440px;
     height: auto;
+    filter: brightness(90%);
+    transition: 0.3s ease;
+}
+
+.logo:hover{
+    transform: scale(1.01);
+    filter: brightness(110%);
 }
