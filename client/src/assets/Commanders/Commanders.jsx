@@ -1,15 +1,8 @@
-import React from "react";
-import { Link, useEffect, useState } from "react-router-dom";
+import {React, useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import {Characters} from '../Info/Characters'
 import "./commanders.css"
 // import displayUnit from '../../utils/unitAPI'
-
-useEffect(() => {
-    fetch('http://localhost:5000/api/commanders')
-      .then(response => response.json())
-      .then(data => setItems(data))
-      .catch(error => console.error('Error fetching data:', error));
-  }, []);
 
 function Commanders(){
 

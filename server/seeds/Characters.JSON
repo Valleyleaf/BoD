@@ -1,41 +1,272 @@
 [
     {
-        "id": 1,
-        "name": "John Smith",
-        "title": "The Example",
-        "thumbnail": "https://i.imgur.com/LCdszDi.jpg",
-        "thumbnailAlt": "Image of The Example",
-        "image": "https://static.wikia.nocookie.net/wowpedia/images/e/ed/Dwarven_Hand_Cannon_TCG.jpg/revision/latest/scale-to-width-down/1371?cb=20230209044340",
-        "description": "Ranged taxpayer",
-        "lore": "John leads by example",
-        "primaryStat": "Agility",
-        "stats": [""],
-        "faction": "Mechanisms",
-        "roles": ["Carry", "Ranged"],
-        "ability0": {
-            "name": "Passive Ability 1",
-            "disc": "Passive Ability 1",
-            "cost": "0"
-        },
-        "ability1": {
-            "name": "Active Ability 1",
-            "disc": "Active Ability 1",
-            "cost": "10"
-        },
-        "ability2": {
-            "name": "Active Ability 2",
-            "disc": "Active Ability 2",
-            "cost": "20"
-        },
-        "ability3": {
-            "name": "Active Ability 3",
-            "disc": "Active Ability 4",
-            "cost": "30"
-        },
-        "ability4": {
-            "name": "Ultimate Ability",
-            "disc": "Ultimate Ability 4",
-            "cost": "40"
-        }
+      "id": 1,
+      "name": "Spine",
+      "title": "Abyssal King",
+      "thumbnail": "https://i.pinimg.com/736x/ea/fb/40/eafb40de7d0e12896fcebb0108fd120e.jpg",
+      "thumbnailAlt": "Image of the Abyssal King",
+      "image": " ",
+      "description": "Mystical spellcaster with powerful crowd control abilities",
+      "lore": "",
+      "primaryStat": "Intelligence",
+      "stats": [""],
+      "faction": "Void Whisperers",
+      "roles": ["Carry", "Melee", "Crowd Control"],
+      "ability0": {
+        "name": "Magic Mail",
+        "disc": "Upon casting an ability, Spine gains complete magic immunity for 2/4/6 seconds.",
+        "cost": "0"
+      },
+      "ability1": {
+        "name": "Path of Frost",
+        "disc": "Active Ability 1",
+        "cost": "10"
+      },
+      "ability2": {
+        "name": "Active Ability 2",
+        "disc": "Active Ability 2",
+        "cost": "20"
+      },
+      "ability3": {
+        "name": "Active Ability 3",
+        "disc": "Active Ability 4",
+        "cost": "30"
+      },
+      "ability4": {
+        "name": "Ultimate Ability",
+        "disc": "Ultimate Ability 4",
+        "cost": "40"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Jun",
+      "title": "Alchemist",
+      "thumbnail": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/16839a88-ba93-4b12-a311-eded58cf9f7e/dg431dd-f8d1dce2-d2c1-4de5-8f49-a8b728c1c582.png",
+      "image": " ",
+      "description": "Melee tank with powerful supportive abilities and self-preservation",
+      "lore": "John leads by example",
+      "primaryStat": "Strength",
+      "stats": [""],
+      "faction": "Mechanisms",
+      "roles": ["Melee", "Tank", "Support"],
+      "ability0": {
+        "name": "Passive Ability 1",
+        "disc": "Passive Ability 1",
+        "cost": "0"
+      },
+      "ability1": {
+        "name": "Active Ability 1",
+        "disc": "Active Ability 1",
+        "cost": "10"
+      },
+      "ability2": {
+        "name": "Active Ability 2",
+        "disc": "Active Ability 2",
+        "cost": "20"
+      },
+      "ability3": {
+        "name": "Active Ability 3",
+        "disc": "Active Ability 4",
+        "cost": "30"
+      },
+      "ability4": {
+        "name": "Ultimate Ability",
+        "disc": "Ultimate Ability 4",
+        "cost": "40"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Kain",
+      "title": "Arcane Overlord",
+      "thumbnail": "https://static.wikia.nocookie.net/wowwiki/images/6/62/Kael.jpg/revision/latest?cb=20100319043436",
+      "image": " ",
+      "description": "Courageous leader",
+      "lore": "Fights for justice",
+      "primaryStat": "Strength",
+      "stats": [""],
+      "faction": "Mechanisms",
+      "roles": ["Carry", "Ranged"],
+      "ability0": {
+        "name": "Passive Ability 1",
+        "disc": "Passive Ability 1",
+        "cost": "0"
+      },
+      "ability1": {
+        "name": "Active Ability 1",
+        "disc": "Active Ability 1",
+        "cost": "10"
+      },
+      "ability2": {
+        "name": "Active Ability 2",
+        "disc": "Active Ability 2",
+        "cost": "20"
+      },
+      "ability3": {
+        "name": "Active Ability 3",
+        "disc": "Active Ability 4",
+        "cost": "30"
+      },
+      "ability4": {
+        "name": "Ultimate Ability",
+        "disc": "Ultimate Ability 4",
+        "cost": "40"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Naze",
+      "title": "Arachnid Priest",
+      "thumbnail": "https://img.goodfon.com/wallpaper/big/2/71/bwonsamdi-kyle-herring-by-kyle-herring-wow-characters-fantas.webp",
+      "image": " ",
+      "description": "Fast runner",
+      "lore": "Runs through danger",
+      "primaryStat": "Agility",
+      "stats": [""],
+      "faction": "Mechanisms",
+      "roles": ["Carry", "Ranged"],
+      "ability0": {
+        "name": "Passive Ability 1",
+        "disc": "Passive Ability 1",
+        "cost": "0"
+      },
+      "ability1": {
+        "name": "Active Ability 1",
+        "disc": "Active Ability 1",
+        "cost": "10"
+      },
+      "ability2": {
+        "name": "Active Ability 2",
+        "disc": "Active Ability 2",
+        "cost": "20"
+      },
+      "ability3": {
+        "name": "Active Ability 3",
+        "disc": "Active Ability 4",
+        "cost": "30"
+      },
+      "ability4": {
+        "name": "Ultimate Ability",
+        "disc": "Ultimate Ability 4",
+        "cost": "40"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Crepúsculo",
+      "title": "Aspect of the Wilds",
+      "thumbnail": "https://media.licdn.com/dms/image/C5112AQGb4cJ5NJv-CQ/article-cover_image-shrink_600_2000/0/1520133179026?e=2147483647&v=beta&t=sTWQyoOohETA4k2ybhukf-SLTl3JWb3WcTPpi_Re8QM",
+      "image": " ",
+      "description": "Silent assassin",
+      "lore": "Calculates every move",
+      "primaryStat": "Intelligence",
+      "stats": [""],
+      "faction": "Mechanisms",
+      "roles": ["Carry", "Ranged"],
+      "ability0": {
+        "name": "Passive Ability 1",
+        "disc": "Passive Ability 1",
+        "cost": "0"
+      },
+      "ability1": {
+        "name": "Active Ability 1",
+        "disc": "Active Ability 1",
+        "cost": "10"
+      },
+      "ability2": {
+        "name": "Active Ability 2",
+        "disc": "Active Ability 2",
+        "cost": "20"
+      },
+      "ability3": {
+        "name": "Active Ability 3",
+        "disc": "Active Ability 4",
+        "cost": "30"
+      },
+      "ability4": {
+        "name": "Ultimate Ability",
+        "disc": "Ultimate Ability 4",
+        "cost": "40"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Mephisto",
+      "title": "Bell Ringer",
+      "thumbnail": "https://i.pinimg.com/736x/59/d8/f2/59d8f2630b6afd65f2cc87f688bb4680.jpg",
+      "thumbnailAlt": "Image of The Example",
+      "image": " ",
+      "description": "Wise sage",
+      "lore": "Rises to battle",
+      "primaryStat": "Intelligence",
+      "stats": [""],
+      "faction": "Mechanisms",
+      "roles": ["Carry", "Ranged"],
+      "ability0": {
+        "name": "Passive Ability 1",
+        "disc": "Passive Ability 1",
+        "cost": "0"
+      },
+      "ability1": {
+        "name": "Active Ability 1",
+        "disc": "Active Ability 1",
+        "cost": "10"
+      },
+      "ability2": {
+        "name": "Active Ability 2",
+        "disc": "Active Ability 2",
+        "cost": "20"
+      },
+      "ability3": {
+        "name": "Active Ability 3",
+        "disc": "Active Ability 4",
+        "cost": "30"
+      },
+      "ability4": {
+        "name": "Ultimate Ability",
+        "disc": "Ultimate Ability 4",
+        "cost": "40"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Ragnar",
+      "title": "Berserker",
+      "thumbnail": "https://wow.zamimg.com/uploads/guide/seo/8178.jpg?1557414040",
+      "thumbnailAlt": "Image of The Example",
+      "image": " ",
+      "description": "Strongest",
+      "lore": "Fights alone",
+      "primaryStat": "Strength",
+      "stats": [""],
+      "faction": "Mechanisms",
+      "roles": ["Carry", "Melee"],
+      "ability0": {
+        "name": "Passive Ability 1",
+        "disc": "Passive Ability 1",
+        "cost": "0"
+      },
+      "ability1": {
+        "name": "Active Ability 1",
+        "disc": "Active Ability 1",
+        "cost": "10"
+      },
+      "ability2": {
+        "name": "Active Ability 2",
+        "disc": "Active Ability 2",
+        "cost": "20"
+      },
+      "ability3": {
+        "name": "Active Ability 3",
+        "disc": "Active Ability 4",
+        "cost": "30"
+      },
+      "ability4": {
+        "name": "Ultimate Ability",
+        "disc": "Ultimate Ability 4",
+        "cost": "40"
+      }
     }
-]
+  ]
+  
