@@ -36,7 +36,6 @@
     border: solid 1px rgb(174, 232, 240);
 }
 
-
 .comList{
     transform-style: preserve-3d;
     transform: perspective(5000px);
