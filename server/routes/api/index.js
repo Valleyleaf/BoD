@@ -1,6 +1,8 @@
 const express = require('express');
-const commanders = require('../models/commanders');
+const commanders = require('../../models/Units');
 const router = express.Router();
+
+console.log('Running api Index')
 
 router.get('/commanders', async (req, res) => {
   try {

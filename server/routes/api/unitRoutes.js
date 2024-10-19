@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const Unit = require('../../models/Unit');
+const Unit = require('../../models/Units');
 
 // GET a unit
 router.get('/:id', async (req, res) => {
