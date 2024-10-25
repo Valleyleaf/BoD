@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const Unit = require('../../models/Units');
-
+console.log('hit unitRouters')
 // GET a unit
 router.get('/:id', async (req, res) => {
   try {
