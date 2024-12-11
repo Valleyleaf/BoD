@@ -1,9 +1,10 @@
-const express = require('express');
+import express from 'express';
+import Commander from '../api/unitRoutes.js';
+
 const router = express.Router();
 
-const Commander = require('../api/unitRoutes');
-
 console.log('Running API Index');
+console.log("ATLAS_URI:", process.env.ATLAS_URI);
 
 router.get('/commanders', async (req, res) => {
   try {
@@ -14,4 +15,4 @@ router.get('/commanders', async (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;

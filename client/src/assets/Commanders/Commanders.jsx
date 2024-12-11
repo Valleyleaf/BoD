@@ -1,36 +1,36 @@
 import {React, useEffect, useState } from "react";
 import "./commanders.css"
-// import {mongoClient} from "mongodb"
+import {mongoClient} from "mongodb"
 import {Characters} from '../Info/Characters'
 
-// export const getStaticProps = async (context) => {
-//     let client;
+export const getStaticProps = async (context) => {
+    let client;
 
-//     try {
-//         const mongoClient = new MongoClient(process.env.MONGODB_URI);
-//         await mongoClient.connect();
-//         client = mongoClient;
+    try {
+        const mongoClient = new MongoClient(process.env.MONGODB_URI);
+        await mongoClient.connect();
+        client = mongoClient;
 
-//         const data = await mongoClient.db().collection("commanders").find({}).toArray();
+        const data = await mongoClient.db().collection("commanders").find({}).toArray();
 
-//         return {
-//             props: {
-//                 data: JSON.parse(JSON.stringify(data)),
-//             },
-//         };
-//     } catch (error) {
-//         console.error('MongoDB connection failed:', error);
-//         return {
-//             props: {
-//                 data: [],
-//             },
-//         };
-//     } finally {
-//         if (client) {
-//             await client.close();
-//         }
-//     }
-// };
+        return {
+            props: {
+                data: JSON.parse(JSON.stringify(data)),
+            },
+        };
+    } catch (error) {
+        console.error('MongoDB connection failed:', error);
+        return {
+            props: {
+                data: [],
+            },
+        };
+    } finally {
+        if (client) {
+            await client.close();
+        }
+    }
+};
 
 
 

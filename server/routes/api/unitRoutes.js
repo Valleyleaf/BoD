@@ -1,6 +1,10 @@
-const router = require('express').Router();
-const Unit = require('../../models/Units');
-console.log('hit unitRouters')
+import { Router } from 'express';
+import Unit from '../../models/Units.js';
+
+const router = Router();
+
+console.log('hit unitRouters');
+
 // GET a unit
 router.get('/:id', async (req, res) => {
   try {
@@ -18,7 +22,7 @@ router.get('/:id', async (req, res) => {
 // UPDATE a unit
 router.put('/:id', async (req, res) => {
   try {
-    const unitData = await unit.update(req.body, {
+    const unitData = await Unit.update(req.body, {
       where: {
         id: req.params.id,
       },
@@ -36,7 +40,7 @@ router.put('/:id', async (req, res) => {
 // DELETE a unit
 router.delete('/:id', async (req, res) => {
   try {
-    const unitData = await unit.destroy({
+    const unitData = await Unit.destroy({
       where: {
         id: req.params.id,
       },
@@ -51,4 +55,4 @@ router.delete('/:id', async (req, res) => {
   }
 });
 
-module.exports = router;
+export default router;
