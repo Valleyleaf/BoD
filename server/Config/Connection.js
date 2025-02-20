@@ -7,6 +7,7 @@ console.log("Working directory:", process.cwd());
 //Sets up connection via env file. Sets paramiters.
 
 const uri = process.env.ATLAS_URI;
+//Above is a problem, fix.
 const client = new MongoClient(uri, {
     serverApi:{
         version: ServerApiVersion.v1,
@@ -24,8 +25,6 @@ try{
 } catch(err){
     console.error("Error connecting to the database:", err.message);
     process.exit(1);
-} finally {
-    await client.close();
 }
 
 let db = client.db("Commanders");

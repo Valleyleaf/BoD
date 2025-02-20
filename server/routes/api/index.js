@@ -4,7 +4,6 @@ import Commander from '../api/unitRoutes.js';
 const router = express.Router();
 
 console.log('Running API Index');
-console.log("ATLAS_URI:", process.env.ATLAS_URI);
 
 router.get('/commanders', async (req, res) => {
   try {
