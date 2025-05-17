@@ -1,17 +1,18 @@
 import {React, useEffect, useState } from "react";
 import "./commanders.css"
-import {mongoClient} from "mongodb"
 import {Characters} from '../Info/Characters'
 
-export const getStaticProps = async (context) => {
+export async function getStaticProps() {
+    const { MongoClient } = await import("mongodb");
+    const uri = process.env.MONGODB_URI;
+
     let client;
 
     try {
-        const mongoClient = new MongoClient(process.env.MONGODB_URI);
-        await mongoClient.connect();
-        client = mongoClient;
+        client = new MongoClient(uri);
+        await client.connect();
 
-        const data = await mongoClient.db().collection("commanders").find({}).toArray();
+        const data = await client.db().collection("commanders").find({}).toArray();
 
         return {
             props: {
@@ -19,23 +20,21 @@ export const getStaticProps = async (context) => {
             },
         };
     } catch (error) {
-        console.error('MongoDB connection failed:', error);
+        console.error("Error fetching MongoDB data:", error);
         return {
             props: {
                 data: [],
             },
         };
     } finally {
-        if (client) {
-            await client.close();
-        }
+        if (client) await client.close();
     }
-};
-
-
-
+}
 
 function Commanders(){
+
+    const [sortKey, setSortKey] = useState("Name");
+    
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
     const [Units, setItems] = useState([]);
