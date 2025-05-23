@@ -1,8 +1,9 @@
 import React from "react";
+import './Footer.css';
 
 export default function Header(){
     return(
-            <div>
+            <div className="FooterBase">
                 <h2>Footer</h2>
             </div>
     );

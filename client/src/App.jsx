@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 import './App.css';
 import Header from './assets/Header/Header.jsx';
-import Footer from './assets/Footer.jsx';
+import Footer from './assets/Footer/Footer.jsx';
 import Navbar from './assets/Navbar/Navbar.jsx';
 import Loading from './assets/Loading/Loading.jsx'
 
