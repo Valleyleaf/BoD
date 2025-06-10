@@ -8,6 +8,16 @@
   --button-color: #70d3d398;
 }
 
+.flexColumn{
+  display: flex;
+  flex-direction: column;
+}
+
+.flexRow{
+  display: flex;
+  flex-direction: row;
+}
+
 .HeaderPosition{
   display: flex;
   flex-direction: column;
