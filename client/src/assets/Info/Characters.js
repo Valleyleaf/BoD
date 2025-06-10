@@ -15,26 +15,31 @@ let Characters = [
         roles: ["Carry", "Melee", "Crowd Control"],
         ability0: {
             name: "Magic Mail",
+            thumbnail: "",
             disc: "Upon casting an ability, Spine gains complete magic immunity for 2/4/6 seconds.",
             cost: "0"
         },
         ability1: {
             name: "Path of Frost",
+            thumbnail: "",
             disc: "Active Ability 1",
             cost: "10"
         },
         ability2: {
             name: "Active Ability 2",
+            thumbnail: "",
             disc: "Active Ability 2",
             cost: "20"
         },
         ability3: {
             name: "Active Ability 3",
+            thumbnail: "",
             disc: "Active Ability 4",
             cost: "30"
         },
         ability4: {
             name: "Ultimate Ability",
+            thumbnail: "",
             disc: "Ultimate Ability 4",
             cost: "40"
         }

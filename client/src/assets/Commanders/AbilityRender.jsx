@@ -14,7 +14,7 @@ function abilityRender() {
               </div>
               <div className="flexColumn">
                 <div className="flexRow">
-                  <img src="" alt="manaCost" />
+                  <img src="" alt="manaCost"/>
                   <p>{data.cost}</p>
                 </div>
                 <div>
