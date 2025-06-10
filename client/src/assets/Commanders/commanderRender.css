@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.CommanderRenderMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+    margin: 50px;
+    
+}
+
+.name{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 102px;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ffffff;
+}
+
+.title{
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    border: 1px solid #ffffff;
+}
+
+.CommanderRenderSecond{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+        border: 1px solid #ffffff;
+}
+
+.DisplayImage{
+    width: 300px;
+    height: auto;
+}
