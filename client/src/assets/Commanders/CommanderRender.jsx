@@ -1,7 +1,7 @@
 // src/components/CharacterDetail.jsx
 import { useParams } from 'react-router-dom';
 import {Characters} from '../Info/Characters.js';
-import './CommanderRender.css';
+import abilityRender from './AbilityRender.jsx'
 
 
 function CommanderDetail() {
@@ -12,19 +12,27 @@ function CommanderDetail() {
   if (!character) return <h2>Character "{decodedName}" not found.</h2>;
 
   return (
-    <div className="CommanderRenderMain">
-      <h1 className='name bebas-neue-regular'>{character.name}</h1>
-      <div className='CommanderRenderSecond'>
-        <img className='DisplayImage' src={character.image} alt={character.name} />
-        <div className='CommanderRendermain'>
-          <h2 className='title bebas-neue-regular'>{character.title}</h2>
-          <p>{character.description}</p>
-          <p>Lore:{character.lore}</p>
-          <p>Stats:{character.stats}</p>
-          <p>Faction: {character.faction}</p>
-          <p>{character.roles}</p>
-          <p>Primary Attribute: {character.primaryStat}</p>
-        </div>
+    <div>
+      <div className="flexColumn">
+        <h1>{character.name}</h1>
+        <h2>{character.title}</h2>
+      </div>
+      <div className="flexRow">
+        <img src={character.image} alt={character.name} />
+      </div>
+      <div className="flexColumn">
+        <p>Primary Attribute: {character.primaryAttribute}</p>
+            <div className="flexColumn">
+              <p>Stats:</p>
+              <img src="" alt="Strength" />
+              <img src="" alt="Agility" />
+              <img src="" alt="Intelligence" />
+            </div>
+            <p>Faction:{character.faction}</p>
+            <p>Roles" {character.roles}</p>
+      </div>
+      <div className="flexColumn">
+        <h1>Abilities</h1>
       </div>
     </div>
   );

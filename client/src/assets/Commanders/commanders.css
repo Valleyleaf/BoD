@@ -28,8 +28,6 @@
     transition: opacity 0.5s ease;
 }
 
-
-
 .thumbnail{
     display: block;
     object-fit: cover;
