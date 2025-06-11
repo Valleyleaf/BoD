@@ -13,31 +13,38 @@ let Characters = [
         stats: [""],
         faction: "Void Whisperers",
         roles: ["Carry", "Melee", "Crowd Control"],
-        ability0: {
-            name: "Magic Mail",
-            disc: "Upon casting an ability, Spine gains complete magic immunity for 2/4/6 seconds.",
-            cost: "0"
-        },
-        ability1: {
-            name: "Path of Frost",
-            disc: "Active Ability 1",
-            cost: "10"
-        },
-        ability2: {
-            name: "Active Ability 2",
-            disc: "Active Ability 2",
-            cost: "20"
-        },
-        ability3: {
-            name: "Active Ability 3",
-            disc: "Active Ability 4",
-            cost: "30"
-        },
-        ability4: {
-            name: "Ultimate Ability",
-            disc: "Ultimate Ability 4",
-            cost: "40"
-        }
+        abilities: [
+                    {
+                    abilityid: 0,
+                    name: "Magic Mail",
+                    disc: "Upon casting a spell The Abyssal King gains Spell Immunity for a short duration.",
+                    thumbnail: "https://wow.zamimg.com/images/wow/icons/large/spell_frost_frostnova.jpg"
+                    },
+                    {
+                    abilityid: 1,
+                    name: "Path of Frost",
+                    disc: "Sends forward a wave of frost that encases enemies and deals damage.",
+                    thumbnail: "https://wow.zamimg.com/images/wow/icons/large/spell_frost_frostnova.jpg"
+                    },
+                    {
+                    abilityid: 2,
+                    name: "Insta Frost",
+                    disc: "Creates frost around a target enemy, dealing damage and slowing them.",
+                    thumbnail: "https://wow.zamimg.com/images/wow/icons/large/spell_frost_frostnova.jpg"
+                    },
+                    {
+                    abilityid: 3,
+                    name: "Soul Sap",
+                    disc: "The Abyssal King drains the life force from a slain enemy, healing himself.",
+                    thumbnail: "https://wow.zamimg.com/images/wow/icons/large/spell_frost_frostnova.jpg"
+                    },
+                    {
+                    abilityid: 4,
+                    name: "Final Hour",
+                    disc: "Creates a powerful storm that deals damage to all enemies in the area.",
+                    thumbnail: "https://wow.zamimg.com/images/wow/icons/large/spell_frost_frostnova.jpg"
+                    },
+                    ]
     },
     {
         id: 2,
@@ -52,31 +59,38 @@ let Characters = [
         stats: [""],
         faction: "Mechanisms",
         roles: ["Melee", "Tank", "Support"],
-        ability0: {
-            name: "Passive Ability 1",
-            disc: "Passive Ability 1",
-            cost: "0"
-        },
-        ability1: {
-            name: "Active Ability 1",
-            disc: "Active Ability 1",
-            cost: "10"
-        },
-        ability2: {
-            name: "Active Ability 2",
-            disc: "Active Ability 2",
-            cost: "20"
-        },
-        ability3: {
-            name: "Active Ability 3",
-            disc: "Active Ability 4",
-            cost: "30"
-        },
-        ability4: {
-            name: "Ultimate Ability",
-            disc: "Ultimate Ability 4",
-            cost: "40"
-        }
+        abilities: [
+                    {
+                    abilityid: 0,
+                    name: "Gargoyle Skin",
+                    disc: "Upon casting a spell The Abyssal King gains Spell Immunity for a short duration.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 1,
+                    name: "Blood Bond",
+                    disc: "Sends forward a wave of frost that encases enemies and deals damage.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 2,
+                    name: "Gust",
+                    disc: "Creates frost around a target enemy, dealing damage and slowing them.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 3,
+                    name: "Barrel of Fun",
+                    disc: "The Abyssal King drains the life force from a slain enemy, healing himself.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 4,
+                    name: "Defender",
+                    disc: "Creates a powerful storm that deals damage to all enemies in the area.",
+                    thumbnail: ""
+                    },
+                    ]
     },
     {
         id: 3,
