@@ -103,6 +103,7 @@
 .heroFrame:hover .hoverTitle {
     display: block;
     opacity: 1;
+    color: white;
     transition: opacity 0.3s ease;
     background: linear-gradient(to top, #000000, #feb47b00);
     width: 90%;

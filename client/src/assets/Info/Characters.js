@@ -2,92 +2,101 @@ let Characters = [
     {
         id: 1,
         name: "Spine",
-        title: "Abyssal King",
-        slug: "abyssal-king", // <-- added
+        title: "The Abyssal King",
+        slug: "abyssal-king",
         thumbnail: "https://i.pinimg.com/736x/ea/fb/40/eafb40de7d0e12896fcebb0108fd120e.jpg",
         thumbnailAlt: "Image of the Abyssal King",
-        image: " ",
+        image: "https://i.pinimg.com/736x/ea/fb/40/eafb40de7d0e12896fcebb0108fd120e.jpg",
         description: "Mystical spellcaster with powerful crowd control abilities",
         lore: "./LoreSheets/test.md",
         primaryStat: "Intelligence",
         stats: [""],
         faction: "Void Whisperers",
         roles: ["Carry", "Melee", "Crowd Control"],
-        ability0: {
-            name: "Magic Mail",
-            thumbnail: "",
-            disc: "Upon casting an ability, Spine gains complete magic immunity for 2/4/6 seconds.",
-            cost: "0"
-        },
-        ability1: {
-            name: "Path of Frost",
-            thumbnail: "",
-            disc: "Active Ability 1",
-            cost: "10"
-        },
-        ability2: {
-            name: "Active Ability 2",
-            thumbnail: "",
-            disc: "Active Ability 2",
-            cost: "20"
-        },
-        ability3: {
-            name: "Active Ability 3",
-            thumbnail: "",
-            disc: "Active Ability 4",
-            cost: "30"
-        },
-        ability4: {
-            name: "Ultimate Ability",
-            thumbnail: "",
-            disc: "Ultimate Ability 4",
-            cost: "40"
-        }
+        abilities: [
+                    {
+                    abilityid: 0,
+                    name: "Magic Mail",
+                    disc: "Upon casting a spell The Abyssal King gains Spell Immunity for a short duration.",
+                    thumbnail: "https://wow.zamimg.com/images/wow/icons/large/spell_frost_frostnova.jpg"
+                    },
+                    {
+                    abilityid: 1,
+                    name: "Path of Frost",
+                    disc: "Sends forward a wave of frost that encases enemies and deals damage.",
+                    thumbnail: "https://wow.zamimg.com/images/wow/icons/large/spell_frost_frostnova.jpg"
+                    },
+                    {
+                    abilityid: 2,
+                    name: "Insta Frost",
+                    disc: "Creates frost around a target enemy, dealing damage and slowing them.",
+                    thumbnail: "https://wow.zamimg.com/images/wow/icons/large/spell_frost_frostnova.jpg"
+                    },
+                    {
+                    abilityid: 3,
+                    name: "Soul Sap",
+                    disc: "The Abyssal King drains the life force from a slain enemy, healing himself.",
+                    thumbnail: "https://wow.zamimg.com/images/wow/icons/large/spell_frost_frostnova.jpg"
+                    },
+                    {
+                    abilityid: 4,
+                    name: "Final Hour",
+                    disc: "Creates a powerful storm that deals damage to all enemies in the area.",
+                    thumbnail: "https://wow.zamimg.com/images/wow/icons/large/spell_frost_frostnova.jpg"
+                    },
+                    ]
     },
     {
         id: 2,
         name: "Jun",
-        title: "Alchemist",
-        slug: "alchemist", // <-- added
+        title: "The Alchemist",
+        slug: "alchemist",
         thumbnail: "https://i.imgur.com/e5yRuLz.jpeg",
-        image: " ",
+        image: "https://i.imgur.com/e5yRuLz.jpeg",
         description: "Melee tank with powerful supportive abilities and self-preservation",
         lore: "John leads by example",
         primaryStat: "Strength",
         stats: [""],
         faction: "Mechanisms",
         roles: ["Melee", "Tank", "Support"],
-        ability0: {
-            name: "Passive Ability 1",
-            disc: "Passive Ability 1",
-            cost: "0"
-        },
-        ability1: {
-            name: "Active Ability 1",
-            disc: "Active Ability 1",
-            cost: "10"
-        },
-        ability2: {
-            name: "Active Ability 2",
-            disc: "Active Ability 2",
-            cost: "20"
-        },
-        ability3: {
-            name: "Active Ability 3",
-            disc: "Active Ability 4",
-            cost: "30"
-        },
-        ability4: {
-            name: "Ultimate Ability",
-            disc: "Ultimate Ability 4",
-            cost: "40"
-        }
+        abilities: [
+                    {
+                    abilityid: 0,
+                    name: "Gargoyle Skin",
+                    disc: "Upon casting a spell The Abyssal King gains Spell Immunity for a short duration.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 1,
+                    name: "Blood Bond",
+                    disc: "Sends forward a wave of frost that encases enemies and deals damage.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 2,
+                    name: "Gust",
+                    disc: "Creates frost around a target enemy, dealing damage and slowing them.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 3,
+                    name: "Barrel of Fun",
+                    disc: "The Abyssal King drains the life force from a slain enemy, healing himself.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 4,
+                    name: "Defender",
+                    disc: "Creates a powerful storm that deals damage to all enemies in the area.",
+                    thumbnail: ""
+                    },
+                    ]
     },
     {
         id: 3,
         name: "Kain",
         title: "Arcane Overlord",
-        slug: "arcane-overlord", // <-- added
+        slug: "arcane-overlord",
         thumbnail: "https://i.imgur.com/oWVNhxC.jpeg",
         image: " ",
         description: "Courageous leader",
@@ -126,7 +135,7 @@ let Characters = [
         id: 4,
         name: "Naze",
         title: "Arachnid Priest",
-        slug: "arachnid-priest", // <-- added
+        slug: "arachnid-priest", 
         thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
         image: " ",
         description: "Fast runner",
@@ -165,7 +174,7 @@ let Characters = [
         id: 5,
         name: "Crepúsculo",
         title: "Aspect of the Wilds",
-        slug: "aspect-of-the-wilds", // <-- added
+        slug: "aspect-of-the-wilds",
         thumbnail: "https://i.imgur.com/YcHNCst.jpeg",
         image: " ",
         description: "Silent assassin",
@@ -204,7 +213,7 @@ let Characters = [
         id: 6,
         name: "Mephisto",
         title: "Bell Ringer",
-        slug: "bell-ringer", // <-- added
+        slug: "bell-ringer", 
         thumbnail: "https://i.imgur.com/rgkDXJi.jpeg",
         thumbnailAlt: "Image of The Example",
         image: " ",
@@ -244,7 +253,7 @@ let Characters = [
         id: 7,
         name: "Ragnar",
         title: "Berserker",
-        slug: "berserker", // <-- added
+        slug: "berserker", 
         thumbnail: "https://i.imgur.com/KH6wTpt.jpeg",
         thumbnailAlt: "Image of The Example",
         image: " ",
@@ -284,7 +293,7 @@ let Characters = [
         id: 8,
         name: "Dollar",
         title: "Black Clown",
-        slug: "black-clown", // <-- added
+        slug: "black-clown",
         thumbnail: "https://i.imgur.com/6e88puJ.jpeg",
         thumbnailAlt: "Image of The Example",
         image: " ",
@@ -324,7 +333,7 @@ let Characters = [
         id: 9,
         name: "Dampes",
         title: "Blazing Wind",
-        slug: "blazing-wind", // <-- added
+        slug: "blazing-wind",
         thumbnail: "https://i.imgur.com/LEikbov.jpeg",
         thumbnailAlt: "Image of The Example",
         image: " ",
@@ -364,7 +373,7 @@ let Characters = [
         id: 10,
         name: "Laura Fangwin",
         title: "Bounty Huntress",
-        slug: "bounty-huntress", // <-- added
+        slug: "bounty-huntress",
         thumbnail: "https://i.imgur.com/tb5bc8O.jpeg",
         thumbnailAlt: "Image of The Example",
         image: " ",
@@ -404,7 +413,7 @@ let Characters = [
         id: 11,
         name: "Miranda Chance",
         title: "Captain of the Abyss",
-        slug: "captain-of-the-abyss", // <-- added
+        slug: "captain-of-the-abyss",
         thumbnail: "https://i.imgur.com/AWMvzoM.jpeg",
         thumbnailAlt: "Image of The Example",
         image: " ",
@@ -444,7 +453,7 @@ let Characters = [
         id: 12,
         name: "Lord Vile",
         title: "Captain of the Damned",
-        slug: "captain-of-the-damned", // <-- added
+        slug: "captain-of-the-damned",
         thumbnail: "https://i.imgur.com/8qZR9HN.jpeg",
         thumbnailAlt: "Image of The Example",
         image: " ",
@@ -484,7 +493,7 @@ let Characters = [
         id: 14,
         name: "Ashleigh Lynn",
         title: "Celestial Mage",
-        slug: "celestial-mage", // <-- added
+        slug: "celestial-mage", 
         thumbnail: "https://i.imgur.com/pwwdofr.jpeg",
         image: " ",
         description: "Rapid marksman",
@@ -523,7 +532,7 @@ let Characters = [
         id: 15,
         name: "Minthera",
         title: "Chrono Shifter",
-        slug: "chrono-shifter", // <-- added
+        slug: "chrono-shifter",
         thumbnail: "https://i.imgur.com/KPqhQY0.jpeg",
         image: " ",
         description: "Hardened warrior",
@@ -562,7 +571,7 @@ let Characters = [
         id: 16,
         name: "Dijlabre",
         title: "Collector",
-        slug: "collector", // <-- added
+        slug: "collector",
         thumbnail: "https://i.imgur.com/dkDcLz4.jpeg",
         image: " ",
         description: "Cunning strategist",
@@ -601,7 +610,7 @@ let Characters = [
         id: 17,
         name: "Zul'Amin",
         title: "Crimson Glade Warlord",
-        slug: "crimson-glade-warlord", // <-- added
+        slug: "crimson-glade-warlord", 
         thumbnail: "https://i.imgur.com/xxEfa26.jpeg",
         image: " ",
         description: "Immovable tank",
@@ -640,7 +649,7 @@ let Characters = [
         id: 18,
         name: "Califrax",
         title: "Duke of Winter",
-        slug: "duke-of-winter", // <-- added
+        slug: "duke-of-winter",
         thumbnail: "https://i.imgur.com/eKlTykx.jpeg",
         image: " ",
         description: "Immovable tank",
