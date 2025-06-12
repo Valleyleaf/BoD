@@ -1,4 +1,3 @@
-// src/components/CharacterDetail.jsx
 import { useParams } from 'react-router-dom';
 import {Characters} from '../Info/Characters.js';
 import AbilityRender from './AbilityRender.jsx'
