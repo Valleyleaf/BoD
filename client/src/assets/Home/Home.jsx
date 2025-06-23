@@ -1,18 +1,45 @@
-import React from "react";
-import renderArticle from "./RenderArticle"
+import React, { useState } from "react";
+import renderArticle from "./RenderArticle";
+import { Articles } from "../Info/Articles/Articles.js";
 
-export default function Home(){
-    return(
-            <div className="flexColumn">
-                <div>
-                <renderArticle/>
-                </div>
-                <div>
-                    Page flip buttons go here
-                </div>
+export default function Home({ articles }) {
+    const [currentPage, setCurrentPage] = useState(1);
+    const articlesPerPage = 5;
+
+    const startIndex = (currentPage - 1) * articlesPerPage;
+    const endIndex = startIndex + articlesPerPage;
+    const currentArticles = articles.slice(startIndex, endIndex);
+
+    const handleNextPage = () => {
+        if (currentPage < Math.ceil(articles.length / articlesPerPage)) {
+            setCurrentPage(currentPage + 1);
+        }
+    };
+
+    const handlePreviousPage = () => {
+        if (currentPage > 1) {
+            setCurrentPage(currentPage - 1);
+        }
+    };
+
+    return (
+        <div className="flexColumn">
+            <div>
+                {currentArticles.map((article, index) => (
+                    <renderArticle key={index} article={article} />
+                ))}
             </div>
+            <div>
+                <button onClick={handlePreviousPage} disabled={currentPage === 1}>
+                    Previous
+                </button>
+                <button
+                    onClick={handleNextPage}
+                    disabled={currentPage === Math.ceil(articles.length / articlesPerPage)}
+                >
+                    Next
+                </button>
+            </div>
+        </div>
     );
-};
-
-//Need to add functionality to go through multible pages.
-//Render 10 articles, then add page flip.
+}

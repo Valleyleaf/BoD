@@ -14,8 +14,8 @@ export default function Home() {
         <h1>{article.title}</h1>
       </div>
       <div className="flexRow">
-        <p>{article.content}</p>
         <img src={article.thumbnail} alt={article.title} />
+        <p>{article.content}</p>
       </div>
       <div className="flexRow">
         {article.author}
