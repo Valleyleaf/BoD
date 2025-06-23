@@ -28,3 +28,4 @@ export default function Home() {
 //Will need to create access to generate articles on the backend.
 //Need to track how many articles get rendered at a time before Home.jsx creates additional pages to flip through.
 //Do I preset a backend for this? I probably should.
+//check this
