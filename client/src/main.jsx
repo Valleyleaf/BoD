@@ -6,7 +6,6 @@ import './index.css'
 import Home from './assets/Home.jsx'
 import Commanders from './assets/Commanders/Commanders.jsx'
 import Game from './assets/Game/Game.jsx'
-import { Characters } from './assets/Info/Characters.js';
 import CommanderRender from './assets/Commanders/CommanderRender';
 
 const router = createBrowserRouter([{
