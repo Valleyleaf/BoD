@@ -8,3 +8,6 @@ export default function Header(){
             </div>
     );
 };
+
+//Add contact information here.
+//Add links to social media here.
