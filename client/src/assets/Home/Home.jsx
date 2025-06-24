@@ -1,6 +1,5 @@
 import React, { useState } from "react";
-import renderArticle from "./RenderArticle";
-import { Articles } from "../Info/Articles/Articles.js";
+import RenderArticle from "./RenderArticle";
 
 export default function Home({ articles }) {
     const [currentPage, setCurrentPage] = useState(1);
@@ -26,7 +25,7 @@ export default function Home({ articles }) {
         <div className="flexColumn">
             <div>
                 {currentArticles.map((article, index) => (
-                    <renderArticle key={index} article={article} />
+                    <RenderArticle key={index} article={article} />
                 ))}
             </div>
             <div>

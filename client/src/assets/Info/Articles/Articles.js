@@ -16,3 +16,4 @@ export {Article}
 
 //Create render-to function that adds articles here. OR create new js for
 //each article then render all?
+//Create a backend function to upload and update articles to mongoDB?
