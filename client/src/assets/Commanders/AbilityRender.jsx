@@ -11,6 +11,7 @@ function AbilityRender() {
     if (!character) return <h2>Character "{decodedName}" data is missing.</h2>;
 
     return (
+        //Add hover option below for expanded ability information. Not VIP but would be cool.
         <div className="flexColumn">
             {character.abilities?.map((ability, i) => (
                 <div key={`ability-${i}`} className="flexRow">

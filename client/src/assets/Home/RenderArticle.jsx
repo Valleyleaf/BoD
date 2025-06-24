@@ -1,13 +1,15 @@
 import { useParams } from 'react-router-dom';
-import {Articles} from '';
+import {Articles} from '../Info/Articles/Articles.js';
+//Above is temporary import for testing purposes. Replace with backend import when ready.
 
 export default function RenderArticle() {
   const { title } = useParams();
   const post = Articles.find(c => c.slug === title);
+  //Above will throw error if no Articles exist.
   const decodedName = decodeURIComponent(title);
 
-  if (!Articles) return <h2>Article information "{decodedName}" not found.</h2>;
-
+  if (!post) return <h2>Article information "{decodedName}" not found.</h2>;
+  //If no post is found, return an error message.
   return (
     <div>
       <div className="flexColumn">
@@ -19,6 +21,7 @@ export default function RenderArticle() {
       </div>
       <div className="flexRow">
         {post.author}
+        {/* Add separator here. */}
         {post.date}
       </div>
     </div>

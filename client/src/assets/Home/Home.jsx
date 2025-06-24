@@ -6,9 +6,11 @@ export default function Home({ articles }) {
     const articlesPerPage = 5;
 
     const startIndex = (currentPage - 1) * articlesPerPage;
+    //-1 to ensure that the index starts at 0.
     const endIndex = startIndex + articlesPerPage;
     const currentArticles = articles.slice(startIndex, endIndex);
-
+    //Personal note. If no Articles are passed, currentArticles will be an empty array.
+    //Make sure I have article to pass when testing this component.
     const handleNextPage = () => {
         if (currentPage < Math.ceil(articles.length / articlesPerPage)) {
             setCurrentPage(currentPage + 1);
@@ -26,6 +28,7 @@ export default function Home({ articles }) {
             <div>
                 {currentArticles.map((article, index) => (
                     <RenderArticle key={index} article={article} />
+                    //The above should be changed to article.id when adding search function.
                 ))}
             </div>
             <div>
@@ -35,6 +38,7 @@ export default function Home({ articles }) {
                 <button
                     onClick={handleNextPage}
                     disabled={currentPage === Math.ceil(articles.length / articlesPerPage)}
+                    //Hide above if there are no articles to display or grey out?
                 >
                     Next
                 </button>

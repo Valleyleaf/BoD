@@ -9,7 +9,7 @@ function CommanderDetail() {
   const decodedName = decodeURIComponent(name);
 
   if (!character) return <h2>Character "{decodedName}" not found.</h2>;
-
+  
   return (
     <div>
       <div className="flexColumn">
