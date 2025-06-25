@@ -2,7 +2,7 @@
 import { useParams } from 'react-router-dom';
 import {Characters} from '../Info/Characters.js';
 import AbilityRender from './AbilityRender.jsx'
-
+import "./commanders.css";
 
 function CommanderDetail() {
   const { name } = useParams();
@@ -12,7 +12,7 @@ function CommanderDetail() {
   if (!character) return <h2>Character "{decodedName}" not found.</h2>;
 
   return (
-    <div>
+    <div className='testingFrame'>
       <div className="flexColumn">
         <h1>{character.name}</h1>
         <h2>{character.title}</h2>
@@ -23,9 +23,9 @@ function CommanderDetail() {
             <p>Primary Attribute: {character.primaryAttribute}</p>
                 <div className="flexColumn">
                   <p>Stats:</p>
-                  <img src="" alt="Strength" />
-                  <img src="" alt="Agility" />
-                  <img src="" alt="Intelligence" />
+                  <img className='attributeIcon' src='https://i.imgur.com/rNlN5Ei.jpeg' alt="Strength" />
+                  <img className='attributeIcon' src='https://i.imgur.com/7VoQYMM.jpeg' alt="Agility" />
+                  <img className='attributeIcon' src='https://i.imgur.com/2IggFL9.jpeg' alt="Intelligence" />
                 </div>
                 <p>Faction:{character.faction}</p>
                 <p>Roles" {character.roles}</p>
@@ -33,7 +33,7 @@ function CommanderDetail() {
         </div>
       <div className="flexColumn">
         <h1>Abilities</h1>
-        <AbilityRender character={character} />
+        <AbilityRender character={character}/>
       </div>
     </div>
   );
