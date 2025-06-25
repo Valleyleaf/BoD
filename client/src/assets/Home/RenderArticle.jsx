@@ -6,9 +6,9 @@ export default function RenderArticle({ article }) {
   if (!article) return <h2>Article information not found.</h2>;
   //If no post is found, return an error message.
   return (
-    <div>
+    <div   className='ArticleBackGround'>
       <div className="flexColumn ArticleContainer">
-        <h1>{article.title}</h1>
+        <h1 className='ArticleTitle'>{article.title}</h1>
       </div>
       <div className="flexRow">
         <img className="ArticleThumbnail" src={article.thumbnail} alt={article.title} />

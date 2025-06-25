@@ -1,10 +1,21 @@
 .ArticleContainer{
   display: flex;
-  height: 200px;
-  width: auto;
   overflow: hidden;
 }
 
+.ArticleBackGround{
+  margin: 2%;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: var(--ArticleBGColor);
+}
+
+.ArticleTitle{
+  display: flex;
+  align-items: flex-start;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
 
 .ArticleTextContainer{
     padding: 20px;
