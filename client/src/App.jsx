@@ -15,6 +15,7 @@ function App() {
       setLoading(false); // Set loading to false once data is fetched
     }, 2000); // Simulating 2 seconds loading time
   }, []);
+  //The above is a bit of a meme and should probably be removed in the future.
 
   return (
     <>
