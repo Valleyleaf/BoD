@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx'
 import './index.css'
-import Home from './assets/Home.jsx'
+import Home from './assets/Home/Home.jsx'
 import Commanders from './assets/Commanders/Commanders.jsx'
 import Game from './assets/Game/Game.jsx'
 import CommanderRender from './assets/Commanders/CommanderRender';

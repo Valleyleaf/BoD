@@ -22,6 +22,12 @@
   flex-direction: row;
 }
 
+.center-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .HeaderPosition{
   display: flex;
   flex-direction: column;

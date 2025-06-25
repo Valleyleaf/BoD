@@ -1,0 +1,10 @@
+.ArticleThumbnail {
+  width: 10%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.spacer {
+  display: inline-block;
+  width: 2rem; /* or any width you like */
+}

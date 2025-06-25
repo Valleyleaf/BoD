@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import RenderArticle from "./RenderArticle";
+import {Articles} from "../Info/Articles/Articles.js";
 
 export default function Home({ articles }) {
     const [currentPage, setCurrentPage] = useState(1);
@@ -8,11 +9,10 @@ export default function Home({ articles }) {
     const startIndex = (currentPage - 1) * articlesPerPage;
     //-1 to ensure that the index starts at 0.
     const endIndex = startIndex + articlesPerPage;
-    const currentArticles = articles.slice(startIndex, endIndex);
-    //Personal note. If no Articles are passed, currentArticles will be an empty array.
-    //Make sure I have article to pass when testing this component.
+    const currentArticles = Articles.slice(startIndex, endIndex);
+    //Above works but issues exist in RenderArticle.jsx where it tries to find the article by slug.
     const handleNextPage = () => {
-        if (currentPage < Math.ceil(articles.length / articlesPerPage)) {
+        if (currentPage < Math.ceil(Articles.length / articlesPerPage)) {
             setCurrentPage(currentPage + 1);
         }
     };
@@ -26,8 +26,8 @@ export default function Home({ articles }) {
     return (
         <div className="flexColumn">
             <div>
-                {currentArticles.map((article, index) => (
-                    <RenderArticle key={index} article={article} />
+                {currentArticles.map((article) => (
+                    <RenderArticle key={article.id} article={article} />
                     //The above should be changed to article.id when adding search function.
                 ))}
             </div>
@@ -37,7 +37,7 @@ export default function Home({ articles }) {
                 </button>
                 <button
                     onClick={handleNextPage}
-                    disabled={currentPage === Math.ceil(articles.length / articlesPerPage)}
+                    disabled={currentPage === Math.ceil(Articles.length / articlesPerPage)}
                     //Hide above if there are no articles to display or grey out?
                 >
                     Next
