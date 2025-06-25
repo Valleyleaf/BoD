@@ -1,5 +1,18 @@
+.ArticleContainer{
+  display: flex;
+  height: 200px;
+  width: auto;
+  overflow: hidden;
+}
+
+
+.ArticleTextContainer{
+    padding: 20px;
+    margin: 20px;
+}
+
 .ArticleThumbnail {
-  width: 10%;
+  width: 300px;
   height: auto;
   border-radius: 8px;
 }
