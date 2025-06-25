@@ -9,6 +9,7 @@ export default function Header(){
             <div>
                 <a href="/">
                     <img className="logo" src={Logo}></img>
+                    {/* Add background? Seems barren, needs more in terms of design. */}
                 </a>
             </div>
     );

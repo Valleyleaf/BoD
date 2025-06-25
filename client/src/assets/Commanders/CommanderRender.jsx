@@ -1,4 +1,3 @@
-// src/components/CharacterDetail.jsx
 import { useParams } from 'react-router-dom';
 import {Characters} from '../Info/Characters.js';
 import AbilityRender from './AbilityRender.jsx'
@@ -10,7 +9,7 @@ function CommanderDetail() {
   const decodedName = decodeURIComponent(name);
 
   if (!character) return <h2>Character "{decodedName}" not found.</h2>;
-
+  
   return (
     <div className='testingFrame'>
       <div className="flexColumn">
