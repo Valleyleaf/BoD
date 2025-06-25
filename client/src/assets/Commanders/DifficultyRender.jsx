@@ -18,14 +18,14 @@ function DifficultyRender() {
               <img
                 key={i}
                 src="https://media.tenor.com/pXEDrZV2s4QAAAAj/star-spinning.gif"
-                alt="Difficulty Star"
-                className="DifficultyIcon DifficultyLogo"
+                alt={`Difficulty Star ${i + 1}`}
+                className="DifficultyIcon"
               />
             ))
           ) : (
             <span>
                 <img 
-                className="DifficultyIcon DifficultyLogo" 
+                className="DifficultyIcon" 
                 src="https://media.tenor.com/j8a8qg23pIUAAAAj/star.gif" 
                 alt="No Difficulty" 
                 />

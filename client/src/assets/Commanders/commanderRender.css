@@ -38,11 +38,6 @@
     border: 1px solid #ffffff;
 }
 
-.DifficultyIcon{
-    width: 30px;
-    height: auto;
-}
-
 .CommanderRenderSecond{
     display: flex;
     flex-direction: row;
@@ -80,15 +75,17 @@
 
 };
 
-  .DifficultyLogo{
+  .DifficultyIcon{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 30px;
+    height: auto;
     margin: 3%;
     transition: transform 0.3s ease;
   }
 
-  .DifficultyLogo:hover {
+  .DifficultyIcon:hover {
     animation: zoomWiggle 0.6s ease forwards;
   }
   
