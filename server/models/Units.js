@@ -1,5 +1,5 @@
 import { Schema, model } from 'mongoose';
-
+//This is outdated.
 const userSchema = new Schema(
   {
     id: {

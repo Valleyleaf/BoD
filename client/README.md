@@ -1,8 +1,20 @@
-# React + Vite
+# 📦 Battle of Dominance
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a website for the fictional videogame title "Battle of Dominanace". This site is set to mimic other popular sites within the Moba genre of video games. Battle of Dominanace is a 6v6. 3v3x4 or 1v1x4 custom map for Warcraft III.
 
-Currently, two official plugins are available:
+## 🚀 Features (Working & Not)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✅ React based Front & Backend
+- ❌ MongoDB API
+- ❌ Express.js
+- ❌ MongoDB Database
+- ❌ User Logins
+- ❌ Admin Article Submission system
+- ❌ Search Function
+- ❌ Video Integration
+- ❌ Forums
+- ❌ Player Guides
+
+## 🛠️ Installation
+
+Clone the repository and install dependencies.

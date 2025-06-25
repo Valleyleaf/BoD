@@ -15,3 +15,6 @@ router.get('/commanders', async (req, res) => {
 });
 
 export default router;
+
+// This is the main API index file that sets up the routes for the application.
+// It imports the Commander routes and sets up a GET endpoint to fetch all commanders from the database
