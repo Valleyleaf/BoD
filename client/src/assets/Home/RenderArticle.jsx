@@ -14,6 +14,7 @@ export default function RenderArticle({ article }) {
         <img className="ArticleThumbnail" src={article.thumbnail} alt={article.title} />
         <p className='ArticleTextContainer'>{article.content}</p>
       </div>
+      <Link to={`/article/${article.slug}`} key={article.name} className=''>Read</Link>
       <div className="flexRow center-content">
         {article.author}
         <span className="spacer" />
