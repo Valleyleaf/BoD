@@ -28,3 +28,5 @@ export default function RenderSingleArticle({ article }) {
     </div>
   );
 }
+
+//Add Back Button.

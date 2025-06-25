@@ -12,11 +12,11 @@ function StatRenderer() {
         'https://i.imgur.com/7VoQYMM.jpeg', // Agility
         'https://i.imgur.com/2IggFL9.jpeg'  // Intelligence
     ];
-    if (!character) return <h2>Character "{decodedName}" data is missing.</h2>;
+    if (!character) return <h2>Character stats "{decodedName}" data is missing.</h2>;
 
     return (
         <div className="flexColumn">
-            <p>Stats:</p>
+            <p>Base Stats:</p>
             {attributeIcons.map((icon, i) => (
                 <div key={i} className="flexRow">
                     <img className='attributeIcon' src={icon} alt={["Strength", "Agility", "Intelligence"][i]} />

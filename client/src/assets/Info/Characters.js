@@ -3,6 +3,7 @@ let Characters = [
         id: 1,
         name: "Spine",
         title: "The Abyssal King",
+        difficulty: 4,
         slug: "abyssal-king",
         thumbnail: "https://i.pinimg.com/736x/ea/fb/40/eafb40de7d0e12896fcebb0108fd120e.jpg",
         thumbnailAlt: "Image of the Abyssal King",
@@ -11,6 +12,7 @@ let Characters = [
         lore: "./LoreSheets/test.md",
         primaryStat: "Intelligence",
         stats: ["14", "12", "18"],
+        // Stats are Strength, Agility, Intelligence in that order.
         faction: "Void Whisperers",
         roles: ["Carry", "Melee", "Crowd Control"],
         abilities: [

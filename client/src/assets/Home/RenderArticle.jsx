@@ -1,4 +1,5 @@
 import {Articles} from '../Info/Articles/Articles.js';
+import {link} from 'react-router-dom';
 import './renderArticle.css';
 //Above is temporary import for testing purposes. Replace with backend import when ready.
 
@@ -14,7 +15,7 @@ export default function RenderArticle({ article }) {
         <img className="ArticleThumbnail" src={article.thumbnail} alt={article.title} />
         <p className='ArticleTextContainer'>{article.content}</p>
       </div>
-      <Link to={`/article/${article.slug}`} key={article.name} className=''>Read</Link>
+      <Link to={`/article/${article.slug}`} key={article.name} className=''>Read more</Link>
       <div className="flexRow center-content">
         {article.author}
         <span className="spacer" />
@@ -28,4 +29,4 @@ export default function RenderArticle({ article }) {
 //Need to track how many articles get rendered at a time before Home.jsx creates additional pages to flip through.
 //Do I preset a backend for this? I probably should.
 
-//Don't need slugs here, create seperate jsx for it to do full articles.
+//Check if Link works. Also will need routes for this.

@@ -7,6 +7,9 @@
   background-color: #222222;
   --button-color: #70d3d398;
   --ArticleBGColor: #50505046;
+  --strength-color: #e74c3c;
+  --agility-color: #27ae60;
+  --intelligence-color: #2980b9;
 }
 
 .flexColumn{
