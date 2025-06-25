@@ -10,7 +10,7 @@ let Characters = [
         description: "Mystical spellcaster with powerful crowd control abilities",
         lore: "./LoreSheets/test.md",
         primaryStat: "Intelligence",
-        stats: [""],
+        stats: ["14", "12", "18"],
         faction: "Void Whisperers",
         roles: ["Carry", "Melee", "Crowd Control"],
         abilities: [

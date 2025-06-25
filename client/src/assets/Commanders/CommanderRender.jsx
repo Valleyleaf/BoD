@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import {Characters} from '../Info/Characters.js';
 import AbilityRender from './AbilityRender.jsx'
+import StatRenderer from './StatRenderer.jsx';
 import "./commanders.css";
 
 function CommanderDetail() {
@@ -20,12 +21,7 @@ function CommanderDetail() {
         <img className="DisplayImage" src={character.image} alt={character.name} />
           <div className="flexColumn">
             <p>Primary Attribute: {character.primaryAttribute}</p>
-                <div className="flexColumn">
-                  <p>Stats:</p>
-                  <img className='attributeIcon' src='https://i.imgur.com/rNlN5Ei.jpeg' alt="Strength" />
-                  <img className='attributeIcon' src='https://i.imgur.com/7VoQYMM.jpeg' alt="Agility" />
-                  <img className='attributeIcon' src='https://i.imgur.com/2IggFL9.jpeg' alt="Intelligence" />
-                </div>
+                <StatRenderer/>
                 <p>Faction:{character.faction}</p>
                 <p>Roles" {character.roles}</p>
           </div>
