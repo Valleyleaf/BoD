@@ -38,6 +38,11 @@
     border: 1px solid #ffffff;
 }
 
+.DifficultyIcon{
+    width: 30px;
+    height: auto;
+}
+
 .CommanderRenderSecond{
     display: flex;
     flex-direction: row;
@@ -74,3 +79,43 @@
 .abilityVideo{
 
 };
+
+  .DifficultyLogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3%;
+    transition: transform 0.3s ease;
+  }
+
+  .DifficultyLogo:hover {
+    animation: zoomWiggle 0.6s ease forwards;
+  }
+  
+  @keyframes zoomWiggle {
+    0% {
+      transform: scale(1) rotate(0deg);
+    }
+    10% {
+      transform: scale(1.05) rotate(0deg);
+    }
+    20% {
+      transform: scale(1.05) rotate(5deg);
+    }
+    30% {
+      transform: scale(1.05) rotate(-5deg);
+    }
+    40% {
+      transform: scale(1.05) rotate(3deg);
+    }
+    50% {
+      transform: scale(1.05) rotate(-3deg);
+    }
+    60% {
+      transform: scale(1.05) rotate(2deg);
+    }
+    100% {
+      transform: scale(1.05) rotate(0deg);
+    }
+  }
+  

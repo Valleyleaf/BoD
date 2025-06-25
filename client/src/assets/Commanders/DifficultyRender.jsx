@@ -17,13 +17,19 @@ function DifficultyRender() {
             Array.from({ length: character.difficulty }, (_, i) => (
               <img
                 key={i}
-                src="/path/to/DifficultyIcon.png" // Replace with your actual star image path
+                src="https://media.tenor.com/pXEDrZV2s4QAAAAj/star-spinning.gif"
                 alt="Difficulty Star"
-                className="DifficultyIcon"
+                className="DifficultyIcon DifficultyLogo"
               />
             ))
           ) : (
-            <span>No difficulty</span>
+            <span>
+                <img 
+                className="DifficultyIcon DifficultyLogo" 
+                src="https://media.tenor.com/j8a8qg23pIUAAAAj/star.gif" 
+                alt="No Difficulty" 
+                />
+            </span>
           )}
         </div>
     );
