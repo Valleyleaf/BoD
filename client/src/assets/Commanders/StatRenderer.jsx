@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from 'react-router-dom';
 import { Characters } from '../Info/Characters.js';
-import './CommanderRender.css';
+import './commanderRender.css';
 
 function StatRenderer() {
     const { name } = useParams();
