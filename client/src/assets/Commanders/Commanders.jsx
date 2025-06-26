@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Commanders() {
   const renderItems = () => {
     return Characters.map((data) => (
-      //Might need to change this if I want a search functionality later.
+      //Might need to change this if I want a search/filter functionality later.
       //For now, this will just render all commanders.
       <Link to={`/commanders/${data.slug}`} key={data.name} className='heroFrame comImg'>
         <img

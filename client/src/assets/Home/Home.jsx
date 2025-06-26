@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import RenderArticle from "./RenderArticle";
 import {Articles} from "../Info/Articles/Articles.js";
+import {PatchNotes} from "../Info/PatchNotes/PatchNotes.js";
 
 export default function Home({ articles }) {
     const [currentPage, setCurrentPage] = useState(1);
