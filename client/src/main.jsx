@@ -6,6 +6,8 @@ import './index.css'
 import Home from './assets/Home/Home.jsx'
 import Commanders from './assets/Commanders/Commanders.jsx'
 import Game from './assets/Game/Game.jsx'
+import News from './assets/Home/ArticleMain.jsx'
+import PatchNotes from ''
 import CommanderRender from './assets/Commanders/CommanderRender';
 
 const router = createBrowserRouter([{
@@ -20,12 +22,28 @@ const router = createBrowserRouter([{
       path: 'commanders',
       element: <Commanders />,},
     {
-      path: 'Game',
+      path: 'game',
       element: <Game />,
     },
     {
-      path: 'Commanders/:name', // like /Commanders/Abyssal%20King
+      path: 'news',
+      element: <News />,
+    },
+    {
+      path: 'patchnotes',
+      element: <PatchNotes />,
+    },
+    {
+      path: 'Commanders/:name',
       element: <CommanderRender />
+    },
+    {
+      path: 'News/:slug',
+      element: <News />
+    },
+    {
+      path: 'Patchnotes/:slug',
+      element: <PatchNotes />
     },
 
   ],

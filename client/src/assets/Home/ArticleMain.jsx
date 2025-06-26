@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import RenderArticle from "./RenderArticle";
+import RenderArticle from "./RenderArticle.jsx";
 import {Articles} from "../Info/Articles/Articles.js";
 
 export default function Home({ articles }) {
     const [currentPage, setCurrentPage] = useState(1);
-    const articlesPerPage = 10;
+    const articlesPerPage = 5;
 
     const startIndex = (currentPage - 1) * articlesPerPage;
     //-1 to ensure that the index starts at 0.

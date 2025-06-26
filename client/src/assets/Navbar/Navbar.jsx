@@ -8,7 +8,7 @@ export default function Navbar(){
                 <Link 
                     to="/"
                     className='buttonClass'>
-                    Patch Notes
+                    Home
                 </Link>
 
                 <Link 
@@ -27,6 +27,12 @@ export default function Navbar(){
                     to="/News"
                     className='buttonClass'>
                     News
+                </Link>
+
+                <Link 
+                    to="/PatchNotes"
+                    className='buttonClass'>
+                    Patch Notes
                 </Link>
             </div>
     );
