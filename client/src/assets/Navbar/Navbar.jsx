@@ -12,6 +12,12 @@ export default function Navbar(){
                 </Link>
 
                 <Link 
+                    to="/News"
+                    className='buttonClass'>
+                    News
+                </Link>
+
+                <Link 
                     to="/Commanders"
                     className='buttonClass'>
                     Commanders
@@ -21,12 +27,6 @@ export default function Navbar(){
                     to="/Game"
                     className='buttonClass'>
                     Game
-                </Link>
-
-                <Link 
-                    to="/News"
-                    className='buttonClass'>
-                    News
                 </Link>
 
                 <Link 

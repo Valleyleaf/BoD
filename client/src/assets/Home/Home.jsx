@@ -27,22 +27,13 @@ export default function Home({ articles }) {
     return (
         <div className="flexColumn">
             <div>
-                {currentArticles.map((article) => (
-                    <RenderArticle key={article.id} article={article} />
-                    //The above should be changed to article.id when adding search function.
-                ))}
+                <h2>Welcome to Battle of Dominance</h2>
+                <p>A custom MOBA-style map for WARCRAFT III, 15 years in development.</p>
             </div>
             <div>
-                <button onClick={handlePreviousPage} disabled={currentPage === 1}>
-                    Previous
-                </button>
-                <button
-                    onClick={handleNextPage}
-                    disabled={currentPage === Math.ceil(Articles.length / articlesPerPage)}
-                    //Hide above if there are no articles to display or grey out?
-                >
-                    Next
-                </button>
+                <a href="https://www.hiveworkshop.com/threads/battle-of-dominance-v2-0-arcane-showdown.326630/" target="_blank" rel="noopener noreferrer">
+                    <button>DOWNLOAD</button>
+                </a>
             </div>
         </div>
     );

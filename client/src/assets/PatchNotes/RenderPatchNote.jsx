@@ -11,10 +11,14 @@ function RenderPatchNote({ note }) {
 
   return (
     <div>
-      <h1>{note.title}</h1>
-      <img src={note.thumbnail} alt={note.title} />
-      <p>{note.date}</p>
-      <pre style={{ whiteSpace: "pre-wrap" }}>{markdown}</pre>
+        <div className="flexColumn">
+            <h1>{note.title}</h1>
+            <p>{note.date}</p>
+        </div>
+        <div>
+            <img src={note.thumbnail} alt={note.title} />
+            <pre style={{ whiteSpace: "pre-wrap" }}>{markdown}</pre>
+        </div>
     </div>
   );
 }
