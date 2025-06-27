@@ -23,4 +23,10 @@ export { PatchNotes }
 
 //How to render content. From where.
 //Other sites (league, dota) will render individual components for each change. Component itself would be easy to make, but how do I pass the information.
+
 //Big arrays? Small objects with few universal properties? Title. Image. Changes. New vs numbers changes. Could work but is it the best way?
+
+//JS files within JS files? Content can be a Patch1.0.js file get's referenced. Inside Patch1.0 I can have the actual list of changes. But how do I make the rendering
+//consistent. Dota/League page have categories as well. How would that work. Seperate components for each category. But then how do I get each patch page structure rendered
+//without making a million new components for each patch.
+///Could do a if! render if category does not apply. Will hide for example the hero changes if there are no hero changes in the patch.

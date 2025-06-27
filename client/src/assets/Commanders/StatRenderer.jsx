@@ -18,7 +18,7 @@ function StatRenderer() {
         <div className="flexColumn">
             <p>Base Stats:</p>
             {attributeIcons.map((icon, i) => (
-                <div key={i} className="flexRow">
+                <div key={i} className="flexRow center-content">
                     <img className='attributeIcon' src={icon} alt={["Strength", "Agility", "Intelligence"][i]} />
                     {character.stats[i]}
                 </div>
