@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './GameIntro.jsx'
 import "./game.css"
 import Logo from '../img/BoDlogo.png'
@@ -12,21 +12,37 @@ import GameMinion from "./GameMinion.jsx";
 import GameNatives from "./GameNatives.jsx";
 import GameObjectives from "./GameObjectives.jsx";
 
+const components = [
+  GameIntro,
+  GameMechanics,
+  GameFlow,
+  GameCommander,
+  GameItems,
+  GameHeadquarter,
+  GameMinion,
+  GameNatives,
+  GameObjectives,
+];
 
-export default function Game(){
-    return(
-            <div>
-                <GameIntro />
-                <GameMechanics />
-                <GameFlow />
-                <GameCommander />
-                <GameItems />
-                <GameHeadquarter />
-                <GameMinion />
-                <GameNatives />
-                <GameObjectives />
-            </div>
-    );
+export default function Game() {
+  const [visibleCount, setVisibleCount] = useState(0);
+
+  useEffect(() => {
+    if (visibleCount < components.length) {
+      const timer = setTimeout(() => setVisibleCount(visibleCount + 1), 750);
+      return () => clearTimeout(timer);
+    }
+  }, [visibleCount]);
+
+  return (
+    <div>
+      {components.map((Component, i) => (
+        <div key={i} className={i < visibleCount ? "fade-in" : "hidden"}>
+          <Component />
+        </div>
+      ))}
+    </div>
+  );
 };
 
 //This will be a game guide. Should contain the following:
