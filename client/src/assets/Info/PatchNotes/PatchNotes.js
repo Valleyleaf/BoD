@@ -21,6 +21,6 @@ let PatchNotes = [
 
 export { PatchNotes }
 
-//Create render-to function that adds articles here. OR create new js for
-//each article then render all?
-//Create a backend function to upload and update articles to mongoDB?
+//How to render content. From where.
+//Other sites (league, dota) will render individual components for each change. Component itself would be easy to make, but how do I pass the information.
+//Big arrays? Small objects with few universal properties? Title. Image. Changes. New vs numbers changes. Could work but is it the best way?

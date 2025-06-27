@@ -24,3 +24,5 @@ function RenderPatchNote({ note }) {
 }
 
 export default RenderPatchNote;
+
+//This is garbage. Change it. Make smaller components like the Dota page. Limit properties.
