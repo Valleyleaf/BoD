@@ -1,11 +1,10 @@
 import React, { useState } from "react";
-import RenderArticle from "./RenderArticle";
+import RenderArticle from "./RenderArticle.jsx";
 import {Articles} from "../Info/Articles/Articles.js";
-import {PatchNotes} from "../Info/PatchNotes/PatchNotes.js";
 
 export default function Home({ articles }) {
     const [currentPage, setCurrentPage] = useState(1);
-    const articlesPerPage = 10;
+    const articlesPerPage = 5;
 
     const startIndex = (currentPage - 1) * articlesPerPage;
     //-1 to ensure that the index starts at 0.
@@ -27,13 +26,22 @@ export default function Home({ articles }) {
     return (
         <div className="flexColumn">
             <div>
-                <h2>Welcome to Battle of Dominance</h2>
-                <p>A custom MOBA-style map for WARCRAFT III, 15 years in development.</p>
+                {currentArticles.map((article) => (
+                    <RenderArticle key={article.id} article={article} />
+                    //The above should be changed to article.id when adding search function.
+                ))}
             </div>
             <div>
-                <a href="https://www.hiveworkshop.com/threads/battle-of-dominance-v2-0-arcane-showdown.326630/" target="_blank" rel="noopener noreferrer">
-                    <button>DOWNLOAD</button>
-                </a>
+                <button onClick={handlePreviousPage} disabled={currentPage === 1}>
+                    Previous
+                </button>
+                <button
+                    onClick={handleNextPage}
+                    disabled={currentPage === Math.ceil(Articles.length / articlesPerPage)}
+                    //Hide above if there are no articles to display or grey out?
+                >
+                    Next
+                </button>
             </div>
         </div>
     );

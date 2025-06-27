@@ -7,7 +7,7 @@ function AbilityRender() {
     const { name } = useParams();
     const character = Characters.find(c => c.slug === name);
     const decodedName = decodeURIComponent(name);
-
+    //Is the above needed?
     if (!character) return <h2>Character "{decodedName}" data is missing.</h2>;
 
     return (
