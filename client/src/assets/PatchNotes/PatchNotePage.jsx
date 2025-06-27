@@ -1,4 +1,4 @@
-import PatchNotesList from './assets/PatchNotes/PatchNotesList';
+import PatchNotesList from './RenderPatchNoteList.jsx';
 
 function PatchNotes() {
   return (

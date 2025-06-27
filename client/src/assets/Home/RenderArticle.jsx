@@ -1,5 +1,5 @@
 import {Articles} from '../Info/Articles/Articles.js';
-import {link} from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import './renderArticle.css';
 //Above is temporary import for testing purposes. Replace with backend import when ready.
 
