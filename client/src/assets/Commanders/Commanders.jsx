@@ -1,7 +1,8 @@
 import React from "react";
-import "./commanders.css";
 import { Characters } from '../Info/Characters';
 import { Link } from "react-router-dom";
+import "./commanderRender.css";
+
 
 function Commanders() {
   const renderItems = () => {

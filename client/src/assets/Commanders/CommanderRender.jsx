@@ -3,7 +3,7 @@ import {Characters} from '../Info/Characters.js';
 import AbilityRender from './AbilityRender.jsx'
 import StatRenderer from './StatRenderer.jsx';
 import DifficultyRender from './DifficultyRender.jsx';
-import "./commanders.css";
+import "./commanderRender.css";
 
 function CommanderDetail() {
   const { name } = useParams();
