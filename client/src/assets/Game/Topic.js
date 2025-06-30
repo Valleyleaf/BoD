@@ -5,7 +5,6 @@ let topic = [
         "thumbnail": "",
         "alt":"",
         "content": ""
-        
     },
     {
         "id": 1,
@@ -19,41 +18,41 @@ let topic = [
         "title": "Items",
         "thumbnail": "",
         "alt":"",
-        "content": ""
+        "content": "The Island is home to many powerful relics of past battles and can be procured from your starting area. Additionally, items can drop from defeated enemies. These items greatly enhance your Commander's abilities in battle."
     },
         {
         "id": 3,
         "title": "Headquarter",
         "thumbnail": "",
         "alt":"",
-        "content": ""
+        "content": "This is your base of operations and can be upgraded in several different ways for both offensive and defensive capabilities. Choose wisely as you can only pick which upgrade to go with once per game."
     },
         {
         "id": 4,
-        "title": "Objectives",
+        "title": "The Gate Keeper",
         "thumbnail": "",
         "alt":"",
-        "content": ""
+        "content": "In the middle of your starting area, you will find a large floating relic, known as the Gate Keeper. The destruction of the Gate Keeper will cause your Headquarter to fall to darkness, and you will lose the game. Protect it at all costs!"
     },
         {
         "id": 5,
         "title": "Natives",
         "thumbnail": "",
         "alt":"",
-        "content": ""
+        "content": "Creatures native to the Island, known as Natives, roam the land and can be found in various locations. They are powerful foes that can drop items and resources when defeated."
     },
     {
         "id": 6,
-        "title": "Minions",
+        "title": "Minion Scouts",
         "thumbnail": "",
         "alt":"",
-        "content": ""
+        "content": "Your allies in combat, these warriors will spawn from your Headquarter and will attempt to capture and control valuable chokepoints around the Island. They will also attack any enemy Commanders they encounter."
     },
     {
         "id": 7,
-        "title": "End Game",
+        "title": "The Island",
         "thumbnail": "",
         "alt":"",
-        "content": ""
+        "content": "Around the Island, you will find many different types of terrain, sources of resources, and powerful creatures to slay."
     },
 ]

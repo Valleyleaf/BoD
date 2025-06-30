@@ -1,17 +1,34 @@
 import React from "react";
 import Topic from "../Topic";
-import "./game.css"
+import "./game.css";
 
 
-export default function GameCommander(){
-    return Topic.map((data) => (
-            <div className="flexColumn">
-                <h2>{data.title}</h2>
-                <p>{data.content}</p>
-                <img src={data.Thumbnail} alt="" />
-            </div>
+export default function GameRender() {
+    return Topic.map((data, i) => (
+        <div className="flexRow" key={i}>
+            {i % 2 === 0 ? (
+                <>
+                    {/* Render content Right */}
+                    <div className="flexColumn leftSide">
+                        <h2>{data.title}</h2>
+                        <img src={data.Thumbnail} alt="" />
+                    </div>
+                    <div className="flexColumn rightSide">
+                        <p>{data.content}</p>
+                    </div>
+                </>
+            ) : (
+                <>
+                    {/* Render content Left */}
+                    <div className="flexColumn leftSide">
+                        <p>{data.content}</p>
+                    </div>
+                    <div className="flexColumn rightSide">
+                        <h2>{data.title}</h2>
+                        <img src={data.Thumbnail} alt="" />
+                    </div>
+                </>
+            )}
+        </div>
     ));
 };
-
-//Put in two divs here, one for left and one for right render. Create
-//a map function that renders based on odds and evens. If odd, render left, if even, render right.

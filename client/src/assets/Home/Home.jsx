@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import RenderArticle from "./RenderArticle";
 import {Articles} from "../Info/Articles/Articles.js";
 import {PatchNotes} from "../Info/PatchNotes/PatchNotes.js";
+import GamePage from "../Game/Game.jsx"
 
 export default function Home({ articles }) {
     const [currentPage, setCurrentPage] = useState(1);
@@ -34,6 +35,7 @@ export default function Home({ articles }) {
                 <a href="https://www.hiveworkshop.com/threads/battle-of-dominance-v2-0-arcane-showdown.326630/" target="_blank" rel="noopener noreferrer">
                     <button>DOWNLOAD</button>
                 </a>
+                <GamePage/>
             </div>
         </div>
     );
