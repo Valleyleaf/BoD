@@ -152,7 +152,7 @@
 }
 
 
-.thumbnail{
+.splashArt{
     display: block;
     object-fit: cover;
     width: 200px;
@@ -160,7 +160,7 @@
     border: solid 1px rgb(174, 232, 240);
 }
 
-.thumbnail:hover{
+.splashArt:hover{
     display: block;
     object-fit: cover;
     width: 210px;
