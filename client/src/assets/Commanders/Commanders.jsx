@@ -11,8 +11,8 @@ function Commanders() {
       //For now, this will just render all commanders.
       <Link to={`/commanders/${data.slug}`} key={data.name} className='heroFrame comImg'>
         <img
-          className='thumbnail'
-          src={data.thumbnail}
+          className='splashArt'
+          src={data.image}
           alt={data.thumbnailAlt || data.name}
           loading="lazy"
           onError={(e) => { e.target.src = 'default-placeholder.png'; }}
