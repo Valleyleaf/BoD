@@ -65,31 +65,31 @@ let Characters = [
                     {
                     abilityid: 0,
                     name: "Gargoyle Skin",
-                    disc: "Upon casting a spell The Abyssal King gains Spell Immunity for a short duration.",
+                    disc: "Grants the Alchemist increased health regeneration.",
                     thumbnail: ""
                     },
                     {
                     abilityid: 1,
                     name: "Blood Bond",
-                    disc: "Sends forward a wave of frost that encases enemies and deals damage.",
+                    disc: "Causes a targeted unit to gain increased attack speed at the cost of health over time.",
                     thumbnail: ""
                     },
                     {
                     abilityid: 2,
                     name: "Gust",
-                    disc: "Creates frost around a target enemy, dealing damage and slowing them.",
+                    disc: "Tosses a targeted unit into the air, rendering them nullified for a short duration.",
                     thumbnail: ""
                     },
                     {
                     abilityid: 3,
                     name: "Barrel of Fun",
-                    disc: "The Abyssal King drains the life force from a slain enemy, healing himself.",
+                    disc: "The Alchemist tosses down a barrel of explosives that latches onto a targeted enemy. After a set duration, the barrel explodes, dealing damage to all enemies in the area.",
                     thumbnail: ""
                     },
                     {
                     abilityid: 4,
                     name: "Defender",
-                    disc: "Creates a powerful storm that deals damage to all enemies in the area.",
+                    disc: "The Alchemist lands and takes on the form of a statue. While in this form, he gains increased armor, magic resistance and health regeneration but is not able to move. At the end of the cast, he breaks free, dealing damage based on his current % health.",
                     thumbnail: ""
                     },
                     ]
@@ -101,37 +101,75 @@ let Characters = [
         slug: "arcane-overlord",
         thumbnail: "https://i.imgur.com/oWVNhxC.jpeg",
         image: " ",
-        description: "Courageous leader",
-        lore: "Fights for justice",
-        primaryStat: "Strength",
+        description: "Adaptive spellcaster with a large arsenal of abilities.",
+        lore: "N/A",
+        primaryStat: "Intelligence",
         stats: [""],
         faction: "Mechanisms",
         roles: ["Carry", "Ranged"],
-        ability0: {
-            name: "Passive Ability 1",
-            disc: "Passive Ability 1",
-            cost: "0"
-        },
-        ability1: {
-            name: "Active Ability 1",
-            disc: "Active Ability 1",
-            cost: "10"
-        },
-        ability2: {
-            name: "Active Ability 2",
-            disc: "Active Ability 2",
-            cost: "20"
-        },
-        ability3: {
-            name: "Active Ability 3",
-            disc: "Active Ability 4",
-            cost: "30"
-        },
-        ability4: {
-            name: "Ultimate Ability",
-            disc: "Ultimate Ability 4",
-            cost: "40"
-        }
+        abilities: [
+                    {
+                    abilityid: 0,
+                    name: "Arcane Overlord",
+                    disc: "Upon casting a spell, Kain get’s an idea, deciding the outcome of Arcanium.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 1,
+                    name: "Shock Break",
+                    disc: "Sends forward a bolt of arcane energy, dealing damage to a single target. Upon reaching level 5, also Deals Damage equal to 10% of Kains total Mana. Casting this spell causes Kains Mindset to focus.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 2,
+                    name: "Overload",
+                    disc: "Creates two Images of Kain. The Images deal a % of his Attack Damage and take increased damage from all sources. At Max level, the Images deal increased damage. Casting this spell causes Kain to equalize his mindset, bringing it closer to an even field.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 3,
+                    name: "Impulse",
+                    disc: "Deals damage to all nearby enemy units every second. At Max level, this increases to ever half-second. Casting this spell causes Kain to spike, increasing his Mindset",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 4,
+                    name: "Arcanium",
+                    disc: "Kain taps into his unknown potential, drawing out a powerful spell based on his current Mindset. Casting a spell reduces the cooldown of Arcanium by 5 seconds.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 5,
+                    name: "Arcanium - Tri-Edge",
+                    disc: "Sends out three bolts of Arcane energy, dealing massive damage to a single target.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 6,
+                    name: "Arcanium - Rip Magic",
+                    disc: "Steals a target enemy buff and a set amount of mana from a target enemy unit.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 7,
+                    name: "Arcanium - Null Zone",
+                    disc: "Creates a zone in which enemy units are unable to attack or cast spells. This is a channeled ability.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 8,
+                    name: "Arcanium - Arcane Wall",
+                    disc: "Creates a wall of unstable magic. Enemy units that walk through the wall take damage and are slowed for a short duration.",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 9,
+                    name: "Arcanium - Layline Hijack",
+                    disc: "Kain taps into the power of the Laylines, allowing him to teleport to a set location on the map.",
+                    thumbnail: ""
+                    },
+                    
+                    ]
     },
     {
         id: 4,
@@ -140,37 +178,44 @@ let Characters = [
         slug: "arachnid-priest", 
         thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
         image: " ",
-        description: "Fast runner",
-        lore: "Runs through danger",
-        primaryStat: "Agility",
+        description: "A cunning mage with strong damage over time abilities",
+        lore: "N/A",
+        primaryStat: "Intelligence",
         stats: [""],
-        faction: "Mechanisms",
-        roles: ["Carry", "Ranged"],
-        ability0: {
-            name: "Passive Ability 1",
-            disc: "Passive Ability 1",
-            cost: "0"
-        },
-        ability1: {
-            name: "Active Ability 1",
-            disc: "Active Ability 1",
-            cost: "10"
-        },
-        ability2: {
-            name: "Active Ability 2",
-            disc: "Active Ability 2",
-            cost: "20"
-        },
-        ability3: {
-            name: "Active Ability 3",
-            disc: "Active Ability 4",
-            cost: "30"
-        },
-        ability4: {
-            name: "Ultimate Ability",
-            disc: "Ultimate Ability 4",
-            cost: "40"
-        }
+        faction: "Void Whisperers",
+        roles: ["Ranged", "Mage", "Support"],
+        abilities: [
+                    {
+                    abilityid: 0,
+                    name: "",
+                    disc: "",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 1,
+                    name: "",
+                    disc: "",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 2,
+                    name: "",
+                    disc: "",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 3,
+                    name: "",
+                    disc: "",
+                    thumbnail: ""
+                    },
+                    {
+                    abilityid: 4,
+                    name: "",
+                    disc: "",
+                    thumbnail: ""
+                    },
+                    ]
     },
     {
         id: 5,
@@ -660,32 +705,591 @@ let Characters = [
         stats: [""],
         faction: "Gaia's Guard",
         roles: ["Carry", "Ranged"],
-        ability0: {
-            name: "Passive Ability 1",
-            disc: "Passive Ability 1",
-            cost: "0"
+        abilities: [
+            {
+                abilityid: 0,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 1,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 2,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 3,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 4,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+        ]
+    },
+    {
+    id: 19,
+    name: "",
+    title: "",
+    slug: "", 
+    thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
+    image: " ",
+    description: "",
+    lore: "N/A",
+    primaryStat: "",
+    stats: [""],
+    faction: " ",
+    roles: [""],
+    abilities: [
+        {
+        abilityid: 0,
+        name: "",
+        disc: "",
+        thumbnail: ""
         },
-        ability1: {
-            name: "Active Ability 1",
-            disc: "Active Ability 1",
-            cost: "10"
+        {
+        abilityid: 1,
+        name: "",
+        disc: "",
+        thumbnail: ""
         },
-        ability2: {
-            name: "Active Ability 2",
-            disc: "Active Ability 2",
-            cost: "20"
+        {
+        abilityid: 2,
+        name: "",
+        disc: "",
+        thumbnail: ""
         },
-        ability3: {
-            name: "Active Ability 3",
-            disc: "Active Ability 4",
-            cost: "30"
+        {
+        abilityid: 3,
+        name: "",
+        disc: "",
+        thumbnail: ""
         },
-        ability4: {
-            name: "Ultimate Ability",
-            disc: "Ultimate Ability 4",
-            cost: "40"
-        }
-    }
+        {
+        abilityid: 4,
+        name: "",
+        disc: "",
+        thumbnail: ""
+        },
+        ]
+    },
+    {
+        id: 20,
+        name: "",
+        title: "",
+        slug: "",
+        thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
+        image: " ",
+        description: "",
+        lore: "N/A",
+        primaryStat: "",
+        stats: [""],
+        faction: " ",
+        roles: [""],
+        abilities: [
+            {
+                abilityid: 0,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 1,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 2,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 3,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 4,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+        ]
+    },
+    {
+        id: 21,
+        name: "",
+        title: "",
+        slug: "",
+        thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
+        image: " ",
+        description: "",
+        lore: "N/A",
+        primaryStat: "",
+        stats: [""],
+        faction: " ",
+        roles: [""],
+        abilities: [
+            {
+                abilityid: 0,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 1,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 2,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 3,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 4,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+        ]
+    },
+    {
+        id: 22,
+        name: "",
+        title: "",
+        slug: "",
+        thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
+        image: " ",
+        description: "",
+        lore: "N/A",
+        primaryStat: "",
+        stats: [""],
+        faction: " ",
+        roles: [""],
+        abilities: [
+            {
+                abilityid: 0,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 1,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 2,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 3,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 4,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+        ]
+    },
+    {
+        id: 23,
+        name: "",
+        title: "",
+        slug: "",
+        thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
+        image: " ",
+        description: "",
+        lore: "N/A",
+        primaryStat: "",
+        stats: [""],
+        faction: " ",
+        roles: [""],
+        abilities: [
+            {
+                abilityid: 0,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 1,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 2,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 3,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 4,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+        ]
+    },
+    {
+        id: 24,
+        name: "",
+        title: "",
+        slug: "",
+        thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
+        image: " ",
+        description: "",
+        lore: "N/A",
+        primaryStat: "",
+        stats: [""],
+        faction: " ",
+        roles: [""],
+        abilities: [
+            {
+                abilityid: 0,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 1,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 2,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 3,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 4,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+        ]
+    },
+    {
+        id: 25,
+        name: "",
+        title: "",
+        slug: "",
+        thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
+        image: " ",
+        description: "",
+        lore: "N/A",
+        primaryStat: "",
+        stats: [""],
+        faction: " ",
+        roles: [""],
+        abilities: [
+            {
+                abilityid: 0,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 1,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 2,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 3,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 4,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+        ]
+    },
+    {
+        id: 26,
+        name: "",
+        title: "",
+        slug: "",
+        thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
+        image: " ",
+        description: "",
+        lore: "N/A",
+        primaryStat: "",
+        stats: [""],
+        faction: " ",
+        roles: [""],
+        abilities: [
+            {
+                abilityid: 0,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 1,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 2,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 3,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 4,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+        ]
+    },
+    {
+        id: 27,
+        name: "",
+        title: "",
+        slug: "",
+        thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
+        image: " ",
+        description: "",
+        lore: "N/A",
+        primaryStat: "",
+        stats: [""],
+        faction: " ",
+        roles: [""],
+        abilities: [
+            {
+                abilityid: 0,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 1,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 2,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 3,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 4,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+        ]
+    },
+    {
+        id: 28,
+        name: "",
+        title: "",
+        slug: "",
+        thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
+        image: " ",
+        description: "",
+        lore: "N/A",
+        primaryStat: "",
+        stats: [""],
+        faction: " ",
+        roles: [""],
+        abilities: [
+            {
+                abilityid: 0,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 1,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 2,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 3,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 4,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+        ]
+    },
+    {
+        id: 29,
+        name: "",
+        title: "",
+        slug: "",
+        thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
+        image: " ",
+        description: "",
+        lore: "N/A",
+        primaryStat: "",
+        stats: [""],
+        faction: " ",
+        roles: [""],
+        abilities: [
+            {
+                abilityid: 0,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 1,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 2,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 3,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 4,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+        ]
+    },
+    {
+        id: 30,
+        name: "",
+        title: "",
+        slug: "",
+        thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
+        image: " ",
+        description: "",
+        lore: "N/A",
+        primaryStat: "",
+        stats: [""],
+        faction: " ",
+        roles: [""],
+        abilities: [
+            {
+                abilityid: 0,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 1,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 2,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 3,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+            {
+                abilityid: 4,
+                name: "",
+                disc: "",
+                thumbnail: ""
+            },
+        ]
+    },
 ];
 
 let list = [
