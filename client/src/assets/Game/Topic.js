@@ -56,3 +56,5 @@ let topic = [
         "content": "Around the Island, you will find many different types of terrain, sources of resources, and powerful creatures to slay."
     },
 ]
+
+export default {topic}

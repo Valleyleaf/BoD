@@ -1,10 +1,10 @@
 import React from "react";
-import Topic from "../Topic";
+import topic from "./Topic";
 import "./game.css";
 
 
 export default function GameRender() {
-    return Topic.map((data, i) => (
+    return topic.map((data, i) => (
         <div className="flexRow" key={i}>
             {i % 2 === 0 ? (
                 <>
