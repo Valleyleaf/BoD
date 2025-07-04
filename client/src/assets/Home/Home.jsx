@@ -1,12 +1,13 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import GamePage from "../Game/Game.jsx"
 import { Characters } from "../Info/Characters.js";
 
 export default function Home() {
 
-    const rowCount = 3;
-    const eachRow = Math.ceil(Characters.length / rows);
-    const rows = Array.from({ length: rowCount }, (_, i) => Characters.slice(i * perRow, (i + 1) * perRow));
+    // const rowCount = 3;
+    // const eachRow = Math.ceil(Characters.length / rows);
+    // const rows = Array.from({ length: rowCount }, (_, i) => Characters.slice(i * perRow, (i + 1) * perRow));
 
     return (
         <div className="flexColumn">
