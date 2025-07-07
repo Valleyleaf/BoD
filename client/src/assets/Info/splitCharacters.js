@@ -28,9 +28,10 @@ if (!fs.existsSync(commandersDir)) {
 // Write each character to its own file
 Characters.forEach(character => {
   if (!character || !character.title) return;
-  const fileName = character.title.replace(/[^a-z0-9]/gi, '_') + '.js';
+  const exportName = character.title.replace(/[^a-zA-Z0-9]/g, '_');
+  const fileName = exportName + '.js';
   const filePath = path.join(commandersDir, fileName);
-  const fileData = `const Commander = ${JSON.stringify(character, null, 2)};\nexport default Commander;\n`;
+  const fileData = `const ${exportName} = ${JSON.stringify(character, null, 2)};\nexport default ${exportName};\n`;
   fs.writeFileSync(filePath, fileData, 'utf-8');
   console.log(`Created: ${fileName}`);
 });
