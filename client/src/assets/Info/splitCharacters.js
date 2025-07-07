@@ -34,3 +34,5 @@ Characters.forEach(character => {
   fs.writeFileSync(filePath, fileData, 'utf-8');
   console.log(`Created: ${fileName}`);
 });
+
+//Above is AI generated, not sure if it works.
