@@ -1,3 +1,5 @@
+import AbyssalkingLore from "./LoreSheets/AbyssalKingLore.json";
+
 let Characters = [
     {
         id: 1,
@@ -9,7 +11,7 @@ let Characters = [
         thumbnailAlt: "Image of the Abyssal King",
         image: "https://i.pinimg.com/736x/ea/fb/40/eafb40de7d0e12896fcebb0108fd120e.jpg",
         description: "Mystical spellcaster with powerful crowd control abilities",
-        lore: "./LoreSheets/test.md",
+        lore: AbyssalkingLore,
         primaryStat: "Intelligence",
         stats: ["14", "12", "18"],
         // Stats are Strength, Agility, Intelligence in that order.

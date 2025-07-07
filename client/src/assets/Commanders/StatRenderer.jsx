@@ -20,7 +20,7 @@ function StatRenderer() {
             {attributeIcons.map((icon, i) => (
                 <div key={i} className="flexRow center-content">
                     <img className='attributeIcon' src={icon} alt={["Strength", "Agility", "Intelligence"][i]} />
-                    {character.stats[i]}
+                    <h2 className="statsText">{character.stats[i]}</h2>
                 </div>
             ))}
         </div>

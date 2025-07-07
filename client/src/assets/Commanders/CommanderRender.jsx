@@ -23,8 +23,8 @@ function CommanderDetail() {
     <div className='testingFrame'>
       
       <div className="flexColumn">
-        <h1>{character.name}</h1>
-        <h2>{character.title}</h2>
+        <h1 className='CharacterRenderFont'>{character.name}</h1>
+        <h2 className='CharacterRenderFont'>{character.title}</h2>
         <DifficultyRender character={character}/>
       </div>
       <div className="flexRow">
@@ -35,12 +35,12 @@ function CommanderDetail() {
             </p>
                 <StatRenderer/>
                 <p>Faction: {character.faction}</p>
-                <p>Roles: {character.roles}</p>
-                <p>Backstory: {character.lore}</p>
+                <p>Roles: {character.roles.join(', ')}</p>
+                <p>{character.lore}</p>
           </div>
         </div>
       <div className="flexColumn">
-        <h1>Abilities</h1>
+        <h1 className='CharacterRenderFont'>Abilities</h1>
         <AbilityRender character={character}/>
       </div>
     </div>

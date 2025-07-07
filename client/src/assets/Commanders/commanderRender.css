@@ -250,4 +250,27 @@
     }
   }
   
+.CharacterRenderFont{
+    font-family: "Bebas Neue", sans-serif;
+    margin: 10px;
+}
 
+.statsText{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .statRenderBox{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+  }
