@@ -1,0 +1,13 @@
+.topicThumbnail {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+.topicContainer{
+  display: flex;
+  width: 100%;
+  margin: 20px;
+  border-radius: 20px;
+  background-color: var(--ArticleBGColor);
+}

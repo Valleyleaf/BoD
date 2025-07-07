@@ -1,5 +1,4 @@
 import React from "react";
-import './GameIntro.jsx'
 import "./game.css"
 import GameRender from "./GameRender.jsx";
 
