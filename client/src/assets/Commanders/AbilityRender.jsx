@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from 'react-router-dom';
 import { Characters } from '../Info/Characters.js';
+import placeholder from '../img/default-placeholder.png';
 import './CommanderRender.css';
 
 function AbilityRender() {
@@ -20,7 +21,7 @@ function AbilityRender() {
                         {ability.thumbnail ? (
                             <img className="abilityThumbnail" src={ability.thumbnail} alt={`Ability${i}Thumbnail`} onError={(e) => { e.target.src = 'default-placeholder.png'; }}  />
                         ):(
-                            <img className="abilityThumbnail" src="/placeholder.png" alt="Placeholder"/>
+                            <img className="abilityThumbnail" src={placeholder} alt="Placeholder"/>
                         )}
                     </div>
                     <div className="flexColumn">

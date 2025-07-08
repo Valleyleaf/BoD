@@ -1,6 +1,7 @@
 import React from "react";
 import { Characters } from '../Info/Commanders/A_index';
 import { Link } from "react-router-dom";
+import placeholder from '../img/default-placeholder.png';
 import "./commanderRender.css";
 // import { joinCommanders } from "../Info/JoinCharacters";
 
@@ -13,7 +14,7 @@ function Commanders() {
         {data.image ? (
         <img className='splashArt' src={data.image} alt={data.thumbnailAlt || data.name} loading="lazy" onError={(e) => { e.target.src = 'default-placeholder.png'; }}/> 
         ):(
-          <img className='splashArt' src="/default-placeholder.png" alt="Placeholder"/>
+          <img className='splashArt' src={placeholder} alt="Placeholder"/>
         )}
         <h2 className='hoverTitle'>{data.title}</h2>
       </Link>

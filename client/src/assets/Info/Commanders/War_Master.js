@@ -1,8 +1,8 @@
 const War_Master = {
   "id": 60,
-  "name": "",
+  "name": "Tau Bloodhoof",
   "title": "War Master",
-  "difficulty": 3,
+  "difficulty": 4,
   "slug": "war-master",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/tOASvVV.jpeg",
