@@ -3,6 +3,7 @@ import {Characters} from '../Info/Characters.js';
 import AbilityRender from './AbilityRender.jsx'
 import StatRenderer from './StatRenderer.jsx';
 import DifficultyRender from './DifficultyRender.jsx';
+import ReactMarkdown from 'react-markdown';
 import "./commanderRender.css";
 
 function CommanderDetail() {
@@ -36,6 +37,7 @@ function CommanderDetail() {
                 <StatRenderer/>
                 <p>Faction: {character.faction}</p>
                 <p>Roles: {character.roles.join(', ')}</p>
+                <ReactMarkdown>{character.lore}</ReactMarkdown>
                 <p>{character.lore}</p>
           </div>
         </div>

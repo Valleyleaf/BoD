@@ -1,6 +1,8 @@
 import AbyssalkingLore from "./LoreSheets/AbyssalKingLore.json";
 
-let Characters = [
+//Note that this sheet is no longer to be used.
+
+let CharactersUnused = [
     {
         id: 1,
         name: "Spine",
@@ -2849,5 +2851,5 @@ let Characters = [
     },
 ];
 
-export {Characters}
+export {CharactersUnused}
 

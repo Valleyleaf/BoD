@@ -1,3 +1,6 @@
+import ReactMarkdown from 'react-markdown';
+import ArcaneOverlord from '../LoreSheets/ArcaneOverlordLore.json';
+
 const Arcane_Overlord = {
   "id": 3,
   "name": "Kain",
@@ -6,7 +9,7 @@ const Arcane_Overlord = {
   "thumbnail": "https://i.imgur.com/oWVNhxC.jpeg",
   "image": "https://i.imgur.com/oWVNhxC.jpeg",
   "description": "Adaptive spellcaster with a large arsenal of abilities.",
-  "lore": "N/A",
+  "lore": <ReactMarkdown>{ArcaneOverlord}</ReactMarkdown>,
   "primaryStat": "Intelligence",
   "stats": [
     ""
@@ -20,7 +23,7 @@ const Arcane_Overlord = {
     {
       "abilityid": 0,
       "name": "Arcane Overlord",
-      "disc": "Upon casting a spell, Kain get’s an idea, deciding the outcome of Arcanium.",
+      "disc": "Upon casting a spell, Kain gets an idea, deciding the outcome of Arcanium.",
       "thumbnail": ""
     },
     {

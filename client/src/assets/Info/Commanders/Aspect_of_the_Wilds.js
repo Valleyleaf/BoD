@@ -26,7 +26,7 @@ const Aspect_of_the_Wilds = {
     },
     {
       "abilityid": 1,
-      "name": "",
+      "name": "Mark of the Thunderstorm",
       "disc": "",
       "thumbnail": ""
     },
