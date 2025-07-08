@@ -1,5 +1,5 @@
 import React from "react";
-import { Characters } from '../Info/Characters';
+import { Characters } from '../Info/Commanders/A_index';
 import { Link } from "react-router-dom";
 import "./commanderRender.css";
 // import { joinCommanders } from "../Info/JoinCharacters";
