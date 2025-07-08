@@ -2,6 +2,7 @@ const Salvador = {
   "id": 49,
   "name": "",
   "title": "Salvador",
+  "difficulty": 3,
   "slug": "salvador",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/i4zNIE0.jpeg",

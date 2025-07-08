@@ -2,6 +2,7 @@ const Phase_Drake = {
   "id": 42,
   "name": "",
   "title": "Phase Drake",
+  "difficulty": 3,
   "slug": "phase-drake",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/HKRRI5p.jpeg",

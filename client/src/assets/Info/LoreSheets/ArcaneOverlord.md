@@ -1,3 +1,5 @@
+##Arcane Overlord
+
 Kain. Kain. Kain. His name echoes in his head. Thoughts spiral out of control as the Arcane Overlord sends forth a concentrated bolt of Arcane energy into the chest of his former master who falls to the ground as his hearts explodes in a violent torrent of blood and bile.
 
 Kain. Kain. Kain, born with an affinity to the Arcane arts. Born an elf within the borders of the newly formed Metalovania. Born in the womb of a mother who never wanted him. Kain managed to survive as a street performer, entertaining the elite of Silver City. They all looked at him with morbid curiosity as sparks would form fireworks in his hands, copies of his form would dance around the crowd to their amusement. It was all smoke and mirrors, the dancing and fireworks distracted as Kain’s illusions, given physical form through Arcane arts would swipe small amounts of coin from his audience. Not enough to be missed, but enough to add up.

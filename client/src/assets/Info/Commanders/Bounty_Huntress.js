@@ -2,6 +2,7 @@ const Bounty_Huntress = {
   "id": 10,
   "name": "Laura Fangwin",
   "title": "Bounty Huntress",
+  "difficulty": 3,
   "slug": "bounty-huntress",
   "thumbnail": "https://i.imgur.com/tb5bc8O.jpeg",
   "thumbnailAlt": "Image of The Example",

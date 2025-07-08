@@ -2,6 +2,7 @@ const Emissary_of_the_Keg_Lords = {
   "id": 18,
   "name": "",
   "title": "Emissary of the Keg Lords",
+  "difficulty": 3,
   "slug": "emissary-of-the-keg-lords",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/HSNrqI2.jpeg",

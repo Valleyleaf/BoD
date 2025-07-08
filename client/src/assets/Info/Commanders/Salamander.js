@@ -2,6 +2,7 @@ const Salamander = {
   "id": 48,
   "name": "",
   "title": "Salamander",
+  "difficulty": 3,
   "slug": "salamander",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/4jomYqJ.jpeg",

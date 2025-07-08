@@ -2,6 +2,7 @@ const Scroll_Ninja = {
   "id": 51,
   "name": "",
   "title": "Scroll Ninja",
+  "difficulty": 3,
   "slug": "scroll-ninja",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/yLPJdpj.jpeg",

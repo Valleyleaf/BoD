@@ -2,6 +2,7 @@ const Gill = {
   "id": 25,
   "name": "",
   "title": "Gill",
+  "difficulty": 3,
   "slug": "gill",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/eATW3To.jpeg",

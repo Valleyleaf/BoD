@@ -2,6 +2,7 @@ const Duke_of_Winter = {
   "id": 17,
   "name": "Califrax",
   "title": "Duke of Winter",
+  "difficulty": 3,
   "slug": "duke-of-winter",
   "thumbnail": "https://i.imgur.com/eKlTykx.jpeg",
   "image": "https://i.imgur.com/eKlTykx.jpeg",

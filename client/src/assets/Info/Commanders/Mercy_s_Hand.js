@@ -2,6 +2,7 @@ const Mercy_s_Hand = {
   "id": 37,
   "name": "",
   "title": "Mercy's Hand",
+  "difficulty": 3,
   "slug": "mercys-hand",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/rxL3se5.jpeg",

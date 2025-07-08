@@ -2,6 +2,7 @@ const Gunslinger = {
   "id": 27,
   "name": "",
   "title": "Gunslinger",
+  "difficulty": 3,
   "slug": "gunslinger",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": " ",

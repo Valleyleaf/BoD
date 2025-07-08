@@ -2,6 +2,7 @@ const Herald_of_Time = {
   "id": 30,
   "name": "",
   "title": "Herald of Time",
+  "difficulty": 3,
   "slug": "herald-of-time",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/anD0ATv.jpeg",

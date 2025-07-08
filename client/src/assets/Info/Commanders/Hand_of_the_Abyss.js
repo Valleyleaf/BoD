@@ -2,6 +2,7 @@ const Hand_of_the_Abyss = {
   "id": 29,
   "name": "",
   "title": "Hand of the Abyss",
+  "difficulty": 3,
   "slug": "hand-of-the-abyss",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/6e88puJ.jpeg",

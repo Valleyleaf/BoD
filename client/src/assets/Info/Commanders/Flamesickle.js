@@ -2,6 +2,7 @@ const Flamesickle = {
   "id": 23,
   "name": "",
   "title": "Flamesickle",
+  "difficulty": 3,
   "slug": "flamesickle",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/41kuv1t.jpeg",

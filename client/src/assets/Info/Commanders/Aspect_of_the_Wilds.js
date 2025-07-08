@@ -2,6 +2,7 @@ const Aspect_of_the_Wilds = {
   "id": 5,
   "name": "Crepúsculo",
   "title": "Aspect of the Wilds",
+  "difficulty": 3,
   "slug": "aspect-of-the-wilds",
   "thumbnail": "https://i.imgur.com/YcHNCst.jpeg",
   "image": "https://i.imgur.com/YcHNCst.jpeg",

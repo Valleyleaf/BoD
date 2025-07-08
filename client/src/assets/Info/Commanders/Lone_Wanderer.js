@@ -2,6 +2,7 @@ const Lone_Wanderer = {
   "id": 35,
   "name": "",
   "title": "Lone Wanderer",
+  "difficulty": 3,
   "slug": "lone-wanderer",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/zSvvVwF.jpeg",

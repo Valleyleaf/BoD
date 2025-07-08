@@ -2,6 +2,7 @@ const Patchwork_Golem = {
   "id": 41,
   "name": "",
   "title": "Patchwork Golem",
+  "difficulty": 3,
   "slug": "patchwork-golem",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/ljpCwFi.jpeg",

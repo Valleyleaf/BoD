@@ -2,6 +2,7 @@ const Primarch_of_Magic = {
   "id": 43,
   "name": "",
   "title": "Primarch of Magic",
+  "difficulty": 5,
   "slug": "primarch-of-magic",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://www.hiveworkshop.com/data/ratory-images/261/261985-a28df4a18a5d2a100985aa9071339db7.png",

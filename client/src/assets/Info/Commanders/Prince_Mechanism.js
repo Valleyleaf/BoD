@@ -2,6 +2,7 @@ const Prince_Mechanism = {
   "id": 44,
   "name": "",
   "title": "Prince Mechanism",
+  "difficulty": 3,
   "slug": "prince-mechanism",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/c0z1zHt.jpeg",

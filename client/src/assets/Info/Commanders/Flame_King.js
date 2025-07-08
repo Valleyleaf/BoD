@@ -2,6 +2,7 @@ const Flame_King = {
   "id": 22,
   "name": "",
   "title": "Flame King",
+  "difficulty": 3,
   "slug": "flame-king",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/jT9hJUw.jpeg",

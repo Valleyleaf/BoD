@@ -5,6 +5,7 @@ const Arcane_Overlord = {
   "id": 3,
   "name": "Kain",
   "title": "Arcane Overlord",
+  "difficulty": 3,
   "slug": "arcane-overlord",
   "thumbnail": "https://i.imgur.com/oWVNhxC.jpeg",
   "image": "https://i.imgur.com/oWVNhxC.jpeg",

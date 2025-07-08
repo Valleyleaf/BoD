@@ -2,6 +2,7 @@ const Hexrelic = {
   "id": 31,
   "name": "",
   "title": "Hexrelic",
+  "difficulty": 3,
   "slug": "hexrelic",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/IvUamHu.jpeg",

@@ -2,6 +2,7 @@ const Lightbringer = {
   "id": 34,
   "name": "",
   "title": "Lightbringer",
+  "difficulty": 3,
   "slug": "lightbringer",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/CyCzT9Y.jpeg",

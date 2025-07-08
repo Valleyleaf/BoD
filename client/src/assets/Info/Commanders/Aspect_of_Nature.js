@@ -2,6 +2,7 @@ const Aspect_of_Nature = {
   "id": 24,
   "name": "Urun",
   "title": "Aspect of Nature",
+  "difficulty": 3,
   "slug": "aspect-of-nature",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/IvUamHu.jpeg",

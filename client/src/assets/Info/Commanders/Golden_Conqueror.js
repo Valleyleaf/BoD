@@ -4,6 +4,7 @@ const Golden_Conqueror = {
   "id": 26,
   "name": "Pulveris",
   "title": "Golden Conqueror",
+  "difficulty": 3,
   "slug": "golden-conqueror",
   "thumbnail": "https://static.wikia.nocookie.net/wowpedia/images/3/36/Achievement_firelands_raid_ragnaros.png/revision/latest?cb=20180218133809",
   "image": "https://i.imgur.com/R9YP6fC.jpeg",

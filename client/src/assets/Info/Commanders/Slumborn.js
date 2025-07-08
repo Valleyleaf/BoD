@@ -2,6 +2,7 @@ const Slumborn = {
   "id": 55,
   "name": "",
   "title": "Slumborn",
+  "difficulty": 3,
   "slug": "slumborn",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/5DsQ2VX.jpeg",

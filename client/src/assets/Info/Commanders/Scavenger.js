@@ -2,6 +2,7 @@ const Scavenger = {
   "id": 50,
   "name": "",
   "title": "Scavenger",
+  "difficulty": 3,
   "slug": "scavenger",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/mN6RENy.jpeg",

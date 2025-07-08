@@ -2,6 +2,7 @@ const King_Mechanism = {
   "id": 33,
   "name": "",
   "title": "King Mechanism",
+  "difficulty": 3,
   "slug": "king-mechanism",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/nanoexS.jpeg",

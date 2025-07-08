@@ -2,6 +2,7 @@ const Bell_Ringer = {
   "id": 6,
   "name": "Mephisto",
   "title": "Bell Ringer",
+  "difficulty": 3,
   "slug": "bell-ringer",
   "thumbnail": "https://i.imgur.com/rgkDXJi.jpeg",
   "thumbnailAlt": "Image of The Example",

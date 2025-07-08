@@ -2,6 +2,7 @@ const Sage = {
   "id": 47,
   "name": "",
   "title": "Sage",
+  "difficulty": 3,
   "slug": "sage",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/1oMmFH9.jpeg",

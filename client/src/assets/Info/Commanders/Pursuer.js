@@ -2,6 +2,7 @@ const Pursuer = {
   "id": 45,
   "name": "",
   "title": "Pursuer",
+  "difficulty": 3,
   "slug": "pursuer",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/eATW3To.jpeg",

@@ -2,6 +2,7 @@ const War_Master = {
   "id": 60,
   "name": "",
   "title": "War Master",
+  "difficulty": 3,
   "slug": "war-master",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/tOASvVV.jpeg",

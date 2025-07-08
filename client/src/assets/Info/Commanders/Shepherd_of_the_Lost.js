@@ -2,6 +2,7 @@ const Shepherd_of_the_Lost = {
   "id": 54,
   "name": "",
   "title": "Shepherd of the Lost",
+  "difficulty": 3,
   "slug": "shepherd-of-the-lost",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/EEzEvlS.jpeg",

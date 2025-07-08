@@ -2,6 +2,7 @@ const Sea_Wraith = {
   "id": 52,
   "name": "",
   "title": "Sea Wraith",
+  "difficulty": 3,
   "slug": "sea-wraith",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/2LYQ2MA.jpeg",

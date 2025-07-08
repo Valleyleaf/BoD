@@ -2,6 +2,7 @@ const Ember = {
   "id": 19,
   "name": "",
   "title": "Ember",
+  "difficulty": 3,
   "slug": "ember",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/PiplQc2.jpeg",

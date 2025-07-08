@@ -2,6 +2,7 @@ const Felmage = {
   "id": 21,
   "name": "",
   "title": "Felmage",
+  "difficulty": 3,
   "slug": "felmage",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/P4OMXnN.jpeg",

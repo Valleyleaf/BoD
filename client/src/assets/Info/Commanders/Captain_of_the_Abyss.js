@@ -2,6 +2,7 @@ const Captain_of_the_Abyss = {
   "id": 11,
   "name": "Miranda Chance",
   "title": "Captain of the Abyss",
+  "difficulty": 3,
   "slug": "captain-of-the-abyss",
   "thumbnail": "https://i.imgur.com/AWMvzoM.jpeg",
   "thumbnailAlt": "Image of The Example",

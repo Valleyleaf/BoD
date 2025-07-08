@@ -2,6 +2,7 @@ const Chrono_Shifter = {
   "id": 14,
   "name": "Minthera",
   "title": "Chrono Shifter",
+  "difficulty": 3,
   "slug": "chrono-shifter",
   "thumbnail": "https://i.imgur.com/KPqhQY0.jpeg",
   "image": "https://i.imgur.com/KPqhQY0.jpeg",
