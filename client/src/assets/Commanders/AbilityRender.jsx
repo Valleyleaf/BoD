@@ -16,7 +16,7 @@ function AbilityRender() {
             {character.abilities?.map((ability, i) => (
                 <div key={`ability-${i}`} className="flexRow">
                     <div className="flexColumn">
-                        <p>{ability.name}</p>
+                        <p className="CharacterRenderFont">{ability.name}</p>
                         {ability.thumbnail && (
                             <img className="abilityThumbnail" src={ability.thumbnail} alt={`Ability${i}Thumbnail`} />
                         )}
