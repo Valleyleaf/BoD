@@ -17,8 +17,10 @@ function AbilityRender() {
                 <div key={`ability-${i}`} className="flexRow">
                     <div className="flexColumn">
                         <p className="CharacterRenderFont">{ability.name}</p>
-                        {ability.thumbnail && (
-                            <img className="abilityThumbnail" src={ability.thumbnail} alt={`Ability${i}Thumbnail`} />
+                        {ability.thumbnail ? (
+                            <img className="abilityThumbnail" src={ability.thumbnail} alt={`Ability${i}Thumbnail`} onError={(e) => { e.target.src = 'default-placeholder.png'; }}  />
+                        ):(
+                            <img className="abilityThumbnail" src="/placeholder.png" alt="Placeholder"/>
                         )}
                     </div>
                     <div className="flexColumn">
