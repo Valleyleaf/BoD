@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import {Characters} from '../Info/Characters.js';
+import Characters from '../Info/Commanders/A_index';
 import AbilityRender from './AbilityRender.jsx'
 import StatRenderer from './StatRenderer.jsx';
 import DifficultyRender from './DifficultyRender.jsx';

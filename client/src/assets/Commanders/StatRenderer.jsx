@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from 'react-router-dom';
-import { Characters } from '../Info/Characters.js';
+import Characters from '../Info/Commanders/A_index';
 import './commanderRender.css';
 
 function StatRenderer() {

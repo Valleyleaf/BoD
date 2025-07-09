@@ -5,7 +5,7 @@ const Gunslinger = {
   "difficulty": 3,
   "slug": "gunslinger",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
-  "image": " ",
+  "image": "https://i.imgur.com/Tsc3tyM.jpeg",
   "description": "High damage ranged carry with the ability to deal massive damage to single targets.",
   "lore": "N/A",
   "primaryStat": "",

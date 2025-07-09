@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import GamePage from "../Game/Game.jsx"
-import { Characters } from "../Info/Characters.js";
+
 
 export default function Home() {
 

@@ -1,4 +1,8 @@
+import Abyssal_King from './The_Abyssal_King.js';
+import Alchemist from './The_Alchemist.js';
 import Aspect_of_the_Wilds from './Aspect_of_the_Wilds.js';
+import Arachnid_Priest from './Arachnid_Priest.js';
+import Arcane_Overlord from './Arcane_Overlord.js';
 import Bell_Ringer from './Bell_Ringer.js';
 import Berserker from './Berserker.js';
 import Black_Clown from './Black_Clown.js';
@@ -56,8 +60,12 @@ import Volcano_Lord from './Volcano_Lord.js';
 import War_Master from './War_Master.js';
 import Wave_Crusher from './Wave_Crusher.js';
 
-const Commanders = [
+const Characters = [
+  Abyssal_King,
+  Alchemist,
   Aspect_of_the_Wilds,
+  Arachnid_Priest,
+  Arcane_Overlord,
   Bell_Ringer,
   Berserker,
   Black_Clown,
@@ -116,4 +124,4 @@ const Commanders = [
   Wave_Crusher,
 ];
 
-export default Commanders;
+export default Characters;

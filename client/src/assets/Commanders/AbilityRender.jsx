@@ -1,7 +1,7 @@
 import React from "react";
 import { useParams } from 'react-router-dom';
-import { Characters } from '../Info/Characters.js';
-import placeholder from '../img/default-placeholder.png';
+import Characters from '../Info/Commanders/A_index';
+import placeholder from '../img/placeholder.png';
 import './CommanderRender.css';
 
 function AbilityRender() {

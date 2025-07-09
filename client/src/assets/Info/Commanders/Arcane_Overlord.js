@@ -1,5 +1,6 @@
 import ReactMarkdown from 'react-markdown';
-import ArcaneOverlord from '../LoreSheets/ArcaneOverlordLore.json';
+
+
 
 const Arcane_Overlord = {
   "id": 3,
@@ -10,7 +11,7 @@ const Arcane_Overlord = {
   "thumbnail": "https://i.imgur.com/oWVNhxC.jpeg",
   "image": "https://i.imgur.com/oWVNhxC.jpeg",
   "description": "Adaptive spellcaster with a large arsenal of abilities.",
-  "lore": <ReactMarkdown>{ArcaneOverlord}</ReactMarkdown>,
+  "lore": "",
   "primaryStat": "Intelligence",
   "stats": [
     "10+(1 per level)",

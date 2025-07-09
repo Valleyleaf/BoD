@@ -1,7 +1,7 @@
 import React from "react";
-import { Characters } from '../Info/Commanders/A_index';
+import Characters from '../Info/Commanders/A_index';
 import { Link } from "react-router-dom";
-import placeholder from '../img/default-placeholder.png';
+import placeholder from '../img/placeholder.png';
 import "./commanderRender.css";
 // import { joinCommanders } from "../Info/JoinCharacters";
 
