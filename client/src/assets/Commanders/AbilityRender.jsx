@@ -28,7 +28,12 @@ function AbilityRender() {
                         <div className="flexRow">
                             <p>{ability.cost}</p>
                         </div>
-                        <p>{ability.disc}</p>
+                        {Ability.disc ? (                        
+                            <p onError={(e) => { e.target.src = 'unable to load disc'; }}
+                            >{ability.disc}</p>
+                            ):(
+                            <p>Ability discription empty</p>
+                            )}
                     </div>
                 </div>
             ))}

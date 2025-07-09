@@ -3,7 +3,7 @@ import Characters from '../Info/Commanders/A_index';
 import AbilityRender from './AbilityRender.jsx'
 import StatRenderer from './StatRenderer.jsx';
 import DifficultyRender from './DifficultyRender.jsx';
-import ReactMarkdown from 'react-markdown';
+import bioplaceholder from '../Info/LoreSheets/A_PlaceholderBio.json'
 import "./commanderRender.css";
 
 function CommanderDetail() {
@@ -37,8 +37,11 @@ function CommanderDetail() {
                 <StatRenderer/>
                 <p>Faction: {character.faction}</p>
                 <p>Roles: {character.roles.join(', ')}</p>
-                <ReactMarkdown>{character.lore}</ReactMarkdown>
-                <p>{character.lore}</p>
+                {character.lore ? (
+                  <p onError={(e) => { e.target.src = 'Commander Lore Object Error'; }}>{character.lore}</p>
+                ):(
+                  <p>{bioplaceholder}</p>
+                )}
           </div>
         </div>
       <div className="flexColumn">
