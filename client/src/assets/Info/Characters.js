@@ -1,4 +1,8 @@
-let Characters = [
+import AbyssalkingLore from "./LoreSheets/AbyssalKingLore.json";
+
+//Note that this sheet is no longer to be used.
+
+let CharactersUnused = [
     {
         id: 1,
         name: "Spine",
@@ -9,7 +13,7 @@ let Characters = [
         thumbnailAlt: "Image of the Abyssal King",
         image: "https://i.pinimg.com/736x/ea/fb/40/eafb40de7d0e12896fcebb0108fd120e.jpg",
         description: "Mystical spellcaster with powerful crowd control abilities",
-        lore: "./LoreSheets/test.md",
+        lore: "AbyssalkingLore",
         primaryStat: "Intelligence",
         stats: ["14", "12", "18"],
         // Stats are Strength, Agility, Intelligence in that order.
@@ -458,9 +462,9 @@ let Characters = [
         thumbnail: "https://i.imgur.com/tb5bc8O.jpeg",
         thumbnailAlt: "Image of The Example",
         image: "https://i.imgur.com/tb5bc8O.jpeg",
-        description: "Gigantic warrior",
+        description: "Fierce carry who strikes together with a animal companion and gains bonus gold from kills.",
         lore: "Unstoppable force",
-        primaryStat: "Strength",
+        primaryStat: "Agility",
         stats: [""],
         faction: "Mechanisms",
         roles: ["Carry", "Ranged"],
@@ -505,12 +509,12 @@ let Characters = [
         thumbnail: "https://i.imgur.com/AWMvzoM.jpeg",
         thumbnailAlt: "Image of The Example",
         image: "https://i.imgur.com/AWMvzoM.jpeg",
-        description: "Powerful sorcerer",
+        description: "Tricky caster with powerful area control abilities. Can summon a ship to aid her in battle.",
         lore: "Weaves powerful magic",
         primaryStat: "Intelligence",
         stats: [""],
-        faction: "Mechanisms",
-        roles: ["Carry", "Ranged"],
+        faction: "The Abyss",
+        roles: ["Carry", "Ranged", "Caster"],
         abilities: [
             {
                 abilityid: 0,
@@ -552,12 +556,12 @@ let Characters = [
         thumbnail: "https://i.imgur.com/8qZR9HN.jpeg",
         thumbnailAlt: "Image of The Example",
         image: "https://i.imgur.com/8qZR9HN.jpeg",
-        description: "Unbreakable defender",
+        description: "Indomitable fighter who chases down enemies with relentless fury.",
         lore: "Fights with resilience",
         primaryStat: "Strength",
         stats: [""],
-        faction: "Mechanisms",
-        roles: ["Carry", "Ranged"],
+        faction: "Void Whisperers",
+        roles: ["Fighter", "Melee", "Off-Tank"],
         abilities: [
             {
                 abilityid: 0,
@@ -690,12 +694,12 @@ let Characters = [
         slug: "collector",
         thumbnail: "https://i.imgur.com/dkDcLz4.jpeg",
         image: "https://i.imgur.com/dkDcLz4.jpeg",
-        description: "Cunning strategist",
+        description: "Adept duelist who can switch between close quarter brawling and ranged casting.",
         lore: "Outsmarts enemies",
-        primaryStat: "Intelligence",
+        primaryStat: "Strength/Intelligence",
         stats: [""],
-        faction: "Mechanisms",
-        roles: ["Tank","Carry","Melee"],
+        faction: "League of Valor",
+        roles: ["Tank","Melee", "Caster", "Mage"],
         abilities: [
             {
                 abilityid: 0,
@@ -874,11 +878,11 @@ let Characters = [
         slug: "ember",
         thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
         image: "https://i.imgur.com/PiplQc2.jpeg",
-        description: "",
+        description: "Stealth assassin with critical strike capabilities and the ability to escape danger.",
         lore: "N/A",
-        primaryStat: "",
+        primaryStat: "Agility",
         stats: [""],
-        faction: " ",
+        faction: "Inferno Crusade",
         roles: [""],
         abilities: [
             {
@@ -920,12 +924,12 @@ let Characters = [
         slug: "eternal-revenant",
         thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
         image: "https://i.imgur.com/U7m60tT.jpeg",
-        description: "",
+        description: "Life draining tank with the ability to revive himself upon death.",
         lore: "N/A",
-        primaryStat: "",
+        primaryStat: "Intelligence",
         stats: [""],
-        faction: " ",
-        roles: [""],
+        faction: "Void Whisperers",
+        roles: ["Tank", "Melee"],
         abilities: [
             {
                 abilityid: 0,
@@ -966,12 +970,12 @@ let Characters = [
         slug: "felmage",
         thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
         image: "https://i.imgur.com/P4OMXnN.jpeg",
-        description: "",
+        description: "Area of denial mage, adept at locking down enemies and dealing damage over time while healing allies.",
         lore: "N/A",
-        primaryStat: "",
-        stats: [""],
-        faction: " ",
-        roles: [""],
+        primaryStat: "Intelligence",
+        stats: ["Intelligence"],
+        faction: "League of Valor",
+        roles: ["Mage", "Support", "Crowd Control"],
         abilities: [
             {
                 abilityid: 0,
@@ -1012,12 +1016,12 @@ let Characters = [
         slug: "flame-king",
         thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
         image: "https://i.imgur.com/jT9hJUw.jpeg",
-        description: "",
+        description: "Mystical mage with high base damage and area of effect abilities.",
         lore: "N/A",
-        primaryStat: "",
+        primaryStat: "Strength",
         stats: [""],
-        faction: " ",
-        roles: [""],
+        faction: "Inferno Crusade",
+        roles: ["Mage", "Caster", "Support"],
         abilities: [
             {
                 abilityid: 0,
@@ -1058,12 +1062,12 @@ let Characters = [
         slug: "flamesickle",
         thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
         image: "https://i.imgur.com/41kuv1t.jpeg",
-        description: "",
+        description: "Cunning mage with the ability to steal spells and use area of denial abilities.",
         lore: "N/A",
-        primaryStat: "",
+        primaryStat: "Intelligence",
         stats: [""],
-        faction: " ",
-        roles: [""],
+        faction: "Inferno Crusade",
+        roles: ["Mage", "Ranged", "Crowd Control"],
         abilities: [
             {
                 abilityid: 0,
@@ -1104,12 +1108,12 @@ let Characters = [
         slug: "aspect-of-nature",
         thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
         image: "https://i.imgur.com/IvUamHu.jpeg",
-        description: "",
+        description: "Powerful duelist with the ability to take on different stances, each changing his playstyle.",
         lore: "N/A",
-        primaryStat: "",
+        primaryStat: "Agility",
         stats: [""],
-        faction: " ",
-        roles: [""],
+        faction: "Gaia's Guard",
+        roles: ["Carry", "Duelist", "Melee"],
         abilities: [
             {
                 abilityid: 0,
@@ -1150,11 +1154,11 @@ let Characters = [
         slug: "gill",
         thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
         image: "https://i.imgur.com/eATW3To.jpeg",
-        description: "",
+        description: "Cunning Tank with the ability to shrug off damage while locking down enemies.",
         lore: "N/A",
-        primaryStat: "",
+        primaryStat: "Strength",
         stats: [""],
-        faction: " ",
+        faction: "League of Valor",
         roles: [""],
         abilities: [
             {
@@ -1196,12 +1200,12 @@ let Characters = [
         slug: "golden-conqueror",
         thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
         image: "https://i.imgur.com/R9YP6fC.jpeg",
-        description: "",
+        description: "Casting duelist who gains bonuses the more spells he casts.",
         lore: "N/A",
-        primaryStat: "",
+        primaryStat: "Agility",
         stats: [""],
-        faction: " ",
-        roles: [""],
+        faction: "League of Valor",
+        roles: ["Carry", "Duelist", "Caster"],
         abilities: [
             {
                 abilityid: 0,
@@ -1240,14 +1244,14 @@ let Characters = [
         name: "",
         title: "Gunslinger",
         slug: "gunslinger",
-        thumbnail: "https://i.imgur.com/IvUamHu.jpeg",
+        thumbnail: "https://i.imgur.com/Tsc3tyM.jpeg",
         image: "https://i.imgur.com/Tsc3tyM.jpeg",
-        description: "",
+        description: "High damage ranged carry with the ability to deal massive damage to single targets.",
         lore: "N/A",
         primaryStat: "",
         stats: [""],
-        faction: " ",
-        roles: [""],
+        faction: "Mechanisms",
+        roles: ["Carry", "Ranged"],
         abilities: [
             {
                 abilityid: 0,
@@ -2847,4 +2851,5 @@ let Characters = [
     },
 ];
 
-export {Characters}
+export {CharactersUnused}
+

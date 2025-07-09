@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from 'react-router-dom';
-import { Characters } from '../Info/Characters.js';
+import Characters from '../Info/Commanders/A_index';
+import placeholder from '../img/placeholder.png';
 import './CommanderRender.css';
 
 function AbilityRender() {
@@ -16,16 +17,23 @@ function AbilityRender() {
             {character.abilities?.map((ability, i) => (
                 <div key={`ability-${i}`} className="flexRow">
                     <div className="flexColumn">
-                        <p>{ability.name}</p>
-                        {ability.thumbnail && (
-                            <img className="abilityThumbnail" src={ability.thumbnail} alt={`Ability${i}Thumbnail`} />
+                        <p className="CharacterRenderFont">{ability.name}</p>
+                        {ability.thumbnail ? (
+                            <img className="abilityThumbnail" src={ability.thumbnail} alt={`Ability${i}Thumbnail`} onError={(e) => { e.target.src = 'default-placeholder.png'; }}  />
+                        ):(
+                            <img className="abilityThumbnail" src={placeholder} alt="Placeholder"/>
                         )}
                     </div>
                     <div className="flexColumn">
                         <div className="flexRow">
                             <p>{ability.cost}</p>
                         </div>
-                        <p>{ability.disc}</p>
+                        {Ability.disc ? (                        
+                            <p onError={(e) => { e.target.src = 'unable to load disc'; }}
+                            >{ability.disc}</p>
+                            ):(
+                            <p>Ability discription empty</p>
+                            )}
                     </div>
                 </div>
             ))}

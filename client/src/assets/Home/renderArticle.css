@@ -1,6 +1,8 @@
 .ArticleContainer{
   display: flex;
   overflow: hidden;
+  background-color: var(--ArticleBGColor);
+
 }
 
 .ArticleBackGround{
@@ -20,6 +22,7 @@
 .ArticleTextContainer{
     padding: 20px;
     margin: 20px;
+    background-color: var(--ArticleBGColor);
 }
 
 .ArticleThumbnail {

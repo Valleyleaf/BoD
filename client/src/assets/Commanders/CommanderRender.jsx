@@ -1,8 +1,9 @@
 import { useParams } from 'react-router-dom';
-import {Characters} from '../Info/Characters.js';
+import Characters from '../Info/Commanders/A_index';
 import AbilityRender from './AbilityRender.jsx'
 import StatRenderer from './StatRenderer.jsx';
 import DifficultyRender from './DifficultyRender.jsx';
+import bioplaceholder from '../Info/LoreSheets/A_PlaceholderBio.json'
 import "./commanderRender.css";
 
 function CommanderDetail() {
@@ -23,8 +24,8 @@ function CommanderDetail() {
     <div className='testingFrame'>
       
       <div className="flexColumn">
-        <h1>{character.name}</h1>
-        <h2>{character.title}</h2>
+        <h1 className='CharacterRenderFont'>{character.name}</h1>
+        <h2 className='CharacterRenderFont'>{character.title}</h2>
         <DifficultyRender character={character}/>
       </div>
       <div className="flexRow">
@@ -35,12 +36,16 @@ function CommanderDetail() {
             </p>
                 <StatRenderer/>
                 <p>Faction: {character.faction}</p>
-                <p>Roles: {character.roles}</p>
-                <p>Backstory: {character.lore}</p>
+                <p>Roles: {character.roles.join(', ')}</p>
+                {character.lore ? (
+                  <p onError={(e) => { e.target.src = 'Commander Lore Object Error'; }}>{character.lore}</p>
+                ):(
+                  <p>{bioplaceholder}</p>
+                )}
           </div>
         </div>
       <div className="flexColumn">
-        <h1>Abilities</h1>
+        <h1 className='CharacterRenderFont'>Abilities</h1>
         <AbilityRender character={character}/>
       </div>
     </div>

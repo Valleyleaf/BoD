@@ -4,7 +4,7 @@ let topic = [
         "title": "How to Play",
         "thumbnail": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmnbirdatlas.org%2Fgraphics%2Fphotos%2FGRAP_SparkyStansaas_bba.jpg&f=1&nofb=1&ipt=7e41deee2dfaeb8dbab39f7873a42dfd57078c8ae6bbaac13f8b31991c2f36e4",
         "alt":"",
-        "content": ""
+        "content": "Smogli Bogli"
     },
     {
         "id": 1,

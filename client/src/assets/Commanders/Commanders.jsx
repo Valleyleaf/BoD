@@ -1,8 +1,9 @@
 import React from "react";
-import { Characters } from '../Info/Characters';
+import Characters from '../Info/Commanders/A_index';
 import { Link } from "react-router-dom";
+import placeholder from '../img/placeholder.png';
 import "./commanderRender.css";
-
+// import { joinCommanders } from "../Info/JoinCharacters";
 
 function Commanders() {
   const renderItems = () => {
@@ -10,13 +11,11 @@ function Commanders() {
       //Might need to change this if I want a search/filter functionality later.
       //For now, this will just render all commanders.
       <Link to={`/commanders/${data.slug}`} key={data.name} className='heroFrame comImg'>
-        <img
-          className='splashArt'
-          src={data.image}
-          alt={data.thumbnailAlt || data.name}
-          loading="lazy"
-          onError={(e) => { e.target.src = 'default-placeholder.png'; }}
-        />
+        {data.image ? (
+        <img className='splashArt' src={data.image} alt={data.thumbnailAlt || data.name} loading="lazy" onError={(e) => { e.target.src = 'default-placeholder.png'; }}/> 
+        ):(
+          <img className='splashArt' src={placeholder} alt="Placeholder"/>
+        )}
         <h2 className='hoverTitle'>{data.title}</h2>
       </Link>
     ));
