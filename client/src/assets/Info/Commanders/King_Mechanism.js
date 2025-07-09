@@ -1,50 +1,57 @@
+import KingMechanismBio from '../LoreSheets/KingMechanism.json'
+
 const King_Mechanism = {
   "id": 33,
-  "name": "",
+  "name": "Van",
   "title": "King Mechanism",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "king-mechanism",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/nanoexS.jpeg",
-  "description": "",
-  "lore": "N/A",
-  "primaryStat": "",
+  "description": "Brawler who enhances allied units in combat.",
+  "lore": KingMechanismBio,
+  "primaryStat": "Strength",
   "stats": [
-    ""
+    "18+(2.3)",
+    "16+(2.0)",
+    "14+(1.7)",
   ],
-  "faction": " ",
+  "faction": "Mechanism",
   "roles": [
-    ""
+    "Tank",
+    "Support",
+    "Brawler",
+    "Melee"
   ],
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Grip of the Tyrant",
+      "disc": "Causes nearby enemy units to lose armour.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Authority",
+      "disc": "Van strikes true with his hammer, dealing AoE damage ontop of his normal attacks. This is a toggle ability.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Hand of the King",
+      "disc": "Sends down a bolt of holy light at a global range. The target allied hit is healed, along with all adjacent allied units.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Make Way",
+      "disc": "Van leaps into the air, bringing the might of his hammer down at a target location, dealing damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "For your King",
+      "disc": "Summons two Royal guardsmen to fight alongside Van. The guardsmen have true sight, deal chaos damage and have divine armor.",
       "thumbnail": ""
     }
   ]
