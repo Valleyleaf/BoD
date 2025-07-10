@@ -4,6 +4,7 @@ import AbilityRender from './AbilityRender.jsx'
 import StatRenderer from './StatRenderer.jsx';
 import DifficultyRender from './DifficultyRender.jsx';
 import bioplaceholder from '../Info/LoreSheets/A_PlaceholderBio.json'
+import CommanderBio from './CommanderBioRender.jsx';
 import "./commanderRender.css";
 
 function CommanderDetail() {
@@ -15,14 +16,12 @@ function CommanderDetail() {
     Agility: "var(--agility-color)",
     Intelligence: "var(--intelligence-color)"
   };
-  //Remember to define colors in app.css later.
 
   if (!character) return <h2>Character "{decodedName}" not found.</h2>;
   
   return (
     //Add back button later.
     <div className='testingFrame'>
-      
       <div className="CommanderNamePlate">
         <h1 className='name CharacterRenderFont'>{character.name}</h1>
         <h2 className='title CharacterRenderFont'>The {character.title}</h2>
@@ -31,13 +30,15 @@ function CommanderDetail() {
       <div className="flexRow">
         <img className="DisplayImage" src={character.image} alt={character.name} />
           <div className="flexColumn">
-            <p style={{ color: attributeColors[character.primaryStat] || "black" }}>
-            Primary Attribute: {character.primaryStat}
-            </p>
+            <div className="flexRow">
+              <h2>Primary Attribute: </h2>
+              <p style={{ color: attributeColors[character.primaryStat] || "black" }}>
+              {character.primaryStat}
+              </p>
+            </div>
                 <StatRenderer/>
                 <p>Faction: {character.faction}</p>
                 <p>Roles: {character.roles.join(', ')}</p>
-
           </div>
         </div>
       <div className="flexColumn">
@@ -45,14 +46,20 @@ function CommanderDetail() {
         <AbilityRender character={character}/>
       </div>
       <div>
+        <CommanderBio/>
+        <h2>BREAK REMOVE BELOW IF ABOVE WORKS</h2>
         <h2 className='Bio'>Lore:</h2>
+        {/* If: Does Lore.bio exist and is it an array, if so do*/}
         {character.lore && Array.isArray(character.lore.bio) ? (
           <div className="BioFrame flexColumn">
-            {character.lore.bio.map((p, i) => <p key={i}>{p}</p>)}
+            {character.lore.bio.map((text, i) => <p key={i}>{text}</p>)}
+            {/* Changed p to text for easier read */}
           </div>
+          // Else if: Lore.bio is a string, render it as a single block (example: N/A).
         ) : character.lore && typeof character.lore === "string" ? (
           <div className="BioFrame">{character.lore}</div>
         ) : (
+          //Else: If nothing is available, use the placeholder.
           <div className="BioFrame">{bioplaceholder.bio ? bioplaceholder.bio.join('\n') : "No lore available."}</div>
         )}
       </div>
