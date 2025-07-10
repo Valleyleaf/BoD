@@ -20,8 +20,12 @@ function CommanderDetail() {
   if (!character) return <h2>Character "{decodedName}" not found.</h2>;
   
   return (
-    //Add back button later.
     <div className='testingFrame'>
+      <Link 
+          to="/Commanders"
+          className='buttonClass'>
+          Back to Commanders
+      </Link>
       <div className="CommanderNamePlate">
         <h1 className='name CharacterRenderFont'>{character.name}</h1>
         <h2 className='title CharacterRenderFont'>The {character.title}</h2>

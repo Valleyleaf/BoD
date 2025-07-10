@@ -22,7 +22,8 @@ export default function Home() {
                 </div>
                 <div>
                     <Link to="/commanders" style={{ textDecoration: "none", color: "inherit" }}>   
-                        <h2 className='HomeTitle'>60+ Commanders to play</h2>
+                        <h2 className='Bio'>To Battle.</h2>
+                        <p>With over 60 Commanders and counting. Your playstyle is represented on the battlefield.</p>
                         <h2>Insert hero carousel here. Copy from Commanders but use Character.Thumbnail, render 3 rows stacked ontop of each other</h2>
                         <h2>Insert Highlight carousel here. What that is, I do not yet know. Screenshots?</h2>
                     </Link>
