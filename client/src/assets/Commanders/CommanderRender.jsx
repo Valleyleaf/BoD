@@ -23,9 +23,9 @@ function CommanderDetail() {
     //Add back button later.
     <div className='testingFrame'>
       
-      <div className="flexColumn">
-        <h1 className='CharacterRenderFont'>{character.name}</h1>
-        <h2 className='CharacterRenderFont'>{character.title}</h2>
+      <div className="CommanderNamePlate">
+        <h1 className='name CharacterRenderFont'>{character.name}</h1>
+        <h2 className='title CharacterRenderFont'>The {character.title}</h2>
         <DifficultyRender character={character}/>
       </div>
       <div className="flexRow">
@@ -37,16 +37,24 @@ function CommanderDetail() {
                 <StatRenderer/>
                 <p>Faction: {character.faction}</p>
                 <p>Roles: {character.roles.join(', ')}</p>
-                {character.lore ? (
-                  <p onError={(e) => { e.target.src = 'Commander Lore Object Error'; }}>{character.lore}</p>
-                ):(
-                  <p>{bioplaceholder}</p>
-                )}
+
           </div>
         </div>
       <div className="flexColumn">
         <h1 className='CharacterRenderFont'>Abilities</h1>
         <AbilityRender character={character}/>
+      </div>
+      <div>
+        <h2 className='Bio'>Lore:</h2>
+        {character.lore && Array.isArray(character.lore.bio) ? (
+          <div className="BioFrame flexColumn">
+            {character.lore.bio.map((p, i) => <p key={i}>{p}</p>)}
+          </div>
+        ) : character.lore && typeof character.lore === "string" ? (
+          <div className="BioFrame">{character.lore}</div>
+        ) : (
+          <div className="BioFrame">{bioplaceholder.bio ? bioplaceholder.bio.join('\n') : "No lore available."}</div>
+        )}
       </div>
     </div>
   );

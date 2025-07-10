@@ -1,4 +1,4 @@
-import GoldenConquerorLore from '../LoreSheets/GoldenConquerorLore.json';
+import GoldenConquerorLore from '../LoreSheets/GoldenConquerorBio.json';
 
 const Golden_Conqueror = {
   "id": 26,

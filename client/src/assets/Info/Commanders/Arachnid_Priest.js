@@ -7,7 +7,7 @@ const Arachnid_Priest = {
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/IvUamHu.jpeg",
   "description": "A cunning mage with strong damage over time abilities",
-  "lore": "N/A",
+  "lore": "",
   "primaryStat": "Intelligence",
   "stats": [
     ""
