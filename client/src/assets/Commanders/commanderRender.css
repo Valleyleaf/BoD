@@ -162,7 +162,7 @@
 .splashArt{
     display: block;
     object-fit: cover;
-    width: auto;
+    width: 200px;
     height: 300px;
     border: solid 1px rgb(174, 232, 240);
 }
@@ -170,7 +170,7 @@
 .splashArt:hover{
     display: block;
     object-fit: cover;
-    width: auto;
+    width: 210px;
     height: 300px;
     border: solid 1px rgb(174, 232, 240);
     transition: ease 0.3s;
