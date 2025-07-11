@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border-top: solid 5px black;
+    border-bottom: solid 5px rgb(255, 255, 255);
     font-size: 20px;
 }
 
@@ -11,13 +11,12 @@
     width: 25%;
     height: 30px;
     margin: 0px 2px 2px 2px;
-    border-bottom: 5px solid black ;
     transition: ease 0.3s;
 }
 
 .buttonClass:hover{
-    background-color: var(--button-color);
-    color: rgb(78, 234, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     width: 25%;
     height: 30px;
     margin: 0px 2px 2px 2px;

@@ -21,7 +21,7 @@ function CommanderDetail() {
   if (!character) return <h2>Character "{decodedName}" not found.</h2>;
   
   return (
-    <div className='testingFrame'>
+    <div className=''>
       <Link 
           to="/Commanders"
           className='buttonClass'>
@@ -34,11 +34,12 @@ function CommanderDetail() {
       </div>
       <div className="flexRow">
         <img className="DisplayImage" src={character.image} alt={character.name} />
-          <div className="flexColumn">
-            <div className="flexRow">
-              <h2>Primary Attribute: </h2>
-              <p style={{ color: attributeColors[character.primaryStat] || "black" }}>
-              {character.primaryStat}
+          <div className="flexColumn CommanderSideProfile">
+            <div className="flexRow center-content">
+              <h2>Primary:&nbsp;</h2>
+              {/* &nbsp; = Space */}
+              <p className='PrimaryStat' style={{ color: attributeColors[character.primaryStat] || "black" }}>
+                  {character.primaryStat}
               </p>
             </div>
                 <StatRenderer/>
