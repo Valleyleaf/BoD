@@ -6,7 +6,7 @@ import './index.css'
 import Home from './assets/Home/Home.jsx'
 import Commanders from './assets/Commanders/Commanders.jsx'
 import Game from './assets/Game/Game.jsx'
-import News from './assets/Home/ArticleMain.jsx'
+import News from './assets/RenderArticle/ArticleMain.jsx'
 import PatchNotes from './assets/PatchNotes/PatchNotePage.jsx'
 import CommanderRender from './assets/Commanders/CommanderRender';
 

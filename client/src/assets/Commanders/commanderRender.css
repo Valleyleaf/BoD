@@ -20,13 +20,9 @@
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    width: 100%;
-    font-size: 102px;
-    color: #ffffff;
-    text-align: center;
-    margin: 10px;
-    padding: 20px;
-    border: 1px solid #ffffff;
+    margin: 0px;
+    padding: 0px;
+    color: #44eeee;
 }
 
 .attributeIcon{
@@ -35,13 +31,24 @@
     margin-right: 5px;
 }
 
+.CommanderNamePlate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+}
+
 .title{
-    font-size: 30px;
+    font-size: 20px;
     color: #ffffff;
     text-align: center;
     margin: 0px;
     padding: 0px;
-    border: 1px solid #ffffff;
 }
 
 .CommanderRenderSecond{
@@ -185,36 +192,6 @@
     transform: translateZ(100px);
 }
 
-/* .comList .comImg:hover + *{
-    filter: brightness(0.6);
-    transform: translateZ(150px) rotateY(40deg);
-}
-
-.comList .comImg:hover + * + *{
-    filter: brightness(0.8);
-    transform: translateZ(70px) rotateY(20deg);
-}
-
-.comList .comImg:hover + * + * + *{
-    filter: brightness(0.9);
-    transform: translateZ(30px) rotateY(10deg);
-}
-
-.comList .comImg:has(+ *:hover){
-    filter: brightness(0.6);
-    transform: translateZ(150px) rotateY(-40deg);
-}
-
-.comList .comImg:has(+ * + *:hover){
-    filter: brightness(0.6);
-    transform: translateZ(70px) rotateY(-20deg);
-}
-
-.comList .comImg:has(+ * + * + *:hover){
-    filter: brightness(0.6);
-    transform: translateZ(30px) rotateY(-10deg);
-} */
-
 .hoverTitle {
     position: absolute;
     top: 50%;
@@ -252,7 +229,6 @@
   
 .CharacterRenderFont{
     font-family: "Bebas Neue", sans-serif;
-    margin: 10px;
 }
 
 .statsText{
@@ -273,4 +249,20 @@
     height: 100px;
     margin: 10px;
     padding: 10px;
+  }
+
+  .Bio{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 2px solid #ffffff;
+  }
+
+  .BioFrame{
+    display: flex;
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-bottom: 2px solid #ffffff;
   }

@@ -28,3 +28,5 @@ function StatRenderer() {
 }
 
 export default StatRenderer;
+
+//This does not feel like the best way of doing this, but it works for now.

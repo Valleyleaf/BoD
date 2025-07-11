@@ -1,9 +1,11 @@
 import { useParams } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 import Characters from '../Info/Commanders/A_index';
 import AbilityRender from './AbilityRender.jsx'
 import StatRenderer from './StatRenderer.jsx';
 import DifficultyRender from './DifficultyRender.jsx';
 import bioplaceholder from '../Info/LoreSheets/A_PlaceholderBio.json'
+import CommanderBio from './CommanderBioRender.jsx';
 import "./commanderRender.css";
 
 function CommanderDetail() {
@@ -15,38 +17,41 @@ function CommanderDetail() {
     Agility: "var(--agility-color)",
     Intelligence: "var(--intelligence-color)"
   };
-  //Remember to define colors in app.css later.
 
   if (!character) return <h2>Character "{decodedName}" not found.</h2>;
   
   return (
-    //Add back button later.
     <div className='testingFrame'>
-      
-      <div className="flexColumn">
-        <h1 className='CharacterRenderFont'>{character.name}</h1>
-        <h2 className='CharacterRenderFont'>{character.title}</h2>
+      <Link 
+          to="/Commanders"
+          className='buttonClass'>
+          Back to Commanders
+      </Link>
+      <div className="CommanderNamePlate">
+        <h1 className='name CharacterRenderFont'>{character.name}</h1>
+        <h2 className='title CharacterRenderFont'>The {character.title}</h2>
         <DifficultyRender character={character}/>
       </div>
       <div className="flexRow">
         <img className="DisplayImage" src={character.image} alt={character.name} />
           <div className="flexColumn">
-            <p style={{ color: attributeColors[character.primaryStat] || "black" }}>
-            Primary Attribute: {character.primaryStat}
-            </p>
+            <div className="flexRow">
+              <h2>Primary Attribute: </h2>
+              <p style={{ color: attributeColors[character.primaryStat] || "black" }}>
+              {character.primaryStat}
+              </p>
+            </div>
                 <StatRenderer/>
                 <p>Faction: {character.faction}</p>
                 <p>Roles: {character.roles.join(', ')}</p>
-                {character.lore ? (
-                  <p onError={(e) => { e.target.src = 'Commander Lore Object Error'; }}>{character.lore}</p>
-                ):(
-                  <p>{bioplaceholder}</p>
-                )}
           </div>
         </div>
       <div className="flexColumn">
         <h1 className='CharacterRenderFont'>Abilities</h1>
         <AbilityRender character={character}/>
+      </div>
+      <div>
+        <CommanderBio/>
       </div>
     </div>
   );

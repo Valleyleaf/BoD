@@ -22,11 +22,16 @@ function Commanders() {
   };
 
   return (
-    <div className="fade-slide-up">
-      <div className='roster comList'>
-        {renderItems()}
+    <div className='flexColumn'>
+      <h2 className='Bio'>To Battle.</h2>
+      <p>With over 60 Commanders and counting. Your playstyle is represented on the battlefield.</p>
+      <div className="fade-slide-up">
+        <div className='roster comList'>
+          {renderItems()}
+        </div>
       </div>
     </div>
+
   );
 }
 
