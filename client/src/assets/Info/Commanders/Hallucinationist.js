@@ -43,8 +43,8 @@ const Hallucinationist = {
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Mass Hallucination",
+      "disc": "The Hallucinationist creates a mass illusion, summoning mirror images of all units in an area.",
       "thumbnail": ""
     }
   ]

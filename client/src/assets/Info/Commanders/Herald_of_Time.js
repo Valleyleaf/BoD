@@ -1,6 +1,6 @@
 const Herald_of_Time = {
   "id": 30,
-  "name": "",
+  "name": "Ur-12",
   "title": "Herald of Time",
   "difficulty": 3,
   "slug": "herald-of-time",
@@ -31,7 +31,7 @@ const Herald_of_Time = {
     },
     {
       "abilityid": 2,
-      "name": "",
+      "name": "Spear of Time",
       "disc": "",
       "thumbnail": ""
     },

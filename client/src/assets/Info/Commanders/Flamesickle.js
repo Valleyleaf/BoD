@@ -1,6 +1,6 @@
 const Flamesickle = {
   "id": 23,
-  "name": "",
+  "name": "David Marrow",
   "title": "Flamesickle",
   "difficulty": 3,
   "slug": "flamesickle",

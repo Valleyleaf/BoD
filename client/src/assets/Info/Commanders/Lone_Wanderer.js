@@ -1,6 +1,6 @@
 const Lone_Wanderer = {
   "id": 35,
-  "name": "",
+  "name": "Peten",
   "title": "Lone Wanderer",
   "difficulty": 3,
   "slug": "lone-wanderer",

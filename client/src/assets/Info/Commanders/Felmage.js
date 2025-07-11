@@ -1,6 +1,6 @@
 const Felmage = {
   "id": 21,
-  "name": "",
+  "name": "Ul",
   "title": "Felmage",
   "difficulty": 3,
   "slug": "felmage",

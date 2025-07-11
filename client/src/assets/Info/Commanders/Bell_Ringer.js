@@ -22,20 +22,20 @@ const Bell_Ringer = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Sinners Blade",
+      "disc": "Striking a target slows them for a short duration and enables bonus effects for Mephisto's abilities.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Devour Life",
+      "disc": "Steals a % amount of health from a targeted unit.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Salt the Wound",
+      "disc": "Throws a bolt of hellfire at a target,",
       "thumbnail": ""
     },
     {
@@ -46,8 +46,8 @@ const Bell_Ringer = {
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "For Whom the Bell Tolls",
+      "disc": "Mephisto rings his bell, opening the sky to rain down brimstone over a large area, dealing damage to all enemies inside.",
       "thumbnail": ""
     }
   ]

@@ -1,6 +1,6 @@
 const Gill = {
   "id": 25,
-  "name": "",
+  "name": "Gill",
   "title": "Gill",
   "difficulty": 3,
   "slug": "gill",

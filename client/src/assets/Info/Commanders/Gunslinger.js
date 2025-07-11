@@ -1,6 +1,6 @@
 const Gunslinger = {
   "id": 27,
-  "name": "",
+  "name": "Jurvin Brownbeard",
   "title": "Gunslinger",
   "difficulty": 3,
   "slug": "gunslinger",

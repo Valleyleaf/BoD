@@ -1,6 +1,6 @@
 const Prince_Mechanism = {
   "id": 44,
-  "name": "",
+  "name": "Edgarim",
   "title": "Prince Mechanism",
   "difficulty": 3,
   "slug": "prince-mechanism",
@@ -43,8 +43,8 @@ const Prince_Mechanism = {
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Unstable Thermonuclear Warhammer",
+      "disc": "The Prince Mechanism charges his warhammer with unstable energy. His next attack deals massive damage to all enemies, and himself in a large area around him.",
       "thumbnail": ""
     }
   ]
