@@ -1,7 +1,7 @@
 const Gill = {
   "id": 25,
   "name": "Gill",
-  "title": "Gill",
+  "title": "Highborn",
   "difficulty": 3,
   "slug": "gill",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",

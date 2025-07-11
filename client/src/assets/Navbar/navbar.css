@@ -6,7 +6,7 @@
     font-size: 20px;
 }
 
-.buttonClass{
+.NavbuttonClass{
     color: white;
     width: 25%;
     height: 30px;
@@ -14,7 +14,7 @@
     transition: ease 0.3s;
 }
 
-.buttonClass:hover{
+.NavbuttonClass:hover{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     width: 25%;

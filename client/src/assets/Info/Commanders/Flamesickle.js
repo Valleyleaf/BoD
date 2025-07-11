@@ -39,7 +39,7 @@ const Flamesickle = {
     },
     {
       "abilityid": 3,
-      "name": "Cryocentre",
+      "name": "Cryocenter",
       "disc": "Sends down three waves of ice at a target location, each dealing increasing damage as it collapses inwards",
       "thumbnail": ""
     },

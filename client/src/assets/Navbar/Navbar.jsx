@@ -7,31 +7,37 @@ export default function Navbar(){
             <div className="navbarClass">
                 <Link 
                     to="/"
-                    className='buttonClass'>
+                    className='NavbuttonClass'>
                     Home
                 </Link>
 
                 <Link 
                     to="/News"
-                    className='buttonClass'>
+                    className='NavbuttonClass'>
                     News
                 </Link>
 
                 <Link 
                     to="/Commanders"
-                    className='buttonClass'>
+                    className='NavbuttonClass'>
                     Commanders
                 </Link>
 
                 <Link 
+                    to="/Items"
+                    className='NavbuttonClass'>
+                    Items
+                </Link>
+
+                <Link 
                     to="/Game"
-                    className='buttonClass'>
+                    className='NavbuttonClass'>
                     Game
                 </Link>
 
                 <Link 
                     to="/PatchNotes"
-                    className='buttonClass'>
+                    className='NavbuttonClass'>
                     Patch Notes
                 </Link>
             </div>
