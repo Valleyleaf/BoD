@@ -22,7 +22,10 @@
     justify-content: flex-start;
     margin: 0px;
     padding: 0px;
-    color: #44eeee;
+    color: #ffffff;
+    font-size: 50px;
+    opacity: 0;
+    animation: fadeInLeft 1s ease-out forwards;
 }
 
 .attributeIcon{
@@ -34,7 +37,7 @@
 .CommanderNamePlate{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     height: 100%;
     border-radius: 10px;
@@ -42,11 +45,15 @@
 }
 
 .title{
-    font-size: 20px;
+    font-size: 120px;
     color: #ffffff;
     text-align: center;
-    margin: 0px;
+    margin-top: -50px;
+    margin-bottom: -45px;
     padding: 0px;
+    opacity: 0;
+    animation: fadeInLeft 1s ease-out forwards;
+
 }
 
 .CommanderRenderSecond{
@@ -65,6 +72,7 @@
     -webkit-mask-image: radial-gradient(circle, white 50%, transparent 100%);
     mask-image: radial-gradient(circle, white 20%, transparent 100%);
     background: #000;
+    animation: fadeIn 1s ease-out forwards;
 }
 
 .CommanderSideProfile{
@@ -79,12 +87,18 @@
     justify-content: center;
 }
 
-.abilityRenderGrid{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-column-gap: 35px;
-    grid-row-gap: 1px;
+.AbilityBox{
+  width: 100%;
+  margin: 20px;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.Ability{
+  margin: 2px;
+  padding: 2%;
+  background-color: #252525;
+  background: linear-gradient(to right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0) 88%);
+
 }
 
 .PrimaryStat{
@@ -101,16 +115,24 @@
 }
 
 .abilityTitle{
-    
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
 }
 
 .abilityInfo{
-
+  text-align: left;
+  margin: 1%;
 }
 
 .abilityThumbnail{
     width: 80px;
-    height: auto
+    height: auto;
+    border: solid 1px rgb(174, 232, 240);
 }
 
 .abilityVideo{
@@ -120,9 +142,8 @@
 
 
   .DifficultyIcon{
-    width: 25px;
+    width: 55px;
     height: auto;
-    margin: 3px;
     transition: transform 0.3s ease;
   }
 
@@ -293,3 +314,24 @@
     padding: 20px;
     border-bottom: 2px solid #ffffff;
   }
+
+  @keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+  @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+
+  }
+}

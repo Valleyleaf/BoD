@@ -1,6 +1,6 @@
 import react from 'react';
-import ItemsRender from './ItemsRender.jsx';
-import './ItemsMain.css';
+import ItemsRenderer from './ItemsRenderer.jsx';
+import './items.css';
 
 
 function ItemsMain() {
@@ -12,7 +12,7 @@ function ItemsMain() {
             <p>Each item has unique properties and can be combined with others to create powerful synergies.</p>
             <p>Explore the items to find the best combinations for your playstyle!</p>
         </div>
-        <ItemsRender />
+        <ItemsRenderer />
     </div>
   );
 }

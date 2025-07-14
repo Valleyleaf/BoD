@@ -1,8 +1,8 @@
 import react from 'react';
-import {link} from 'react-router-dom';
-import { useParams, useEffect, useState } from 'react-router-dom';
-import Items from './Items.js';
-import './ItemsMain.css';
+import {Link} from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import {strengthItems, } from './Items.js';
+import './items.css';
 
 function ItemsRenderer(){
 const { name } = useParams();

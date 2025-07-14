@@ -52,3 +52,5 @@ const bootItems = [
     ] 
     },
 ]
+
+export{strengthItems, agilityItems, intelligenceItems, utilityItems, bootItems};

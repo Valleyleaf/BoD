@@ -18,7 +18,7 @@ function DifficultyRender() {
               <img
                 className="DifficultyIcon"
                 key={i}
-                src="https://media.tenor.com/pXEDrZV2s4QAAAAj/star-spinning.gif"
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freepnglogos.com%2Fuploads%2Fstar-png%2Fstar-png-transparent-image-pngpix-5.png&f=1&nofb=1&ipt=522d07ec9aeee2658ce812a36f98270345e7925864f6296f11529463e3c72428"
                 alt={`Difficulty Star ${i + 1}`}
               />
             ))
@@ -26,7 +26,7 @@ function DifficultyRender() {
             <span>
                 <img 
                 className="DifficultyIcon" 
-                src="https://media.tenor.com/j8a8qg23pIUAAAAj/star.gif" 
+                src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freepnglogos.com%2Fuploads%2Fstar-png%2Fstar-png-transparent-image-pngpix-5.png&f=1&nofb=1&ipt=522d07ec9aeee2658ce812a36f98270345e7925864f6296f11529463e3c72428" 
                 alt="No Difficulty" 
                 />
             </span>
