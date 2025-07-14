@@ -1,34 +1,16 @@
-import {MongoClient, ServerApiVersion} from "mongodb"
+import mongoose from "mongoose";
 import dotenv from "dotenv";
-
 dotenv.config();
-console.log("ATLAS_URI from .env:", process.env.ATLAS_URI);
-console.log("Working directory:", process.cwd());
-//Sets up connection via env file. Sets paramiters.
+
 
 const uri = process.env.ATLAS_URI;
-//Above is a problem, fix.
-const client = new MongoClient(uri, {
-    serverApi:{
-        version: ServerApiVersion.v1,
-        strict: true,
-        deprecationErrors: true,
-    }
-});
 
-
-//Checks to ensure connection.
-try{
-    await client.connect();
-    await client.db("admin").command({ ping: 1});
-    console.log("Ping successful. DB connected");
-} catch(err){
-    console.error("Error connecting to the database:", err.message);
+export const connectDB = async () => {
+  try {
+    await mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+    console.log("Serverside Connected");
+  } catch (err) {
+    console.error("Connection error:", err.message);
     process.exit(1);
-}
-
-let db = client.db("Commanders");
-
-export default db;
-
-//Will this be needed?
+  }
+};
