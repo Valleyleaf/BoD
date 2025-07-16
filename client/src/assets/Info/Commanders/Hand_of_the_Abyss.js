@@ -1,6 +1,6 @@
 const Hand_of_the_Abyss = {
   "id": 29,
-  "name": "",
+  "name": "SmokeOmen",
   "title": "Hand of the Abyss",
   "difficulty": 3,
   "slug": "hand-of-the-abyss",

@@ -1,6 +1,6 @@
 const Flame_King = {
   "id": 22,
-  "name": "",
+  "name": "Karl the Everburning",
   "title": "Flame King",
   "difficulty": 3,
   "slug": "flame-king",

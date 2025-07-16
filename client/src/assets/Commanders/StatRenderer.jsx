@@ -15,10 +15,9 @@ function StatRenderer() {
     if (!character) return <h2>Character stats "{decodedName}" data is missing.</h2>;
 
     return (
-        <div className="flexColumn">
-            <p>Base Stats:</p>
+        <div className="flexRow">
             {attributeIcons.map((icon, i) => (
-                <div key={i} className="flexRow center-content">
+                <div key={i} className="flexRow statRenderBox">
                     <img className='attributeIcon' src={icon} alt={["Strength", "Agility", "Intelligence"][i]} />
                     <h2 className="statsText">{character.stats[i]}</h2>
                 </div>

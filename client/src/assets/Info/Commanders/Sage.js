@@ -1,6 +1,6 @@
 const Sage = {
   "id": 47,
-  "name": "",
+  "name": "Terrorbane",
   "title": "Sage",
   "difficulty": 3,
   "slug": "sage",

@@ -12,7 +12,7 @@ const Vengence_Incarnate = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "The Abyss",
   "roles": [
     ""
   ],

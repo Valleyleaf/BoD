@@ -1,6 +1,6 @@
 const Sea_Wraith = {
   "id": 52,
-  "name": "",
+  "name": "Zeek",
   "title": "Sea Wraith",
   "difficulty": 3,
   "slug": "sea-wraith",

@@ -1,6 +1,6 @@
 const Salvador = {
   "id": 49,
-  "name": "",
+  "name": "Salvador",
   "title": "Salvador",
   "difficulty": 3,
   "slug": "salvador",

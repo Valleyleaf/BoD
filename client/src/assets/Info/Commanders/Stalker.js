@@ -19,32 +19,32 @@ const Stalker = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Splinter",
+      "disc": "Causes a % of all damage dealt to the stalker to be returned to the attacker as damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Shiver and Shake",
+      "disc": "The Stalker stealths, gaining increased movement speed. The Stalker can then re-activate this ability to end the stealth and stun all enemies in a small area around him.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Malevolence",
+      "disc": "The Stalker pins down a target, suppressing them and dealing damage over time.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Harvest",
+      "disc": "Upon killing an enemy, the Stalker gains bonus permanent Intelligence.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Cryptic Blades",
+      "disc": "The Stalker enhances his blades, dealing bonus damage on each attack.",
       "thumbnail": ""
     }
   ]

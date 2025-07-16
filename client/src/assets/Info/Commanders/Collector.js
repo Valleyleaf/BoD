@@ -49,6 +49,30 @@ const Collector = {
       "name": "",
       "disc": "",
       "thumbnail": ""
+    },
+        {
+      "abilityid": 5,
+      "name": "",
+      "disc": "",
+      "thumbnail": ""
+    },
+    {
+      "abilityid": 6,
+      "name": "",
+      "disc": "",
+      "thumbnail": ""
+    },
+    {
+      "abilityid": 7,
+      "name": "",
+      "disc": "",
+      "thumbnail": ""
+    },
+    {
+      "abilityid": 8,
+      "name": "",
+      "disc": "",
+      "thumbnail": ""
     }
   ]
 };

@@ -25,13 +25,13 @@ const Golden_Conqueror = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "End of Kin",
+      "disc": "Applies a stacking damage over time effect upon attack.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "End of Kin",
+      "name": "Plaguebringer",
       "disc": "Sends out a cursed bolt of energy, dealing damage to a single target hit.",
       "thumbnail": ""
     },

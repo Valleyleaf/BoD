@@ -12,7 +12,7 @@ const Volcano_Lord = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "Inferno Crusade",
   "roles": [
     ""
   ],

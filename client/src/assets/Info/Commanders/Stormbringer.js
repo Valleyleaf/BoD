@@ -12,7 +12,7 @@ const Stormbringer = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "Mechanisms",
   "roles": [
     ""
   ],

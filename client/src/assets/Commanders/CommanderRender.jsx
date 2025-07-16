@@ -21,35 +21,35 @@ function CommanderDetail() {
   if (!character) return <h2>Character "{decodedName}" not found.</h2>;
   
   return (
-    <div className='testingFrame'>
-      <Link 
-          to="/Commanders"
-          className='buttonClass'>
-          Back to Commanders
-      </Link>
+    <div className=''>
       <div className="CommanderNamePlate">
         <h1 className='name CharacterRenderFont'>{character.name}</h1>
         <h2 className='title CharacterRenderFont'>The {character.title}</h2>
         <DifficultyRender character={character}/>
       </div>
       <div className="flexRow">
+        <div className='flexColumn'>
         <img className="DisplayImage" src={character.image} alt={character.name} />
-          <div className="flexColumn">
+          <div className="flexColumn CommanderSideProfile">
+          </div>
+          <div>
+            <StatRenderer/>
             <div className="flexRow">
-              <h2>Primary Attribute: </h2>
-              <p style={{ color: attributeColors[character.primaryStat] || "black" }}>
-              {character.primaryStat}
+              <h2>Primary:&nbsp;</h2>
+              {/* &nbsp; = Space */}
+              <p className='PrimaryStat' style={{ color: attributeColors[character.primaryStat] || "black" }}>
+                {character.primaryStat}
               </p>
             </div>
-                <StatRenderer/>
-                <p>Faction: {character.faction}</p>
-                <p>Roles: {character.roles.join(', ')}</p>
+              <p>Faction: {character.faction}</p>
+              <p>Roles: {character.roles.join(', ')}</p>
           </div>
         </div>
-      <div className="flexColumn">
+        <div className="flexColumn">
         <h1 className='CharacterRenderFont'>Abilities</h1>
         <AbilityRender character={character}/>
       </div>
+        </div>
       <div>
         <CommanderBio/>
       </div>

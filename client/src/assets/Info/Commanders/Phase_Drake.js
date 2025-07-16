@@ -1,6 +1,6 @@
 const Phase_Drake = {
   "id": 42,
-  "name": "",
+  "name": "Vip",
   "title": "Phase Drake",
   "difficulty": 3,
   "slug": "phase-drake",

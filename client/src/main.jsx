@@ -9,6 +9,7 @@ import Game from './assets/Game/Game.jsx'
 import News from './assets/RenderArticle/ArticleMain.jsx'
 import PatchNotes from './assets/PatchNotes/PatchNotePage.jsx'
 import CommanderRender from './assets/Commanders/CommanderRender';
+import Items from './assets/Items/ItemsMain.jsx'
 
 const router = createBrowserRouter([{
   path: '/',
@@ -24,6 +25,10 @@ const router = createBrowserRouter([{
     {
       path: 'game',
       element: <Game />,
+    },
+      {
+      path: 'Items',
+      element: <Items />,
     },
     {
       path: 'news',

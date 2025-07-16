@@ -12,7 +12,7 @@ const War_Master = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "Inferno Crusade",
   "roles": [
     ""
   ],

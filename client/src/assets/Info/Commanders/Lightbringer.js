@@ -1,6 +1,6 @@
 const Lightbringer = {
   "id": 34,
-  "name": "",
+  "name": "Tyrus",
   "title": "Lightbringer",
   "difficulty": 3,
   "slug": "lightbringer",

@@ -21,26 +21,26 @@ const Chrono_Shifter = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Mana Siphon",
+      "disc": "Upon killing an enemy, Minthera regains a set amount of mana.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Time Spike",
+      "disc": "Minthera deals damage in a targeted area, enemy units struck have their buffs stripped and Minthera then heals for each buff stripped.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Paradox",
+      "disc": "Creates a paradox on a targeted unit, causing them to be unable to attack or be attacked for a short duration. Additionally, all magic damage is amplified.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "EMP Strike",
+      "disc": "Minthera burns a target enemy units mana, dealing damage based on the amount of mana burned.",
       "thumbnail": ""
     },
     {

@@ -1,6 +1,6 @@
 const Necromancer = {
   "id": 38,
-  "name": "",
+  "name": "Ivan Mainshire",
   "title": "Necromancer",
   "difficulty": 3,
   "slug": "necromancer",

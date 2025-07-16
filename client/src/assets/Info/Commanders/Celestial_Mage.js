@@ -22,7 +22,7 @@ const Celestial_Mage = {
     {
       "abilityid": 0,
       "name": "Enlightenment",
-      "disc": "Summoning a Celestial grants them a bonus effect.",
+      "disc": "Summoning a Celestial grants them a single use bonus effect.",
       "thumbnail": ""
     },
     {

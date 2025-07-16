@@ -1,6 +1,6 @@
 const Primarch_of_Magic = {
   "id": 43,
-  "name": "",
+  "name": "Vash",
   "title": "Primarch of Magic",
   "difficulty": 5,
   "slug": "primarch-of-magic",

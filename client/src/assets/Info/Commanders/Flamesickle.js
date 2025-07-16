@@ -1,6 +1,6 @@
 const Flamesickle = {
   "id": 23,
-  "name": "",
+  "name": "David Marrow",
   "title": "Flamesickle",
   "difficulty": 3,
   "slug": "flamesickle",
@@ -39,7 +39,7 @@ const Flamesickle = {
     },
     {
       "abilityid": 3,
-      "name": "Cryocentre",
+      "name": "Cryocenter",
       "disc": "Sends down three waves of ice at a target location, each dealing increasing damage as it collapses inwards",
       "thumbnail": ""
     },

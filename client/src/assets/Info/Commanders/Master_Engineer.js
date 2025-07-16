@@ -1,6 +1,6 @@
 const Master_Engineer = {
   "id": 36,
-  "name": "",
+  "name": "Jazz Wunderwaffle",
   "title": "Master Engineer",
   "difficulty": 3,
   "slug": "master-engineer",

@@ -59,6 +59,7 @@ import Vengence_Incarnate from './Vengence_Incarnate.js';
 import Volcano_Lord from './Volcano_Lord.js';
 import War_Master from './War_Master.js';
 import Wave_Crusher from './Wave_Crusher.js';
+import Demon_Eater from './Demon_Eater.js';
 
 const Characters = [
   Abyssal_King,
@@ -78,6 +79,7 @@ const Characters = [
   Collector,
   Crimson_Glade_Warlord,
   Duke_of_Winter,
+  Demon_Eater,
   Emissary_of_the_Keg_Lords,
   Ember,
   Eternal_Revenant,

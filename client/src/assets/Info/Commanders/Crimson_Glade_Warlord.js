@@ -20,14 +20,14 @@ const Crimson_Glade_Warlord = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Homemade Voodoo",
+      "disc": "Upon casting a spell, the Crimson Glade Warlord regains a small amount of health.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "State of Hate",
+      "disc": "Grants a large amount of attack damage for a short duration, but also causes the Crimson Glade Warlord to become Unarmored.",
       "thumbnail": ""
     },
     {
