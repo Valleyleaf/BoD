@@ -1,4 +1,4 @@
-import Commander from "../models/Commander.js";
+import Commander from "../models/Commanders.js";
 
 export const getAllCommanders = async (req, res) => {
   const commanders = await Commander.find();
