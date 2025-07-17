@@ -1,6 +1,6 @@
 const Hydromancer = {
   "id": 32,
-  "name": "",
+  "name": "X",
   "title": "Hydromancer",
   "difficulty": 3,
   "slug": "hydromancer",

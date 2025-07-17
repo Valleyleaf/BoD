@@ -1,6 +1,6 @@
 const Eternal_Revenant = {
   "id": 20,
-  "name": "",
+  "name": "Kalzhar",
   "title": "Eternal Revenant",
   "difficulty": 3,
   "slug": "eternal-revenant",

@@ -1,6 +1,6 @@
 const Hexrelic = {
   "id": 31,
-  "name": "",
+  "name": "Hex",
   "title": "Hexrelic",
   "difficulty": 3,
   "slug": "hexrelic",

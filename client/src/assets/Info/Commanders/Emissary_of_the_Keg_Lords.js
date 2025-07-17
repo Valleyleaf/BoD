@@ -1,6 +1,6 @@
 const Emissary_of_the_Keg_Lords = {
   "id": 18,
-  "name": "",
+  "name": "Baron Darkbrew",
   "title": "Emissary of the Keg Lords",
   "difficulty": 3,
   "slug": "emissary-of-the-keg-lords",

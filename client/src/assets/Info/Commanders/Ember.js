@@ -1,6 +1,6 @@
 const Ember = {
   "id": 19,
-  "name": "",
+  "name": "Eliza Flamebringe",
   "title": "Ember",
   "difficulty": 3,
   "slug": "ember",

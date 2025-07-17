@@ -1,6 +1,6 @@
 const Berserker = {
   "id": 7,
-  "name": "Ragnar",
+  "name": "Keil Bearswarm",
   "title": "Berserker",
   "difficulty": 3,
   "slug": "berserker",

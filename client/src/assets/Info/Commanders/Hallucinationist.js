@@ -1,6 +1,6 @@
 const Hallucinationist = {
   "id": 28,
-  "name": "",
+  "name": "Naom D. Lada",
   "title": "Hallucinationist",
   "difficulty": 3,
   "slug": "hallucinationist",

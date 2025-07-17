@@ -1,6 +1,6 @@
 const Volcano_Lord = {
   "id": 59,
-  "name": "",
+  "name": "Mul'Vin",
   "title": "Volcano Lord",
   "difficulty": 3,
   "slug": "volcano-lord",

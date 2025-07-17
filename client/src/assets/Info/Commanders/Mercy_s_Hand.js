@@ -1,6 +1,6 @@
 const Mercy_s_Hand = {
   "id": 37,
-  "name": "",
+  "name": "Maelstrom",
   "title": "Mercy's Hand",
   "difficulty": 3,
   "slug": "mercys-hand",

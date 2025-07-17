@@ -1,6 +1,6 @@
 const Stormbringer = {
   "id": 57,
-  "name": "",
+  "name": "Jarvis Thunderbolt",
   "title": "Stormbringer",
   "difficulty": 3,
   "slug": "stormbringer",

@@ -1,6 +1,6 @@
 const Rift_Walker = {
   "id": 46,
-  "name": "",
+  "name": "Velmus",
   "title": "Rift Walker",
   "difficulty": 3,
   "slug": "rift-walker",
