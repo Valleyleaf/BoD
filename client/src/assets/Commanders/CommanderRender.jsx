@@ -36,6 +36,7 @@ function CommanderDetail() {
       <div className="flexRow">
         <div className='flexColumn'>
         <img className="DisplayImage" src={character.image} alt={character.name} />
+        <p className='characterDescription'>{character.description}</p>
           <div className="flexColumn CommanderSideProfile">
           </div>
           <div>
