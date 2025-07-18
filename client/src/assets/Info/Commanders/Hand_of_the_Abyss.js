@@ -8,43 +8,47 @@ const Hand_of_the_Abyss = {
   "image": "https://i.imgur.com/YQoyAAy.png",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Agility",
   "stats": [
-    ""
+    "14",
+    "18",
+    "22",
   ],
-  "faction": " ",
+  "faction": "The Abyss",
   "roles": [
-    ""
+    "Carry",
+    "Duelist",
+    "Melee"
   ],
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Hand of the Abyss",
+      "disc": "Periodically deals bonus damage on attacks.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Smoke Rush",
+      "disc": "Sends out a cloud of smoke that deals damage to enemy units in a line. SmokeOmen can recast this ability to teleport to the cloud and blind nearby enemy units.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Inhale Death",
+      "disc": "SmokeOmen inhales Smoke from all nearby enemy units, Purging them of all buffs and healing itself per unit struck. SmokeOmen is also purged of all debuffs.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Expunge",
+      "disc": "Pasively applies Smoke on hit. Upon activation, all enemy units afflicted with smoke take damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Blackout",
+      "disc": "Smokeomen disintegrates into a cloud of smoke dealing damage to all nearby Commanders every second. While Blackout is active, Smokeomen has 100% evasion and 100% Magic damage reduction but can not attack.",
       "thumbnail": ""
     }
   ]
