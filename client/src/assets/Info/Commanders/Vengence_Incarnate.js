@@ -5,7 +5,7 @@ const Vengence_Incarnate = {
   "difficulty": 3,
   "slug": "vengence-incarnate",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
-  "image": "https://i.imgur.com/IvUamHu.jpeg",
+  "image": "https://i.imgur.com/eAbtmyP.jpeg",
   "description": "",
   "lore": "N/A",
   "primaryStat": "",

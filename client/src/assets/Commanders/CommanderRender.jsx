@@ -25,7 +25,13 @@ function CommanderDetail() {
       <div className="CommanderNamePlate">
         <h1 className='name CharacterRenderFont'>{character.name}</h1>
         <h2 className='title CharacterRenderFont'>The {character.title}</h2>
-        <DifficultyRender character={character}/>
+          <DifficultyRender character={character}/>
+          <div className='flexRow'>
+                <h2 className='PrimaryStat'>Primary:&nbsp;</h2>
+                <p className='PrimaryStat' style={{ color: attributeColors[character.primaryStat] || "black" }}>
+                  {character.primaryStat}
+                </p>
+          </div>
       </div>
       <div className="flexRow">
         <div className='flexColumn'>
@@ -34,20 +40,15 @@ function CommanderDetail() {
           </div>
           <div>
             <StatRenderer/>
-            <div className="flexRow">
-              <h2>Primary:&nbsp;</h2>
-              {/* &nbsp; = Space */}
-              <p className='PrimaryStat' style={{ color: attributeColors[character.primaryStat] || "black" }}>
-                {character.primaryStat}
-              </p>
-            </div>
               <p>Faction: {character.faction}</p>
               <p>Roles: {character.roles.join(', ')}</p>
           </div>
         </div>
         <div className="flexColumn">
         <h1 className='CharacterRenderFont'>Abilities</h1>
-        <AbilityRender character={character}/>
+        <div className='AbilityBox'>
+          <AbilityRender character={character}/>
+        </div>
       </div>
         </div>
       <div>

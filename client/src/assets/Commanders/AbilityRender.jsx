@@ -22,12 +22,13 @@ function AbilityRender() {
                         ):(
                             <img className="abilityThumbnail" src={placeholder} alt="Placeholder"/>
                         )}
-                        <p className="abilityTitle">{ability.name}</p>
+                        
                     </div>
-                    <div className="flexColumn">
-                        <div className="flexRow">
+                    <div className="abilityText">
+                        <p className="abilityTitle">{ability.name}</p>
+                        {/* <div className="flexRow">
                             <p>{ability.cost}</p>
-                        </div>
+                        </div> */}
                         {ability.disc ? (                        
                             <p className='abilityInfo' onError={(e) => { e.target.src = 'unable to load disc'; }}
                             >{ability.disc}</p>

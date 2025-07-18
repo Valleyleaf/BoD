@@ -21,31 +21,31 @@ const Aspect_of_the_Wilds = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Eternal Form",
+      "disc": "Upon dropping below a % threshold of health, the Aspect will turn etherial.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "Mark of the Thunderstorm",
-      "disc": "",
+      "name": "Holy Thunderstorm",
+      "disc": "Sends out a bolt of lighting that bounces to all nearby enemy units, dealing damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Ripthroat",
+      "disc": "Deals damage in a AoE and silences enemy units for a short duration.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Lightning Brigade",
+      "disc": "Creates a shield of lightning around a target allied unit, increasing their armor and causing enemy units that strike them to be slowed.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
+      "name": "Demolishing Winds",
       "disc": "",
       "thumbnail": ""
     }

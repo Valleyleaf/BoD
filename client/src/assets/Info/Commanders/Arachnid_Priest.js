@@ -21,26 +21,26 @@ const Arachnid_Priest = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Spiders Sting",
+      "disc": "Upon attacking, deals damage over time to a target enemy unit.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Ritual of Birth",
+      "disc": "Infests a target with a spider egg, dealing damage over time. If the target dies while infested, a Transmuted trap will spawn.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Transmuted Trap",
+      "disc": "Creates a trap that stays in place. If an enemy unit steps near it, it will slash at them, applying a long lasting poison that deals damage over time.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Envenomed Web",
+      "disc": "Tosses a ball of web at a target enemy unit, dealing damage over time and snaring them.",
       "thumbnail": ""
     },
     {
