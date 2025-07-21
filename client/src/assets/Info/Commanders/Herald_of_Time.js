@@ -1,3 +1,5 @@
+import HeraldofTimeBio from '../../LoreSheets/HeraldOfTimeBio.json';
+
 const Herald_of_Time = {
   "id": 30,
   "name": "Ur-12",
@@ -7,7 +9,7 @@ const Herald_of_Time = {
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/anD0ATv.jpeg",
   "description": "",
-  "lore": "N/A",
+  "lore": HeraldofTimeBio,
   "primaryStat": "",
   "stats": [
     ""

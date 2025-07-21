@@ -1,3 +1,5 @@
+import LightbringerBio from '../../LoreSheets/LightbringerBio.json';
+
 const Lightbringer = {
   "id": 34,
   "name": "Tyrus",
@@ -7,7 +9,7 @@ const Lightbringer = {
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/CyCzT9Y.jpeg",
   "description": "",
-  "lore": "N/A",
+  "lore": LightbringerBio,
   "primaryStat": "",
   "stats": [
     ""
