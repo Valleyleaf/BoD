@@ -67,11 +67,6 @@
 .DisplayImage{
     width: 700px;
     height: auto;
-    border-radius: 20px;
-    /* Feathered mask using radial gradient */
-    -webkit-mask-image: radial-gradient(circle, white 50%, transparent 100%);
-    mask-image: radial-gradient(circle, white 20%, transparent 100%);
-    background: #000;
     animation: fadeIn 1s ease-out forwards;
 }
 

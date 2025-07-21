@@ -1,3 +1,5 @@
+import AbyssalKingBio from '../LoreSheets/AbyssalKingbio.json';
+
 const The_Abyssal_King = {
   "id": 1,
   "name": "Spine",
@@ -8,7 +10,7 @@ const The_Abyssal_King = {
   "thumbnailAlt": "Image of the Abyssal King",
   "image": "https://i.pinimg.com/736x/ea/fb/40/eafb40de7d0e12896fcebb0108fd120e.jpg",
   "description": "Mystical spellcaster with powerful crowd control abilities",
-  "lore": "AbyssalkingLore",
+  "lore": AbyssalKingBio,
   "primaryStat": "Intelligence",
   "stats": [
     "14",

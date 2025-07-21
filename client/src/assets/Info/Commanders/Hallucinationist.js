@@ -5,7 +5,7 @@ const Hallucinationist = {
   "difficulty": 3,
   "slug": "hallucinationist",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
-  "image": "https://i.imgur.com/IvUamHu.jpeg",
+  "image": "https://i.imgur.com/Hy2oil6.png",
   "description": "",
   "lore": "N/A",
   "primaryStat": "",

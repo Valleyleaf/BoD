@@ -12,46 +12,52 @@ const Golden_Conqueror = {
   "lore": GoldenConquerorLore,
   "primaryStat": "Agility",
   "stats": [
-    "10",
-    "10",
-    "10",
+    "14+(1.5 per level)",
+    "18+(2 per level)",
+    "12+(1 per level)",
   ],
-  "faction": "League of Valor",
+  "faction": "The Faithless",
   "roles": [
     "Carry",
     "Duelist",
     "Caster"
   ],
   "abilities": [
+      {
+      "abilityid": 5,
+      "name": "Mania (Innate)",
+      "disc": "The Golden Conqueror gains bonus attack speed for each stack of Mania he has. Casting a spell requires and consumes a stack of mania.",
+      "thumbnail": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_excorcism.jpg"
+    },
     {
       "abilityid": 0,
-      "name": "End of Kin",
+      "name": "End of Kin (P)",
       "disc": "Applies a stacking damage over time effect upon attack.",
-      "thumbnail": ""
+      "thumbnail": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_harmundeadaura.jpg"
     },
     {
       "abilityid": 1,
-      "name": "Plaguebringer",
-      "disc": "Sends out a cursed bolt of energy, dealing damage to a single target hit.",
-      "thumbnail": ""
+      "name": "Plaguebringer (Q)",
+      "disc": "Sends out a cursed bolt of energy at a target enemy unit, dealing damage over time to the target and those around it..",
+      "thumbnail": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_excorcism_02.jpg"
     },
     {
       "abilityid": 2,
-      "name": "Shattering Strike",
+      "name": "Shattering Strike (W)",
       "disc": "The Golden Conqueror strikes a target enemy unit, dealing % health damage.",
-      "thumbnail": ""
+      "thumbnail": "https://classic.battle.net/war3/images/neutral/spells/transmute.gif"
     },
     {
       "abilityid": 3,
-      "name": "Mania",
+      "name": "Manic (E)",
       "disc": "Upon striking a enemy unit, the Golden Conqueror gains a stack of Mania. Each stack grants bonus movement speed up to a cap.",
-      "thumbnail": ""
+      "thumbnail": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_ardentdefender.jpg"
     },
     {
       "abilityid": 4,
-      "name": "Rise my Kingdom",
+      "name": "Rise my Kingdom (R)",
       "disc": "The Golden Conqueror summons a ring of gladiators around him. Enemy units that go near the gladiators are tossed into the centre of the pit and are stunned for a short duration. Upon activation, the Golden Conqueror gains full stacks of Mania.",
-      "thumbnail": ""
+      "thumbnail": "https://wow.zamimg.com/images/wow/icons/large/ability_warlock_fireandbrimstone.jpg"
     }
   ]
 };

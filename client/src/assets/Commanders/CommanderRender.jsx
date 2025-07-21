@@ -28,7 +28,7 @@ function CommanderDetail() {
           <DifficultyRender character={character}/>
           <div className='flexRow'>
                 <h2 className='PrimaryStat'>Primary:&nbsp;</h2>
-                <p className='PrimaryStat' style={{ color: attributeColors[character.primaryStat] || "black" }}>
+                <p className='PrimaryStat' style={{ color: attributeColors[character.primaryStat] || "white" }}>
                   {character.primaryStat}
                 </p>
           </div>

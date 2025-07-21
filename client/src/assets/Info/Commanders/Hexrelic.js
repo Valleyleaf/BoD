@@ -5,7 +5,7 @@ const Hexrelic = {
   "difficulty": 3,
   "slug": "hexrelic",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
-  "image": "https://i.imgur.com/IvUamHu.jpeg",
+  "image": "",
   "description": "",
   "lore": "N/A",
   "primaryStat": "",

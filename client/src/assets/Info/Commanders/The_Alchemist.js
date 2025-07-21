@@ -2,7 +2,7 @@ const The_Alchemist = {
   "id": 2,
   "name": "Jun",
   "title": "Alchemist",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "the-alchemist",
   "thumbnail": "https://i.imgur.com/e5yRuLz.jpeg",
   "image": "https://i.imgur.com/e5yRuLz.jpeg",
