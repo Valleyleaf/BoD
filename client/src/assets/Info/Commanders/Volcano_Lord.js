@@ -1,13 +1,15 @@
+import VolcanoLordBio from '../../LoreSheets/VolcanoLordBio.json';
+
 const Volcano_Lord = {
   "id": 59,
-  "name": "",
+  "name": "Mul'Vin",
   "title": "Volcano Lord",
   "difficulty": 3,
   "slug": "volcano-lord",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/FeKrgBU.jpeg",
   "description": "",
-  "lore": "N/A",
+  "lore": VolcanoLordBio,
   "primaryStat": "",
   "stats": [
     ""

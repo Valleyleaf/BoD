@@ -1,4 +1,4 @@
-import KingMechanismBio from '../LoreSheets/KingMechanism.json'
+import KingMechanismBio from '../LoreSheets/KingMechanismBio.json'
 
 const King_Mechanism = {
   "id": 33,

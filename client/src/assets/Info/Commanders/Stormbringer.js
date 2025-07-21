@@ -1,13 +1,15 @@
+import StormbringerBio from '../../LoreSheets/StormbringerBio.json';
+
 const Stormbringer = {
   "id": 57,
-  "name": "",
+  "name": "Jarvis Thunderbolt",
   "title": "Stormbringer",
   "difficulty": 3,
   "slug": "stormbringer",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/kJe1mKf.jpeg",
   "description": "",
-  "lore": "N/A",
+  "lore": StormbringerBio,
   "primaryStat": "",
   "stats": [
     ""

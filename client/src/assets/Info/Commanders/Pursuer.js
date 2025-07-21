@@ -1,6 +1,6 @@
 const Pursuer = {
   "id": 45,
-  "name": "",
+  "name": "Yomi",
   "title": "Pursuer",
   "difficulty": 3,
   "slug": "pursuer",

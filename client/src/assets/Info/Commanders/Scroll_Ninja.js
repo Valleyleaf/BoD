@@ -1,6 +1,6 @@
 const Scroll_Ninja = {
   "id": 51,
-  "name": "",
+  "name": "Eleina Nau",
   "title": "Scroll Ninja",
   "difficulty": 3,
   "slug": "scroll-ninja",

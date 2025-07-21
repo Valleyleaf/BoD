@@ -1,13 +1,15 @@
+import AlchemistBio from '../../LoreSheets/AlchemistBio.json';
+
 const The_Alchemist = {
   "id": 2,
   "name": "Jun",
   "title": "Alchemist",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "the-alchemist",
   "thumbnail": "https://i.imgur.com/e5yRuLz.jpeg",
   "image": "https://i.imgur.com/e5yRuLz.jpeg",
   "description": "Melee tank with powerful supportive abilities and self-preservation",
-  "lore": "John leads by example",
+  "lore": AlchemistBio,
   "primaryStat": "Strength",
   "stats": [
     ""

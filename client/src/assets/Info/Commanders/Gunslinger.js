@@ -1,3 +1,5 @@
+import GunslingerBio from '../../LoreSheets/GunslingerBio.json';
+
 const Gunslinger = {
   "id": 27,
   "name": "Jurvin Brownbeard",
@@ -7,7 +9,7 @@ const Gunslinger = {
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/Tsc3tyM.jpeg",
   "description": "High damage ranged carry with the ability to deal massive damage to single targets.",
-  "lore": "N/A",
+  "lore": GunslingerBio,
   "primaryStat": "",
   "stats": [
     ""

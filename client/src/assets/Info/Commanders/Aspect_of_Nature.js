@@ -2,10 +2,10 @@ const Aspect_of_Nature = {
   "id": 24,
   "name": "Urun",
   "title": "Aspect of Nature",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "aspect-of-nature",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
-  "image": "https://i.imgur.com/IvUamHu.jpeg",
+  "image": "",
   "description": "Powerful duelist with the ability to take on different stances, each changing his playstyle.",
   "lore": "N/A",
   "primaryStat": "Agility",
@@ -21,8 +21,8 @@ const Aspect_of_Nature = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Blessed Glave",
+      "disc": "Upgrades Urun's stance passive abilities.",
       "thumbnail": ""
     },
     {

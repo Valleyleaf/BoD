@@ -1,6 +1,6 @@
 const Eternal_Revenant = {
   "id": 20,
-  "name": "",
+  "name": "Kalzhar",
   "title": "Eternal Revenant",
   "difficulty": 3,
   "slug": "eternal-revenant",
@@ -8,7 +8,7 @@ const Eternal_Revenant = {
   "image": "https://i.imgur.com/U7m60tT.jpeg",
   "description": "Life draining tank with the ability to revive himself upon death.",
   "lore": "N/A",
-  "primaryStat": "Intelligence",
+  "primaryStat": "Strength",
   "stats": [
     ""
   ],

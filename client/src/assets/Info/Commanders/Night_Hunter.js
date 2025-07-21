@@ -1,6 +1,6 @@
 const Night_Hunter = {
   "id": 39,
-  "name": "",
+  "name": "Bane",
   "title": "Night Hunter",
   "difficulty": 3,
   "slug": "night-hunter",

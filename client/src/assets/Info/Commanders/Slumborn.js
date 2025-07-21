@@ -1,3 +1,5 @@
+import SlumbornBio from '../../LoreSheets/SlumbornBio.json';
+
 const Slumborn = {
   "id": 55,
   "name": "Nihil",
@@ -5,9 +7,9 @@ const Slumborn = {
   "difficulty": 5,
   "slug": "slumborn",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
-  "image": "https://i.imgur.com/5DsQ2VX.jpeg",
+  "image": "https://i.imgur.com/RoJBl5x.png",
   "description": "",
-  "lore": "N/A",
+  "lore": SlumbornBio,
   "primaryStat": "",
   "stats": [
     ""

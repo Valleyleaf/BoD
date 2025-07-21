@@ -1,6 +1,6 @@
 const Shepherd_of_the_Lost = {
   "id": 54,
-  "name": "",
+  "name": "Lucy",
   "title": "Shepherd of the Lost",
   "difficulty": 3,
   "slug": "shepherd-of-the-lost",

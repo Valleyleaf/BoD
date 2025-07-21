@@ -1,6 +1,6 @@
 const Stalker = {
   "id": 56,
-  "name": "",
+  "name": "Xybrex",
   "title": "Stalker",
   "difficulty": 3,
   "slug": "stalker",

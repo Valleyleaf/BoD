@@ -1,6 +1,6 @@
 const Shadow_Herald = {
   "id": 53,
-  "name": "",
+  "name": "Helvish",
   "title": "Shadow Herald",
   "difficulty": 3,
   "slug": "shadow-herald",
