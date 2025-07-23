@@ -1,4 +1,4 @@
-import MasterEngineerBio from '../../LoreSheets/MasterEngineerBio.json';
+import MasterEngineerBio from '../LoreSheets/MasterEngineerBio.json';
 
 const Master_Engineer = {
   "id": 36,

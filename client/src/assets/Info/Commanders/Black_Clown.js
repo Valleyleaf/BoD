@@ -2,7 +2,7 @@ const Black_Clown = {
   "id": 8,
   "name": "Dollar",
   "title": "Black Clown",
-  "difficulty": 3,
+  "difficulty": 4,
   "slug": "black-clown",
   "thumbnail": "https://i.imgur.com/6e88puJ.jpeg",
   "thumbnailAlt": "Image of The Example",

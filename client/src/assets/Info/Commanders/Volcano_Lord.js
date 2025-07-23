@@ -1,4 +1,4 @@
-import VolcanoLordBio from '../../LoreSheets/VolcanoLordBio.json';
+import VolcanoLordBio from '../LoreSheets/VolcanoLordBio.json';
 
 const Volcano_Lord = {
   "id": 59,

@@ -1,4 +1,4 @@
-import LightbringerBio from '../../LoreSheets/LightbringerBio.json';
+import LightbringerBio from '../LoreSheets/LightbringerBio.json';
 
 const Lightbringer = {
   "id": 34,

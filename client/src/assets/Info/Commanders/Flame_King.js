@@ -1,4 +1,4 @@
-import FlameKingBio from '../../LoreSheets/FlameKingBio.json';
+import FlameKingBio from '../LoreSheets/FlameKingBio.json';
 
 const Flame_King = {
   "id": 22,

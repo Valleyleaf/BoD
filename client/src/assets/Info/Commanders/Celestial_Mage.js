@@ -2,7 +2,7 @@ const Celestial_Mage = {
   "id": 13,
   "name": "Ashleigh Lynn",
   "title": "Celestial Mage",
-  "difficulty": 3,
+  "difficulty": 4,
   "slug": "celestial-mage",
   "thumbnail": "https://i.imgur.com/pwwdofr.jpeg",
   "image": "https://i.imgur.com/pwwdofr.jpeg",

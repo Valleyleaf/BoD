@@ -1,4 +1,4 @@
-import SlumbornBio from '../../LoreSheets/SlumbornBio.json';
+import SlumbornBio from '../LoreSheets/SlumbornBio.json';
 
 const Slumborn = {
   "id": 55,

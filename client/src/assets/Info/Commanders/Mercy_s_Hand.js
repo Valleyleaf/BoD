@@ -1,4 +1,4 @@
-import MercysHandBio from '../../LoreSheets/MercysHandBio.json';
+import MercysHandBio from '../LoreSheets/MercysHandBio.json';
 
 const Mercy_s_Hand = {
   "id": 37,

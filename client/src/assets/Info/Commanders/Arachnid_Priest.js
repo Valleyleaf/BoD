@@ -2,7 +2,7 @@ const Arachnid_Priest = {
   "id": 4,
   "name": "Naze",
   "title": "Arachnid Priest",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "arachnid-priest",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/IvUamHu.jpeg",

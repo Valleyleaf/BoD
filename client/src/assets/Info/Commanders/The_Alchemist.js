@@ -1,4 +1,4 @@
-import AlchemistBio from '../../LoreSheets/AlchemistBio.json';
+import AlchemistBio from '../LoreSheets/AlchemistBio.json';
 
 const The_Alchemist = {
   "id": 2,
