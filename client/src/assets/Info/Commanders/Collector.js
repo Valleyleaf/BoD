@@ -2,7 +2,7 @@ const Collector = {
   "id": 15,
   "name": "Dijlabre",
   "title": "Collector",
-  "difficulty": 3,
+  "difficulty": 4,
   "slug": "collector",
   "thumbnail": "https://i.imgur.com/dkDcLz4.jpeg",
   "image": "https://i.imgur.com/dkDcLz4.jpeg",

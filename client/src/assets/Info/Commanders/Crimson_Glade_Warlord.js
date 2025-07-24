@@ -2,7 +2,7 @@ const Crimson_Glade_Warlord = {
   "id": 16,
   "name": "Zul'Amin",
   "title": "Crimson Glade Warlord",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "crimson-glade-warlord",
   "thumbnail": "https://i.imgur.com/xxEfa26.jpeg",
   "image": "https://i.imgur.com/xxEfa26.jpeg",

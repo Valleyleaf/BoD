@@ -10,7 +10,7 @@ const Felmage = {
   "lore": "N/A",
   "primaryStat": "Intelligence",
   "stats": [
-    "Intelligence"
+    ""
   ],
   "faction": "League of Valor",
   "roles": [

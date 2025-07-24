@@ -1,4 +1,4 @@
-import GunslingerBio from '../../LoreSheets/GunslingerBio.json';
+import GunslingerBio from '../LoreSheets/GunslingerBio.json';
 
 const Gunslinger = {
   "id": 27,

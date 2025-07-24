@@ -1,4 +1,4 @@
-import FlameKingBio from '../../LoreSheets/FlameKingBio.json';
+import FlameKingBio from '../LoreSheets/FlameKingBio.json';
 
 const Flame_King = {
   "id": 22,
@@ -23,32 +23,32 @@ const Flame_King = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Anarchy",
+      "disc": "Periodically sends out a wave of fire that ignites a nearby enemy unit.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Heat Wave",
+      "disc": "Sends out a orb of fire that deals damage to all enemy units in its path. Upon reaching it's location, the orb will linger, dealing additional damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Spirit Fire",
+      "disc": "Snares a target enemy unit.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Molten Shield",
+      "disc": "Surrounds a target unit with molten brimstone. The brimstone deals damage to nearby enemy units.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Cataclysm",
+      "disc": "After channeling for a short duration, the Flame King unleashes a massive wave of fire in a large AoE, dealing massive damage to all enemy units caught in the blast.",
       "thumbnail": ""
     }
   ]

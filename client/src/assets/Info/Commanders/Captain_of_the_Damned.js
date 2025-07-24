@@ -2,7 +2,7 @@ const Captain_of_the_Damned = {
   "id": 12,
   "name": "Lord Vile",
   "title": "Captain of the Damned",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "captain-of-the-damned",
   "thumbnail": "https://i.imgur.com/8qZR9HN.jpeg",
   "thumbnailAlt": "Image of The Example",

@@ -1,4 +1,4 @@
-import MasterEngineerBio from '../../LoreSheets/MasterEngineerBio.json';
+import MasterEngineerBio from '../LoreSheets/MasterEngineerBio.json';
 
 const Master_Engineer = {
   "id": 36,
@@ -10,43 +10,45 @@ const Master_Engineer = {
   "image": "",
   "description": "",
   "lore": MasterEngineerBio,
-  "primaryStat": "",
+  "primaryStat": "Intelligence",
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "Mechanisms",
   "roles": [
-    ""
+    "Mage",
+    "Support",
+    "Siege"
   ],
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Scrap",
+      "disc": "Killing a unit has a chance to drop scrap. Upon collecting scrap, the Master Engineer can cast a upgraded version of one of his abilities.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Discharge",
+      "disc": "Sends out lighting in a cone, dealing damage to all enemies in the area.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "E-118 Device",
+      "disc": "Sends out a crate of scrap, dealing damage and stunning a target.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Anti-personnel Mines",
+      "disc": "Places a mine that detonates when an enemy unit is nearby, dealing damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Personal Defense Turret",
+      "disc": "Deploys a turret at a target location that attacks nearby enemies.",
       "thumbnail": ""
     }
   ]

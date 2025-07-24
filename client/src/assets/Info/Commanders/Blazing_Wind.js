@@ -2,7 +2,7 @@ const Blazing_Wind = {
   "id": 9,
   "name": "Dampes",
   "title": "Blazing Wind",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "blazing-wind",
   "thumbnail": "https://i.imgur.com/LEikbov.jpeg",
   "thumbnailAlt": "Image of The Example",

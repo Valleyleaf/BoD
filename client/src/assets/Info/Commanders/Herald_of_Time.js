@@ -1,4 +1,4 @@
-import HeraldofTimeBio from '../../LoreSheets/HeraldOfTimeBio.json';
+import HeraldofTimeBio from '../LoreSheets/HeraldofTimeBio.json';
 
 const Herald_of_Time = {
   "id": 30,

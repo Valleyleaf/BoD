@@ -19,32 +19,32 @@ const Nomad = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Bartering Sandwalker",
+      "disc": "The Nomad regains gold after purchasing items.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Sand Knock",
+      "disc": "Creates a burst of sand at a target location, knocking back all enemy units in the area, dealing damage and leaving behind sand.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Sandy Sandals",
+      "disc": "The Nomad gains stacks when walking on sand. Upon activation, he will regain mana based on his number of stacks. At max stacks, he also triggers Sand Knock at his location.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Sandstorm",
+      "disc": "Sends a target unit into the air, making them untargetable for a short duration. If the target is an enemy unit, the Nomad will deal AoE damage in an area after the unit lands.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "The Path",
+      "disc": "The Nomad burries underground and rapidly moves to a target location. Enemy units caught in the path will take damage. This also leaves a trail of sand.",
       "thumbnail": ""
     }
   ]
