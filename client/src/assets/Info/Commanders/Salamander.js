@@ -2,49 +2,50 @@ const Salamander = {
   "id": 48,
   "name": "Guinvald",
   "title": "Salamander",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "salamander",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
   "image": "https://i.imgur.com/4jomYqJ.jpeg",
   "description": "",
-  "lore": "N/A",
-  "primaryStat": "",
+  "lore": "",
+  "primaryStat": "Agility",
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "Inferno Crusade",
   "roles": [
-    ""
+    "Carry",
+    "Melee"
   ],
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Talon Style",
+      "disc": "Every 3rd attack deals bonus AoE damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Feast of Flames",
+      "disc": "Grants bonus attack damage and movement speed for a short duration.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Dragon Swipe",
+      "disc": "Stuns a target enemy unit for a short duration.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Dragon Flight",
+      "disc": "Targets a enemy unit, after a short delay, The Salamander will blink to the target, dealing damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Dragonforce",
+      "disc": "Guinvald transforms into a dragon, gaining ranged chaos damage and bonus health for a moderate duration.",
       "thumbnail": ""
     }
   ]

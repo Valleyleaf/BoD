@@ -19,32 +19,32 @@ const Sage = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Gravitas",
+      "disc": "Causes all nearby enemy units to be slowed.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Chaos Blast",
+      "disc": "Strikes a target with chaos damage, casting Chaos Blast causes the next Chaos Blast to deal additional damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Rally",
+      "disc": "Grants all nearby allied units bonus health regeneration over a long duration.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Ultra Mega Death Bolt",
+      "disc": "Sends out a slow moving bolt of energy towards a enemy unit, dealing massive damage on impact. If the bolt does not reach the target on time, it fizzles out.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Accusing Shackles",
+      "disc": "Binds a target, pulling it towards the Sage and dealing damage over time.",
       "thumbnail": ""
     }
   ]

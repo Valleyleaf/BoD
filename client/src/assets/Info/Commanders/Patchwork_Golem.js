@@ -19,14 +19,14 @@ const Patchwork_Golem = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Stitches and Britches",
+      "disc": "Upon killing a unit, gain bonus Strength. Bonuses are lost upon death.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Cleave",
+      "disc": "Strikes in a AoE, dealing damage based on the Patchwork Golems max health.",
       "thumbnail": ""
     },
     {
@@ -37,14 +37,14 @@ const Patchwork_Golem = {
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "OverKill",
+      "disc": "The Patchwork Golem strikes with his cleaver, dealing AoE damage to units around his main target. This damage increases the closer the adjacent target is.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Le Carnage",
+      "disc": "The Patchwork Golem attempts to swallow a target whole, dealing damage. If the target is below a % health threshold, they are instantly killed and the Patchwork Golem is healed.",
       "thumbnail": ""
     }
   ]

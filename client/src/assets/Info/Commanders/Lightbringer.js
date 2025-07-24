@@ -19,10 +19,16 @@ const Lightbringer = {
     ""
   ],
   "abilities": [
+      {
+      "abilityid": 5,
+      "name": "Light Image",
+      "disc": "Creates a Light Image at a target location.",
+      "thumbnail": ""
+    },
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Smite",
+      "disc": "Deals damage to a target enemy unit and debuffs it for a short duration. Units with the Smite Debuff take double damage from additional Smites.",
       "thumbnail": ""
     },
     {
