@@ -21,32 +21,32 @@ const Stormbringer = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Northen Winds",
+      "disc": "The Stormbringer gains bonuses depending on the last ability he used.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Lightning Strike",
+      "disc": "Deals damage to a single target based on the Stormbringers Agility.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "To the Skies",
+      "disc": "The Stormbringer takes flight, becoming untargetable from melee attacks and allows for travel over terrain.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Lightning Rod",
+      "disc": "The Stormbringer throws down a hammer, granting bonus attack speed to all nearby allied units.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Eye of the Storm",
+      "disc": "The Stormbringer calls the storm, creating a cloud that follows him. The cloud deals damage to all nearby enemy units and will occationally strike a random enemy unit for additional damage.",
       "thumbnail": ""
     }
   ]

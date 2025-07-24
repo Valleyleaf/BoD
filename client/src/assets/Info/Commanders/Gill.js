@@ -19,20 +19,20 @@ const Gill = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Slayer's Tempo",
+      "disc": "Upon entering combat, Gill gains bonus health regeneration. Upon exiting combat, he loses this bonus.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Disturbing Distraction",
+      "disc": "Gill sends out tainted blood, slowing a target enemy unit. If the target is attacked, they take bonus damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Gilrok's Pact",
+      "disc": "Gill allows Gilrok to take over. Granting him ranged attacks.",
       "thumbnail": ""
     },
     {
@@ -43,8 +43,8 @@ const Gill = {
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Sky Terror",
+      "disc": "Gill leaps into the air, becoming untargetable for a short duration. Upon landing, he deals damage to all nearby enemy units.",
       "thumbnail": ""
     }
   ]

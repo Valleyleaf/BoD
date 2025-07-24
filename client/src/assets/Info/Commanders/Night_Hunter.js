@@ -19,32 +19,32 @@ const Night_Hunter = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Shadow Meld",
+      "disc": "Standing still grants the Night Hunter invisibility. Moving will break this effect.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Shred",
+      "disc": "Removes armor from a target enemy unit.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Hunters Thirst",
+      "disc": "Grants bonus melee lifesteal.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Lullaby",
+      "disc": "Puts a target enemy unit to sleep for a short duration. If the target is attacked while asleep, they awaken.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Nightfall",
+      "disc": "Upon nightfall, or activation, the Night Hunter gains bonus movement speed and attack speed.",
       "thumbnail": ""
     }
   ]

@@ -22,7 +22,7 @@ const Felmage = {
     {
       "abilityid": 0,
       "name": "",
-      "disc": "",
+      "disc": "Grants bonus Intelligence per level.",
       "thumbnail": ""
     },
     {
@@ -33,8 +33,8 @@ const Felmage = {
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Guiding Light",
+      "disc": "The Felmage creates a toggleable aura around him that heals allied units.",
       "thumbnail": ""
     },
     {
@@ -45,8 +45,8 @@ const Felmage = {
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Split Earth",
+      "disc": "The Felmage channels, creating a earthquake at a target location. Enemy units caught in the earthquake are massively slowed as long as they remain in the area.",
       "thumbnail": ""
     }
   ]

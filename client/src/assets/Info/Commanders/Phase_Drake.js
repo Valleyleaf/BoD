@@ -19,8 +19,8 @@ const Phase_Drake = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Mana Seeker",
+      "disc": "The Phase Drake can randomly stumble upon a Mana vein. Consuming the vein grants permanent Intelligence and regains mana.",
       "thumbnail": ""
     },
     {
@@ -37,8 +37,8 @@ const Phase_Drake = {
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Phase Shift",
+      "disc": "The Phase Drake can shift between the material and ethereal planes, becoming invulnerable for a short duration.",
       "thumbnail": ""
     },
     {
