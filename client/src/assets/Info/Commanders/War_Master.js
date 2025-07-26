@@ -25,26 +25,26 @@ const War_Master = {
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Rampage",
+      "disc": "The War Master slams the ground, dealing damage to all nearby enemies and stunning them for a short duration.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "War Hounds",
+      "disc": "The War Master summons his hounds. The hounds are able to stealth and will last until death.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Wild Trap",
+      "disc": "The War Master sets a trap at a target location. When an enemy unit steps on the trap, it is stunned for a long duration.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Drums of War",
+      "disc": "The War Master beats his drums, causing all nearby allied units to gain invulnerability for a short duration.",
       "thumbnail": ""
     }
   ]

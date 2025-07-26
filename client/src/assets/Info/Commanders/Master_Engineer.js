@@ -48,7 +48,7 @@ const Master_Engineer = {
     {
       "abilityid": 4,
       "name": "Personal Defense Turret",
-      "disc": "Deploys a turret at a target location that attacks nearby enemies.",
+      "disc": "Deploys a turret at a target location that attacks nearby enemies. The turrets gain ramping attack speed each time they attack.",
       "thumbnail": ""
     }
   ]
