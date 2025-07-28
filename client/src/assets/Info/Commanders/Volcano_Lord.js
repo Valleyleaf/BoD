@@ -23,7 +23,7 @@ const Volcano_Lord = {
     {
       "abilityid": 0,
       "name": "",
-      "disc": "",
+      "disc": "Upon attacking, the Volcano Lord leaves behind a small area of fire that deals damage over time to enemy units and buildings.",
       "thumbnail": ""
     },
     {
