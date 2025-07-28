@@ -8,13 +8,14 @@ const Vengence_Incarnate = {
   "image": "https://i.imgur.com/eAbtmyP.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Agility",
   "stats": [
     ""
   ],
   "faction": "The Abyss",
   "roles": [
-    ""
+    "Carry",
+    "Ranged"
   ],
   "abilities": [
     {

@@ -8,13 +8,14 @@ const Scavenger = {
   "image": "https://i.imgur.com/mN6RENy.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Strength",
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "League of Valor",
   "roles": [
-    ""
+    "Tank",
+    "Melee"
   ],
   "abilities": [
     {
@@ -43,7 +44,7 @@ const Scavenger = {
     },
     {
       "abilityid": 4,
-      "name": "",
+      "name": "Coat of Gold",
       "disc": "",
       "thumbnail": ""
     }

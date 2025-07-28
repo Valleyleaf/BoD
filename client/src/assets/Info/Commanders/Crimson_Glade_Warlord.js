@@ -32,20 +32,20 @@ const Crimson_Glade_Warlord = {
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Shunt",
+      "disc": "Causes the Crimson Glade Warlord to stealth for a short duration.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Homemade Trap",
+      "disc": "Creates a trap at a target location. When an enemy unit steps on the trap, it is snared for a short duration.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Desabull",
+      "disc": "Causes the Crimson Glade Warlord to gain a massive boost in attack damage for a short duration.",
       "thumbnail": ""
     }
   ]
