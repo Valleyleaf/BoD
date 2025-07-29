@@ -40,7 +40,7 @@ const Wave_Crusher = {
     },
     {
       "abilityid": 3,
-      "name": "Ebb",
+      "name": "Tide",
       "disc": "Buffs a target allied unit, granting increased attack speed. If the Wave Crusher targets himself, he also gains life steal for the duration.",
       "thumbnail": ""
     },

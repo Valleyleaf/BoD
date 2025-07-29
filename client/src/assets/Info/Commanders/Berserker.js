@@ -27,7 +27,7 @@ const Berserker = {
     },
     {
       "abilityid": 1,
-      "name": "Axe Throw",
+      "name": "On the Hunt",
       "disc": "Throws an axe at a target, dealing damage and stunning them for a short duration. The Berserker also gains a large amount of movement speed.",
       "thumbnail": ""
     },

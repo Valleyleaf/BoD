@@ -19,10 +19,16 @@ const Bounty_Huntress = {
     "Ranged"
   ],
   "abilities": [
+      {
+      "abilityid": 6,
+      "name": "Smokey (Innate)",
+      "disc": "The Bounty Huntress has a animal companion named Smokey. Smokey has his own stats, inventory and will cast abilities based on the actions of the Bounty Huntress.",
+      "thumbnail": ""
+    },
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Bounty Huntress",
+      "disc": "The Bounty Huntress gains bonus gold and experience from kills.",
       "thumbnail": ""
     },
     {
@@ -45,8 +51,8 @@ const Bounty_Huntress = {
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Bean",
+      "disc": "Summons Bean, the Bounty Huntress Raven. Bean will fly to the Bounty Huntress location and periodically mark enemy units. Marked units grant bonus gold upon death.",
       "thumbnail": ""
     }
   ]

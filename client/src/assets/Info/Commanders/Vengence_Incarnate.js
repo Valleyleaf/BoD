@@ -38,14 +38,14 @@ const Vengence_Incarnate = {
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Point Blank",
+      "disc": "Andersmith fires his shotgun at close range, dealing damage and stunning a target enemy unit.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Shadows Gather",
+      "disc": "Andersmith summons all of his shadows to his location and slows nearby enemy units.",
       "thumbnail": ""
     }
   ]

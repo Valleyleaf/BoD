@@ -34,20 +34,20 @@ const Captain_of_the_Abyss = {
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Kraken's Cage",
+      "disc": "Summons a ring of tentacles at a target location. The tentacles will attack any nearby enemy units.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Keelhaul'Em",
+      "disc": "Selects two units and drags them towards each other, dealing damage and stunning them briefly.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "The Tide Killer",
+      "disc": "Summons the Tide Killer, a powerful ship that can attack enemy units in its vicinity. The ship will level with the Captain of the Abyss and gain additional abilities as it does.",
       "thumbnail": ""
     }
   ]

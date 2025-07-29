@@ -21,14 +21,14 @@ const Felmage = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
+      "name": "Heightened Knowledge",
       "disc": "Grants bonus Intelligence per level.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Corrupt Land",
+      "disc": "The Felmage creates a field of corruption at a target location. All units within the field take % health damage.",
       "thumbnail": ""
     },
     {
@@ -39,8 +39,8 @@ const Felmage = {
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Shield of Spite",
+      "disc": "Creates a anti-magic shield around a target allied unit. If the shield remains unbroken until expiration, it will stun nearby enemy units.",
       "thumbnail": ""
     },
     {
