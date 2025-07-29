@@ -10,43 +10,44 @@ const Volcano_Lord = {
   "image": "https://i.imgur.com/FeKrgBU.jpeg",
   "description": "",
   "lore": VolcanoLordBio,
-  "primaryStat": "",
+  "primaryStat": "Intelligence",
   "stats": [
     ""
   ],
   "faction": "Inferno Crusade",
   "roles": [
-    ""
+    "Mage",
+    "Siege"
   ],
   "abilities": [
     {
       "abilityid": 0,
       "name": "",
-      "disc": "",
+      "disc": "Upon attacking, the Volcano Lord leaves behind a small area of fire that deals damage over time to enemy units and buildings.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Focus Point",
+      "disc": "After a short channel, the Volcano Lord deals AoE damage at a target location and leaves behind flames that deal damage over time to enemy units and buildings.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Spontanious Combustion",
+      "disc": "Deals damage in an AoE around the Volcano Lord.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Scorched Earth",
+      "disc": "The Volcano Lord dashes forward, dealing damage to all enemy units in his path.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Volcanic Rage",
+      "disc": "Sends out waves of molten rocks in a large AoE. Enemy units and buildings hit by the waves take damage.",
       "thumbnail": ""
     }
   ]

@@ -8,13 +8,15 @@ const Pursuer = {
   "image": "https://i.imgur.com/eATW3To.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Agility",
   "stats": [
     ""
   ],
   "faction": " ",
   "roles": [
-    ""
+    "Carry",
+    "Melee",
+    "Siege"
   ],
   "abilities": [
     {
@@ -25,14 +27,14 @@ const Pursuer = {
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Cresent Execution",
+      "disc": "Deals % health damage to a target enemy unit based on their missing health.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Sanctify",
+      "disc": "Revives a set number of normal units around the Pursuer",
       "thumbnail": ""
     },
     {
@@ -43,8 +45,8 @@ const Pursuer = {
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Cosmic Edge",
+      "disc": "Infuses all Shadow Warriors, causing their next attack to deal bonus damage at the cost of their life.",
       "thumbnail": ""
     }
   ]

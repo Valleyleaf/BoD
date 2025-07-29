@@ -22,32 +22,32 @@ const Gunslinger = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Weapon Mastery",
+      "disc": "Grants bonus attributes.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Rivet Shot",
+      "disc": "Fires a large caliber round at a target, dealing damage and stunning it.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Scatter Shot",
+      "disc": "Causes the Gunslinger to strike multible targets on attack.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Camp",
+      "disc": "Places a camp at a target location. The Gunslinger can jump into the camp to gain stealth. Upon exiting the tent, he gains a guaranteed critical strike on his next attack.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Bison Breaker",
+      "disc": "Deals damage in a large AoE in a target global area.",
       "thumbnail": ""
     }
   ]
