@@ -8,7 +8,7 @@ const Stalker = {
   "image": "https://i.imgur.com/FjvgE7w.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Strength",
   "stats": [
     ""
   ],

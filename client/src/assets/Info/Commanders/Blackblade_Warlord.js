@@ -8,7 +8,7 @@ const Duke_of_Winter = {
   "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F1c%2F23%2Fa8%2F1c23a85491d656db08103f135a02102c.jpg&f=1&nofb=1&ipt=92b93ec29490f46f6f1b3f25bc115895913ce73dea736976035053ee11aafe16",
   "description": "Powerful siege commander who leads the Blackblade Legion with unmatched ferocity.",
   "lore": "Cunning thief",
-  "primaryStat": "Intelligence",
+  "primaryStat": "Strength",
   "stats": [
     ""
   ],
@@ -20,32 +20,32 @@ const Duke_of_Winter = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "No Pain, No Gain",
-      "disc": "Causes basic attacks to deal less damage up to a threshold.",
+      "name": "Warlord",
+      "disc": "Grants additional Unit points, allowing the Blackblade Warlord to summon more units.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "Submit",
-      "disc": "Silences a target and causes them to take damage over time. If the target dies while under the effect of Submit, a Damned Soul is summoned.",
+      "name": "Summon Riders",
+      "disc": "Summons two Blackblade Riders to the Battlefield. Each rider will level up as they kill enemy units, allowing them to eventually get promoted.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "Parasite",
-      "disc": "Places a parasite in a target normal unit. While afflicted, the targeted unit can not attack Para'Minath. Upon death, the parasite will erupt, dealing AoE damage and stunning nearby enemy units. The parasite will then relentlessly attack nearby enemy units until death.",
+      "name": "Blackblade Outpost",
+      "disc": "Plants an Outpost at a target location. The Outpost will heal nearby allied units and can be used to promote Blackblade Riders.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "Demon Finger",
-      "disc": "Summons a immovable tentacle at a target location. The tentacle will attack enemy units that walk close.",
+      "name": "Blackblade Banner",
+      "disc": "Tosses the Blackblade Banner to a target Rider. The Warboy will carry the banner into battle, granting additional abilities.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "Dominate",
-      "disc": "Para'Minath invades the mind of a target enemy Commander, allowing him to control their actions for a short duration.",
+      "name": "Raid!",
+      "disc": "Grants all nearby allied units max movement speed in an area around the Blackblade Warlord for a short duration.",
       "thumbnail": ""
     }
   ]

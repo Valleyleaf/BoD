@@ -22,32 +22,32 @@ const Black_Clown = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Better together",
+      "disc": "Causes the Black Clowns Mimic to deal bonus chaos damage on attacks if it stands close to him.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Mimic",
+      "disc": "Summons a clone of the Black Clown at a target location. The Black Clown can detonate the clone, dealing damage to nearby enemies.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Stab from the Dark",
+      "disc": "The Black Clown inhibits the shadow of a target unit. He can then teleport to a target unit. If the target is an enemy, he will deal damage based on their missing health.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Deceive",
+      "disc": "The Black Clown switches places with his Mimic, confusing enemies. The Black Clown can cast this ability on himself to pretend to cast this ability.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Shadow Counter",
+      "disc": "Marks a enemy unit with a shadow counter. Each time the target is attacked by the Black Clown or a Mimic, the counter will increase, dealing damage at the end of it's duration depending on the amount of stacks accrued",
       "thumbnail": ""
     }
   ]

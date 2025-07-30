@@ -8,7 +8,7 @@ const Nomad = {
   "image": "https://i.imgur.com/kBD2JK5.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Intelligence",
   "stats": [
     ""
   ],

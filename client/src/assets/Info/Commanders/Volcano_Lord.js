@@ -22,7 +22,7 @@ const Volcano_Lord = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
+      "name": "Collateral Damage",
       "disc": "Upon attacking, the Volcano Lord leaves behind a small area of fire that deals damage over time to enemy units and buildings.",
       "thumbnail": ""
     },
@@ -46,7 +46,7 @@ const Volcano_Lord = {
     },
     {
       "abilityid": 4,
-      "name": "Volcanic Rage",
+      "name": "Burning Rage",
       "disc": "Sends out waves of molten rocks in a large AoE. Enemy units and buildings hit by the waves take damage.",
       "thumbnail": ""
     }

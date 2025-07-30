@@ -8,7 +8,7 @@ const Primarch_of_Magic = {
   "image": "https://i.imgur.com/haPATJu.png",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Intelligence",
   "stats": [
     ""
   ],

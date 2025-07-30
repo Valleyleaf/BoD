@@ -8,7 +8,7 @@ const Patchwork_Golem = {
   "image": "https://i.imgur.com/ljpCwFi.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Strength",
   "stats": [
     ""
   ],
@@ -31,8 +31,8 @@ const Patchwork_Golem = {
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Expand Flesh",
+      "disc": "The Patchwork Golem expands its flesh, increasing its maximum health temporarily and inflicts nearby enemy units with a damage over time debuff.",
       "thumbnail": ""
     },
     {

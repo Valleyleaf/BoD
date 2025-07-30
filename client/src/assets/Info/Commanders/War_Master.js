@@ -8,7 +8,7 @@ const War_Master = {
   "image": "https://i.imgur.com/tOASvVV.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Strength",
   "stats": [
     ""
   ],

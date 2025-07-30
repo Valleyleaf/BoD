@@ -8,7 +8,7 @@ const Phase_Drake = {
   "image": "https://i.imgur.com/HKRRI5p.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Intelligence",
   "stats": [
     ""
   ],
@@ -25,7 +25,7 @@ const Phase_Drake = {
     },
     {
       "abilityid": 1,
-      "name": "",
+      "name": "Fairy Fire",
       "disc": "",
       "thumbnail": ""
     },
@@ -44,7 +44,7 @@ const Phase_Drake = {
     {
       "abilityid": 4,
       "name": "",
-      "disc": "",
+      "disc": "The Phase Drake summons part of it's reality into ours, creating a large rift in an area. Units inside the rift are invurnerable. At the end of the duration, the rift collapses, dealing damage to all enemy units still inside.",
       "thumbnail": ""
     }
   ]

@@ -8,7 +8,7 @@ const Shadow_Herald = {
   "image": "https://i.imgur.com/suafdrs.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Strength",
   "stats": [
     ""
   ],
@@ -19,26 +19,26 @@ const Shadow_Herald = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Warpath",
+      "disc": "Every third attack sends out a shockwave that deals damage to enemy units caught in the path.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Haunting Howl",
+      "disc": "Passively grants the Shadow Herald bonus armor. Upon activation, release a terrifying howl that reduces the attack damage of nearby enemy units.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
       "name": "",
-      "disc": "",
+      "disc": "Upon killing a unit, the Shadow Herald gains a stack, each stack increases his attack damage. If the Shadow Herald has not killed a unit in a while, he loses a stack.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Grimoire of Souls",
+      "disc": "Unleashes a swarm of shadows that attack nearby enemy units.",
       "thumbnail": ""
     },
     {

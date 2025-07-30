@@ -21,13 +21,13 @@ const Emissary_of_the_Keg_Lords = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
+      "name": "Barmann",
       "disc": "",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
+      "name": "Barrel of Fire brew",
       "disc": "",
       "thumbnail": ""
     },
@@ -39,14 +39,14 @@ const Emissary_of_the_Keg_Lords = {
     },
     {
       "abilityid": 3,
-      "name": "",
+      "name": "Barrel of Cider",
       "disc": "",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Keg Opener",
+      "disc": "Knocks back a target unit. If it is an enemy, it also takes damage. If cast on a Barrel, it will have different effects.",
       "thumbnail": ""
     }
   ]

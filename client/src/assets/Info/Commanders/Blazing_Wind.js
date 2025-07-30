@@ -21,8 +21,8 @@ const Blazing_Wind = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Skullsplitter",
+      "disc": "Upon casting an ability, the Blazing Wind charges his hammer. His next attack will deal bonus damage and stun the target.",
       "thumbnail": ""
     },
     {
@@ -33,14 +33,14 @@ const Blazing_Wind = {
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Blast",
+      "disc": "Strikes a target enemy unit with lightning, dealing damage and stunning them for a short duration.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Crumble",
+      "disc": "Upon toggle, deals AoE damage to nearby enemy units.",
       "thumbnail": ""
     },
     {

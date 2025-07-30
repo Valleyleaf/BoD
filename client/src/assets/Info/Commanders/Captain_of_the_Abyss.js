@@ -22,32 +22,32 @@ const Captain_of_the_Abyss = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Lost Souls",
+      "disc": "Upon killing a unit, it leaves behind a Lost Soul. The Soul will lash out against nearby enemy units, dealing damage. The lost Soul will remain as long as it has a target to attack.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Curse of the Deep",
+      "disc": "Targets an enemy unit. After a short delay, the Captain of the Abyss deals AoE damage around the target. If the target is a normal unit, she deals double damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Kraken's Cage",
+      "disc": "Summons a ring of tentacles at a target location. The tentacles will attack any nearby enemy units.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Keelhaul'Em",
+      "disc": "Selects two units and drags them towards each other, dealing damage and stunning them briefly.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "The Tide Killer",
+      "disc": "Summons the Tide Killer, a powerful ship that can attack enemy units in its vicinity. The ship will level with the Captain of the Abyss and gain additional abilities as it does.",
       "thumbnail": ""
     }
   ]

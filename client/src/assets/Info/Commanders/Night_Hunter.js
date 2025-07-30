@@ -8,7 +8,7 @@ const Night_Hunter = {
   "image": "https://i.imgur.com/upTkmxn.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Agility",
   "stats": [
     ""
   ],
