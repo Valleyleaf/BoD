@@ -8,7 +8,7 @@ const Rift_Walker = {
   "image": "https://i.imgur.com/8jRBY2O.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Agility",
   "stats": [
     ""
   ],

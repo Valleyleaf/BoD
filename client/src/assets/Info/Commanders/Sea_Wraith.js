@@ -8,7 +8,7 @@ const Sea_Wraith = {
   "image": "https://i.imgur.com/2LYQ2MA.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Strength",
   "stats": [
     ""
   ],

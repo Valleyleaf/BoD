@@ -10,7 +10,7 @@ const Gunslinger = {
   "image": "https://i.imgur.com/Tsc3tyM.jpeg",
   "description": "High damage ranged carry with the ability to deal massive damage to single targets.",
   "lore": GunslingerBio,
-  "primaryStat": "",
+  "primaryStat": "Agility",
   "stats": [
     ""
   ],

@@ -10,7 +10,7 @@ const Stormbringer = {
   "image": "https://i.imgur.com/kJe1mKf.jpeg",
   "description": "",
   "lore": StormbringerBio,
-  "primaryStat": "",
+  "primaryStat": "Agility",
   "stats": [
     ""
   ],

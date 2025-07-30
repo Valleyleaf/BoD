@@ -33,20 +33,20 @@ const Bounty_Huntress = {
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Kill Command",
+      "disc": "Grants both the Bounty Huntress and Smokey bonus attack speed.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Wild Hunt",
+      "disc": "Causes the Bounty Huntress and Smokey to stealth. Their next attack will deal bonus damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Vicious Strike",
+      "disc": "The Bounty Huntress silences a target and commands Smokey to strike, dealing true magic damage to the target.",
       "thumbnail": ""
     },
     {

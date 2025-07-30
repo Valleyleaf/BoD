@@ -22,14 +22,14 @@ const Captain_of_the_Damned = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Dead Crew",
+      "disc": "Upon killing a unit, the Captain of the Damned takes their soul to work for him, granting his next ability bonus effects.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "A storm of blades",
+      "disc": "The Captain of the Damned gains increased movement speed, attack speed and life steal for a short duration. If he has a Dead Crew soul, the effects are increased.",
       "thumbnail": ""
     },
     {
@@ -40,8 +40,8 @@ const Captain_of_the_Damned = {
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Revenge Cutlass",
+      "disc": "Sends out a bolt of negative damage dealing energy at a enemy unit from a long range. Sends out an additional bolt for each Dead Crew soul the Captain of the Damned has.",
       "thumbnail": ""
     },
     {

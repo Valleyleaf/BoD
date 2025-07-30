@@ -10,7 +10,7 @@ const Slumborn = {
   "image": "https://i.imgur.com/RoJBl5x.png",
   "description": "",
   "lore": SlumbornBio,
-  "primaryStat": "",
+  "primaryStat": "Intelligence",
   "stats": [
     ""
   ],

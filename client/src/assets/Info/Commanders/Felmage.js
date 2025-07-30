@@ -45,7 +45,7 @@ const Felmage = {
     },
     {
       "abilityid": 4,
-      "name": "Split Earth",
+      "name": "Shatter Earth",
       "disc": "The Felmage channels, creating a earthquake at a target location. Enemy units caught in the earthquake are massively slowed as long as they remain in the area.",
       "thumbnail": ""
     }

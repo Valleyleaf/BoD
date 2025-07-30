@@ -8,7 +8,7 @@ const Hexrelic = {
   "image": "",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Agility",
   "stats": [
     ""
   ],

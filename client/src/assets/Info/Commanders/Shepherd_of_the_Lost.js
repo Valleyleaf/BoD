@@ -8,7 +8,7 @@ const Shepherd_of_the_Lost = {
   "image": "https://i.imgur.com/EEzEvlS.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Agility",
   "stats": [
     ""
   ],
@@ -21,8 +21,8 @@ const Shepherd_of_the_Lost = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "Archers Eye",
-      "disc": "The Shepherd of the Lost reduces incoming damage from ranged attacks and spells.",
+      "name": "Archers Focus",
+      "disc": "Causes all nearby allied ranged units to gain bonus attack damage.",
       "thumbnail": ""
     },
     {
@@ -33,8 +33,8 @@ const Shepherd_of_the_Lost = {
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Split Shot",
+      "disc": "Causes the Shepherd's attacks to hit multiple targets in a small area around the main target. The damage is reduced for each target hit.",
       "thumbnail": ""
     },
     {

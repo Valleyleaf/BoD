@@ -8,7 +8,7 @@ const Scroll_Ninja = {
   "image": "https://i.imgur.com/yLPJdpj.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Agility",
   "stats": [
     ""
   ],
@@ -19,26 +19,26 @@ const Scroll_Ninja = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Ninja!",
+      "disc": "Upon being attacked, the Scroll Ninja gains stacking dodge chance.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Scroll of Knives",
+      "disc": "Sends out a wave of knives in a cone, dealing damage to all enemy units caught in the cone.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Scroll of Nettles",
+      "disc": "Pokes a enemy unit with a poison nettle, dealing damage over time and reducing armor.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Scroll of Illusions",
+      "disc": "The Scroll Ninja stealths and sends out an illusion of herself. The illusion deals no damage and takes additional damage from enemy units.",
       "thumbnail": ""
     },
     {

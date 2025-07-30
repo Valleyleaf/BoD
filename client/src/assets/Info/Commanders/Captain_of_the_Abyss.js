@@ -22,14 +22,14 @@ const Captain_of_the_Abyss = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Lost Souls",
+      "disc": "Upon killing a unit, it leaves behind a Lost Soul. The Soul will lash out against nearby enemy units, dealing damage. The lost Soul will remain as long as it has a target to attack.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Curse of the Deep",
+      "disc": "Targets an enemy unit. After a short delay, the Captain of the Abyss deals AoE damage around the target. If the target is a normal unit, she deals double damage.",
       "thumbnail": ""
     },
     {

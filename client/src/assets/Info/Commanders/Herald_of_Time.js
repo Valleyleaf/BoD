@@ -10,7 +10,7 @@ const Herald_of_Time = {
   "image": "https://i.imgur.com/anD0ATv.jpeg",
   "description": "",
   "lore": HeraldofTimeBio,
-  "primaryStat": "",
+  "primaryStat": "Strength",
   "stats": [
     ""
   ],

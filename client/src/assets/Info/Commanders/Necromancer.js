@@ -8,7 +8,7 @@ const Necromancer = {
   "image": "https://i.imgur.com/pXqKwHl.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Intelligence",
   "stats": [
     ""
   ],

@@ -10,7 +10,7 @@ const Lightbringer = {
   "image": "https://i.imgur.com/CyCzT9Y.jpeg",
   "description": "",
   "lore": LightbringerBio,
-  "primaryStat": "",
+  "primaryStat": "Intelligence",
   "stats": [
     ""
   ],

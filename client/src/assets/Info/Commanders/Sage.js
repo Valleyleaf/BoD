@@ -8,7 +8,7 @@ const Sage = {
   "image": "https://i.imgur.com/1oMmFH9.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Intelligence",
   "stats": [
     ""
   ],
