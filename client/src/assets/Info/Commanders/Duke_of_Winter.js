@@ -12,7 +12,7 @@ const Duke_of_Winter = {
   "stats": [
     ""
   ],
-  "faction": "Gaia's Guard",
+  "faction": "The Green Order",
   "roles": [
     "Carry",
     "Ranged",

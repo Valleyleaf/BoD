@@ -12,7 +12,7 @@ const Night_Hunter = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "The Green Order",
   "roles": [
     ""
   ],

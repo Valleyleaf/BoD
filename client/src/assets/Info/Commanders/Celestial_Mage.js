@@ -12,7 +12,7 @@ const Celestial_Mage = {
   "stats": [
     ""
   ],
-  "faction": "Gaia's Guard",
+  "faction": "The Green Order",
   "roles": [
     "Mage",
     "Ranged",

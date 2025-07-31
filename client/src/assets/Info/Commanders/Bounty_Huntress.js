@@ -13,7 +13,7 @@ const Bounty_Huntress = {
   "stats": [
     ""
   ],
-  "faction": "Mechanisms",
+  "faction": "League of Valor",
   "roles": [
     "Carry",
     "Ranged"

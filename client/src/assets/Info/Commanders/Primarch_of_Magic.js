@@ -12,7 +12,7 @@ const Primarch_of_Magic = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "League of Valor",
   "roles": [
     ""
   ],

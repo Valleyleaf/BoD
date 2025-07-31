@@ -12,7 +12,7 @@ const Sea_Wraith = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "League of Valor",
   "roles": [
     ""
   ],

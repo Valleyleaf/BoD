@@ -12,7 +12,7 @@ const Stalker = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "Void Whisperers",
   "roles": [
     ""
   ],

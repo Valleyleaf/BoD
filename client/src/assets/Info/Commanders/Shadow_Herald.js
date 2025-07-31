@@ -12,7 +12,7 @@ const Shadow_Herald = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "The Abyss",
   "roles": [
     ""
   ],

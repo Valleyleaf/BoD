@@ -12,7 +12,7 @@ const Patchwork_Golem = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "Void Whisperers",
   "roles": [
     ""
   ],

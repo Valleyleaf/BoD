@@ -12,7 +12,7 @@ const Scroll_Ninja = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "The Green Order",
   "roles": [
     ""
   ],

@@ -19,8 +19,8 @@ const War_Master = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Battleborn",
+      "disc": "The War Master has a chance to knock back enemy unit's struck by basic attacks, dealing damage and stunning them for a short duration.",
       "thumbnail": ""
     },
     {

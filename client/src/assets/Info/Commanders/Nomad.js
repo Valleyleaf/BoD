@@ -12,7 +12,7 @@ const Nomad = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "Inferno Crusade",
   "roles": [
     ""
   ],

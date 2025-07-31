@@ -12,7 +12,7 @@ const Hallucinationist = {
   "stats": [
     ""
   ],
-  "faction": "The League of Valor",
+  "faction": "League of Valor",
   "roles": [
     "Mage",
     "Support",

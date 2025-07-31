@@ -12,7 +12,7 @@ const Necromancer = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "Void Whisperers",
   "roles": [
     ""
   ],
