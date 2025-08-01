@@ -5,7 +5,7 @@
   padding: 2rem;
   text-align: center;
   background-color: #0f0f0f;
-  --button-color: #70d3d398;
+  --button-color: #2edbdbde;
   --ArticleBGColor: #50505046;
   --strength-color: #e74c3c;
   --agility-color: #27ae60;
@@ -41,7 +41,7 @@
 .NavbarPosition{
   display: flex;
   flex-direction: column;
-  height: 10%;
+  align-items: center;
 }
 
 .OutputPosition{

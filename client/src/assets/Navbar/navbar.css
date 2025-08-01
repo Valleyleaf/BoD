@@ -1,15 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 .navbarClass{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    border-bottom: solid 5px rgb(0, 204, 255);
     font-size: 20px;
+    width: 100%;
+    min-width: 600px;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .NavbuttonClass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     width: 25%;
-    height: 30px;
+    height: 40px;
     margin: 0px 0px 2px 0px;
     transition: ease 0.3s;
     border-top: solid 4px rgb(255, 255, 255);
@@ -19,17 +26,20 @@
 
 .NavbuttonClass:hover{
     font-size: 22px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: var(--button-color);
+    color: rgb(255, 255, 255);
     width: 25%;
-    height: 30px;
+    height: 40px;
     transition: ease 0.3s;
 }
 
 .navLeftCap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     width: 25%;
-    height: 30px;
+    height: 40px;
     margin: 0px 0px 2px 0px;
     transition: ease 0.3s;
     border-top-left-radius: 15px;
@@ -41,10 +51,10 @@
 
 .navLeftCap:hover{
     font-size: 22px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: var(--button-color);
+    color: rgb(255, 255, 255);
     width: 25%;
-    height: 30px;
+    height: 40px;
     transition: ease 0.3s;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
@@ -54,9 +64,12 @@
 }
 
 .navRightCap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     width: 25%;
-    height: 30px;
+    height: 40px;
     margin: 0px 0px 2px 0px;
     transition: ease 0.3s;
     border-top-right-radius: 15px;
@@ -64,18 +77,20 @@
     border-top: solid 4px rgb(255, 255, 255);
     border-bottom: solid 4px rgb(255, 255, 255);
     border-right: solid 4px rgb(255, 255, 255);
+    white-space: nowrap;
 }
 
 .navRightCap:hover{
     font-size: 22px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: var(--button-color);
+    color: rgb(255, 255, 255);
     width: 25%;
-    height: 30px;
+    height: 40px;
     transition: ease 0.3s;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top: solid 4px rgb(255, 255, 255);
     border-bottom: solid 4px rgb(255, 255, 255);
     border-right: solid 4px rgb(255, 255, 255);
+    white-space: nowrap;
 }
