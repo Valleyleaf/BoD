@@ -9,10 +9,9 @@ export default function Header(){
     return(
             <div className="flexRow center-content">
                 <a href="/">
-                    <img className="logo" src={Logo}></img>
-                    {/* Add background? Seems barren, needs more in terms of design. */}
+                    <img className="header-logo" src={Logo}></img>
                 </a>
-
+                <Navbar />
             </div>
     );
 };

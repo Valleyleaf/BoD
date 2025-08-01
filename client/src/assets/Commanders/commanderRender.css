@@ -6,6 +6,14 @@
   font-style: normal;
 }
 
+.commanderContainer{
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+  padding: 20px;
+
+}
+
 .CommanderRenderMain{
     display: flex;
     flex-direction: column;
@@ -39,7 +47,6 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    height: 100%;
     border-radius: 10px;
     padding: 20px;
 }
@@ -48,6 +55,8 @@
     font-size: 120px;
     color: #ffffff;
     text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
     margin-top: -50px;
     margin-bottom: -45px;
     padding: 0px;
@@ -82,6 +91,13 @@
     justify-content: center;
 }
 
+.abilityContainer{
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  margin-left: 10%;
+}
+
 .AbilityBox {
   display: block;
   width: 100%;
@@ -91,8 +107,6 @@
   animation: fadeIn 1s ease-out forwards;
   overflow: visible;
 }
-
-
 
 .PrimaryStat{
     display: flex;
@@ -151,12 +165,6 @@
     height: auto;
     border: solid 1px rgb(174, 232, 240);
 }
-
-.abilityVideo{
-
-}
-
-
 
   .DifficultyIcon{
     width: 55px;
