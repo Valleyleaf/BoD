@@ -21,20 +21,20 @@ function CommanderDetail() {
   if (!character) return <h2>Character "{decodedName}" not found.</h2>;
   
   return (
-    <div className=''>
-      <div className="CommanderNamePlate">
-        <h1 className='name CharacterRenderFont'>{character.name}</h1>
-        <h2 className='title CharacterRenderFont'>The {character.title}</h2>
-          <DifficultyRender character={character}/>
-          <div className='flexRow'>
-                <h2 className='PrimaryStat'>Primary:&nbsp;</h2>
-                <p className='PrimaryStat' style={{ color: attributeColors[character.primaryStat] || "white" }}>
-                  {character.primaryStat}
-                </p>
-          </div>
-      </div>
+    <div className='commanderContainer'>
       <div className="flexRow">
         <div className='flexColumn'>
+            <div className="CommanderNamePlate">
+              <h1 className='name CharacterRenderFont'>{character.name}</h1>
+              <h2 className='title CharacterRenderFont'>The {character.title}</h2>
+                <DifficultyRender character={character}/>
+                <div className='flexRow'>
+                      <h2 className='PrimaryStat'>Primary:&nbsp;</h2>
+                      <p className='PrimaryStat' style={{ color: attributeColors[character.primaryStat] || "white" }}>
+                        {character.primaryStat}
+                      </p>
+                </div>
+            </div>
         <img className="DisplayImage" src={character.image} alt={character.name} />
         <p className='characterDescription'>{character.description}</p>
           <div className="flexColumn CommanderSideProfile">
@@ -45,7 +45,7 @@ function CommanderDetail() {
               <p>Roles: {character.roles.join(', ')}</p>
           </div>
         </div>
-        <div className="flexColumn">
+        <div className="abilityContainer">
         <h1 className='CharacterRenderFont'>Abilities</h1>
         <div className='AbilityBox'>
           <AbilityRender character={character}/>

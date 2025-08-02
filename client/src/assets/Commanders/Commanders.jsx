@@ -22,7 +22,7 @@ function Commanders() {
   };
 
   return (
-    <div className='flexColumn'>
+    <div className='commanders'>
       <h2 className='Bio'>To Battle.</h2>
       <p>With over 60 Commanders and counting. Your playstyle is represented on the battlefield.</p>
       <div className="fade-slide-up">
