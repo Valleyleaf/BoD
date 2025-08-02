@@ -29,9 +29,9 @@ function App() {
             <Header />
           </div>
 
-          <div className="NavbarPosition">
+          {/* <div className="NavbarPosition">
             <Navbar />
-          </div>
+          </div> */}
 
           <div className="OutletPosition">
             <Outlet />
