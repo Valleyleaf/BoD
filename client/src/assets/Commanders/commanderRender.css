@@ -6,6 +6,12 @@
   font-style: normal;
 }
 
+.commanders{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px
+}
+
 .commanderContainer{
   display: flex;
   flex-direction: column;
