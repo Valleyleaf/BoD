@@ -12,7 +12,7 @@ const Rift_Walker = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "The Green Order",
   "roles": [
     ""
   ],

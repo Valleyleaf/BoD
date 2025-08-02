@@ -10,7 +10,7 @@ const Flame_King = {
   "image": "https://i.imgur.com/jT9hJUw.jpeg",
   "description": "Mystical mage with high base damage and area of effect abilities.",
   "lore": FlameKingBio,
-  "primaryStat": "Strength",
+  "primaryStat": "Intelligence",
   "stats": [
     ""
   ],

@@ -13,7 +13,7 @@ const Berserker = {
   "stats": [
     ""
   ],
-  "faction": "Gaia's Guard",
+  "faction": "The Green Order",
   "roles": [
     "Tank",
     "Melee"

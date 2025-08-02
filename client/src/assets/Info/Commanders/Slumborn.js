@@ -14,7 +14,7 @@ const Slumborn = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "Mechanisms",
   "roles": [
     ""
   ],

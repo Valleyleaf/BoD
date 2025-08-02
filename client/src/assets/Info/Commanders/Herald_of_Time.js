@@ -14,7 +14,7 @@ const Herald_of_Time = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "Mechanisms",
   "roles": [
     ""
   ],

@@ -20,14 +20,14 @@ const Vengence_Incarnate = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Shadow Tipped Bullets",
+      "disc": "Andersmith has a large chance to deal increased damage with his basic attacks.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Brandish Shadows",
+      "disc": "Andersmith pulls out his Shotgun, granting him increased attack damage at the cost of attack speed.",
       "thumbnail": ""
     },
     {

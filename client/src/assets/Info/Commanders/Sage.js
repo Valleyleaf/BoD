@@ -12,7 +12,7 @@ const Sage = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "Inferno Crusade",
   "roles": [
     ""
   ],

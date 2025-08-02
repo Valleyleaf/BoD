@@ -12,7 +12,7 @@ const Pursuer = {
   "stats": [
     ""
   ],
-  "faction": " ",
+  "faction": "The Green Order",
   "roles": [
     "Carry",
     "Melee",

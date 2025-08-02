@@ -12,7 +12,7 @@ const Emissary_of_the_Keg_Lords = {
   "stats": [
     ""
   ],
-  "faction": "Gaia's Guard",
+  "faction": "The Green Order",
   "roles": [
     "Tank",
     "Melee",

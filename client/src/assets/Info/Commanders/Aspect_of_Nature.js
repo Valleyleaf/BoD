@@ -12,7 +12,7 @@ const Aspect_of_Nature = {
   "stats": [
     ""
   ],
-  "faction": "Gaia's Guard",
+  "faction": "The Green Order",
   "roles": [
     "Carry",
     "Duelist",
