@@ -22,8 +22,14 @@ function CommanderDetail() {
   
   return (
     <div className='commanderContainer'>
-      <div className="flexRow">
-        <div className='flexColumn'>
+      <div className="commanderBackground"       
+        style={{
+        backgroundImage: `url(${character.image})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center top',
+        backgroundRepeat: 'no-repeat'
+      }}>
+        <div className='flexColumn' >
             <div className="CommanderNamePlate">
               <h1 className='name CharacterRenderFont'>{character.name}</h1>
               <h2 className='title CharacterRenderFont'>The {character.title}</h2>
@@ -35,7 +41,7 @@ function CommanderDetail() {
                       </p>
                 </div>
             </div>
-        <img className="DisplayImage" src={character.image} alt={character.name} />
+        {/* <img className="DisplayImage" src={character.image} alt={character.name} /> */}
         <p className='characterDescription'>{character.description}</p>
           <div className="flexColumn CommanderSideProfile">
           </div>
