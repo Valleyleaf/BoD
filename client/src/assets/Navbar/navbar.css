@@ -52,6 +52,10 @@
 .navLeftCap:hover{
     font-size: 22px;
     background-color: var(--button-color);
+    background-image: url('/src/assets/img/feather.png'); /* Add your feather image path */
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px auto; /* Adjust size as needed */
     color: rgb(255, 255, 255);
     width: 25%;
     height: 40px;

@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from 'react-router-dom';
 import Characters from '../Info/Commanders/A_index';
 import placeholder from '../img/placeholder.png';
-import './commanderRender.css';
+import './abilityRender.css';
 
 function AbilityRender() {
     const { name } = useParams();
