@@ -11,7 +11,9 @@ const Bounty_Huntress = {
   "lore": "Unstoppable force",
   "primaryStat": "Agility",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
   "faction": "League of Valor",
   "roles": [

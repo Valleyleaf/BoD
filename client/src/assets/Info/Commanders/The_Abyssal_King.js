@@ -13,9 +13,9 @@ const The_Abyssal_King = {
   "lore": AbyssalKingBio,
   "primaryStat": "Intelligence",
   "stats": [
-    "14",
-    "12",
-    "18"
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
   "faction": "Void Whisperers",
   "roles": [
