@@ -4,7 +4,7 @@ const Ember = {
   "title": "Ember",
   "difficulty": 3,
   "slug": "ember",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/cYtkxxE.png",
   "image": "https://i.imgur.com/PiplQc2.jpeg",
   "description": "Stealth assassin with critical strike capabilities and the ability to escape danger.",
   "lore": "N/A",

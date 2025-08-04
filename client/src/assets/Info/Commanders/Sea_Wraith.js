@@ -4,7 +4,7 @@ const Sea_Wraith = {
   "title": "Sea Wraith",
   "difficulty": 3,
   "slug": "sea-wraith",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/wax75a6.png",
   "image": "https://i.imgur.com/2LYQ2MA.jpeg",
   "description": "",
   "lore": "N/A",

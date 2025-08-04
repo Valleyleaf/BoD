@@ -6,7 +6,7 @@ const Herald_of_Time = {
   "title": "Herald of Time",
   "difficulty": 3,
   "slug": "herald-of-time",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/oq9hqeL.png",
   "image": "https://i.imgur.com/anD0ATv.jpeg",
   "description": "",
   "lore": HeraldofTimeBio,

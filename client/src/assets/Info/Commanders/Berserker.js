@@ -4,7 +4,7 @@ const Berserker = {
   "title": "Berserker",
   "difficulty": 3,
   "slug": "berserker",
-  "thumbnail": "https://i.imgur.com/KH6wTpt.jpeg",
+  "thumbnail": "https://i.imgur.com/vN2ohzh.png",
   "thumbnailAlt": "Image of The Example",
   "image": "https://i.imgur.com/KH6wTpt.jpeg",
   "description": "Tank with the ability to shrug off crowd control effects",

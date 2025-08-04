@@ -6,7 +6,7 @@ const Lightbringer = {
   "title": "Lightbringer",
   "difficulty": 3,
   "slug": "lightbringer",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/9bghiaH.png",
   "image": "https://i.imgur.com/CyCzT9Y.jpeg",
   "description": "",
   "lore": LightbringerBio,

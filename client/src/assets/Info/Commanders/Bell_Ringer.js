@@ -4,7 +4,7 @@ const Bell_Ringer = {
   "title": "Bell Ringer",
   "difficulty": 3,
   "slug": "bell-ringer",
-  "thumbnail": "https://i.imgur.com/rgkDXJi.jpeg",
+  "thumbnail": "https://i.imgur.com/SMTdZ1N.png",
   "thumbnailAlt": "Image of The Example",
   "image": "https://i.imgur.com/rgkDXJi.jpeg",
   "description": "Powerful duelist with strong debuff capabilities",

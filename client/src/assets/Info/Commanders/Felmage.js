@@ -4,7 +4,7 @@ const Felmage = {
   "title": "Felmage",
   "difficulty": 3,
   "slug": "felmage",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/BGSCddS.png",
   "image": "https://i.imgur.com/P4OMXnN.jpeg",
   "description": "Area of denial mage, adept at locking down enemies and dealing damage over time while healing allies.",
   "lore": "N/A",

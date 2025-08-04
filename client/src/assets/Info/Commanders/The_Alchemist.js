@@ -6,7 +6,7 @@ const The_Alchemist = {
   "title": "Alchemist",
   "difficulty": 1,
   "slug": "the-alchemist",
-  "thumbnail": "https://i.imgur.com/e5yRuLz.jpeg",
+  "thumbnail": "https://i.imgur.com/cp5LS9P.png",
   "image": "https://i.imgur.com/e5yRuLz.jpeg",
   "description": "Melee tank with powerful supportive abilities and self-preservation",
   "lore": AlchemistBio,

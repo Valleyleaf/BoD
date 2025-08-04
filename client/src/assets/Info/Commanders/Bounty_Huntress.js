@@ -4,7 +4,7 @@ const Bounty_Huntress = {
   "title": "Bounty Huntress",
   "difficulty": 5,
   "slug": "bounty-huntress",
-  "thumbnail": "https://i.imgur.com/tb5bc8O.jpeg",
+  "thumbnail": "https://i.imgur.com/2Nqe2mz.png",
   "thumbnailAlt": "Image of The Example",
   "image": "https://i.imgur.com/tb5bc8O.jpeg",
   "description": "Fierce carry who strikes together with a animal companion and gains bonus gold from kills.",

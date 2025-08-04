@@ -4,7 +4,7 @@ const Necromancer = {
   "title": "Necromancer",
   "difficulty": 3,
   "slug": "necromancer",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "",
   "image": "https://i.imgur.com/pXqKwHl.jpeg",
   "description": "",
   "lore": "N/A",

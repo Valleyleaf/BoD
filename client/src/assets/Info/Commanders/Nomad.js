@@ -4,7 +4,7 @@ const Nomad = {
   "title": "Nomad",
   "difficulty": 3,
   "slug": "nomad",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/ASIuKea.png",
   "image": "https://i.imgur.com/kBD2JK5.jpeg",
   "description": "",
   "lore": "N/A",

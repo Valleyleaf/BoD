@@ -4,7 +4,7 @@ const Flamesickle = {
   "title": "Flamesickle",
   "difficulty": 3,
   "slug": "flamesickle",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/gbGIyol.png",
   "image": "https://i.imgur.com/41kuv1t.jpeg",
   "description": "Cunning mage with the ability to steal spells and use area of denial abilities.",
   "lore": "N/A",

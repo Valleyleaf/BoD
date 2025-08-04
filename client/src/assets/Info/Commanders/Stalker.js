@@ -4,7 +4,7 @@ const Stalker = {
   "title": "Stalker",
   "difficulty": 3,
   "slug": "stalker",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/34bNmHk.png",
   "image": "https://i.imgur.com/FjvgE7w.jpeg",
   "description": "",
   "lore": "N/A",

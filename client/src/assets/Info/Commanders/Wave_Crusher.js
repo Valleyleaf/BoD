@@ -4,7 +4,7 @@ const Wave_Crusher = {
   "title": "Wave Crusher",
   "difficulty": 3,
   "slug": "Wave-crusher",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/4rIX4vT.png",
   "image": "https://i.imgur.com/blTAJYk.jpeg",
   "description": "Bruiser with the ability to dodge attacks and deal consistant damage in small AoEs.",
   "lore": "N/A",

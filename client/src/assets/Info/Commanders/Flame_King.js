@@ -6,7 +6,7 @@ const Flame_King = {
   "title": "Flame King",
   "difficulty": 3,
   "slug": "flame-king",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/4b9BoB8.png",
   "image": "https://i.imgur.com/jT9hJUw.jpeg",
   "description": "Mystical mage with high base damage and area of effect abilities.",
   "lore": FlameKingBio,

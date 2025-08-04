@@ -4,7 +4,7 @@ const Lone_Wanderer = {
   "title": "Lone Wanderer",
   "difficulty": 3,
   "slug": "lone-wanderer",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/yjWLvJa.png",
   "image": "https://i.imgur.com/zSvvVwF.jpeg",
   "description": "",
   "lore": "N/A",

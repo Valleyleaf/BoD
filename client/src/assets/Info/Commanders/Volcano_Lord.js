@@ -6,7 +6,7 @@ const Volcano_Lord = {
   "title": "Volcano Lord",
   "difficulty": 3,
   "slug": "volcano-lord",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "",
   "image": "https://i.imgur.com/FeKrgBU.jpeg",
   "description": "",
   "lore": VolcanoLordBio,

@@ -4,7 +4,7 @@ const Duke_of_Winter = {
   "title": "Duke of Winter",
   "difficulty": 3,
   "slug": "duke-of-winter",
-  "thumbnail": "https://i.imgur.com/eKlTykx.jpeg",
+  "thumbnail": "https://i.imgur.com/UmWiRKb.png",
   "image": "https://i.imgur.com/eKlTykx.jpeg",
   "description": "Ranged carry with strong crowd control abilities.",
   "lore": "Cunning thief",

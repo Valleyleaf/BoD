@@ -4,7 +4,7 @@ const Celestial_Mage = {
   "title": "Celestial Mage",
   "difficulty": 4,
   "slug": "celestial-mage",
-  "thumbnail": "https://i.imgur.com/pwwdofr.jpeg",
+  "thumbnail": "https://i.imgur.com/BFwi5GL.png",
   "image": "https://i.imgur.com/pwwdofr.jpeg",
   "description": "Supportive mage who can summon Celestials to aid her in battle.",
   "lore": "Never misses a shot",

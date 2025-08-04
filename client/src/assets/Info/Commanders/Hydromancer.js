@@ -4,7 +4,7 @@ const Hydromancer = {
   "title": "Hydromancer",
   "difficulty": 3,
   "slug": "hydromancer",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/RPqwsiQ.png",
   "image": "https://i.imgur.com/cLjGBfT.jpeg",
   "description": "",
   "lore": "N/A",
