@@ -6,7 +6,7 @@ const Black_Clown = {
   "slug": "black-clown",
   "thumbnail": "https://i.imgur.com/6e88puJ.jpeg",
   "thumbnailAlt": "Image of The Example",
-  "image": "https://i.imgur.com/6e88puJ.jpeg",
+  "image": "https://i.imgur.com/bl6F9ZQ.png",
   "description": "Elusive assassin with the ability to confuse enemies and deal massive damage",
   "lore": "Quick and precise",
   "primaryStat": "Agility",
