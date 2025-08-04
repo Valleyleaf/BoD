@@ -23,8 +23,8 @@ const Hydromancer = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Hydromancy",
+      "disc": "The Hydromancer's basic attacks deal damage based on both his Intelligence and Agility.",
       "thumbnail": ""
     },
     {
