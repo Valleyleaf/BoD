@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "dev": "concurrently \"cd server && npm start\" \"cd client && npm run dev\""
+    "dev": "concurrently \"cd server && npm start\" \"cd client && npm run dev\"",
+    "netlify-build": "cd client && npm ci && npm run build"
   },
   "dependencies": {
     "concurrently": "^9.0.1",

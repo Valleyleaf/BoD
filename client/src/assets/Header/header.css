@@ -1,11 +1,29 @@
-.logo{
-    width:440px;
-    height: auto;
+.headerMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    padding: 10px;
+    padding-right: 100%;
+    background-color: #161616;
+    border-bottom: solid 2px var(--button-color);
+    box-shadow: 15 44px 18px rgba(0, 0, 0, 0.1);
+}
+
+.DownloadButtonContainer{
+    margin-left: auto;
+}
+
+.header-logo{
+    width: auto;
+    height: 120px;
     filter: brightness(90%);
     transition: 0.3s ease;
 }
 
-.logo:hover{
+.header-logo:hover{
     transform: scale(1.01);
     filter: brightness(110%);
 }

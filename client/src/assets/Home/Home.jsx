@@ -17,11 +17,6 @@ export default function Home() {
                 <p>A custom MOBA-style map for WARCRAFT III, 15 years in development.</p>
             </div>
                 <div>
-                    <a href="https://www.hiveworkshop.com/threads/battle-of-dominance-v2-0-arcane-showdown.326630/" target="_blank" rel="noopener noreferrer">
-                        <button className="DownloadButton">DOWNLOAD</button>
-                    </a>
-                </div>
-                <div>
                     <Link to="/commanders" style={{ textDecoration: "none", color: "inherit" }}>   
                         <h2>Insert hero carousel here. Copy from Commanders but use Character.Thumbnail, render 3 rows stacked ontop of each other</h2>
                         <h2>Insert Highlight carousel here. What that is, I do not yet know. Screenshots?</h2>
