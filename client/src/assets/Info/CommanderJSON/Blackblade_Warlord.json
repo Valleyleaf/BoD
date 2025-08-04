@@ -1,4 +1,4 @@
-const Blackblade_Warlord = {
+{
   "id": 63,
   "name": "Mul-Gog",
   "title": "Blackblade Warlord",
@@ -12,7 +12,7 @@ const Blackblade_Warlord = {
   "stats": [
     "10+(1 per level)",
     "14+(1.5 per level)",
-    "18+(+2.3 per level)",
+    "18+(+2.3 per level)"
   ],
   "faction": "Inferno Crusade",
   "roles": [
@@ -51,5 +51,4 @@ const Blackblade_Warlord = {
       "thumbnail": ""
     }
   ]
-};
-export default Blackblade_Warlord;
+}
