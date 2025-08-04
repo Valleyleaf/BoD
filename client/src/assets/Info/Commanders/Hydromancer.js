@@ -10,7 +10,9 @@ const Hydromancer = {
   "lore": "N/A",
   "primaryStat": "Intelligence",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
   "faction": "The Green Order",
   "roles": [
@@ -21,8 +23,8 @@ const Hydromancer = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Hydromancy",
+      "disc": "The Hydromancer's basic attacks deal damage based on both his Intelligence and Agility.",
       "thumbnail": ""
     },
     {

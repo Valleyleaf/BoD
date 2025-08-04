@@ -10,7 +10,9 @@ const Ember = {
   "lore": "N/A",
   "primaryStat": "Agility",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
   "faction": "Inferno Crusade",
   "roles": [
@@ -19,32 +21,32 @@ const Ember = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Dread",
+      "disc": "Causes all nearby enemy units to lose attack damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Dead Chivalry",
+      "disc": "Hurls a dagger at a enemy unit, dealing damage and marking them. While marked, Ember's attacks will critically strike the target.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Shadow Walk",
+      "disc": "Ember passively stealths out of combat. Can also be cast in combat to stealth at a high cooldown. While on cooldown, the passive component is disabled.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Lust",
+      "disc": "Upon attacking a enemy unit, Ember gains stacks of lust up to a cap. Each stack increases Embers attack speed and movement speed.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "No Mercy",
+      "disc": "Ember heals herself after killing a enemy unit. The amount healed is based on the type of enemy killed.",
       "thumbnail": ""
     }
   ]

@@ -10,9 +10,9 @@ const Hand_of_the_Abyss = {
   "lore": "N/A",
   "primaryStat": "Agility",
   "stats": [
-    "14",
-    "18",
-    "22",
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
   "faction": "The Abyss",
   "roles": [

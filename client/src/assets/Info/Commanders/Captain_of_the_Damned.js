@@ -11,7 +11,9 @@ const Captain_of_the_Damned = {
   "lore": "Fights with resilience",
   "primaryStat": "Strength",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
   "faction": "Void Whisperers",
   "roles": [
