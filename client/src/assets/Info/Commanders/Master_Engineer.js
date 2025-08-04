@@ -7,7 +7,7 @@ const Master_Engineer = {
   "difficulty": 3,
   "slug": "master-engineer",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
-  "image": "",
+  "image": "https://i.imgur.com/Es20R05.jpeg",
   "description": "",
   "lore": MasterEngineerBio,
   "primaryStat": "Intelligence",

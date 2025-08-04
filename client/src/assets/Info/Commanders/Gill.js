@@ -5,7 +5,7 @@ const Gill = {
   "difficulty": 3,
   "slug": "gill",
   "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
-  "image": "https://i.imgur.com/eATW3To.jpeg",
+  "image": "https://i.imgur.com/xhOyHHa.png",
   "description": "Cunning Tank with the ability to shrug off damage while locking down enemies.",
   "lore": "N/A",
   "primaryStat": "Strength",
