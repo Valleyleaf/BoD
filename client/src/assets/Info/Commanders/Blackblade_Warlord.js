@@ -5,7 +5,7 @@ const Blackblade_Warlord = {
   "difficulty": 5,
   "slug": "blackblade-warlord",
   "thumbnail": "https://i.imgur.com/eKlTykx.jpeg",
-  "image": "https://i.imgur.com/q3mwHEm.jpeg",
+  "image": "https://i.imgur.com/SgTOOTo.jpeg",
   "description": "Powerful siege commander who leads the Blackblade Legion with unmatched ferocity.",
   "lore": "Cunning thief",
   "primaryStat": "Strength",
