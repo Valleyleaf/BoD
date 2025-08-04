@@ -48,7 +48,7 @@ const Hydromancer = {
     {
       "abilityid": 4,
       "name": "Pact of the Deep",
-      "disc": "",
+      "disc": "Grants a target summoned unit increased attack speed and resets all of the Hydromancers cooldowns.",
       "thumbnail": ""
     }
   ]

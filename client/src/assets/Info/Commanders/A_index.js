@@ -6,6 +6,7 @@ import Arcane_Overlord from './Arcane_Overlord.js';
 import Bell_Ringer from './Bell_Ringer.js';
 import Berserker from './Berserker.js';
 import Black_Clown from './Black_Clown.js';
+import Blackblade_Warlord from './Blackblade_Warlord.js'; 
 import Blazing_Wind from './Blazing_Wind.js';
 import Bounty_Huntress from './Bounty_Huntress.js';
 import Captain_of_the_Abyss from './Captain_of_the_Abyss.js';
@@ -70,6 +71,7 @@ const Characters = [
   Bell_Ringer,
   Berserker,
   Black_Clown,
+  Blackblade_Warlord,
   Blazing_Wind,
   Bounty_Huntress,
   Captain_of_the_Abyss,
