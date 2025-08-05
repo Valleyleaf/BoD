@@ -17,7 +17,9 @@ function Commandercarousel() {
     const row1 = Characters.slice(0, commandersPerRow);
     const row2 = Characters.slice(commandersPerRow, commandersPerRow * 2);
     const row3 = Characters.slice(commandersPerRow * 2);
-
+    //Above slices A_index into 3 columns. Reminder that this will need to be changed when
+    //I introduce mongoDB into this.
+    
     // Duplicate arrays multiple times for smooth infinite scrolling
     const duplicatedRow1 = [...row1, ...row1, ...row1];
     const duplicatedRow2 = [...row2, ...row2, ...row2];
@@ -38,6 +40,7 @@ function Commandercarousel() {
                     }}
                 />
                 <div className="commander-name">{commander.title}</div>
+                {/* Don't need the name really but keeping for now as it makes for a good placeholder visual */}
             </div>
         </Link>
     );
@@ -72,5 +75,3 @@ function Commandercarousel() {
 }
 
 export default Commandercarousel;
-
-//Above is AI generated code. Need to check and ensure it works as intended.

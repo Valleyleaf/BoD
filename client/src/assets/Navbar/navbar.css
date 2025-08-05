@@ -4,7 +4,7 @@
 .navbarClass{
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 28px;
     width: 20%;
     min-width: 800px;
     font-family: "Bebas Neue", sans-serif;
@@ -14,87 +14,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    width: 25%;
+    color: rgb(161, 161, 161);
     height: 40px;
-    margin: 0px 0px 2px 0px;
+    margin: 15px;
     transition: ease 0.3s;
-    border-top: solid 4px rgb(255, 255, 255);
-    border-bottom: solid 4px rgb(255, 255, 255);
-
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .NavbuttonClass:hover{
-    font-size: 22px;
-    background-color: var(--button-color);
     color: rgb(255, 255, 255);
-    width: 25%;
     height: 40px;
     transition: ease 0.3s;
-}
-
-.navLeftCap{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 25%;
-    height: 40px;
-    margin: 0px 0px 2px 0px;
-    transition: ease 0.3s;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-top: solid 4px rgb(255, 255, 255);
-    border-bottom: solid 4px rgb(255, 255, 255);
-    border-left: solid 4px rgb(255, 255, 255);
-}
-
-.navLeftCap:hover{
-    font-size: 22px;
-    background-color: var(--button-color);
-    background-image: url('/src/assets/img/feather.png'); /* Add your feather image path */
-    background-repeat: no-repeat;
-    background-position: right center;
-    background-size: 20px auto; /* Adjust size as needed */
-    color: rgb(255, 255, 255);
-    width: 25%;
-    height: 40px;
-    transition: ease 0.3s;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-top: solid 4px rgb(255, 255, 255);
-    border-bottom: solid 4px rgb(255, 255, 255);
-    border-left: solid 4px rgb(255, 255, 255);
-}
-
-.navRightCap{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 25%;
-    height: 40px;
-    margin: 0px 0px 2px 0px;
-    transition: ease 0.3s;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-top: solid 4px rgb(255, 255, 255);
-    border-bottom: solid 4px rgb(255, 255, 255);
-    border-right: solid 4px rgb(255, 255, 255);
-    white-space: nowrap;
-}
-
-.navRightCap:hover{
-    font-size: 22px;
-    background-color: var(--button-color);
-    color: rgb(255, 255, 255);
-    width: 25%;
-    height: 40px;
-    transition: ease 0.3s;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    border-top: solid 4px rgb(255, 255, 255);
-    border-bottom: solid 4px rgb(255, 255, 255);
-    border-right: solid 4px rgb(255, 255, 255);
-    white-space: nowrap;
+    transform: scale(1.01);
 }
