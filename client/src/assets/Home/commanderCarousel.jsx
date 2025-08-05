@@ -5,6 +5,11 @@ import Characters from '../Info/Commanders/A_index.js';
 import './commanderCarousel.css';
 
 function Commandercarousel() {
+    // Ensure we have commanders to display
+    if (!Characters || Characters.length === 0) {
+        return <div className="commander-carousel">No commanders available</div>;
+    }
+
     // Split commanders into three groups for three rows
     const totalCommanders = Characters.length;
     const commandersPerRow = Math.ceil(totalCommanders / 3);
@@ -13,7 +18,7 @@ function Commandercarousel() {
     const row2 = Characters.slice(commandersPerRow, commandersPerRow * 2);
     const row3 = Characters.slice(commandersPerRow * 2);
 
-    // Duplicate arrays for infinite scrolling effect
+    // Duplicate arrays multiple times for smooth infinite scrolling
     const duplicatedRow1 = [...row1, ...row1, ...row1];
     const duplicatedRow2 = [...row2, ...row2, ...row2];
     const duplicatedRow3 = [...row3, ...row3, ...row3];
