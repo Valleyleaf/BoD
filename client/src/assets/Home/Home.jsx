@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import GamePage from "../Game/Game.jsx"
+import Commandercarousel from "./commanderCarousel.jsx";
 import "./home.css";
 
 
@@ -16,12 +17,9 @@ export default function Home() {
                 <h2 className='HomeTitle'>Welcome to Battle of Dominance</h2>
                 <p>A custom MOBA-style map for WARCRAFT III, 15 years in development.</p>
             </div>
-                <div>
-                    <Link to="/commanders" style={{ textDecoration: "none", color: "inherit" }}>   
-                        <h2>Insert hero carousel here. Copy from Commanders but use Character.Thumbnail, render 3 rows stacked ontop of each other</h2>
-                        <h2>Insert Highlight carousel here. What that is, I do not yet know. Screenshots?</h2>
-                    </Link>
-                </div>
+            <div>
+                <Commandercarousel/>
+            </div>
             <div className="flexColumn center-content">
                     <h2 className='HomeTitle'>About:</h2>
                     <GamePage/>
