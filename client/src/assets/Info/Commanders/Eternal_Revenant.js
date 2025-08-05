@@ -4,7 +4,7 @@ const Eternal_Revenant = {
   "title": "Eternal Revenant",
   "difficulty": 3,
   "slug": "eternal-revenant",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/18nsMjT.png",
   "image": "https://i.imgur.com/U7m60tT.jpeg",
   "description": "Life draining tank with the ability to revive himself upon death.",
   "lore": "N/A",

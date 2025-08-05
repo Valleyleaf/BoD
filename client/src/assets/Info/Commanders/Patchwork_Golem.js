@@ -4,7 +4,7 @@ const Patchwork_Golem = {
   "title": "Patchwork Golem",
   "difficulty": 3,
   "slug": "patchwork-golem",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/aYJEN1C.png",
   "image": "https://i.imgur.com/ljpCwFi.jpeg",
   "description": "",
   "lore": "N/A",

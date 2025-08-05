@@ -4,7 +4,7 @@ const Captain_of_the_Damned = {
   "title": "Captain of the Damned",
   "difficulty": 2,
   "slug": "captain-of-the-damned",
-  "thumbnail": "https://i.imgur.com/8qZR9HN.jpeg",
+  "thumbnail": "https://i.imgur.com/K7Cwbs1.png",
   "thumbnailAlt": "Image of The Example",
   "image": "https://i.imgur.com/8qZR9HN.jpeg",
   "description": "Indomitable fighter who chases down enemies with relentless fury.",

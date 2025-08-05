@@ -4,7 +4,7 @@ const Shadow_Herald = {
   "title": "Shadow Herald",
   "difficulty": 3,
   "slug": "shadow-herald",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "",
   "image": "https://i.imgur.com/suafdrs.jpeg",
   "description": "",
   "lore": "N/A",

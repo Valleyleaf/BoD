@@ -4,7 +4,7 @@ const Salvador = {
   "title": "Salvador",
   "difficulty": 3,
   "slug": "salvador",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/odBdrGS.png",
   "image": "https://i.imgur.com/i4zNIE0.jpeg",
   "description": "",
   "lore": "N/A",

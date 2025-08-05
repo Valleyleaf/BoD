@@ -4,7 +4,7 @@ const Hand_of_the_Abyss = {
   "title": "Hand of the Abyss",
   "difficulty": 3,
   "slug": "hand-of-the-abyss",
-  "thumbnail": "https://i.imgur.com/YQoyAAy.png",
+  "thumbnail": "https://i.imgur.com/WW2vfhE.png",
   "image": "https://i.imgur.com/YQoyAAy.png",
   "description": "",
   "lore": "N/A",

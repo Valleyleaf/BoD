@@ -6,7 +6,7 @@ const Arcane_Overlord = {
   "title": "Arcane Overlord",
   "difficulty": 5,
   "slug": "arcane-overlord",
-  "thumbnail": "https://i.imgur.com/oWVNhxC.jpeg",
+  "thumbnail": "https://i.imgur.com/L8zqEYK.png",
   "image": "https://i.imgur.com/oWVNhxC.jpeg",
   "description": "Adaptive spellcaster with a large arsenal of abilities.",
   "lore": ArcaneOverlordBio,

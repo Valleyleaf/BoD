@@ -4,7 +4,7 @@ const Shepherd_of_the_Lost = {
   "title": "Shepherd of the Lost",
   "difficulty": 3,
   "slug": "shepherd-of-the-lost",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/6bpOobK.png",
   "image": "https://i.imgur.com/EEzEvlS.jpeg",
   "description": "",
   "lore": "N/A",

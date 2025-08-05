@@ -6,7 +6,7 @@ const King_Mechanism = {
   "title": "King Mechanism",
   "difficulty": 2,
   "slug": "king-mechanism",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/ZyntEya.png",
   "image": "https://i.imgur.com/nanoexS.jpeg",
   "description": "Brawler who enhances allied units in combat.",
   "lore": KingMechanismBio,

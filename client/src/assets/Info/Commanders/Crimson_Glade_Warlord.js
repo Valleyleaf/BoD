@@ -4,7 +4,7 @@ const Crimson_Glade_Warlord = {
   "title": "Crimson Glade Warlord",
   "difficulty": 2,
   "slug": "crimson-glade-warlord",
-  "thumbnail": "https://i.imgur.com/xxEfa26.jpeg",
+  "thumbnail": "",
   "image": "https://i.imgur.com/xxEfa26.jpeg",
   "description": "Agressive ranged carry with a focus on dealing massive single target damage.",
   "lore": "N/A",

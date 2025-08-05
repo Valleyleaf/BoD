@@ -4,7 +4,7 @@ const Blazing_Wind = {
   "title": "Blazing Wind",
   "difficulty": 1,
   "slug": "blazing-wind",
-  "thumbnail": "https://i.imgur.com/LEikbov.jpeg",
+  "thumbnail": "https://i.imgur.com/T5BYMFz.png",
   "thumbnailAlt": "Image of The Example",
   "image": "https://i.imgur.com/LEikbov.jpeg",
   "description": "Supportive tank with strong crowd control abilities",

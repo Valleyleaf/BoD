@@ -6,7 +6,7 @@ const The_Abyssal_King = {
   "title": "Abyssal King",
   "difficulty": 3,
   "slug": "the-abyssal-king",
-  "thumbnail": "https://i.pinimg.com/736x/ea/fb/40/eafb40de7d0e12896fcebb0108fd120e.jpg",
+  "thumbnail": "https://i.imgur.com/ELUEg2v.png",
   "thumbnailAlt": "Image of the Abyssal King",
   "image": "https://i.pinimg.com/736x/ea/fb/40/eafb40de7d0e12896fcebb0108fd120e.jpg",
   "description": "Mystical spellcaster with powerful crowd control abilities",

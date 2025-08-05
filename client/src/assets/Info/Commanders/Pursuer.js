@@ -4,7 +4,7 @@ const Pursuer = {
   "title": "Pursuer",
   "difficulty": 3,
   "slug": "pursuer",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/oVw3Hlx.png",
   "image": "https://i.imgur.com/eATW3To.jpeg",
   "description": "",
   "lore": "N/A",

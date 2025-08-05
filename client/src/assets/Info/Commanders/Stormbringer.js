@@ -6,7 +6,7 @@ const Stormbringer = {
   "title": "Stormbringer",
   "difficulty": 3,
   "slug": "stormbringer",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/T1SBDpk.png",
   "image": "https://i.imgur.com/kJe1mKf.jpeg",
   "description": "",
   "lore": StormbringerBio,

@@ -4,7 +4,7 @@ const Scroll_Ninja = {
   "title": "Scroll Ninja",
   "difficulty": 3,
   "slug": "scroll-ninja",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/tHNBn1z.png",
   "image": "https://i.imgur.com/yLPJdpj.jpeg",
   "description": "",
   "lore": "N/A",

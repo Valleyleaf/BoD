@@ -4,7 +4,7 @@ const Rift_Walker = {
   "title": "Rift Walker",
   "difficulty": 3,
   "slug": "rift-walker",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/iaavBo8.png",
   "image": "https://i.imgur.com/8jRBY2O.jpeg",
   "description": "",
   "lore": "N/A",

@@ -4,7 +4,7 @@ const Aspect_of_the_Wilds = {
   "title": "Aspect of the Wilds",
   "difficulty": 3,
   "slug": "aspect-of-the-wilds",
-  "thumbnail": "https://i.imgur.com/YcHNCst.jpeg",
+  "thumbnail": "https://i.imgur.com/LEHMy99.png",
   "image": "https://i.imgur.com/YcHNCst.jpeg",
   "description": "Elusive support with strong offensive capabilities",
   "lore": "N/A",

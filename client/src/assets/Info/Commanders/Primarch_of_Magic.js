@@ -4,7 +4,7 @@ const Primarch_of_Magic = {
   "title": "Primarch of Magic",
   "difficulty": 5,
   "slug": "primarch-of-magic",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/DDXjlp5.png",
   "image": "https://i.imgur.com/haPATJu.png",
   "description": "",
   "lore": "N/A",

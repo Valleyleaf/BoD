@@ -6,7 +6,7 @@ const Slumborn = {
   "title": "Slumborn",
   "difficulty": 5,
   "slug": "slumborn",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/ouEWez8.png",
   "image": "https://i.imgur.com/RoJBl5x.png",
   "description": "",
   "lore": SlumbornBio,

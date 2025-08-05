@@ -4,7 +4,7 @@ const Sage = {
   "title": "Sage",
   "difficulty": 3,
   "slug": "sage",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/b1ZWnye.png",
   "image": "https://i.imgur.com/1oMmFH9.jpeg",
   "description": "",
   "lore": "N/A",

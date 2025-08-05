@@ -6,7 +6,7 @@ const Mercy_s_Hand = {
   "title": "Mercy's Hand",
   "difficulty": 3,
   "slug": "mercys-hand",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/nazlTUp.png",
   "image": "https://i.imgur.com/rxL3se5.jpeg",
   "description": "",
   "lore": MercysHandBio,

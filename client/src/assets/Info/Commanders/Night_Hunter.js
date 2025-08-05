@@ -4,7 +4,7 @@ const Night_Hunter = {
   "title": "Night Hunter",
   "difficulty": 3,
   "slug": "night-hunter",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "",
   "image": "https://i.imgur.com/upTkmxn.jpeg",
   "description": "",
   "lore": "N/A",

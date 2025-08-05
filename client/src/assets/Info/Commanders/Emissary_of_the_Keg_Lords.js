@@ -4,7 +4,7 @@ const Emissary_of_the_Keg_Lords = {
   "title": "Emissary of the Keg Lords",
   "difficulty": 3,
   "slug": "emissary-of-the-keg-lords",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/aARXe5Z.png",
   "image": "https://i.imgur.com/HSNrqI2.jpeg",
   "description": "Adaptive tank with a focus on survivability and crowd control.",
   "lore": "N/A",

@@ -4,7 +4,7 @@ const Phase_Drake = {
   "title": "Phase Drake",
   "difficulty": 3,
   "slug": "phase-drake",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/BgsFDnp.png",
   "image": "https://i.imgur.com/HKRRI5p.jpeg",
   "description": "",
   "lore": "N/A",
