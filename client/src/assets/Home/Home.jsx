@@ -74,10 +74,15 @@ export default function Home() {
                     </a>
                 </div>
             </div>
-            <div>
+            <div className="carouselContainer">
                 <h2 className="heroCarouselTitle">LEGENDS ARE BORN HERE</h2>
                     <div className="homeDivider"></div>
                 <p>With over 60 characters to choose from, find the one that suits your playstyle and dominate the battlefield!</p>
+                    <Link to="/Commanders" className='pffButton'>
+                        View all Heroes
+                    </Link>
+            </div>
+            <div>
                 <Commandercarousel/>
             </div>
             <div className="flexColumn center-content">
