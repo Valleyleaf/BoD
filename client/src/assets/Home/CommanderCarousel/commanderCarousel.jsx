@@ -1,7 +1,7 @@
 
 
 import { Link } from 'react-router-dom';
-import Characters from '../Info/Commanders/A_index.js';
+import Characters from '../../Info/Commanders/A_index.js';
 import './commanderCarousel.css';
 
 function Commandercarousel() {

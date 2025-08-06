@@ -1,14 +1,3 @@
-.carouselContainer{
-    position: relative;
-    background-image: 
-    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url('https://i.imgur.com/XJdeTXP.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 600px;
-    box-shadow: inset 0 0 450px rgba(0, 0, 0, 0.5);
-}
 
 .commander-carousel {
     width: 100%;

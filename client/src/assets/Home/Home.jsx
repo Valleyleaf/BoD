@@ -1,9 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Link } from "react-router-dom";
-import GamePage from "../Game/Game.jsx"
-import Commandercarousel from "./commanderCarousel.jsx";
+import HomeContent from "./homeContent/HomeContent.jsx";
 import "./home.css";
-
 
 export default function Home() {
     const videoRef = useRef(null);
@@ -16,7 +13,6 @@ export default function Home() {
             // Add a small delay to ensure the video is loaded
             setTimeout(() => {
                 const playPromise = video.play();
-                
                 if (playPromise !== undefined) {
                     playPromise
                         .then(() => {
@@ -33,6 +29,7 @@ export default function Home() {
             }, 1000);
         }
     }, []);
+    //Delay seems uneccesary considering I have the 2 second fake load at the beginning. Remove one or the other.
 
     const handleVideoError = (e) => {
         console.error('Video error:', e);
@@ -51,14 +48,8 @@ export default function Home() {
                         muted
                         playsInline
                         preload="auto"
-                        onError={handleVideoError}
-                        onLoadStart={() => console.log('Video loading started')}
-                        onCanPlay={() => console.log('Video can play')}
-                        onPlay={() => console.log('Video started playing')}
-                        onPause={() => console.log('Video paused')}>
+                        onError={handleVideoError}>
                         <source src="https://cdn.steamstatic.com/apps/dota2/videos/dota_react/homepage/dota_montage_webm.webm" type="video/webm" />
-                        <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4" />
-                        Your browser does not support the video tag.
                     </video>
                 ) : (
                     <div className="video-fallback">
@@ -74,21 +65,7 @@ export default function Home() {
                     </a>
                 </div>
             </div>
-            <div className="carouselContainer">
-                <h2 className="heroCarouselTitle">LEGENDS ARE BORN HERE</h2>
-                    <div className="homeDivider"></div>
-                <p>With over 60 characters to choose from, find the one that suits your playstyle and dominate the battlefield!</p>
-                    <Link to="/Commanders" className='pffButton'>
-                        View all Heroes
-                    </Link>
-            </div>
-            <div>
-                <Commandercarousel/>
-            </div>
-            <div className="flexColumn center-content">
-                    <h2 className='HomeTitle'>About:</h2>
-                    <GamePage/>
-            </div>
+                <HomeContent/>
         </div>
     );
 }

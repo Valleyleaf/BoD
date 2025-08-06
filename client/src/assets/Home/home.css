@@ -55,35 +55,6 @@
     border-radius: 10px;
 }
 
-.pffButton{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: bold;
-    font-size: 35px;
-    color: #ffffff;
-    background-color: #50c5bb00;
-    border: solid 2px #ffffff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: ease 0.3s;
-    backdrop-filter: blur(15px);
-
-}
-
-.pffButton:hover{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: bold;
-    font-size: 35px;
-    color: #000000;
-    background-color: #ffffff;
-    border: solid 2px #ffffff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    transform: scale(1.03);
-}
 
 .HomeTitle{
     font-family: "Bebas Neue", sans-serif;
@@ -93,25 +64,6 @@
     color: #ffffff;
     margin-bottom: -35px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-}
-
-.heroCarouselTitle{
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-style: bold;
-    font-size: 100px;
-    color: #ffffff;
-    margin-top: 250px;
-    margin-bottom: -45px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-}
-
-.homeDivider{
-    width: 20%;
-    height: 5px;
-    border-radius: 45px;
-    background-color: #50c5bb;
-    margin: 20px auto;
 }
 
 .DownloadButton{
