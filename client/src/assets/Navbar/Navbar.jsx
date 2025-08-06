@@ -7,7 +7,7 @@ export default function Navbar(){
             <div className="navbarClass">
                 <Link 
                     to="/"
-                    className='navLeftCap'>
+                    className='NavbuttonClass'>
                     Home
                 </Link>
 
@@ -37,7 +37,7 @@ export default function Navbar(){
 
                 <Link 
                     to="/PatchNotes"
-                    className='navRightCap'>
+                    className='NavbuttonClass'>
                     Patch Notes
                 </Link>
             </div>
