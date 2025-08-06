@@ -28,85 +28,83 @@
 
 
 .CommanderRenderMain{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0px;
-    margin: 50px;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: 50px;
 }
 
 .name{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin: 0px;
-    padding: 0px;
-    color: #ffffff;
-    font-size: 50px;
-    opacity: 0;
-    animation: fadeInLeft 1s ease-out forwards;
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+  font-size: 50px;
+  opacity: 0;
+  animation: fadeInLeft 1s ease-out forwards;
 }
 
 .attributeIcon{
-    width: 80px;
-    height: 80px;
-    margin-right: 5px;
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
 }
 
 .CommanderNamePlate{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    border-radius: 10px;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 10px;
+  padding: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .title{
-    font-size: 120px;
-    color: #ffffff;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    margin-top: -50px;
-    margin-bottom: -50px;
-    padding: 0px;
-    opacity: 0;
-    animation: fadeInLeft 1s ease-out forwards;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 120px;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  padding: 0px;
+  opacity: 0;
+  animation: fadeInLeft 1s ease-out forwards;
 
 }
 
 .CommanderRenderSecond{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ffffff;
 }
 
 .DisplayImage{
-    width: 700px;
-    height: auto;
-    animation: fadeIn 1s ease-out forwards;
+  width: 700px;
+  height: auto;
+  animation: fadeIn 1s ease-out forwards;
 }
 
 .CommanderSideProfile{
-    border-radius: 20px;
-    padding: 20px;
-    margin: 10px;
-    width: 300px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-
-
-
-
 
 .PrimaryStat{
     display: flex;
@@ -262,10 +260,6 @@
       transform: translateY(0);
     }
   }
-  
-.CharacterRenderFont{
-    font-family: "Bebas Neue", sans-serif;
-}
 
 .statsText{
     font-family: "Bebas Neue", sans-serif;
@@ -274,6 +268,7 @@
     text-align: center;
     margin: 0px;
     padding: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   }
 
   .statRenderBox{

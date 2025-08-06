@@ -1,0 +1,176 @@
+
+.commander-carousel {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0;
+    position: relative;
+    background-color: #1a1a1a;
+    border-top: solid 3px rgba(0, 0, 0, 0.356);
+    border-bottom: solid 3px rgba(0, 0, 0, 0.356);
+}
+
+.carousel-row {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-content {
+    display: flex;
+    animation-duration: 90s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    gap: 20px;
+    will-change: transform;
+}
+
+.scroll-left .carousel-content {
+    animation-name: scrollLeft;
+}
+
+.scroll-right .carousel-content {
+    animation-name: scrollRight;
+}
+
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-33.33%);
+    }
+}
+
+@keyframes scrollRight {
+    0% {
+        transform: translateX(-33.33%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.commander-thumbnail-link {
+    text-decoration: none;
+    color: inherit;
+    flex-shrink: 0;
+    transition: all 0.3s ease;
+}
+
+.commander-thumbnail {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.commander-thumbnail:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(255, 255, 255, 0.2);
+}
+
+.commander-thumbnail img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: opacity 0.3s ease;
+}
+
+.commander-thumbnail img:hover {
+    opacity: 0.9;
+}
+
+.commander-name {
+    padding: 10px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
+    border-radius: 0 0 10px 10px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+/* Pause animation on hover for the entire row */
+/* .carousel-row:hover .carousel-content {
+    animation-play-state: paused;
+} */
+
+/* Add a subtle gradient overlay on the sides */
+.carousel-row::before,
+.carousel-row::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.carousel-row::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(26, 26, 26, 0.8), transparent);
+}
+
+.carousel-row::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(26, 26, 26, 0.8), transparent);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .commander-thumbnail {
+        width: 120px;
+        height: 160px;
+    }
+    
+    .commander-thumbnail img {
+        height: 120px;
+    }
+    
+    .commander-name {
+        font-size: 12px;
+        padding: 8px;
+    }
+    
+    .carousel-content {
+        gap: 15px;
+        animation-duration: 60s;
+    }
+}
+
+@media (max-width: 480px) {
+    .commander-thumbnail {
+        width: 100px;
+        height: 140px;
+    }
+    
+    .commander-thumbnail img {
+        height: 100px;
+    }
+    
+    .commander-name {
+        font-size: 10px;
+        padding: 6px;
+    }
+    
+    .carousel-content {
+        gap: 10px;
+        animation-duration: 45s;
+    }
+}
