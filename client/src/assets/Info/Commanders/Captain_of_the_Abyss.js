@@ -4,7 +4,7 @@ const Captain_of_the_Abyss = {
   "title": "Captain of the Abyss",
   "difficulty": 4,
   "slug": "captain-of-the-abyss",
-  "thumbnail": "https://i.imgur.com/AWMvzoM.jpeg",
+  "thumbnail": "https://i.imgur.com/ogLSQRk.png",
   "thumbnailAlt": "Image of The Example",
   "image": "https://i.imgur.com/AWMvzoM.jpeg",
   "description": "Tricky caster with powerful area control abilities. Can summon a ship to aid her in battle.",

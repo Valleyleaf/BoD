@@ -4,7 +4,7 @@ const Captain_of_the_Damned = {
   "title": "Captain of the Damned",
   "difficulty": 2,
   "slug": "captain-of-the-damned",
-  "thumbnail": "https://i.imgur.com/8qZR9HN.jpeg",
+  "thumbnail": "https://i.imgur.com/K7Cwbs1.png",
   "thumbnailAlt": "Image of The Example",
   "image": "https://i.imgur.com/8qZR9HN.jpeg",
   "description": "Indomitable fighter who chases down enemies with relentless fury.",
@@ -36,8 +36,8 @@ const Captain_of_the_Damned = {
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Part of the Crew",
+      "disc": "Detatches a Dead Crew soul to guard an area. If an enemy unit enters the area, the soul will strike, dealing damage.",
       "thumbnail": ""
     },
     {
@@ -48,8 +48,8 @@ const Captain_of_the_Damned = {
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "High Seas",
+      "disc": "Sends out a swarm of ghostly pirates that attack nearby enemy units. The swarm will follow the Captain of the Damned and deal damage to all enemy units in its path.",
       "thumbnail": ""
     }
   ]

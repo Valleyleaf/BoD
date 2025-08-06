@@ -4,7 +4,7 @@ const Black_Clown = {
   "title": "Black Clown",
   "difficulty": 4,
   "slug": "black-clown",
-  "thumbnail": "https://i.imgur.com/6e88puJ.jpeg",
+  "thumbnail": "https://i.imgur.com/cp64uNs.png",
   "thumbnailAlt": "Image of The Example",
   "image": "https://i.imgur.com/bl6F9ZQ.png",
   "description": "Elusive assassin with the ability to confuse enemies and deal massive damage",

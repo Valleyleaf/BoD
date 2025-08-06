@@ -6,7 +6,7 @@ const Prince_Mechanism = {
   "title": "Prince Mechanism",
   "difficulty": 2,
   "slug": "prince-mechanism",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "",
   "image": "https://i.imgur.com/c0z1zHt.jpeg",
   "description": "Powerful disruptive brawler who can control the battlefield and pick off high priority targets.",
   "lore": PrinceMechanismBio,

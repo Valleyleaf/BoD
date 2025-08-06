@@ -4,7 +4,7 @@ const Hallucinationist = {
   "title": "Hallucinationist",
   "difficulty": 3,
   "slug": "hallucinationist",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/Ih9Nd9t.png",
   "image": "https://i.imgur.com/Hy2oil6.png",
   "description": "",
   "lore": "N/A",
@@ -29,7 +29,7 @@ const Hallucinationist = {
     },
     {
       "abilityid": 1,
-      "name": "",
+      "name": "Induce Mania",
       "disc": "Causes a target enemy unit to take damage over time. This effect lasts until the enemy unit kills a target unit or structure.",
       "thumbnail": ""
     },

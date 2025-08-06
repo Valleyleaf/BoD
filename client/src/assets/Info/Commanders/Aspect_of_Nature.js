@@ -4,7 +4,7 @@ const Aspect_of_Nature = {
   "title": "Aspect of Nature",
   "difficulty": 2,
   "slug": "aspect-of-nature",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/4082wua.png",
   "image": "https://i.imgur.com/syXlGP6.png",
   "description": "Powerful duelist with the ability to take on different stances, each changing his playstyle.",
   "lore": "N/A",

@@ -4,7 +4,7 @@ const Collector = {
   "title": "Collector",
   "difficulty": 4,
   "slug": "collector",
-  "thumbnail": "https://i.imgur.com/dkDcLz4.jpeg",
+  "thumbnail": "https://i.imgur.com/GV3cTSt.png",
   "image": "https://i.imgur.com/dkDcLz4.jpeg",
   "description": "Adept duelist who can switch between close quarter brawling and ranged casting.",
   "lore": "Outsmarts enemies",

@@ -2,9 +2,9 @@ const Scroll_Ninja = {
   "id": 51,
   "name": "Eleina Nau",
   "title": "Scroll Ninja",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "scroll-ninja",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/tHNBn1z.png",
   "image": "https://i.imgur.com/yLPJdpj.jpeg",
   "description": "",
   "lore": "N/A",
@@ -45,8 +45,8 @@ const Scroll_Ninja = {
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Scroll of Mortal Wounds",
+      "disc": "Deals damage and reduces a targets stats for a set duration.",
       "thumbnail": ""
     }
   ]

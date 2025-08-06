@@ -4,7 +4,7 @@ const Chrono_Shifter = {
   "title": "Chrono Shifter",
   "difficulty": 3,
   "slug": "chrono-shifter",
-  "thumbnail": "https://i.imgur.com/KPqhQY0.jpeg",
+  "thumbnail": "https://i.imgur.com/Rihhaki.png",
   "image": "https://i.imgur.com/KPqhQY0.jpeg",
   "description": "Elusive mage, adept at fighting other mages.",
   "lore": "N/A",

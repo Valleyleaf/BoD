@@ -2,9 +2,9 @@ const Phase_Drake = {
   "id": 42,
   "name": "Vip",
   "title": "Phase Drake",
-  "difficulty": 3,
+  "difficulty": 4,
   "slug": "phase-drake",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/BgsFDnp.png",
   "image": "https://i.imgur.com/HKRRI5p.jpeg",
   "description": "",
   "lore": "N/A",
@@ -33,8 +33,8 @@ const Phase_Drake = {
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Rampart Magic",
+      "disc": "Deals AoE damage and summons a weak Mana vein. The weak Mana vein does not benefit from Mana Seeker.",
       "thumbnail": ""
     },
     {
