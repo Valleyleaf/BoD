@@ -4,7 +4,7 @@ const Aspect_of_the_Wilds = {
   "title": "Aspect of the Wilds",
   "difficulty": 3,
   "slug": "aspect-of-the-wilds",
-  "thumbnail": "https://i.imgur.com/YcHNCst.jpeg",
+  "thumbnail": "https://i.imgur.com/LEHMy99.png",
   "image": "https://i.imgur.com/YcHNCst.jpeg",
   "description": "Elusive support with strong offensive capabilities",
   "lore": "N/A",
@@ -48,7 +48,7 @@ const Aspect_of_the_Wilds = {
     {
       "abilityid": 4,
       "name": "Demolishing Winds",
-      "disc": "",
+      "disc": "Summons a powerful tornado that rips through the battlefield. The tornado can be controlled and will deal continous damage to all nearby enemy units. Additionally, the tornado will periodically throw enemy units into the air, rendering them nullified. This is a channeled ability.",
       "thumbnail": ""
     }
   ]

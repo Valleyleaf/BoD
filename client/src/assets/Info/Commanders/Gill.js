@@ -4,7 +4,7 @@ const Gill = {
   "title": "Highborn",
   "difficulty": 3,
   "slug": "gill",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/Dsw2Krv.png",
   "image": "https://i.imgur.com/xhOyHHa.png",
   "description": "Cunning Tank with the ability to shrug off damage while locking down enemies.",
   "lore": "N/A",
@@ -33,14 +33,14 @@ const Gill = {
     },
     {
       "abilityid": 2,
-      "name": "Gilrok's Pact",
-      "disc": "Gill allows Gilrok to take over. Granting him ranged attacks.",
+      "name": "Dark Hole",
+      "disc": "Creates a dark hole at a target location. Enemy units caught in the hole are blinked to Gill's location.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Gilrok's Pact",
+      "disc": "Gill allows Gilrok to take over. Granting him ranged attacks.",
       "thumbnail": ""
     },
     {

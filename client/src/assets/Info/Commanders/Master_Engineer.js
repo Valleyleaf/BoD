@@ -6,7 +6,7 @@ const Master_Engineer = {
   "title": "Master Engineer",
   "difficulty": 3,
   "slug": "master-engineer",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/goabeVa.png",
   "image": "https://i.imgur.com/Es20R05.jpeg",
   "description": "",
   "lore": MasterEngineerBio,
@@ -25,8 +25,8 @@ const Master_Engineer = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "Scrap",
-      "disc": "Killing a unit has a chance to drop scrap. Upon collecting scrap, the Master Engineer can cast a upgraded version of one of his abilities.",
+      "name": "Scraptastic",
+      "disc": "Whenever a unit near the Master Engineer dies, it has a chance to drop scrap. Picking up scrap grants the Master Engineer increased health and mana regeneration.",
       "thumbnail": ""
     },
     {
@@ -37,8 +37,8 @@ const Master_Engineer = {
     },
     {
       "abilityid": 2,
-      "name": "E-118 Device",
-      "disc": "Sends out a crate of scrap, dealing damage and stunning a target.",
+      "name": "Threat response: Missile Barrage",
+      "disc": "The Master Engineer sends out a barrage of missiles to strike all nearby enemy units. The amount of missiles deployed depends on the amount of nearby enemy units.",
       "thumbnail": ""
     },
     {

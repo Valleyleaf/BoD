@@ -4,7 +4,7 @@ const Salamander = {
   "title": "Salamander",
   "difficulty": 1,
   "slug": "salamander",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "",
   "image": "https://i.imgur.com/4jomYqJ.jpeg",
   "description": "",
   "lore": "",

@@ -2,9 +2,9 @@ const Berserker = {
   "id": 7,
   "name": "Keil Bearswarm",
   "title": "Berserker",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "berserker",
-  "thumbnail": "https://i.imgur.com/KH6wTpt.jpeg",
+  "thumbnail": "https://i.imgur.com/vN2ohzh.png",
   "thumbnailAlt": "Image of The Example",
   "image": "https://i.imgur.com/KH6wTpt.jpeg",
   "description": "Tank with the ability to shrug off crowd control effects",
@@ -41,8 +41,8 @@ const Berserker = {
     },
     {
       "abilityid": 3,
-      "name": "Rip and Tear",
-      "disc": "Deals bonus Damage over time to targets struck",
+      "name": "Grevious Wounds",
+      "disc": "Deals bonus Damage over time to targets struck and increases the chance of Dashing Blow stunning them.",
       "thumbnail": ""
     },
     {

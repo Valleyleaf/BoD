@@ -4,7 +4,7 @@ const Blazing_Wind = {
   "title": "Blazing Wind",
   "difficulty": 1,
   "slug": "blazing-wind",
-  "thumbnail": "https://i.imgur.com/LEikbov.jpeg",
+  "thumbnail": "https://i.imgur.com/T5BYMFz.png",
   "thumbnailAlt": "Image of The Example",
   "image": "https://i.imgur.com/LEikbov.jpeg",
   "description": "Supportive tank with strong crowd control abilities",
@@ -29,8 +29,8 @@ const Blazing_Wind = {
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Shatter",
+      "disc": "Creates a earthquake at a target location, dealing damage and slowing all enemy units that walk through it.",
       "thumbnail": ""
     },
     {
