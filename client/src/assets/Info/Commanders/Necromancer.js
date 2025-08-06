@@ -2,7 +2,7 @@ const Necromancer = {
   "id": 38,
   "name": "Ivan Mainshire",
   "title": "Necromancer",
-  "difficulty": 3,
+  "difficulty": 4,
   "slug": "necromancer",
   "thumbnail": "",
   "image": "https://i.imgur.com/pXqKwHl.jpeg",

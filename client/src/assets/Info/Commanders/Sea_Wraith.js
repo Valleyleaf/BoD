@@ -2,7 +2,7 @@ const Sea_Wraith = {
   "id": 52,
   "name": "Zeek",
   "title": "Sea Wraith",
-  "difficulty": 3,
+  "difficulty": 5,
   "slug": "sea-wraith",
   "thumbnail": "https://i.imgur.com/wax75a6.png",
   "image": "https://i.imgur.com/2LYQ2MA.jpeg",

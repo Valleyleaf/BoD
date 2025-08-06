@@ -4,7 +4,7 @@ const The_Abyssal_King = {
   "id": 1,
   "name": "Spine",
   "title": "Abyssal King",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "the-abyssal-king",
   "thumbnail": "https://i.imgur.com/ELUEg2v.png",
   "thumbnailAlt": "Image of the Abyssal King",

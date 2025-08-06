@@ -33,14 +33,14 @@ const Gill = {
     },
     {
       "abilityid": 2,
-      "name": "Gilrok's Pact",
-      "disc": "Gill allows Gilrok to take over. Granting him ranged attacks.",
+      "name": "Dark Hole",
+      "disc": "Creates a dark hole at a target location. Enemy units caught in the hole are blinked to Gill's location.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Gilrok's Pact",
+      "disc": "Gill allows Gilrok to take over. Granting him ranged attacks.",
       "thumbnail": ""
     },
     {

@@ -2,7 +2,7 @@ const Emissary_of_the_Keg_Lords = {
   "id": 18,
   "name": "Baron Darkbrew",
   "title": "Emissary of the Keg Lords",
-  "difficulty": 3,
+  "difficulty": 4,
   "slug": "emissary-of-the-keg-lords",
   "thumbnail": "https://i.imgur.com/aARXe5Z.png",
   "image": "https://i.imgur.com/HSNrqI2.jpeg",
@@ -30,19 +30,19 @@ const Emissary_of_the_Keg_Lords = {
     {
       "abilityid": 1,
       "name": "Barrel of Fire brew",
-      "disc": "",
+      "disc": "Tosses a barrel of fire brew to a target location. After a short delay, the barrel will explode, dealing damage to all enemy units in the area. Casting Keg Opener on the barrel will cause it to instantly explode.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "A taste of Fine Wine",
+      "disc": "The Emissary offers a taste of his finest wine to a target unit. Allied units will be healed, while enemy units will be damaged. If cast on a Barrel, it will enhance the damage done by the barrel upon explosion.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
       "name": "Barrel of Cider",
-      "disc": "",
+      "disc": "Tosses a barrel of cider to a target location. After a short delay, the barrel will explode, dealing damage and stunning all enemy units in the area. Casting Keg Opener on the barrel will cause it to fly forward, exploding on impact with an enemy unit.",
       "thumbnail": ""
     },
     {

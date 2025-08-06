@@ -2,7 +2,7 @@ const Scroll_Ninja = {
   "id": 51,
   "name": "Eleina Nau",
   "title": "Scroll Ninja",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "scroll-ninja",
   "thumbnail": "https://i.imgur.com/tHNBn1z.png",
   "image": "https://i.imgur.com/yLPJdpj.jpeg",

@@ -2,7 +2,7 @@ const Shadow_Herald = {
   "id": 53,
   "name": "Helvish",
   "title": "Shadow Herald",
-  "difficulty": 3,
+  "difficulty": 4,
   "slug": "shadow-herald",
   "thumbnail": "",
   "image": "https://i.imgur.com/suafdrs.jpeg",

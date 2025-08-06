@@ -2,7 +2,7 @@ const Ember = {
   "id": 19,
   "name": "Eliza Flamebringe",
   "title": "Ember",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "ember",
   "thumbnail": "https://i.imgur.com/cYtkxxE.png",
   "image": "https://i.imgur.com/PiplQc2.jpeg",

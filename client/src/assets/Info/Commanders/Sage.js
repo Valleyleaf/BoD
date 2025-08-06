@@ -2,7 +2,7 @@ const Sage = {
   "id": 47,
   "name": "Terrorbane",
   "title": "Sage",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "sage",
   "thumbnail": "https://i.imgur.com/b1ZWnye.png",
   "image": "https://i.imgur.com/1oMmFH9.jpeg",

@@ -29,8 +29,8 @@ const Blazing_Wind = {
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Shatter",
+      "disc": "Creates a earthquake at a target location, dealing damage and slowing all enemy units that walk through it.",
       "thumbnail": ""
     },
     {

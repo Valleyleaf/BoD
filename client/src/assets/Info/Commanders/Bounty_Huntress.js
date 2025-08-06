@@ -35,7 +35,7 @@ const Bounty_Huntress = {
     },
     {
       "abilityid": 1,
-      "name": "Kill Command",
+      "name": "Command: Kill",
       "disc": "Grants both the Bounty Huntress and Smokey bonus attack speed.",
       "thumbnail": ""
     },
@@ -48,13 +48,13 @@ const Bounty_Huntress = {
     {
       "abilityid": 3,
       "name": "Vicious Strike",
-      "disc": "The Bounty Huntress silences a target and commands Smokey to strike, dealing true magic damage to the target.",
+      "disc": "The Bounty Huntress marks a target, silencing them and dealing damage over time. Smokey will then deliver a vicious strike, dealing true magic damage to the target.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
       "name": "Bean",
-      "disc": "Summons Bean, the Bounty Huntress Raven. Bean will fly to the Bounty Huntress location and periodically mark enemy units. Marked units grant bonus gold upon death.",
+      "disc": "Summons Bean, the Bounty Huntress Raven. Bean will fly to the Bounty Huntress location and periodically mark enemy Commanders. Marked units grant bonus gold upon death.",
       "thumbnail": ""
     }
   ]

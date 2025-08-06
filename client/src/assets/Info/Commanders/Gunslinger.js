@@ -4,7 +4,7 @@ const Gunslinger = {
   "id": 27,
   "name": "Jurvin Brownbeard",
   "title": "Gunslinger",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "gunslinger",
   "thumbnail": "https://i.imgur.com/dk90S5P.png",
   "image": "https://i.imgur.com/Tsc3tyM.jpeg",

@@ -29,7 +29,7 @@ const Hallucinationist = {
     },
     {
       "abilityid": 1,
-      "name": "",
+      "name": "Induce Mania",
       "disc": "Causes a target enemy unit to take damage over time. This effect lasts until the enemy unit kills a target unit or structure.",
       "thumbnail": ""
     },

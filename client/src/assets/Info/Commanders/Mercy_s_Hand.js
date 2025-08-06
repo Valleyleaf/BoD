@@ -4,7 +4,7 @@ const Mercy_s_Hand = {
   "id": 37,
   "name": "Maelstrom",
   "title": "Mercy's Hand",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "mercys-hand",
   "thumbnail": "https://i.imgur.com/nazlTUp.png",
   "image": "https://i.imgur.com/rxL3se5.jpeg",
@@ -23,7 +23,7 @@ const Mercy_s_Hand = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
+      "name": "Blessed Touch",
       "disc": "",
       "thumbnail": ""
     },
@@ -41,13 +41,13 @@ const Mercy_s_Hand = {
     },
     {
       "abilityid": 3,
-      "name": "",
+      "name": "Insight",
       "disc": "Causes an allied unit to regain mana over time.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
+      "name": "Metabolism",
       "disc": "Calls down healing rain in a large area, healing all allied units in the area.",
       "thumbnail": ""
     }

@@ -4,7 +4,7 @@ const Flame_King = {
   "id": 22,
   "name": "Karl the Everburning",
   "title": "Flame King",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "flame-king",
   "thumbnail": "https://i.imgur.com/4b9BoB8.png",
   "image": "https://i.imgur.com/jT9hJUw.jpeg",

@@ -2,7 +2,7 @@ const Eternal_Revenant = {
   "id": 20,
   "name": "Kalzhar",
   "title": "Eternal Revenant",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "eternal-revenant",
   "thumbnail": "https://i.imgur.com/18nsMjT.png",
   "image": "https://i.imgur.com/U7m60tT.jpeg",

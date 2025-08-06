@@ -2,7 +2,7 @@ const Hydromancer = {
   "id": 32,
   "name": "X",
   "title": "Hydromancer",
-  "difficulty": 3,
+  "difficulty": 5,
   "slug": "hydromancer",
   "thumbnail": "https://i.imgur.com/RPqwsiQ.png",
   "image": "https://i.imgur.com/cLjGBfT.jpeg",

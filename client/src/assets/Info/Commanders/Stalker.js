@@ -2,7 +2,7 @@ const Stalker = {
   "id": 56,
   "name": "Xybrex",
   "title": "Stalker",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "stalker",
   "thumbnail": "https://i.imgur.com/34bNmHk.png",
   "image": "https://i.imgur.com/FjvgE7w.jpeg",

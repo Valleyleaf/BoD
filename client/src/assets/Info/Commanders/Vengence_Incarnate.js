@@ -2,7 +2,7 @@ const Vengence_Incarnate = {
   "id": 58,
   "name": "Andersmith",
   "title": "Vengence Incarnate",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "vengence-incarnate",
   "thumbnail": "",
   "image": "https://i.imgur.com/eAbtmyP.jpeg",

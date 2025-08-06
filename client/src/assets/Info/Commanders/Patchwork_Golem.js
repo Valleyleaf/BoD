@@ -2,7 +2,7 @@ const Patchwork_Golem = {
   "id": 41,
   "name": "Necrathor",
   "title": "Patchwork Golem",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "patchwork-golem",
   "thumbnail": "https://i.imgur.com/aYJEN1C.png",
   "image": "https://i.imgur.com/ljpCwFi.jpeg",

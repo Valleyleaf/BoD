@@ -2,7 +2,7 @@ const Wave_Crusher = {
   "id": 61,
   "name": "Mavu",
   "title": "Wave Crusher",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "Wave-crusher",
   "thumbnail": "https://i.imgur.com/4rIX4vT.png",
   "image": "https://i.imgur.com/blTAJYk.jpeg",

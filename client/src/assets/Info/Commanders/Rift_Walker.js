@@ -2,7 +2,7 @@ const Rift_Walker = {
   "id": 46,
   "name": "Velmus",
   "title": "Rift Walker",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "rift-walker",
   "thumbnail": "https://i.imgur.com/iaavBo8.png",
   "image": "https://i.imgur.com/8jRBY2O.jpeg",

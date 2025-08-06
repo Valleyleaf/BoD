@@ -2,7 +2,7 @@ const Night_Hunter = {
   "id": 39,
   "name": "Bane",
   "title": "Night Hunter",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "night-hunter",
   "thumbnail": "",
   "image": "https://i.imgur.com/upTkmxn.jpeg",

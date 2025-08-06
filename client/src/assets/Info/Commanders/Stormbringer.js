@@ -4,7 +4,7 @@ const Stormbringer = {
   "id": 57,
   "name": "Jarvis Thunderbolt",
   "title": "Stormbringer",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "stormbringer",
   "thumbnail": "https://i.imgur.com/T1SBDpk.png",
   "image": "https://i.imgur.com/kJe1mKf.jpeg",

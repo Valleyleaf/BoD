@@ -2,7 +2,7 @@ const Bell_Ringer = {
   "id": 6,
   "name": "Mephisto",
   "title": "Bell Ringer",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "bell-ringer",
   "thumbnail": "https://i.imgur.com/SMTdZ1N.png",
   "thumbnailAlt": "Image of The Example",
@@ -31,13 +31,13 @@ const Bell_Ringer = {
     {
       "abilityid": 1,
       "name": "Devour Life",
-      "disc": "Steals a % amount of health from a targeted unit.",
+      "disc": "Steals a % amount of health from a targeted unit and refreshes the slow from Sinners Blade if already applied.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
       "name": "Salt the Wound",
-      "disc": "Throws a bolt of hellfire at a target,",
+      "disc": "Throws a bolt of hellfire at a target, reducing their armor. If the target is already slowed by Sinners Blade, it will also deal damage over time.",
       "thumbnail": ""
     },
     {

@@ -2,7 +2,7 @@ const Nomad = {
   "id": 40,
   "name": "Ra-Salim",
   "title": "Nomad",
-  "difficulty": 3,
+  "difficulty": 4,
   "slug": "nomad",
   "thumbnail": "https://i.imgur.com/ASIuKea.png",
   "image": "https://i.imgur.com/kBD2JK5.jpeg",
