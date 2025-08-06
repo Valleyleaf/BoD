@@ -33,13 +33,13 @@ const Sage = {
     },
     {
       "abilityid": 2,
-      "name": "Rally",
+      "name": "Jubilation",
       "disc": "Grants all nearby allied units bonus health regeneration over a long duration.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "Ultra Mega Death Bolt",
+      "name": "Finger of Destruction",
       "disc": "Sends out a slow moving bolt of energy towards a enemy unit, dealing massive damage on impact. If the bolt does not reach the target on time, it fizzles out.",
       "thumbnail": ""
     },

@@ -34,14 +34,14 @@ const Salamander = {
     },
     {
       "abilityid": 2,
-      "name": "Dragon Swipe",
-      "disc": "Stuns a target enemy unit for a short duration.",
+      "name": "Sunder Armor",
+      "disc": "Strikes a target, reducing their armor. Repeated casts increases armor reduced up to a cap",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
       "name": "Dragon Flight",
-      "disc": "Targets a enemy unit, after a short delay, The Salamander will blink to the target, dealing damage.",
+      "disc": "Targets a enemy unit, after a short delay, The Salamander will blink to the target, dealing damage based on his agility and applies a stack of Sunder Armor.",
       "thumbnail": ""
     },
     {

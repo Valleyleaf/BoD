@@ -28,13 +28,13 @@ const Night_Hunter = {
     {
       "abilityid": 1,
       "name": "Shred",
-      "disc": "Removes armor from a target enemy unit.",
+      "disc": "Removes armor from a target enemy unit. If the target is already affected by Shred, the Night Hunter will also deal damage equal to double his agility as physical damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
       "name": "Hunters Thirst",
-      "disc": "Grants bonus melee lifesteal.",
+      "disc": "Causes attacks to deal bonus magic damage and grants bonus melee lifesteal.",
       "thumbnail": ""
     },
     {

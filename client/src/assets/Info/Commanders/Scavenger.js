@@ -40,8 +40,8 @@ const Scavenger = {
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Scavenger's Bounty",
+      "disc": "The Scavenger gains bonus gold for every enemy unit killed.",
       "thumbnail": ""
     },
     {
