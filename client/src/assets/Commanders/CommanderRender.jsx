@@ -31,8 +31,8 @@ function CommanderDetail() {
       }}>
         <div className='flexColumn' >
             <div className="CommanderNamePlate">
-              <h1 className='name CharacterRenderFont'>{character.name}</h1>
-              <h2 className='title CharacterRenderFont'>The {character.title}</h2>
+              <h1 className='name'>{character.name}</h1>
+              <h2 className='title'>The {character.title}</h2>
                 <DifficultyRender character={character}/>
                 <div className='flexRow'>
                       <h2 className='PrimaryStat'>Primary:&nbsp;</h2>
@@ -52,7 +52,7 @@ function CommanderDetail() {
           </div>
         </div>
         <div className="abilityContainer">
-        <h1 className='CharacterRenderFont'>Abilities</h1>
+        <h1 className='abilityHeader'>Abilities</h1>
         <div className='AbilityBox'>
           <AbilityRender character={character}/>
         </div>
