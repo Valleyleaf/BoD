@@ -33,8 +33,8 @@ const Phase_Drake = {
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Rampart Magic",
+      "disc": "Deals AoE damage and summons a weak Mana vein. The weak Mana vein does not benefit from Mana Seeker.",
       "thumbnail": ""
     },
     {

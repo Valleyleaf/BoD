@@ -45,8 +45,8 @@ const Scroll_Ninja = {
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Scroll of Mortal Wounds",
+      "disc": "Deals damage and reduces a targets stats for a set duration.",
       "thumbnail": ""
     }
   ]

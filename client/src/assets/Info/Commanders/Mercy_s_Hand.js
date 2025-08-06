@@ -23,8 +23,8 @@ const Mercy_s_Hand = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "Blessed Touch",
-      "disc": "",
+      "name": "In the eyes of Velonah",
+      "disc": "Grants Maelstrom the chance to dodge enemy ranged attacks and spells.",
       "thumbnail": ""
     },
     {

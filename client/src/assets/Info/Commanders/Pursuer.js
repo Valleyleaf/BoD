@@ -23,8 +23,8 @@ const Pursuer = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Eclipse",
+      "disc": "Causes the Pursuers attacks to instantly kill units under a certain health threshold.",
       "thumbnail": ""
     },
     {
@@ -35,20 +35,20 @@ const Pursuer = {
     },
     {
       "abilityid": 2,
+      "name": "Eye of the Void",
+      "disc": "Curses a target enemy unit, causing them to take damage over time. On death, summons a Shadow Soldier.",
+      "thumbnail": ""
+    },
+    {
+      "abilityid": 3,
       "name": "Sanctify",
       "disc": "Revives a set number of normal units around the Pursuer",
       "thumbnail": ""
     },
     {
-      "abilityid": 3,
-      "name": "",
-      "disc": "",
-      "thumbnail": ""
-    },
-    {
       "abilityid": 4,
       "name": "Cosmic Edge",
-      "disc": "Infuses all Shadow Warriors, causing their next attack to deal bonus damage at the cost of their life.",
+      "disc": "Infuses all Shadow Soldiers, causing their next attack to deal bonus damage at the cost of their life.",
       "thumbnail": ""
     }
   ]
