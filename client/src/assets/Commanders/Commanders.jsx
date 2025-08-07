@@ -23,9 +23,10 @@ function Commanders() {
 
   return (
     <div className='commanders'>
-      <h2 className='Bio'>To Battle.</h2>
+      <h2 className='Bio'>Your legend awaits.</h2>
+        <div className="homeDivider"></div>
       <p>With over 60 Commanders and counting. Your playstyle is represented on the battlefield.</p>
-      <div className="fade-slide-up">
+      <div className="commanderRenderBackground fade-slide-up">
         <div className='roster comList'>
           {renderItems()}
         </div>

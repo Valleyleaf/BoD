@@ -1,5 +1,8 @@
 .carouselContainer{
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
     background-image: 
     linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url('https://i.imgur.com/XJdeTXP.jpeg');
@@ -16,8 +19,7 @@
     font-style: bold;
     font-size: 100px;
     color: #ffffff;
-    margin-top: 250px;
-    margin-bottom: -45px;
+    margin: 0px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
@@ -26,7 +28,7 @@
     height: 5px;
     border-radius: 45px;
     background-color: #50c5bb;
-    margin: 20px auto;
+    margin: 0px auto;
 }
 
 .pffButton{
@@ -42,7 +44,7 @@
     cursor: pointer;
     transition: ease 0.3s;
     backdrop-filter: blur(15px);
-
+    margin-bottom: 25px;
 }
 
 .pffButton:hover{
