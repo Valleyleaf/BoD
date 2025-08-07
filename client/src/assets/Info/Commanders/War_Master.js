@@ -4,7 +4,7 @@ const War_Master = {
   "title": "War Master",
   "difficulty": 4,
   "slug": "war-master",
-  "thumbnail": "",
+  "thumbnail": "https://i.imgur.com/1YNkts5.png",
   "image": "https://i.imgur.com/tOASvVV.jpeg",
   "description": "",
   "lore": "N/A",

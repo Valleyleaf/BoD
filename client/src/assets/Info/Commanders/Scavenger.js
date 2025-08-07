@@ -4,7 +4,7 @@ const Scavenger = {
   "title": "Scavenger",
   "difficulty": 3,
   "slug": "scavenger",
-  "thumbnail": "",
+  "thumbnail": "https://i.imgur.com/3VJ6ctf.png",
   "image": "https://i.imgur.com/mN6RENy.jpeg",
   "description": "",
   "lore": "N/A",
