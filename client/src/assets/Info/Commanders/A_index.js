@@ -61,6 +61,7 @@ import Volcano_Lord from './Volcano_Lord.js';
 import War_Master from './War_Master.js';
 import Wave_Crusher from './Wave_Crusher.js';
 import Demon_Eater from './Demon_Eater.js';
+import ForgeMaster from './ForgeMaster.js';
 
 const Characters = [
   Abyssal_King,
@@ -88,6 +89,7 @@ const Characters = [
   Felmage,
   Flame_King,
   Flamesickle,
+  ForgeMaster,
   Aspect_of_Nature,
   Gill,
   Golden_Conqueror,

@@ -29,7 +29,7 @@ const Patchwork_Golem = {
       "abilityid": 1,
       "name": "Cleave",
       "disc": "Strikes in a AoE, dealing damage based on the Patchwork Golems max health.",
-      "thumbnail": ""
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/VoidWhisperers/PatchworkGolem/Cleave.jpg?token=GHSAT0AAAAAADFNTFFWQOR7MOQRQ5I6KFC62EVOBWQ"
     },
     {
       "abilityid": 2,
@@ -41,13 +41,13 @@ const Patchwork_Golem = {
       "abilityid": 3,
       "name": "OverKill",
       "disc": "The Patchwork Golem strikes with his cleaver, dealing AoE damage to units around his main target. This damage increases the closer the adjacent target is.",
-      "thumbnail": ""
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/VoidWhisperers/PatchworkGolem/Overkill.jpg?token=GHSAT0AAAAAADFNTFFWXRQVB2WKGOIUWMKY2EVOCAQ"
     },
     {
       "abilityid": 4,
       "name": "Le Carnage",
       "disc": "The Patchwork Golem attempts to swallow a target whole, dealing damage. If the target is below a % health threshold, they are instantly killed and the Patchwork Golem is healed.",
-      "thumbnail": ""
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/VoidWhisperers/PatchworkGolem/LeCarnage.png?token=GHSAT0AAAAAADFNTFFW44IFDUSSGAD4ANNS2EVOB4A"
     }
   ]
 };
