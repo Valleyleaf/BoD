@@ -14,3 +14,4 @@ export const connectDB = async () => {
     process.exit(1);
   }
 };
+//Does connect y or n. Then goes to models.
