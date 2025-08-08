@@ -27,31 +27,31 @@ const Flame_King = {
       "abilityid": 0,
       "name": "Anarchy",
       "disc": "Periodically sends out a wave of fire that ignites a nearby enemy unit.",
-      "thumbnail": ""
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/InfernoCrusade/FlameKing/Anarchy.png?token=GHSAT0AAAAAADFNTFFWCM5R6FHHZZPAWG5A2EVOD4A"
     },
     {
       "abilityid": 1,
       "name": "Heat Wave",
       "disc": "Sends out a orb of fire that deals damage to all enemy units in its path. Upon reaching it's location, the orb will linger, dealing additional damage.",
-      "thumbnail": ""
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/InfernoCrusade/FlameKing/HeatWave.jpg?token=GHSAT0AAAAAADFNTFFWWIDGDEHT5RCBJ54U2EVOEFA"
     },
     {
       "abilityid": 2,
       "name": "Spirit Fire",
       "disc": "Snares a target enemy unit.",
-      "thumbnail": ""
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/InfernoCrusade/FlameKing/SpiritFire.png?token=GHSAT0AAAAAADFNTFFX34K7YJLDMOH22AZY2EVOENQ"
     },
     {
       "abilityid": 3,
       "name": "Molten Shield",
       "disc": "Surrounds a target unit with molten brimstone. The brimstone deals damage to nearby enemy units.",
-      "thumbnail": ""
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/InfernoCrusade/FlameKing/MoltenShield.png?token=GHSAT0AAAAAADFNTFFW2LEYHDHXCQJFMAVA2EVOEKA"
     },
     {
       "abilityid": 4,
       "name": "Cataclysm",
       "disc": "After channeling for a short duration, the Flame King unleashes a massive wave of fire in a large AoE, dealing massive damage to all enemy units caught in the blast.",
-      "thumbnail": ""
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/InfernoCrusade/FlameKing/Cataclysm.png?token=GHSAT0AAAAAADFNTFFXLUTAUUZF2YU5BCOY2EVOEBA"
     }
   ]
 };

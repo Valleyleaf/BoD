@@ -31,7 +31,7 @@ const Bounty_Huntress = {
       "abilityid": 0,
       "name": "Bounty Huntress",
       "disc": "The Bounty Huntress gains bonus gold and experience from kills.",
-      "thumbnail": ""
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/HallofValor/BountyHuntress/BountyHuntress.jpg?token=GHSAT0AAAAAADFNTFFXEU3DBL3Z7ZKFK6342EVOAFQ"
     },
     {
       "abilityid": 1,
@@ -41,15 +41,15 @@ const Bounty_Huntress = {
     },
     {
       "abilityid": 2,
-      "name": "Wild Hunt",
+      "name": "Ambush",
       "disc": "Causes the Bounty Huntress and Smokey to stealth. Their next attack will deal bonus damage.",
-      "thumbnail": ""
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/HallofValor/BountyHuntress/Ambush.jpg?token=GHSAT0AAAAAADFNTFFX74JUDIKILNXMUJTS2EVOAAA"
     },
     {
       "abilityid": 3,
       "name": "Vicious Strike",
       "disc": "The Bounty Huntress marks a target, silencing them and dealing damage over time. Smokey will then deliver a vicious strike, dealing true magic damage to the target.",
-      "thumbnail": ""
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/HallofValor/BountyHuntress/SavageBite.png?token=GHSAT0AAAAAADFNTFFXDSOJXCWF76SGHBTE2EVOAJA"
     },
     {
       "abilityid": 4,

@@ -24,7 +24,7 @@ const Vengence_Incarnate = {
       "abilityid": 0,
       "name": "Shadow Tipped Bullets",
       "disc": "Andersmith has a large chance to deal increased damage with his basic attacks.",
-      "thumbnail": ""
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/Abyss/VengenceIncarnate/TitaniumBullets.jpg?token=GHSAT0AAAAAADFNTFFWFBAGDL4JHGUKVGWK2EVN6QQ"
     },
     {
       "abilityid": 1,
@@ -48,7 +48,7 @@ const Vengence_Incarnate = {
       "abilityid": 4,
       "name": "Shadows Gather",
       "disc": "Andersmith summons all of his shadows to his location and slows nearby enemy units.",
-      "thumbnail": ""
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/Abyss/VengenceIncarnate/BlanketFire.jpg?token=GHSAT0AAAAAADFNTFFX426IJUGMSXD7ZISQ2EVN6WQ"
     }
   ]
 };
