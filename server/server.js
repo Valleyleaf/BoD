@@ -9,7 +9,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-connectDB();
+// Start database connection (non-blocking)
+connectDB().catch(err => {
+  console.error("Failed to connect to database:", err);
+});
 
 // Root route
 app.get("/", (req, res) => {
