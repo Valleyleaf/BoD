@@ -7,7 +7,7 @@ const uri = process.env.ATLAS_URI;
 
 export const connectDB = async () => {
   try {
-    await mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true });
+    await mongoose.connect(uri);
     console.log("Serverside Connected");
   } catch (err) {
     console.error("Connection error:", err.message);
