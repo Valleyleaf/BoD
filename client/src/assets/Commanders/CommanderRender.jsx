@@ -1,16 +1,20 @@
+import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import {Link} from 'react-router-dom';
-import Characters from '../Info/Commanders/A_index';
 import AbilityRender from './AbilityRender.jsx'
 import StatRenderer from './StatRenderer.jsx';
 import DifficultyRender from './DifficultyRender.jsx';
 import bioplaceholder from '../Info/LoreSheets/A_PlaceholderBio.json'
 import CommanderBio from './CommanderBioRender.jsx';
 import "./commanderRender.css";
+import commanderService from '../../services/commanderService';
 
 function CommanderDetail() {
   const { name } = useParams();
-  const character = Characters.find(c => c.slug === name);
+  const [character, setCharacter] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  
   const decodedName = decodeURIComponent(name);
   const attributeColors = {
     Strength: "var(--strength-color)",
@@ -18,7 +22,24 @@ function CommanderDetail() {
     Intelligence: "var(--intelligence-color)"
   };
 
-  if (!character) return <h2>Character "{decodedName}" not found.</h2>;
+  useEffect(() => {
+    const fetchCommander = async () => {
+      try {
+        const data = await commanderService.getCommanderBySlug(name);
+        setCharacter(data);
+      } catch (err) {
+        setError('Commander not found');
+        console.error(err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchCommander();
+  }, [name]);
+
+  if (loading) return <div>Loading commander...</div>;
+  if (error || !character) return <h2>Character "{decodedName}" not found.</h2>;
   
   return (
     <div className='commanderContainer'>

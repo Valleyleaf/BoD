@@ -23,4 +23,4 @@ const CommanderSchema = new mongoose.Schema({
 });
 export default mongoose.model("Commander", CommanderSchema);
 
-//Make sure lore gets returned as as a string cause it might be an object.
+//Make sure lore gets returned as as a string cause it might be an object. Blueprint for how the data is returned via routes.
