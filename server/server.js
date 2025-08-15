@@ -1,9 +1,9 @@
 import { connectDB } from "./Config/Connection.js";
 import express from "express";
 import cors from "cors";
-import commanderRoutes from "./routes/commanders.js";
-import itemRoutes from "./routes/items.js";
-import articleRoutes from "./routes/articles.js";
+import commanderRoutes from "./routes/Commanders.js";
+import itemRoutes from "./routes/Items.js";
+import articleRoutes from "./routes/Articles.js";
 
 const app = express();
 app.use(cors());
