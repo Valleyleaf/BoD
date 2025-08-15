@@ -300,6 +300,12 @@
     border-bottom: 2px solid #ffffff;
   }
 
+  .commanderSortDropdownContainer{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1% ;
+  }
+
   @keyframes fadeInLeft {
   0% {
     opacity: 0;
