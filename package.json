@@ -1,10 +1,10 @@
 {
   "scripts": {
     "dev": "concurrently \"cd server && npm start\" \"cd client && npm run dev\"",
-    "netlify-build": "cd client && npm ci && npm run build"
+    "build": "cd client && npm install && npm run build",
+    "start": "cd server && npm start"
   },
   "dependencies": {
-    "concurrently": "^9.0.1",
     "file-system": "^2.2.2",
     "mongodb": "^6.9.0",
     "react-markdown": "^10.1.0",
@@ -13,5 +13,8 @@
     "uuid": "^11.1.0",
     "uuidv4": "^6.2.13",
     "vite-plugin-node-polyfills": "^0.22.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
   }
 }
