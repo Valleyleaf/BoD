@@ -1,5 +1,3 @@
-import GoldenConquerorLore from '../LoreSheets/GoldenConquerorBio.json';
-
 const Golden_Conqueror = {
   "id": 26,
   "name": "Pulveris",
@@ -9,7 +7,7 @@ const Golden_Conqueror = {
   "thumbnail": "https://i.imgur.com/RBSgoTw.png",
   "image": "https://i.imgur.com/R9YP6fC.jpeg",
   "description": "Casting duelist who gains bonuses the more spells he casts.",
-  "lore": GoldenConquerorLore,
+  "lore": "",
   "primaryStat": "Agility",
   "stats": [
     "14+(1.5 per level)",

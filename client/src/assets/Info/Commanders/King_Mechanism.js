@@ -1,4 +1,3 @@
-import KingMechanismBio from '../LoreSheets/KingMechanismBio.json'
 
 const King_Mechanism = {
   "id": 33,
@@ -9,7 +8,7 @@ const King_Mechanism = {
   "thumbnail": "https://i.imgur.com/ZyntEya.png",
   "image": "https://i.imgur.com/nanoexS.jpeg",
   "description": "Brawler who enhances allied units in combat.",
-  "lore": KingMechanismBio,
+  "lore": "",
   "primaryStat": "Strength",
   "stats": [
     "18+(2.3)",

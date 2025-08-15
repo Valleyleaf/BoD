@@ -1,5 +1,3 @@
-import SlumbornBio from '../LoreSheets/SlumbornBio.json';
-
 const Slumborn = {
   "id": 55,
   "name": "Nihil",
@@ -9,7 +7,7 @@ const Slumborn = {
   "thumbnail": "https://i.imgur.com/ouEWez8.png",
   "image": "https://i.imgur.com/RoJBl5x.png",
   "description": "",
-  "lore": SlumbornBio,
+  "lore": "",
   "primaryStat": "Intelligence",
   "stats": [
     "10+(1 per level)",

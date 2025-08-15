@@ -1,5 +1,3 @@
-import AlchemistBio from '../LoreSheets/AlchemistBio.json';
-
 const The_Alchemist = {
   "id": 2,
   "name": "Jun",
@@ -9,7 +7,7 @@ const The_Alchemist = {
   "thumbnail": "https://i.imgur.com/cp5LS9P.png",
   "image": "https://i.imgur.com/e5yRuLz.jpeg",
   "description": "Melee tank with powerful supportive abilities and self-preservation",
-  "lore": AlchemistBio,
+  "lore": "",
   "primaryStat": "Strength",
   "stats": [
     "10+(1 per level)",

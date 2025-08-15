@@ -1,5 +1,3 @@
-import LightbringerBio from '../LoreSheets/LightbringerBio.json';
-
 const Lightbringer = {
   "id": 34,
   "name": "Tyrus",
@@ -9,7 +7,7 @@ const Lightbringer = {
   "thumbnail": "https://i.imgur.com/9bghiaH.png",
   "image": "https://i.imgur.com/CyCzT9Y.jpeg",
   "description": "",
-  "lore": LightbringerBio,
+  "lore": "",
   "primaryStat": "Intelligence",
   "stats": [
     "10+(1 per level)",
