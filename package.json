@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "concurrently \"cd server && npm start\" \"cd client && npm run dev\"",
-    "build": "cd client && npm install && npm run build && cd.. && cd server && npm install && cd..",
+    "build": "cd client && npm install && npm run build",
     "start": "cd server && npm start"
   },
   "dependencies": {
