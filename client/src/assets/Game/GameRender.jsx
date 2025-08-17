@@ -1,31 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import topic from "./Topic.js";
 import "./game.css";
 
-function nextTopic(){
-
-}
-
-function previousTopic(){
-    
-}
-
 export default function GameRender() {
-    return topic.map((data, i) => (
+    const [current, setCurrent] = useState(0);
+
+    const handleNext = () => {
+        setCurrent((prev) => (prev + 1) % topic.length);
+    };
+
+    const handlePrev = () => {
+        setCurrent((prev) => (prev - 1 + topic.length) % topic.length);
+    };
+
+    return (
         <div className="topicContainer">
             <div className="topicInternal">
                 <div className="gameInfoBox">
-                    <h2>{data.title}</h2>
-                    <p>{data.content}</p>
-                        <div className="flexRow center-content">
-                            <button onClick={previousTopic}><h2>{data.buttonText}</h2></button>
-                            <button onClick={nextTopic}><h2>{data.buttonText}</h2></button>
-                        </div>
+                    <h2>{topic[current].title}</h2>
+                    <p>{topic[current].content}</p>
+                    <div className="buttonContainer">
+                        <button className="gameButtons" onClick={handlePrev}><h2>Previous</h2></button>
+                        <button className="gameButtons" onClick={handleNext}><h2>Next</h2></button>
+                    </div>
                 </div>
                 <div className="gameImageBox">
-                    <img src={data.thumbnail} alt={data.alt} />
+                    <img src={topic[current].thumbnail} alt={topic[current].alt} />
                 </div>
             </div>
         </div>
-    ));
-};
+    );
+}

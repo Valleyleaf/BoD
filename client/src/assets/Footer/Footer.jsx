@@ -3,9 +3,20 @@ import './footer.css';
 
 export default function Footer(){
     return(
-            <div className="FooterBase flexRow center-content">
+            <div className="FooterBase flexColumn center-content">
                 <span className="spacer" />
                 <h2>Playbod@gmail.com</h2>
+                <div className="flexRow">
+                    <img className="esrbLogo" src="https://i.imgur.com/SV7rTN0.png" alt="" />
+                    <div className="esrbBox">
+                        <p>Blood</p>
+                        <p>Fantasy Violence</p>
+                        <p>Mild Suggestive Themes</p>
+                        <p>Use of Alcohol and Tobacco</p>
+                        <p>Online Interactions Not Rated by the ESRB</p>
+                    </div>
+                </div>
+
             </div>
     );
 };

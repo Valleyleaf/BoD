@@ -12,8 +12,11 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
+  max-width: 100vw;
   margin: 20px;
+  transition: transform 0.5s cubic-bezier(.77,0,.18,1);
 }
+
 
 .topicInternal{
   display: flex;
@@ -35,10 +38,39 @@
   padding: 20px;
 }
 
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 1%;
+}
+
+.gameButtons{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    font-size: 15px;
+    margin: 20px;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    background-color: #50c5bb00;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease 0.3s;
+    backdrop-filter: blur(15px);
+}
+
+.gameButtons:hover{
+    color: #ffffff;
+    background-color: #50c5bb00;
+    border: solid 2px #ffffff;
+    transform: scale(1.03);
+}
+
 .gameImageBox {
   position: relative;
-  width: 30vw;          /* or any percentage */
-  aspect-ratio: 1 / 1;  /* keeps it square even if resized */
+  width: 30vw;
+  aspect-ratio: 1 / 1; 
   border-radius: 50%;
   box-shadow: 0 0 30px 10px #50c5bb;
   animation: pulseGlow 8s infinite;

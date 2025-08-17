@@ -29,11 +29,11 @@ export default function Navbar(){
                     Items
                 </Link> */}
 
-                <Link 
+                {/* <Link 
                     to="/Game"
                     className='NavbuttonClass'>
                     Game
-                </Link>
+                </Link> */}
 
                 <Link 
                     to="/PatchNotes"
