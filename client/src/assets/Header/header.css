@@ -16,7 +16,7 @@
 
 .header-logo{
     width: auto;
-    height: 120px;
+    height: 100px;
     filter: brightness(90%);
     transition: 0.3s ease;
 }

@@ -5,7 +5,6 @@ export default function Footer(){
     return(
             <div className="FooterBase flexColumn center-content">
                 <span className="spacer" />
-                <h2>Playbod@gmail.com</h2>
                 <div className="flexRow">
                     <img className="esrbLogo" src="https://i.imgur.com/SV7rTN0.png" alt="" />
                     <div className="esrbBox">

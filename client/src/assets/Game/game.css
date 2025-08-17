@@ -50,7 +50,9 @@
     font-weight: 200;
     font-style: bold;
     font-size: 15px;
+    min-width: 100px;
     margin: 20px;
+    padding: 0px 20px 0px 20px;
     color: #ffffff;
     border: solid 2px #ffffff;
     background-color: #50c5bb00;
