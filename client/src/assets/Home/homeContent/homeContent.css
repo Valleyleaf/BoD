@@ -60,3 +60,12 @@
     cursor: pointer;
     transform: scale(1.03);
 }
+
+.topicBGImage {
+        background-image:
+            linear-gradient(rgba(49, 49, 49, 0.781), rgb(0, 0, 0)),
+            url('https://i.imgur.com/9NE2CTE.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}

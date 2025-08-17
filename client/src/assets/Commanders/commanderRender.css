@@ -1,3 +1,16 @@
+/* Show difficulty stars above each commander when sorting by Difficulty */
+.commander-default-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+
+.difficulty-category {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
 
 .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
@@ -124,7 +137,7 @@
 }
 
   .DifficultyIcon{
-    width: 55px;
+    width: 28px;
     height: auto;
     transition: transform 0.3s ease;
   }
@@ -305,6 +318,36 @@
     justify-content: flex-start;
     padding-left: 1% ;
   }
+
+  .strengthText{
+    color: rgb(192, 11, 11);
+    font-size: 68px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 0px;
+  }
+
+  .agilityText{
+    color: rgb(103, 255, 103);
+    font-size: 68px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 0px;
+
+  }
+
+  .intelligenceText{
+    color: rgb(118, 255, 255);
+    font-size: 68px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 0px;
+
+  }
+
+  .dropDownMenu{
+    border: solid 2px #00eeff;
+    overflow: hidden;
+    transition: max-height 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s;
+  }
+
 
   @keyframes fadeInLeft {
   0% {
