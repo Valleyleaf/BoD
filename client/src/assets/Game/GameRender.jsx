@@ -17,8 +17,8 @@ export default function GameRender() {
         <div className="topicContainer">
             <div className="topicInternal">
                 <div className="gameInfoBox">
-                    <h2>{topic[current].title}</h2>
-                    <p>{topic[current].content}</p>
+                    <h2 className="gametitle">{topic[current].title}</h2>
+                    <p className="gameContentBox">{topic[current].content}</p>
                     <div className="buttonContainer">
                         <button className="gameButtons" onClick={handlePrev}><h2>Previous</h2></button>
                         <button className="gameButtons" onClick={handleNext}><h2>Next</h2></button>

@@ -25,11 +25,11 @@
     min-width: 100%;
     min-height: 100%;
     width: auto;
-    height: auto;
+    width: auto;
     transform: translate(-50%, -50%);
     z-index: 0;
     object-fit: cover;
-    opacity: 1; /* Ensure video is visible */
+    opacity: 1;
 }
 
 .video-fallback {
