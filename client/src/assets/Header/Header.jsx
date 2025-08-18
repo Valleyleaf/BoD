@@ -14,7 +14,7 @@ export default function Header(){
                 <Navbar />
                 <div className="DownloadButtonContainer">
                     <a href="https://www.hiveworkshop.com/threads/battle-of-dominance-v2-0-arcane-showdown.326630/" target="_blank" rel="noopener noreferrer">
-                        <button className="DownloadButton">DOWNLOAD</button>
+                        <button className="downloadButton">DOWNLOAD</button>
                     </a>
                 </div>
             </div>

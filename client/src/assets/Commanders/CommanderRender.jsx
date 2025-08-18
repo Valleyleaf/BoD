@@ -5,6 +5,7 @@ import AbilityRender from './AbilityRender.jsx'
 import StatRenderer from './StatRenderer.jsx';
 import DifficultyRender from './DifficultyRender.jsx';
 import bioplaceholder from '../Info/LoreSheets/A_PlaceholderBio.json'
+import Loading from '../Loading/Loading.jsx'
 import CommanderBio from './CommanderBioRender.jsx';
 import "./commanderRender.css";
 import commanderService from '../../services/commanderService';
@@ -38,7 +39,7 @@ function CommanderDetail() {
     fetchCommander();
   }, [name]);
 
-  if (loading) return <div>Loading commander...</div>;
+  if (loading) return <Loading/>;
   if (error || !character) return <h2>Character "{decodedName}" not found.</h2>;
   
   return (

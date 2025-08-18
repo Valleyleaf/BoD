@@ -5,3 +5,52 @@
     padding: 20px;
     text-align: center;
 }
+
+.esrbBox p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.esrbLogo{
+    height: 100px;
+    margin-right: 10px;
+}
+
+.socialMediaIcon{
+    height: 40px;
+}
+
+.copyrightText{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #7a7a7a;
+}
+
+.footerButtons{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    min-width: 100px;
+    width: 200px;
+    margin: 20px;
+    padding: 0px 20px 0px 20px;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    background-color: #1d1d1d;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease 0.3s;
+    backdrop-filter: blur(15px);
+}
+
+.footerButtons:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border: solid 2px #000000;
+    transform: scale(1.03);
+}

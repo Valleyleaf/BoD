@@ -3,9 +3,21 @@ import './footer.css';
 
 export default function Footer(){
     return(
-            <div className="FooterBase flexRow center-content">
-                <span className="spacer" />
-                <h2>Playbod@gmail.com</h2>
+            <div className="FooterBase flexColumn center-content">
+                <div className="flexRow">
+                    <img className="esrbLogo" src="https://i.imgur.com/SV7rTN0.png" alt="" />
+                    <div className="esrbBox">
+                        <p>Blood</p>
+                        <p>Fantasy Violence</p>
+                        <p>Mild Suggestive Themes</p>
+                        <p>Use of Alcohol and Tobacco</p>
+                        <p>Online Interactions Not Rated by the ESRB</p>
+                    </div>
+                </div>
+                {/* <div>
+                    <a href="https://x.com/play_bod"><img className="socialMediaIcon" src="https://i.imgur.com/3f2avv9.png" alt="link to twitter" /></a>
+                </div> */}
+                <p className="copyrightText">This is a concept page. Used media is copyrighted material and not for distribution.<br></br>All rights remain beholden to their respective owners.</p>
             </div>
     );
 };

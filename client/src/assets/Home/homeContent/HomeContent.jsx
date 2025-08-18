@@ -17,8 +17,7 @@ function HomeContent(){
                 <div>
                     <Commandercarousel/>
                 </div>
-            <div className="flexColumn center-content">
-                    <h2 className='HomeTitle'>About:</h2>
+            <div className="flexColumn center-content topicBGImage">
                     <GamePage/>
             </div>
         </div>
