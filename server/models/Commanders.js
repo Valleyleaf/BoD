@@ -7,7 +7,7 @@ const CommanderSchema = new mongoose.Schema({
   thumbnail: String,
   image: String,
   description: String,
-  lore: String,
+  lore: { type: mongoose.Schema.Types.ObjectId, ref: "Lore" },
   primaryStat: String,
   stats: [String],
   faction: String,
