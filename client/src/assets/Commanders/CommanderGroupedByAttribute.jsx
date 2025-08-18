@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import placeholder from '../img/placeholder.png';
-import './CommanderRender.css'
+import './commanderRender.css'
 
 const statClassMap = {
   Strength: "strengthText",
