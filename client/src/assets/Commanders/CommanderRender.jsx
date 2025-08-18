@@ -5,6 +5,7 @@ import AbilityRender from './AbilityRender.jsx'
 import StatRenderer from './StatRenderer.jsx';
 import DifficultyRender from './DifficultyRender.jsx';
 import bioplaceholder from '../Info/LoreSheets/A_PlaceholderBio.json'
+import Loading from '../Loading/Loading.jsx'
 import CommanderBio from './CommanderBioRender.jsx';
 import "./commanderRender.css";
 import commanderService from '../../services/commanderService';
@@ -23,6 +24,7 @@ function CommanderDetail() {
   };
 
   useEffect(() => {
+    let intervalId;
     const fetchCommander = async () => {
       try {
         const data = await commanderService.getCommanderBySlug(name);
@@ -36,9 +38,11 @@ function CommanderDetail() {
     };
 
     fetchCommander();
+    intervalId = setInterval(fetchCommander, 60000); // Poll every 60 seconds
+    return () => clearInterval(intervalId);
   }, [name]);
 
-  if (loading) return <div>Loading commander...</div>;
+  if (loading) return <Loading/>;
   if (error || !character) return <h2>Character "{decodedName}" not found.</h2>;
   
   return (
@@ -67,7 +71,7 @@ function CommanderDetail() {
           <div className="flexColumn CommanderSideProfile">
           </div>
           <div>
-            <StatRenderer/>
+            <StatRenderer character={character}/>
               <p>Faction: {character.faction}</p>
               <p>Roles: {character.roles.join(', ')}</p>
           </div>
@@ -80,7 +84,7 @@ function CommanderDetail() {
       </div>
         </div>
       <div>
-        <CommanderBio/>
+  <CommanderBio character={character}/>
       </div>
     </div>
   );
