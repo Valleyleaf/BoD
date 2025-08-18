@@ -13,6 +13,7 @@ function Commanders() {
   const [sortOption, setSortOption] = useState("Name");
 
   useEffect(() => {
+    let intervalId;
     const fetchCommanders = async () => {
       try {
         const data = await commanderService.getAllCommanders();
@@ -26,6 +27,8 @@ function Commanders() {
     };
 
     fetchCommanders();
+    intervalId = setInterval(fetchCommanders, 60000); // Poll every 60 seconds
+    return () => clearInterval(intervalId);
   }, []);
 
   const handleSortChange = (e) => {

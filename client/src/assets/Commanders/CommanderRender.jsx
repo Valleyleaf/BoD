@@ -24,6 +24,7 @@ function CommanderDetail() {
   };
 
   useEffect(() => {
+    let intervalId;
     const fetchCommander = async () => {
       try {
         const data = await commanderService.getCommanderBySlug(name);
@@ -37,6 +38,8 @@ function CommanderDetail() {
     };
 
     fetchCommander();
+    intervalId = setInterval(fetchCommander, 60000); // Poll every 60 seconds
+    return () => clearInterval(intervalId);
   }, [name]);
 
   if (loading) return <Loading/>;
