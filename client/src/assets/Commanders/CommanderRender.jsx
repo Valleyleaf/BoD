@@ -71,7 +71,7 @@ function CommanderDetail() {
           <div className="flexColumn CommanderSideProfile">
           </div>
           <div>
-            <StatRenderer/>
+            <StatRenderer character={character}/>
               <p>Faction: {character.faction}</p>
               <p>Roles: {character.roles.join(', ')}</p>
           </div>
@@ -84,7 +84,7 @@ function CommanderDetail() {
       </div>
         </div>
       <div>
-        <CommanderBio/>
+  <CommanderBio character={character}/>
       </div>
     </div>
   );
