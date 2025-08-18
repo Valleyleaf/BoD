@@ -9,7 +9,7 @@ This is a website for the fictional videogame title "Battle of Dominanace". This
 - ✅ MongoDB Database
 - ❌ User Logins
 - ❌ Admin Article Submission system
-- ❌ Search Function
+- ✅ Search Function
 - ❌ Video Integration
 - ❌ Forums
 - ❌ Player Guides
