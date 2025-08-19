@@ -4,6 +4,7 @@ import Commander from "../models/Commanders.js";
 export const getAllCommanders = async (req, res) => {
   try {
     const commanders = await Commander.find();
+    console.log("Commander found:", commander);
     res.json(commanders);
   } catch (error) {
     res.status(500).json({ error: error.message });
