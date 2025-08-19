@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+
 const CommanderSchema = new mongoose.Schema({
   name: String,
   title: String,
