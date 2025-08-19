@@ -18,6 +18,7 @@ function CommanderBio({ character }) {
     <div className='flexColumn'>
       <h2 className='Bio'>Lore:</h2>
       <div className="BioFrame flexColumn">
+        {character.lore.title && <h2 className='BioTitle'>{character.lore.title}</h2>}
         {character.lore.bio.map((text, i) => <p key={i}>{text}</p>)}
       </div>
     </div>
