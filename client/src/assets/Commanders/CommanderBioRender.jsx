@@ -2,29 +2,25 @@
 import bioplaceholder from '../Info/LoreSheets/A_PlaceholderBio.json'
 import "./commanderRender.css";
 
+
 function CommanderBio({ character }) {
-  if (!character) return <h2>Characterbio component not found.</h2>;
-  
+  if (!character || !character.lore || !Array.isArray(character.lore.bio)) {
+    return (
+      <div className='flexColumn'>
+        <h2 className='Bio'>Lore:</h2>
+        <div className="BioFrame flexColumn">
+          {bioplaceholder.bio ? bioplaceholder.bio.map((text, i) => <p key={i}>{text}</p>) : "No lore available."}
+        </div>
+      </div>
+    );
+  }
   return (
     <div className='flexColumn'>
-        <h2 className='Bio'>Lore:</h2>
-        {character.lore && character.lore.bio ? (
-          Array.isArray(character.lore.bio) ? (
-            <div className="BioFrame flexColumn">
-              {character.lore.bio.map((text, i) => <p key={i}>{text}</p>)}
-            </div>
-          ) : (
-            <div className="BioFrame flexColumn">
-              <h2>{character.lore.title}</h2>
-              <p>{character.lore.bio}</p>
-            </div>
-          )
-        ) : character.lore && typeof character.lore === "string" ? (
-          <div className="BioFrame">{character.lore}</div>
-        ) : (
-          <div className="BioFrame">{bioplaceholder.bio ? bioplaceholder.bio : "No lore available."}</div>
-        )}
+      <h2 className='Bio'>Lore:</h2>
+      <div className="BioFrame flexColumn">
+        {character.lore.bio.map((text, i) => <p key={i}>{text}</p>)}
       </div>
+    </div>
   );
 }
 
