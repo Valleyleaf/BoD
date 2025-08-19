@@ -1,5 +1,3 @@
-import FlameKingBio from '../LoreSheets/FlameKingBio.json';
-
 const Flame_King = {
   "id": 22,
   "name": "Karl the Everburning",
@@ -9,7 +7,7 @@ const Flame_King = {
   "thumbnail": "https://i.imgur.com/4b9BoB8.png",
   "image": "https://i.imgur.com/jT9hJUw.jpeg",
   "description": "Mystical mage with high base damage and area of effect abilities.",
-  "lore": FlameKingBio,
+  "lore": "",
   "primaryStat": "Intelligence",
   "stats": [
     "10+(1 per level)",

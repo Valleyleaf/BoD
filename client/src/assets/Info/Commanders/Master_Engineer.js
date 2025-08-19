@@ -1,5 +1,3 @@
-import MasterEngineerBio from '../LoreSheets/MasterEngineerBio.json';
-
 const Master_Engineer = {
   "id": 36,
   "name": "Jazz Wunderwaffle",
@@ -9,7 +7,7 @@ const Master_Engineer = {
   "thumbnail": "https://i.imgur.com/goabeVa.png",
   "image": "https://i.imgur.com/Es20R05.jpeg",
   "description": "",
-  "lore": MasterEngineerBio,
+  "lore": "",
   "primaryStat": "Intelligence",
   "stats": [
     "10+(1 per level)",

@@ -1,5 +1,3 @@
-import StormbringerBio from '../LoreSheets/StormbringerBio.json';
-
 const Stormbringer = {
   "id": 57,
   "name": "Jarvis Thunderbolt",
@@ -9,7 +7,7 @@ const Stormbringer = {
   "thumbnail": "https://i.imgur.com/T1SBDpk.png",
   "image": "https://i.imgur.com/kJe1mKf.jpeg",
   "description": "",
-  "lore": StormbringerBio,
+  "lore": "",
   "primaryStat": "Agility",
   "stats": [
     "10+(1 per level)",

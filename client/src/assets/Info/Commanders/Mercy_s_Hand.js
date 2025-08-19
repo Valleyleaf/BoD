@@ -1,5 +1,3 @@
-import MercysHandBio from '../LoreSheets/MercysHandBio.json';
-
 const Mercy_s_Hand = {
   "id": 37,
   "name": "Maelstrom",
@@ -9,7 +7,7 @@ const Mercy_s_Hand = {
   "thumbnail": "https://i.imgur.com/nazlTUp.png",
   "image": "https://i.imgur.com/rxL3se5.jpeg",
   "description": "",
-  "lore": MercysHandBio,
+  "lore": "",
   "primaryStat": "Intelligence",
   "stats": [
     "10+(1 per level)",

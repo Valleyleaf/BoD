@@ -8,14 +8,20 @@ function CommanderBio({ character }) {
   return (
     <div className='flexColumn'>
         <h2 className='Bio'>Lore:</h2>
-        {character.lore && Array.isArray(character.lore.bio) ? (
-          <div className="BioFrame flexColumn">
-            {character.lore.bio.map((text, i) => <p key={i}>{text}</p>)}
-          </div>
+        {character.lore && character.lore.bio ? (
+          Array.isArray(character.lore.bio) ? (
+            <div className="BioFrame flexColumn">
+              {character.lore.bio.map((text, i) => <p key={i}>{text}</p>)}
+            </div>
+          ) : (
+            <div className="BioFrame flexColumn">
+              <p>{character.lore.bio}</p>
+            </div>
+          )
         ) : character.lore && typeof character.lore === "string" ? (
           <div className="BioFrame">{character.lore}</div>
         ) : (
-          <div className="BioFrame">{bioplaceholder.bio ? bioplaceholder.bio.join('\n') : "No lore available."}</div>
+          <div className="BioFrame">{bioplaceholder.bio ? bioplaceholder.bio : "No lore available."}</div>
         )}
       </div>
   );

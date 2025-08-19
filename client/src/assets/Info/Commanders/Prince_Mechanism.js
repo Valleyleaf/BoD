@@ -1,5 +1,3 @@
-import PrinceMechanismBio from '../LoreSheets/PrinceMechanismBio.json'
-
 const Prince_Mechanism = {
   "id": 44,
   "name": "Edgarim",
@@ -9,7 +7,7 @@ const Prince_Mechanism = {
   "thumbnail": "https://i.imgur.com/iRZ9zig.png",
   "image": "https://i.imgur.com/c0z1zHt.jpeg",
   "description": "Powerful disruptive brawler who can control the battlefield and pick off high priority targets.",
-  "lore": PrinceMechanismBio,
+  "lore": "",
   "primaryStat": "Strength",
   "stats": [
     "10+(1 per level)",

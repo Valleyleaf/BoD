@@ -1,4 +1,4 @@
-const Flamesickle = {
+const ForgeMaster = {
   "id": 64,
   "name": "Angus Gallileus",
   "title": "Forgemaster",
@@ -53,4 +53,4 @@ const Flamesickle = {
     }
   ]
 };
-export default Flamesickle;
+export default ForgeMaster;

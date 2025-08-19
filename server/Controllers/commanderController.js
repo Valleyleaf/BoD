@@ -1,5 +1,6 @@
 import Commander from "../models/Commanders.js";
 
+
 export const getAllCommanders = async (req, res) => {
   try {
     const commanders = await Commander.find();
@@ -9,9 +10,10 @@ export const getAllCommanders = async (req, res) => {
   }
 };
 
+
 export const getCommanderById = async (req, res) => {
   try {
-    const commander = await Commander.findById(req.params.id);
+    const commander = await Commander.findById(req.params.id).populate("lore");
     if (!commander) return res.status(404).json({ error: "Commander not found" });
     res.json(commander);
   } catch (error) {
@@ -21,7 +23,7 @@ export const getCommanderById = async (req, res) => {
 
 export const getCommanderBySlug = async (req, res) => {
   try {
-    const commander = await Commander.findOne({ slug: req.params.slug });
+    const commander = await Commander.findOne({ slug: req.params.slug }).populate("lore");
     if (!commander) return res.status(404).json({ error: "Commander not found" });
     res.json(commander);
   } catch (error) {

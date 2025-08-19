@@ -1,5 +1,3 @@
-import VolcanoLordBio from '../LoreSheets/VolcanoLordBio.json';
-
 const Volcano_Lord = {
   "id": 59,
   "name": "Mul'Vin",
@@ -9,7 +7,7 @@ const Volcano_Lord = {
   "thumbnail": "",
   "image": "https://i.imgur.com/FeKrgBU.jpeg",
   "description": "",
-  "lore": VolcanoLordBio,
+  "lore": "",
   "primaryStat": "Intelligence",
   "stats": [
     "10+(1 per level)",
