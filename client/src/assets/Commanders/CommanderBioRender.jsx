@@ -15,6 +15,7 @@ function CommanderBio({ character }) {
             </div>
           ) : (
             <div className="BioFrame flexColumn">
+              <h2>{character.lore.title}</h2>
               <p>{character.lore.bio}</p>
             </div>
           )
