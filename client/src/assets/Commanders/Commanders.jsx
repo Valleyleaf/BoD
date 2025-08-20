@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useMemo } from "react";
 import CommanderRenderDefault from './CommanderRenderDefault.jsx';
 import Loading from '../Loading/Loading.jsx';
 import "./commanderRender.css";
@@ -13,7 +13,6 @@ function Commanders() {
   const [sortOption, setSortOption] = useState("Name");
 
   useEffect(() => {
-    let intervalId;
     const fetchCommanders = async () => {
       try {
         const data = await commanderService.getAllCommanders();
@@ -25,17 +24,14 @@ function Commanders() {
         setLoading(false);
       }
     };
-
     fetchCommanders();
-    intervalId = setInterval(fetchCommanders, 60000); // Poll every 60 seconds
-    return () => clearInterval(intervalId);
   }, []);
 
   const handleSortChange = (e) => {
     setSortOption(e.target.value);
   };
 
-  const getSortedCommanders = () => {
+  const sortedCommanders = useMemo(() => {
     let items = [...commanders];
     if (sortOption === "Name") {
       items.sort((a, b) => a.title.localeCompare(b.title));
@@ -47,7 +43,7 @@ function Commanders() {
       items.sort((a, b) => (a.difficulty || 0) - (b.difficulty || 0));
     }
     return items;
-  };
+  }, [commanders, sortOption]);
 
 
   if (loading) return <Loading/>;
@@ -69,12 +65,12 @@ function Commanders() {
       </div>
       <div className="commanderRenderBackground fade-slide-up">
         {sortOption === "Primary Stat" ? (
-          <CommanderGroupedList commanders={getSortedCommanders()} />
+          <CommanderGroupedList commanders={sortedCommanders} />
         ) : sortOption === "Faction" ? (
-          <CommanderGroupedByFaction commanders={getSortedCommanders()} />
+          <CommanderGroupedByFaction commanders={sortedCommanders} />
         ) : (
           <div className='roster comList'>
-            <CommanderRenderDefault commanders={getSortedCommanders()} />
+            <CommanderRenderDefault commanders={sortedCommanders} />
           </div>
         )}
       </div>

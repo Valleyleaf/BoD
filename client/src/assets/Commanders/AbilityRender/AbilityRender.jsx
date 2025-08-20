@@ -16,12 +16,14 @@ function AbilityRender({ character }) {
                         ):(
                             <img className="abilityThumbnail" src={placeholder} alt="Placeholder"/>
                         )}
+                        {/* Above renders the ability thumbnail below is the title and disc. */}
                     </div>
                     <div className="abilityText">
                         <p className="abilityTitle">{ability.name}</p>
                         {ability.disc ? (                        
                             <p className='abilityInfo' onError={(e) => { e.target.src = 'unable to load disc'; }}
                             >{ability.disc}</p>
+                            //Might need to add a way for this to render arrays because of Primarch.
                             ):(
                             <p>Ability description empty</p>
                             )}
