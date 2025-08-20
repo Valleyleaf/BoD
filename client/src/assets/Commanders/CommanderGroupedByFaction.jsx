@@ -39,7 +39,7 @@ const CommanderGroupedByFaction = ({ commanders }) => {
     <div>
       {factions.map(faction => (groups[faction] && groups[faction].length > 0 && (
           <div key={faction}>
-            <h3 style={{marginTop: '1em'}}>{faction}</h3>
+            <h3 className="commanderPageText" style={{marginTop: '1em'}}>{faction}</h3>
             <div className='roster comList'>
               {groups[faction].map(data => (
                 <Link to={`/commanders/${data.slug}`} key={data.name} className='heroFrame comImg'>

@@ -6,12 +6,6 @@
   margin-bottom: 1.5em;
 }
 
-.difficulty-category {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 0.5em;
-}
-
 .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
@@ -21,7 +15,17 @@
 .commanders{
   display: flex;
   flex-direction: column;
-  padding-top: 20px
+  padding-top: 20px;
+}
+
+.commanderPageText{
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  text-align: left;
+  margin: 0px 0px 0px 10px;
+  padding: 0px;
 }
 
 .commanderContainer{
@@ -43,15 +47,6 @@
     background-color: #1a1a1a;
     border-top: solid 3px rgba(0, 0, 0, 0.356);
     border-bottom: solid 3px rgba(0, 0, 0, 0.356);
-}
-
-.CommanderRenderMain{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 0px;
-  margin: 50px;
 }
 
 .name{
@@ -98,14 +93,6 @@
 
 }
 
-.CommanderRenderSecond{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #ffffff;
-}
-
 .DisplayImage{
   width: 700px;
   height: auto;
@@ -124,83 +111,29 @@
   justify-content: center;
 }
 
-.PrimaryStat{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 35px;
-    color: #ffffff;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-}
-
-  .DifficultyIcon{
-    width: 28px;
-    height: auto;
-    transition: transform 0.3s ease;
-  }
-
-  /* .DifficultyIcon:hover {
-    animation: zoomWiggle 0.6s ease forwards;
-  }
-  
-  @keyframes zoomWiggle {
-    0% {
-      transform: scale(1) rotate(0deg);
-    }
-    10% {
-      transform: scale(1.05) rotate(0deg);
-    }
-    20% {
-      transform: scale(1.05) rotate(5deg);
-    }
-    30% {
-      transform: scale(1.05) rotate(-5deg);
-    }
-    40% {
-      transform: scale(1.05) rotate(3deg);
-    }
-    50% {
-      transform: scale(1.05) rotate(-3deg);
-    }
-    60% {
-      transform: scale(1.05) rotate(2deg);
-    }
-    100% {
-      transform: scale(1.05) rotate(0deg);
-    }
-  } */
-  
-  .logo{
-    width:440px;
-    height: auto;
-}
-
 .roster{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px;
 }
 
 .heroFrame{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 200px;
-    height: 350px;
-    padding: 10px;
-    font-size: 12px;
-    font-style: italic;
-    white-space: nowrap;
-    transition: ease 0.3s;
-    cursor: pointer;
-    transition: opacity 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 200px;
+  height: 350px;
+  padding: 0px 5px 0px 5px;
+  font-size: 12px;
+  font-style: italic;
+  white-space: nowrap;
+  transition: ease 0.3s;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
 }
 
 .characterDescription{
@@ -212,26 +145,26 @@
 }
 
 .splashArt{
-    display: block;
-    object-fit: cover;
-    width: 200px;
-    height: 300px;
-    border: solid 1px rgb(174, 232, 240);
+  display: block;
+  object-fit: cover;
+  width: 200px;
+  height: 300px;
+  border: solid 1px rgb(174, 232, 240);
 }
 
 .splashArt:hover{
-    display: block;
-    object-fit: cover;
-    width: 210px;
-    height: 300px;
-    border: solid 1px rgb(174, 232, 240);
-    transition: ease 0.3s;
-    box-shadow: 0 0 10px rgba(0, 238, 255, 0.5);
+  display: block;
+  object-fit: cover;
+  width: 210px;
+  height: 300px;
+  border: solid 1px rgb(174, 232, 240);
+  transition: ease 0.3s;
+  box-shadow: 0 0 10px rgba(0, 238, 255, 0.5);
 }
 
 .comList{
     transform-style: preserve-3d;
-    transform: perspective(5000px);
+    transform: perspective(2000px);
 }
 
 .comList .comImg{
@@ -241,7 +174,7 @@
 
 .comList .comImg:hover{
     filter: brightness(1);
-    transform: translateZ(100px);
+    transform: translateY(5px);
 }
 
 .hoverTitle {
@@ -279,40 +212,6 @@
     }
   }
 
-.statsText{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 25px;
-    color: #ffffff;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-  }
-
-  .statRenderBox{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: left;
-    margin: 2px;
-    padding: 5px;
-  }
-
-  .Bio{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 60px;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .BioFrame{
-    display: flex;
-    text-align: left;
-    margin-bottom: 10px;
-    padding: 20px;
-    border-bottom: 2px solid #ffffff;
-  }
-
   .commanderSortDropdownContainer{
     display: flex;
     justify-content: flex-start;
@@ -339,7 +238,6 @@
     font-size: 68px;
     font-family: "Bebas Neue", sans-serif;
     margin-bottom: 0px;
-
   }
 
   .dropDownMenu{

@@ -1,6 +1,6 @@
 
 import React from "react";
-import placeholder from '../img/placeholder.png';
+import placeholder from '../../img/placeholder.png';
 import './abilityRender.css';
 
 function AbilityRender({ character }) {

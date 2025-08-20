@@ -55,7 +55,7 @@ function Commanders() {
 
   return (
     <div className='commanders'>
-      <h2 className='Bio'>Your legend awaits.</h2>
+      <h2 className='commanderPageText'>Your legend awaits.</h2>
         <div className="homeDivider"></div>
       <p>With over 60 Commanders and counting. Your playstyle is represented on the battlefield.</p>
       <div className="commanderSortDropdownContainer" style={{ margin: "1em 0" }}>

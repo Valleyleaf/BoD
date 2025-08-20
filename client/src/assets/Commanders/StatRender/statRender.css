@@ -1,0 +1,32 @@
+.PrimaryStat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.statsText{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+
+  .statRenderBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    margin: 2px;
+    padding: 5px;
+    background: linear-gradient(to right, #00000062, #ffffff00);
+    width: 400px;
+  }

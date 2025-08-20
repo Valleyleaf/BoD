@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import {Link} from 'react-router-dom';
-import AbilityRender from './AbilityRender.jsx'
-import StatRenderer from './StatRenderer.jsx';
-import DifficultyRender from './DifficultyRender.jsx';
+import AbilityRender from './AbilityRender/AbilityRender.jsx'
+import StatRenderer from './StatRender/StatRenderer.jsx';
+import DifficultyRender from './DifficultyRender/DifficultyRender.jsx';
 import bioplaceholder from '../Info/LoreSheets/A_PlaceholderBio.json'
 import Loading from '../Loading/Loading.jsx'
-import CommanderBio from './CommanderBioRender.jsx';
+import CommanderBio from './BioRender/CommanderBioRender.jsx';
 import "./commanderRender.css";
 import commanderService from '../../services/commanderService';
 
@@ -72,8 +72,14 @@ function CommanderDetail() {
           </div>
           <div>
             <StatRenderer character={character}/>
-              <p>Faction: {character.faction}</p>
-              <p>Roles: {character.roles.join(', ')}</p>
+              <div className='flexRow'>
+                <p className='Bio'>Faction: </p>
+                <p className='Bio'>{character.faction}</p>
+              </div>
+              <div className='flexRow'>
+                <p className='Bio'>Roles:</p>
+                <p className='Bio'>{character.roles.join(', ')}</p>
+              </div>
           </div>
         </div>
         <div className="abilityContainer">

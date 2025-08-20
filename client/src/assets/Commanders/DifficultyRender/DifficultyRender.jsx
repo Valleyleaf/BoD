@@ -1,8 +1,7 @@
 import React from "react";
 import { useParams } from 'react-router-dom';
-import Characters from '../Info/Commanders/A_index';
-import './commanderRender.css';
-
+import Characters from '../../Info/Commanders/A_index';
+import './difficultyrender.css';
 function DifficultyRender() {
     const { name } = useParams();
     const character = Characters.find(c => c.slug === name);
