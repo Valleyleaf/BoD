@@ -16,3 +16,4 @@ const CommanderRenderDefault = ({ commanders }) => {
 };
 
 export default CommanderRenderDefault;
+// Not a big deal but the above naming convention is horrible and doesn't actually explain what this does. This renders the splash art for the commander menu items.

@@ -64,6 +64,7 @@ function CommanderDetail() {
                       <p className='PrimaryStat' style={{ color: attributeColors[character.primaryStat] || "white" }}>
                         {character.primaryStat}
                       </p>
+                      {/* Above is adapted to Collector due to double primaryStat. might change to a gradient var() later? */}
                 </div>
             </div>
         {/* <img className="DisplayImage" src={character.image} alt={character.name} /> */}
@@ -75,10 +76,12 @@ function CommanderDetail() {
               <div className='flexRow'>
                 <p className='Bio'>Faction: </p>
                 <p className='Bio'>{character.faction}</p>
+                {/* Line 78 will need a function to display a vector logo based on character faction after the name once I have those done. */}
               </div>
               <div className='flexRow'>
                 <p className='Bio'>Roles:</p>
                 <p className='Bio'>{character.roles.join(', ')}</p>
+                {/* Make class logos instead of text? */}
               </div>
           </div>
         </div>

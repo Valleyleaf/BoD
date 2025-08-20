@@ -22,6 +22,7 @@ const CommanderGroupedByFaction = ({ commanders }) => {
       (a, b) => FACTION_ORDER.indexOf(a) - FACTION_ORDER.indexOf(b)
     );
   };
+  // Above function ensures factions are sorted based on FACTION_ORDER rather than alphabetical order.
 
   const groupedByFaction = (items) => {
     const groups = {};
@@ -31,7 +32,8 @@ const CommanderGroupedByFaction = ({ commanders }) => {
     });
     return groups;
   };
-
+  // Finds and divides commanders based on faction.
+  
   const factions = getFactions(commanders);
   const groups = groupedByFaction(commanders);
 
