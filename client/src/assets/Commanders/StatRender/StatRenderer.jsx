@@ -1,6 +1,6 @@
 
 import React from "react";
-import "./StatRender.css";
+import "./statRender.css";
 
 function StatRenderer({ character }) {
     const attributeIcons = [
