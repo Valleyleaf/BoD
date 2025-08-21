@@ -20,13 +20,16 @@ function AbilityRender({ character }) {
                     </div>
                     <div className="abilityText">
                         <p className="abilityTitle">{ability.name}</p>
-                        {ability.disc ? (                        
-                            <p className='abilityInfo' onError={(e) => { e.target.src = 'unable to load disc'; }}
-                            >{ability.disc}</p>
-                            //Might need to add a way for this to render arrays because of Primarch.
-                            ):(
+                        {/* Below is basically a else/if. So if its an array, do first, second, does disc exist? if so do this, else then discription empty. */}
+                        {Array.isArray(ability.disc) ? (
+                            ability.disc.map((desc, idx) => (
+                                <p className='abilityInfo' key={idx}>{desc}</p>
+                            ))
+                        ) : ability.disc ? (
+                            <p className='abilityInfo'>{ability.disc}</p>
+                        ) : (
                             <p>Ability description empty</p>
-                            )}
+                        )}
                     </div>
                 </div>
             ))}
