@@ -4,7 +4,7 @@ import './navbar.css'
 
 export default function Navbar(){
     return(
-            <div className="navbarClass">
+            <nav className="navbarClass">
                 <Link 
                     to="/"
                     className='NavbuttonClass'>
@@ -40,6 +40,6 @@ export default function Navbar(){
                     className='NavbuttonClass'>
                     Patch Notes
                 </Link>
-            </div>
+            </nav>
     );
 };

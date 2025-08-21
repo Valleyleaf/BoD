@@ -7,7 +7,7 @@ import Logo from '../img/BoDlogo.png'
 
 export default function Header(){
     return(
-            <div className="headerMain">
+            <header className="headerMain">
                 <a href="/">
                     <img className="header-logo" src={Logo}></img>
                 </a>
@@ -17,6 +17,6 @@ export default function Header(){
                         <button className="downloadButton">DOWNLOAD</button>
                     </a>
                 </div>
-            </div>
+            </header>
     );
 };
