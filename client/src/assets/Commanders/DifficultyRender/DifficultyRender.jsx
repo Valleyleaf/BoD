@@ -1,12 +1,7 @@
 import React from "react";
-import { useParams } from 'react-router-dom';
-import Characters from '../../Info/Commanders/A_index';
 import './difficultyrender.css';
-function DifficultyRender() {
-    const { name } = useParams();
-    const character = Characters.find(c => c.slug === name);
-    const decodedName = decodeURIComponent(name);
 
+function DifficultyRender({ character }) {
     if (!character) return <h2>Character difficulty "{decodedName}" data is missing.</h2>;
 
     return (
