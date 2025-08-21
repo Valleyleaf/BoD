@@ -26,22 +26,22 @@ function App() {
   return (
     <>
       {loading ? (
-        <div className="LoadingPosition">
+        <progress className="LoadingPosition">
           <Loading/>
-        </div>
+        </progress>
       ) : (
         <div>
-          <div className="HeaderPosition">
+          <header className="HeaderPosition">
             <Header />
-          </div>
-
-          <div className="OutletPosition">
+          </header>
+s
+          <main className="OutletPosition">
             <Outlet />
-          </div>
+          </main>
 
-          <div className="FooterPosition">
+          <footer className="FooterPosition">
             <Footer />
-          </div>
+          </footer>
         </div>
       )}
     </>

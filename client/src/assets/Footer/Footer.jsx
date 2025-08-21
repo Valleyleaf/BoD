@@ -14,9 +14,11 @@ export default function Footer(){
                         <p>Online Interactions Not Rated by the ESRB</p>
                     </div>
                 </div>
-                {/* <div>
-                    <a href="https://x.com/play_bod"><img className="socialMediaIcon" src="https://i.imgur.com/3f2avv9.png" alt="link to twitter" /></a>
-                </div> */}
+                <div className="flexRow">
+                    <a href="https://github.com/Valleyleaf/BoD"><img className="socialMediaIcon" src="https://www.svgrepo.com/show/512317/github-142.svg" alt="link to github" /></a>
+                    <a href="https://x.com/play_bod"><img className="socialMediaIcon" src="https://www.svgrepo.com/show/513008/twitter-154.svg" alt="link to twitter" /></a>
+                    <a href="https://github.com/Valleyleaf/BoD"><img className="socialMediaIcon" src="https://www.svgrepo.com/show/512317/github-142.svg" alt="link to github" /></a>
+                </div>
                 <p className="copyrightText">This is a concept page. Used media is copyrighted material and not for distribution.<br></br>All rights remain beholden to their respective owners.</p>
             </footer>
     );
