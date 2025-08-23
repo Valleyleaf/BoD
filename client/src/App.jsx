@@ -34,7 +34,7 @@ function App() {
           <header className="HeaderPosition">
             <Header />
           </header>
-s
+
           <main className="OutletPosition">
             <Outlet />
           </main>

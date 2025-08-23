@@ -11,7 +11,7 @@ function HomeContent(){
                 <div className="homeDivider"></div>
             <p>With over 60 characters to choose from, find the one that suits your playstyle and dominate the battlefield!</p>
                 <Link to="/Commanders" className='pffButton'>
-                    View all Heroes
+                    View all Commanders
                 </Link>
         </div>
                 <div>

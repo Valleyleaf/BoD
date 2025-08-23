@@ -38,6 +38,11 @@
   flex-direction: row;
   justify-content: space-between;
   min-width: auto;
+  min-height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   animation: fadeIn 1s ease-out forwards;
   position: relative;
   box-shadow: inset 0 0 1800px 1000px rgba(0, 0, 0, 0.3);
@@ -142,7 +147,7 @@
   font-size: 16px;
   color: #ffffff;
   margin: 20px;
-  width: 300px;
+  width: 80%;
 }
 
 .splashArt{

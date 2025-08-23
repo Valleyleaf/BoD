@@ -17,7 +17,7 @@ const CommanderSchema = new mongoose.Schema({
     {
       abilityid: Number,
       name: String,
-      disc: String,
+         disc: { type: mongoose.Schema.Types.Mixed },
       thumbnail: String
     }
   ]
