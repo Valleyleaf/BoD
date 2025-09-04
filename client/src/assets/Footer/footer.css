@@ -54,3 +54,8 @@
     border: solid 2px #000000;
     transform: scale(1.03);
 }
+
+.socialMediaIcon{
+    height: 40px;
+    color: white;
+}
