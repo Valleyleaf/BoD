@@ -1,6 +1,6 @@
 
 import React from "react";
-import placeholder from '../../img/placeholder.png';
+import placeholder from 'https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg';
 import './abilityRender.css';
 
 function AbilityRender({ character }) {
