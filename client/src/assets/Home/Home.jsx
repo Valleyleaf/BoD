@@ -49,7 +49,7 @@ export default function Home() {
                         playsInline
                         preload="auto"
                         onError={handleVideoError}>
-                        <source src="https://www.dropbox.com/scl/fi/7u2mio53m6glj6o305fdz/Promo2.mp4?rlkey=ppw18jm1oxbnq9p953yljq8dp&st=mdu97lc3&raw=1" type="video/mp4" />
+                        <source src="https://player.cloudinary.com/embed/?cloud_name=dvutcekav&public_id=Promo2_qvz6qi&profile=cld-default" type="video/mp4" />
                     </video>
                 ) : (
                     <div className="video-fallback">
