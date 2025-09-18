@@ -1,9 +1,12 @@
 import mongoose from "mongoose";
 const ItemSchema = new mongoose.Schema({
   name: String,
-  description: String,
-  image: String,
-  stats: [String],
-  type: String //Strength, Agility, Intelligence, Utility, Boots, etc.
+  cost: Number,
+  category: String,
+  source: String,
+  ability: Array,
+  flavor: String,
+  statGain: Array,
+  image: String
 });
 export default mongoose.model("Item", ItemSchema);
