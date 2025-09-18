@@ -54,6 +54,7 @@ function Commanders() {
       <h2 className='commanderPageText'>Your legend awaits.</h2>
         <div className="homeDivider"></div>
       <p>With over 60 Commanders and counting. Your playstyle is represented on the battlefield.</p>
+      
       <div className="commanderSortDropdownContainer" style={{ margin: "1em 0" }}>
         <label htmlFor="sortDropdown" style={{ marginRight: "0.5em" }}>Sort by:</label>
         <select className="dropDownMenu" id="sortDropdown" value={sortOption} onChange={handleSortChange}>
@@ -63,6 +64,7 @@ function Commanders() {
           <option value="Difficulty">Difficulty (1-5)</option>
         </select>
       </div>
+
       <div className="commanderRenderBackground fade-slide-up">
         {sortOption === "Primary Stat" ? (
           <CommanderGroupedList commanders={sortedCommanders} />
