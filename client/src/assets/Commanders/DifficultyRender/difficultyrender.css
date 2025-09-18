@@ -1,0 +1,11 @@
+.difficulty-category {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+
+  .DifficultyIcon{
+    width: 28px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }

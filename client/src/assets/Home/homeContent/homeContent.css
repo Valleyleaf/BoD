@@ -1,0 +1,71 @@
+.carouselContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url('https://i.imgur.com/XJdeTXP.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    box-shadow: inset 0 0 450px rgba(0, 0, 0, 0.5);
+}
+
+.heroCarouselTitle{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 100px;
+    color: #ffffff;
+    margin: 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.homeDivider{
+    width: 20%;
+    height: 5px;
+    border-radius: 45px;
+    background-color: #50c5bb;
+    margin: 0px auto;
+}
+
+.pffButton{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 35px;
+    color: #ffffff;
+    background-color: #50c5bb00;
+    border: solid 2px #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease 0.3s;
+    backdrop-filter: blur(15px);
+    margin-bottom: 25px;
+}
+
+.pffButton:hover{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 35px;
+    color: #000000;
+    background-color: #ffffff;
+    border: solid 2px #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.topicBGImage {
+        background-image:
+            linear-gradient(rgba(49, 49, 49, 0.781), rgb(0, 0, 0)),
+            url('https://i.imgur.com/9NE2CTE.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+}
