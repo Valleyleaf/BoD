@@ -4,13 +4,15 @@ const Gill = {
   "title": "Highborn",
   "difficulty": 3,
   "slug": "gill",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
-  "image": "https://i.imgur.com/eATW3To.jpeg",
+  "thumbnail": "https://i.imgur.com/Dsw2Krv.png",
+  "image": "https://i.imgur.com/xhOyHHa.png",
   "description": "Cunning Tank with the ability to shrug off damage while locking down enemies.",
   "lore": "N/A",
   "primaryStat": "Strength",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
   "faction": "League of Valor",
   "roles": [
@@ -19,32 +21,32 @@ const Gill = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Slayer's Tempo",
+      "disc": "Upon entering combat, Gill gains bonus health regeneration. Upon exiting combat, he loses this bonus.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Disturbing Distraction",
+      "disc": "Gill sends out tainted blood, slowing a target enemy unit. If the target is attacked, they take bonus damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Dark Hole",
+      "disc": "Creates a dark hole at a target location. Enemy units caught in the hole are blinked to Gill's location.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Gilrok's Pact",
+      "disc": "Gill allows Gilrok to take over. Granting him ranged attacks.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Sky Terror",
+      "disc": "Gill leaps into the air, becoming untargetable for a short duration. Upon landing, he deals damage to all nearby enemy units.",
       "thumbnail": ""
     }
   ]

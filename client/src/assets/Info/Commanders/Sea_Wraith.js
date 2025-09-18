@@ -2,17 +2,19 @@ const Sea_Wraith = {
   "id": 52,
   "name": "Zeek",
   "title": "Sea Wraith",
-  "difficulty": 3,
+  "difficulty": 5,
   "slug": "sea-wraith",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/wax75a6.png",
   "image": "https://i.imgur.com/2LYQ2MA.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Strength",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
-  "faction": " ",
+  "faction": "League of Valor",
   "roles": [
     ""
   ],

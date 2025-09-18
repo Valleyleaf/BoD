@@ -2,25 +2,29 @@ const Prince_Mechanism = {
   "id": 44,
   "name": "Edgarim",
   "title": "Prince Mechanism",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "prince-mechanism",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/iRZ9zig.png",
   "image": "https://i.imgur.com/c0z1zHt.jpeg",
-  "description": "",
-  "lore": "N/A",
-  "primaryStat": "",
+  "description": "Powerful disruptive brawler who can control the battlefield and pick off high priority targets.",
+  "lore": "",
+  "primaryStat": "Strength",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
-  "faction": " ",
+  "faction": "Mechanisms",
   "roles": [
-    ""
+    "Brawler",
+    "Melee",
+    "Disruptor"
   ],
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Legacy",
+      "disc": "Upon death, Edgarim slams his hammer into the ground, dealing damage to all nearby enemy units based on his Max Health.",
       "thumbnail": ""
     },
     {
@@ -31,8 +35,8 @@ const Prince_Mechanism = {
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Declaration of Peace",
+      "disc": "Edgarim declares a temporary ceasefire, disarming enemy units in an AoE.",
       "thumbnail": ""
     },
     {

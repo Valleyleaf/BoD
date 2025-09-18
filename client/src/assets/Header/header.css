@@ -1,11 +1,52 @@
-.logo{
-    width:440px;
-    height: auto;
+.headerMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 120px;
+    padding: 10px;
+    background-color: #161616;
+    border-bottom: solid 2px var(--button-color);
+    box-shadow: 15 44px 18px rgba(0, 0, 0, 0.1);
+}
+
+.DownloadButtonContainer{
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 25px;
+}
+
+.header-logo{
+    width: auto;
+    height: 100px;
     filter: brightness(90%);
     transition: 0.3s ease;
 }
 
-.logo:hover{
+.header-logo:hover{
     transform: scale(1.01);
     filter: brightness(110%);
+}
+
+.downloadButton{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    font-size: 35px;
+    color: #ffffff;
+    background-color: #50c5bb00;
+    border: solid 2px #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease 0.3s;
+    backdrop-filter: blur(15px);
+    margin-bottom: 25px;
+}
+
+.downloadButton:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border: solid 2px #000000;
+    transform: scale(1.03);
 }

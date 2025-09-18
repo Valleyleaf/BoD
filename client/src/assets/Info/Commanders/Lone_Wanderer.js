@@ -4,47 +4,50 @@ const Lone_Wanderer = {
   "title": "Lone Wanderer",
   "difficulty": 3,
   "slug": "lone-wanderer",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/yjWLvJa.png",
   "image": "https://i.imgur.com/zSvvVwF.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Strength",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
-  "faction": " ",
+  "faction": "Inferno Crusade",
   "roles": [
-    ""
+    "Tank",
+    "Support"
   ],
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Undying Legend",
+      "disc": "Upon dropping below a % health threshhold, The Lone Wanderer will start to rapidly regain health after a short delay.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Phoenix Strike",
+      "disc": "Deals damage to all enemy units in a line.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Inner Fire",
+      "disc": "Grants bonus Armor to a target allied unit.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Mana Siphon",
+      "disc": "Drain mana from a target enemy unit.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "The Equalizer",
+      "disc": "The Lone Wanderer combines his health pool with a target unit. The combined health pool is then divided between the two units.",
       "thumbnail": ""
     }
   ]

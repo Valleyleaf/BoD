@@ -4,13 +4,15 @@ const Duke_of_Winter = {
   "title": "Demon Eater",
   "difficulty": 4,
   "slug": "demon-eater",
-  "thumbnail": "https://i.imgur.com/eKlTykx.jpeg",
+  "thumbnail": "https://i.imgur.com/Gde3sgs.png",
   "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F1c%2F23%2Fa8%2F1c23a85491d656db08103f135a02102c.jpg&f=1&nofb=1&ipt=92b93ec29490f46f6f1b3f25bc115895913ce73dea736976035053ee11aafe16",
   "description": "Ranged carry with strong crowd control abilities.",
   "lore": "Cunning thief",
   "primaryStat": "Intelligence",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
   "faction": "Void Whisperers",
   "roles": [

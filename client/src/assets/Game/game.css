@@ -1,13 +1,133 @@
 .topicThumbnail {
   width: 150px;
+  padding: 20px;
+  border-radius: 15px;
   height: auto;
   object-fit: cover;
 }
 
 .topicContainer{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
+  max-width: 100vw;
+  min-height: 400px;
   margin: 20px;
-  border-radius: 20px;
-  background-color: var(--ArticleBGColor);
+  transition: transform 0.5s cubic-bezier(.77,0,.18,1);
+}
+
+.topicInternal{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.gameInfoBox{
+  display: flex;
+  width: 800px;
+  height: 200px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  padding: 20px;
+}
+
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 1%;
+}
+
+.gametitle{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 44px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.gameContentBox{
+  text-align: left;
+  min-height: 100px;
+  font-size: 18px;
+}
+
+.gameButtons{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: bold;
+    font-size: 15px;
+    min-width: 100px;
+    margin: 20px;
+    padding: 0px 20px 0px 20px;
+    color: #ffffff;
+    border: solid 2px #ffffff;
+    background-color: #50c5bb00;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: ease 0.3s;
+    backdrop-filter: blur(15px);
+}
+
+.gameButtons:hover{
+    color: #000000;
+    background-color: #ffffff;
+    border: solid 2px #000000;
+    transform: scale(1.03);
+}
+
+.gameImageBox {
+  position: relative;
+  width: 30vw;
+  max-width: 35vw;
+  min-width: 15vw;
+  aspect-ratio: 1 / 1; 
+  border-radius: 50%;
+  box-shadow: 0 0 30px 10px #50c5bb;
+  animation: pulseGlow 8s infinite;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+
+.gameImageBox::before {
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: 5px solid #50c5bb;
+  filter: blur(6px);
+  z-index: 0;
+  pointer-events: none;
+}
+
+.gameImageBox > * {
+  position: relative;
+  z-index: 1;
+}
+
+.gameImageBox img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+@keyframes pulseGlow {
+  0% {
+    box-shadow: 0 0 30px 10px #50c5bb;
+  }
+  50% {
+    box-shadow: 0 0 50px 20px #50c5bb;
+  }
+  100% {
+    box-shadow: 0 0 30px 10px #50c5bb;
+  }
 }

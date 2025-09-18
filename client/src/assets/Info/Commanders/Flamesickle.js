@@ -2,15 +2,17 @@ const Flamesickle = {
   "id": 23,
   "name": "David Marrow",
   "title": "Flamesickle",
-  "difficulty": 3,
+  "difficulty": 4,
   "slug": "flamesickle",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/gbGIyol.png",
   "image": "https://i.imgur.com/41kuv1t.jpeg",
   "description": "Cunning mage with the ability to steal spells and use area of denial abilities.",
   "lore": "N/A",
   "primaryStat": "Intelligence",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
   "faction": "Inferno Crusade",
   "roles": [

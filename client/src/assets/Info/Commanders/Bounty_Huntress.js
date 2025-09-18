@@ -2,51 +2,59 @@ const Bounty_Huntress = {
   "id": 10,
   "name": "Laura Fangwin",
   "title": "Bounty Huntress",
-  "difficulty": 3,
+  "difficulty": 5,
   "slug": "bounty-huntress",
-  "thumbnail": "https://i.imgur.com/tb5bc8O.jpeg",
+  "thumbnail": "https://i.imgur.com/2Nqe2mz.png",
   "thumbnailAlt": "Image of The Example",
   "image": "https://i.imgur.com/tb5bc8O.jpeg",
   "description": "Fierce carry who strikes together with a animal companion and gains bonus gold from kills.",
   "lore": "Unstoppable force",
   "primaryStat": "Agility",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
-  "faction": "Mechanisms",
+  "faction": "League of Valor",
   "roles": [
     "Carry",
     "Ranged"
   ],
   "abilities": [
-    {
-      "abilityid": 0,
-      "name": "",
-      "disc": "",
+      {
+      "abilityid": 6,
+      "name": "Smokey (Innate)",
+      "disc": "The Bounty Huntress has a animal companion named Smokey. Smokey has his own stats, inventory and will cast abilities based on the actions of the Bounty Huntress.",
       "thumbnail": ""
     },
     {
+      "abilityid": 0,
+      "name": "Bounty Huntress",
+      "disc": "The Bounty Huntress gains bonus gold and experience from kills.",
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/HallofValor/BountyHuntress/BountyHuntress.jpg?token=GHSAT0AAAAAADFNTFFXEU3DBL3Z7ZKFK6342EVOAFQ"
+    },
+    {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Command: Kill",
+      "disc": "Grants both the Bounty Huntress and Smokey bonus attack speed.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
-      "thumbnail": ""
+      "name": "Ambush",
+      "disc": "Causes the Bounty Huntress and Smokey to stealth. Their next attack will deal bonus damage.",
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/HallofValor/BountyHuntress/Ambush.jpg?token=GHSAT0AAAAAADFNTFFX74JUDIKILNXMUJTS2EVOAAA"
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
-      "thumbnail": ""
+      "name": "Vicious Strike",
+      "disc": "The Bounty Huntress marks a target, silencing them and dealing damage over time. Smokey will then deliver a vicious strike, dealing true magic damage to the target.",
+      "thumbnail": "https://raw.githubusercontent.com/Valleyleaf/BoDImageRepo/refs/heads/main/BoDAbilityIcons/HallofValor/BountyHuntress/SavageBite.png?token=GHSAT0AAAAAADFNTFFXDSOJXCWF76SGHBTE2EVOAJA"
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Bean",
+      "disc": "Summons Bean, the Bounty Huntress Raven. Bean will fly to the Bounty Huntress location and periodically mark enemy Commanders. Marked units grant bonus gold upon death.",
       "thumbnail": ""
     }
   ]

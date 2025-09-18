@@ -4,13 +4,15 @@ const Aspect_of_the_Wilds = {
   "title": "Aspect of the Wilds",
   "difficulty": 3,
   "slug": "aspect-of-the-wilds",
-  "thumbnail": "https://i.imgur.com/YcHNCst.jpeg",
+  "thumbnail": "https://i.imgur.com/LEHMy99.png",
   "image": "https://i.imgur.com/YcHNCst.jpeg",
   "description": "Elusive support with strong offensive capabilities",
   "lore": "N/A",
   "primaryStat": "Intelligence",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
   "faction": "Gaia's Guard",
   "roles": [
@@ -21,32 +23,32 @@ const Aspect_of_the_Wilds = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Eternal Form",
+      "disc": "Upon dropping below a % threshold of health, the Aspect will turn etherial.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "Mark of the Thunderstorm",
-      "disc": "",
+      "name": "Holy Thunderstorm",
+      "disc": "Sends out a bolt of lighting that bounces to all nearby enemy units, dealing damage.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Ripthroat",
+      "disc": "Deals damage in a AoE and silences enemy units for a short duration.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Lightning Brigade",
+      "disc": "Creates a shield of lightning around a target allied unit, increasing their armor and causing enemy units that strike them to be slowed.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Demolishing Winds",
+      "disc": "Summons a powerful tornado that rips through the battlefield. The tornado can be controlled and will deal continous damage to all nearby enemy units. Additionally, the tornado will periodically throw enemy units into the air, rendering them nullified. This is a channeled ability.",
       "thumbnail": ""
     }
   ]

@@ -1,24 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 .navbarClass{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    border-bottom: solid 5px rgb(255, 255, 255);
-    font-size: 20px;
+    font-size: 28px;
+    width: 20%;
+    min-width: 800px;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .NavbuttonClass{
-    color: white;
-    width: 25%;
-    height: 30px;
-    margin: 0px 2px 2px 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(161, 161, 161);
+    height: 40px;
+    margin: 15px;
     transition: ease 0.3s;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .NavbuttonClass:hover{
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    width: 25%;
-    height: 30px;
-    margin: 0px 2px 2px 2px;
+    color: rgb(255, 255, 255);
+    height: 40px;
     transition: ease 0.3s;
+    transform: scale(1.01);
 }

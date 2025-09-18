@@ -1,50 +1,53 @@
 const Scavenger = {
   "id": 50,
-  "name": "",
+  "name": "Boros",
   "title": "Scavenger",
   "difficulty": 3,
   "slug": "scavenger",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/3VJ6ctf.png",
   "image": "https://i.imgur.com/mN6RENy.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Strength",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
-  "faction": " ",
+  "faction": "League of Valor",
   "roles": [
-    ""
+    "Tank",
+    "Melee"
   ],
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Gold Platted Blades",
+      "disc": "The Scavenger deals bonus auto-attack damage based on his current gold up to a cap.",
       "thumbnail": ""
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
+      "name": "Gold Rush",
+      "disc": "The Scavenger strikes at an enemies coin purse, dealing damage and slowing them. He also has a chance to gain additional gold.",
       "thumbnail": ""
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Desperate Times",
+      "disc": "The Scavenger devours some of his gold to heal himself.",
       "thumbnail": ""
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
+      "name": "Scavenger's Bounty",
+      "disc": "The Scavenger gains bonus gold for every enemy unit killed.",
       "thumbnail": ""
     },
     {
       "abilityid": 4,
-      "name": "",
-      "disc": "",
+      "name": "Coat of Gold",
+      "disc": "The Scavenger covers himself in gold, granting bonus attack damage, armor, magic resistance and health regeneration at the cost of gold. This is a toggle ability.",
       "thumbnail": ""
     }
   ]

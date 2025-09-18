@@ -1,16 +1,18 @@
 const Shepherd_of_the_Lost = {
   "id": 54,
-  "name": "",
+  "name": "Lucy",
   "title": "Shepherd of the Lost",
   "difficulty": 3,
   "slug": "shepherd-of-the-lost",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/6bpOobK.png",
   "image": "https://i.imgur.com/EEzEvlS.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Agility",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
   "faction": "Void Whisperers",
   "roles": [
@@ -21,8 +23,8 @@ const Shepherd_of_the_Lost = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "Archers Eye",
-      "disc": "The Shepherd of the Lost reduces incoming damage from ranged attacks and spells.",
+      "name": "Archers Focus",
+      "disc": "Causes all nearby allied ranged units to gain bonus attack damage.",
       "thumbnail": ""
     },
     {
@@ -33,8 +35,8 @@ const Shepherd_of_the_Lost = {
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
+      "name": "Split Shot",
+      "disc": "Causes the Shepherd's attacks to hit multiple targets in a small area around the main target. The damage is reduced for each target hit.",
       "thumbnail": ""
     },
     {

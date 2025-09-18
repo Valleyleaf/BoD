@@ -1,19 +1,21 @@
 const Berserker = {
   "id": 7,
-  "name": "Ragnar",
+  "name": "Keil Bearswarm",
   "title": "Berserker",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "berserker",
-  "thumbnail": "https://i.imgur.com/KH6wTpt.jpeg",
+  "thumbnail": "https://i.imgur.com/vN2ohzh.png",
   "thumbnailAlt": "Image of The Example",
   "image": "https://i.imgur.com/KH6wTpt.jpeg",
   "description": "Tank with the ability to shrug off crowd control effects",
   "lore": "Faces the unknown",
   "primaryStat": "Strength",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
-  "faction": "Gaia's Guard",
+  "faction": "The Green Order",
   "roles": [
     "Tank",
     "Melee"
@@ -27,7 +29,7 @@ const Berserker = {
     },
     {
       "abilityid": 1,
-      "name": "Axe Throw",
+      "name": "On the Hunt",
       "disc": "Throws an axe at a target, dealing damage and stunning them for a short duration. The Berserker also gains a large amount of movement speed.",
       "thumbnail": ""
     },
@@ -39,8 +41,8 @@ const Berserker = {
     },
     {
       "abilityid": 3,
-      "name": "Rip and Tear",
-      "disc": "Deals bonus Damage over time to targets struck",
+      "name": "Grevious Wounds",
+      "disc": "Deals bonus Damage over time to targets struck and increases the chance of Dashing Blow stunning them.",
       "thumbnail": ""
     },
     {

@@ -2,15 +2,17 @@ const Arachnid_Priest = {
   "id": 4,
   "name": "Naze",
   "title": "Arachnid Priest",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "arachnid-priest",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/oym73vP.png",
   "image": "https://i.imgur.com/IvUamHu.jpeg",
   "description": "A cunning mage with strong damage over time abilities",
   "lore": "",
   "primaryStat": "Intelligence",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
   "faction": "Void Whisperers",
   "roles": [
@@ -21,33 +23,33 @@ const Arachnid_Priest = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
-      "thumbnail": ""
+      "name": "Spiders Sting",
+      "disc": "Upon attacking, deals damage over time to a target enemy unit.",
+      "thumbnail": "https://wow.zamimg.com/images/wow/icons/large/ability_poisonsting.jpg"
     },
     {
       "abilityid": 1,
-      "name": "",
-      "disc": "",
-      "thumbnail": ""
+      "name": "Ritual of Birth",
+      "disc": "Infests a target with a spider egg, dealing damage over time. If the target dies while infested, a Transmuted trap will spawn.",
+      "thumbnail": "https://wow.zamimg.com/images/wow/icons/large/spell_shadow_deathcoil.jpg"
     },
     {
       "abilityid": 2,
-      "name": "",
-      "disc": "",
-      "thumbnail": ""
+      "name": "Transmuted Trap",
+      "disc": "Creates a trap that stays in place. If an enemy unit steps near it, it will slash at them, applying a long lasting poison that deals damage over time.",
+      "thumbnail": "https://wow.zamimg.com/images/wow/icons/large/ability_ironmaidens_corruptedblood.jpg"
     },
     {
       "abilityid": 3,
-      "name": "",
-      "disc": "",
-      "thumbnail": ""
+      "name": "Envenomed Web",
+      "disc": "Tosses a ball of web at a target enemy unit, dealing damage over time and snaring them.",
+      "thumbnail": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_web.jpg"
     },
     {
       "abilityid": 4,
       "name": "Anti-Life",
       "disc": "Reduces the attack speed, movement speed and armor of a target enemy unit by a large amount for a short duration.",
-      "thumbnail": ""
+      "thumbnail": "https://warcraft.wiki.gg/images/d/dc/BTNBanish.png?ea76b9"
     }
   ]
 };

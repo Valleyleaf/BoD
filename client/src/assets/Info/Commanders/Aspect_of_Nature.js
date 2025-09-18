@@ -2,17 +2,19 @@ const Aspect_of_Nature = {
   "id": 24,
   "name": "Urun",
   "title": "Aspect of Nature",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "aspect-of-nature",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
-  "image": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/4082wua.png",
+  "image": "https://i.imgur.com/syXlGP6.png",
   "description": "Powerful duelist with the ability to take on different stances, each changing his playstyle.",
   "lore": "N/A",
   "primaryStat": "Agility",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
-  "faction": "Gaia's Guard",
+  "faction": "The Green Order",
   "roles": [
     "Carry",
     "Duelist",
@@ -21,8 +23,8 @@ const Aspect_of_Nature = {
   "abilities": [
     {
       "abilityid": 0,
-      "name": "",
-      "disc": "",
+      "name": "Blessed Glave",
+      "disc": "Upgrades Urun's stance passive abilities.",
       "thumbnail": ""
     },
     {

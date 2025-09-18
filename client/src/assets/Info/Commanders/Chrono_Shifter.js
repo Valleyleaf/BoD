@@ -4,13 +4,15 @@ const Chrono_Shifter = {
   "title": "Chrono Shifter",
   "difficulty": 3,
   "slug": "chrono-shifter",
-  "thumbnail": "https://i.imgur.com/KPqhQY0.jpeg",
+  "thumbnail": "https://i.imgur.com/Rihhaki.png",
   "image": "https://i.imgur.com/KPqhQY0.jpeg",
   "description": "Elusive mage, adept at fighting other mages.",
   "lore": "N/A",
   "primaryStat": "Intelligence",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
   "faction": "Mechanisms",
   "roles": [

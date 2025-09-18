@@ -2,17 +2,19 @@ const Celestial_Mage = {
   "id": 13,
   "name": "Ashleigh Lynn",
   "title": "Celestial Mage",
-  "difficulty": 3,
+  "difficulty": 4,
   "slug": "celestial-mage",
-  "thumbnail": "https://i.imgur.com/pwwdofr.jpeg",
+  "thumbnail": "https://i.imgur.com/BFwi5GL.png",
   "image": "https://i.imgur.com/pwwdofr.jpeg",
   "description": "Supportive mage who can summon Celestials to aid her in battle.",
   "lore": "Never misses a shot",
   "primaryStat": "Intelligence",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
-  "faction": "Gaia's Guard",
+  "faction": "The Green Order",
   "roles": [
     "Mage",
     "Ranged",

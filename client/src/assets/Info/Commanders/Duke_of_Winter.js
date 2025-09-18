@@ -2,17 +2,19 @@ const Duke_of_Winter = {
   "id": 17,
   "name": "Califrax",
   "title": "Duke of Winter",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "duke-of-winter",
-  "thumbnail": "https://i.imgur.com/eKlTykx.jpeg",
+  "thumbnail": "https://i.imgur.com/UmWiRKb.png",
   "image": "https://i.imgur.com/eKlTykx.jpeg",
   "description": "Ranged carry with strong crowd control abilities.",
   "lore": "Cunning thief",
   "primaryStat": "Intelligence",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
-  "faction": "Gaia's Guard",
+  "faction": "The Green Order",
   "roles": [
     "Carry",
     "Ranged",

@@ -2,17 +2,19 @@ const Wave_Crusher = {
   "id": 61,
   "name": "Mavu",
   "title": "Wave Crusher",
-  "difficulty": 3,
+  "difficulty": 2,
   "slug": "Wave-crusher",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/4rIX4vT.png",
   "image": "https://i.imgur.com/blTAJYk.jpeg",
   "description": "Bruiser with the ability to dodge attacks and deal consistant damage in small AoEs.",
   "lore": "N/A",
   "primaryStat": "Strength",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
-  "faction": "Gaia's Guard",
+  "faction": "The Green Order",
   "roles": [
     "Carry",
     "Duelist",
@@ -40,7 +42,7 @@ const Wave_Crusher = {
     },
     {
       "abilityid": 3,
-      "name": "Ebb",
+      "name": "Tide",
       "disc": "Buffs a target allied unit, granting increased attack speed. If the Wave Crusher targets himself, he also gains life steal for the duration.",
       "thumbnail": ""
     },

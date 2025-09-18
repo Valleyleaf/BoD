@@ -4,15 +4,17 @@ const Slumborn = {
   "title": "Slumborn",
   "difficulty": 5,
   "slug": "slumborn",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
-  "image": "https://i.imgur.com/5DsQ2VX.jpeg",
+  "thumbnail": "https://i.imgur.com/ouEWez8.png",
+  "image": "https://i.imgur.com/RoJBl5x.png",
   "description": "",
-  "lore": "N/A",
-  "primaryStat": "",
+  "lore": "",
+  "primaryStat": "Intelligence",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
-  "faction": " ",
+  "faction": "Mechanisms",
   "roles": [
     ""
   ],

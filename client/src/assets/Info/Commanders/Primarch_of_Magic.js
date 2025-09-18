@@ -4,15 +4,17 @@ const Primarch_of_Magic = {
   "title": "Primarch of Magic",
   "difficulty": 5,
   "slug": "primarch-of-magic",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
-  "image": "https://www.hiveworkshop.com/data/ratory-images/261/261985-a28df4a18a5d2a100985aa9071339db7.png",
+  "thumbnail": "https://i.imgur.com/DDXjlp5.png",
+  "image": "https://i.imgur.com/haPATJu.png",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Intelligence",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
-  "faction": " ",
+  "faction": "League of Valor",
   "roles": [
     ""
   ],

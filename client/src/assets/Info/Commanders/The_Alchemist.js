@@ -2,15 +2,17 @@ const The_Alchemist = {
   "id": 2,
   "name": "Jun",
   "title": "Alchemist",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "the-alchemist",
-  "thumbnail": "https://i.imgur.com/e5yRuLz.jpeg",
+  "thumbnail": "https://i.imgur.com/cp5LS9P.png",
   "image": "https://i.imgur.com/e5yRuLz.jpeg",
   "description": "Melee tank with powerful supportive abilities and self-preservation",
-  "lore": "John leads by example",
+  "lore": "",
   "primaryStat": "Strength",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
   "faction": "Mechanisms",
   "roles": [

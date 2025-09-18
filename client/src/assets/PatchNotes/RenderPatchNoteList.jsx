@@ -6,9 +6,10 @@ import RenderPatchNote from "./RenderPatchNote.jsx";
 function PatchNotesList() {
   return (
     <div>
-      {PatchNotes.map(note => (
+      <h2 className="Bio center-content">Comming soon</h2>
+      {/* {PatchNotes.map(note => (
         <RenderPatchNote key={note.id} note={note} />
-      ))}
+      ))} */}
       
     </div>
   );

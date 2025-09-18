@@ -4,7 +4,7 @@ import './navbar.css'
 
 export default function Navbar(){
     return(
-            <div className="navbarClass">
+            <nav className="navbarClass">
                 <Link 
                     to="/"
                     className='NavbuttonClass'>
@@ -23,23 +23,23 @@ export default function Navbar(){
                     Commanders
                 </Link>
 
-                <Link 
+                {/* <Link 
                     to="/Items"
                     className='NavbuttonClass'>
                     Items
-                </Link>
+                </Link> */}
 
-                <Link 
+                {/* <Link 
                     to="/Game"
                     className='NavbuttonClass'>
                     Game
-                </Link>
+                </Link> */}
 
                 <Link 
                     to="/PatchNotes"
                     className='NavbuttonClass'>
                     Patch Notes
                 </Link>
-            </div>
+            </nav>
     );
 };

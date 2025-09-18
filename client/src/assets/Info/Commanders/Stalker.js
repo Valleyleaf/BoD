@@ -1,18 +1,20 @@
 const Stalker = {
   "id": 56,
-  "name": "",
+  "name": "Xybrex",
   "title": "Stalker",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "stalker",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/34bNmHk.png",
   "image": "https://i.imgur.com/FjvgE7w.jpeg",
   "description": "",
   "lore": "N/A",
-  "primaryStat": "",
+  "primaryStat": "Strength",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
-  "faction": " ",
+  "faction": "Void Whisperers",
   "roles": [
     ""
   ],

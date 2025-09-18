@@ -1,13 +1,13 @@
 import { useState, useEffect } from 'react';
-import { Outlet } from 'react-router-dom';
+import { Outlet, useLocation } from 'react-router-dom';
 import './App.css';
 import Header from './assets/Header/Header.jsx';
 import Footer from './assets/Footer/Footer.jsx';
-import Navbar from './assets/Navbar/Navbar.jsx';
 import Loading from './assets/Loading/Loading.jsx'
 
 function App() {
   const [loading, setLoading] = useState(true);
+  const location = useLocation();
 
   useEffect(() => {
     // Simulate a network request or some async action
@@ -15,31 +15,33 @@ function App() {
       setLoading(false); // Set loading to false once data is fetched
     }, 500); // Simulating 0.5 seconds loading time
   }, []);
+
+  // Scroll to top on route change
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location.pathname]);
+
   //The above is a bit of a meme and should probably be removed in the future.
 
   return (
     <>
       {loading ? (
-        <div className="LoadingPosition">
+        <progress className="LoadingPosition">
           <Loading/>
-        </div>
+        </progress>
       ) : (
         <div>
-          <div className="HeaderPosition">
+          <header className="HeaderPosition">
             <Header />
-          </div>
+          </header>
 
-          <div className="NavbarPosition">
-            <Navbar />
-          </div>
-
-          <div className="OutletPosition">
+          <main className="OutletPosition">
             <Outlet />
-          </div>
+          </main>
 
-          <div className="FooterPosition">
+          <footer className="FooterPosition">
             <Footer />
-          </div>
+          </footer>
         </div>
       )}
     </>

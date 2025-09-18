@@ -1,4 +1,5 @@
 import mongoose from "mongoose";
+
 const CommanderSchema = new mongoose.Schema({
   name: String,
   title: String,
@@ -7,7 +8,7 @@ const CommanderSchema = new mongoose.Schema({
   thumbnail: String,
   image: String,
   description: String,
-  lore: String,
+  lore: { type: mongoose.Schema.Types.ObjectId, ref: "Lore" },
   primaryStat: String,
   stats: [String],
   faction: String,
@@ -16,11 +17,11 @@ const CommanderSchema = new mongoose.Schema({
     {
       abilityid: Number,
       name: String,
-      disc: String,
+         disc: { type: mongoose.Schema.Types.Mixed },
       thumbnail: String
     }
   ]
 });
 export default mongoose.model("Commander", CommanderSchema);
 
-//Make sure lore gets returned as as a string cause it might be an object.
+//Make sure lore gets returned as as a string cause it might be an object. Blueprint for how the data is returned via routes.

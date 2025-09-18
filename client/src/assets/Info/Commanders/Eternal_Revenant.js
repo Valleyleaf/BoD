@@ -1,16 +1,18 @@
 const Eternal_Revenant = {
   "id": 20,
-  "name": "",
+  "name": "Kalzhar",
   "title": "Eternal Revenant",
-  "difficulty": 3,
+  "difficulty": 1,
   "slug": "eternal-revenant",
-  "thumbnail": "https://i.imgur.com/IvUamHu.jpeg",
+  "thumbnail": "https://i.imgur.com/18nsMjT.png",
   "image": "https://i.imgur.com/U7m60tT.jpeg",
   "description": "Life draining tank with the ability to revive himself upon death.",
   "lore": "N/A",
-  "primaryStat": "Intelligence",
+  "primaryStat": "Strength",
   "stats": [
-    ""
+    "10+(1 per level)",
+    "14+(1.5 per level)",
+    "18+(+2.3 per level)",
   ],
   "faction": "Void Whisperers",
   "roles": [

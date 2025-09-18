@@ -8,7 +8,7 @@ import Commanders from './assets/Commanders/Commanders.jsx'
 import Game from './assets/Game/Game.jsx'
 import News from './assets/RenderArticle/ArticleMain.jsx'
 import PatchNotes from './assets/PatchNotes/PatchNotePage.jsx'
-import CommanderRender from './assets/Commanders/CommanderRender';
+import CommanderRender from './assets/Commanders/CommanderRender.jsx'
 import Items from './assets/Items/ItemsMain.jsx'
 
 const router = createBrowserRouter([{

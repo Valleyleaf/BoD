@@ -1,11 +1,8 @@
 #root {
-  max-width: 100%;
-  width: 80%;
-  margin: 0 auto;
-  padding: 2rem;
+  width: 100%;
   text-align: center;
-  background-color: #0f0f0f;
-  --button-color: #70d3d398;
+  background-color: #252525;
+  --button-color: #2edbdbde;
   --ArticleBGColor: #50505046;
   --strength-color: #e74c3c;
   --agility-color: #27ae60;
@@ -35,19 +32,21 @@
 .HeaderPosition{
   display: flex;
   flex-direction: column;
-  height: 20%;
+  width: 100%;
+  height: 65px;
+  padding-bottom: 62px;
 }
 
 .NavbarPosition{
   display: flex;
   flex-direction: column;
-  height: 10%;
+  align-items: center;
 }
 
-.OutputPosition{
+.OutletPosition{
   display: flex;
   flex-direction: column;
-  height: 70%;
+  justify-content: center;
 }
 
 .FooterPosition{

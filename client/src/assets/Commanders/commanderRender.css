@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* Show difficulty stars above each commander when sorting by Difficulty */
+.commander-default-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
 
 .bebas-neue-regular {
   font-family: "Bebas Neue", sans-serif;
@@ -6,230 +12,165 @@
   font-style: normal;
 }
 
-.CommanderRenderMain{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0px;
-    margin: 50px;
-    
+.commanders{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.commanderPageText{
+  display: flex;
+  justify-content: center;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 60px;
+  text-align: left;
+  margin: 0px 0px 0px 10px;
+  padding: 0px;
+}
+
+.commanderContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+.commanderBackground{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: auto;
+  min-height: 70vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: fadeIn 1s ease-out forwards;
+  position: relative;
+  box-shadow: inset 0 0 1800px 1000px rgba(0, 0, 0, 0.3);
+}
+
+.commanderRenderBackground{
+    background-color: #1a1a1a;
+    border-top: solid 3px rgba(0, 0, 0, 0.356);
+    border-bottom: solid 3px rgba(0, 0, 0, 0.356);
 }
 
 .name{
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin: 0px;
-    padding: 0px;
-    color: #ffffff;
-    font-size: 50px;
-    opacity: 0;
-    animation: fadeInLeft 1s ease-out forwards;
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+  font-size: 50px;
+  opacity: 0;
+  animation: fadeInLeft 1s ease-out forwards;
 }
 
 .attributeIcon{
-    width: 40px;
-    height: auto;
-    margin-right: 5px;
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
 }
 
 .CommanderNamePlate{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    height: 100%;
-    border-radius: 10px;
-    padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 10px;
+  padding: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .title{
-    font-size: 120px;
-    color: #ffffff;
-    text-align: center;
-    margin-top: -50px;
-    margin-bottom: -45px;
-    padding: 0px;
-    opacity: 0;
-    animation: fadeInLeft 1s ease-out forwards;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 120px;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  padding: 0px;
+  opacity: 0;
+  animation: fadeInLeft 1s ease-out forwards;
 
-}
-
-.CommanderRenderSecond{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #ffffff;
 }
 
 .DisplayImage{
-    width: 700px;
-    height: auto;
-    border-radius: 20px;
-    /* Feathered mask using radial gradient */
-    -webkit-mask-image: radial-gradient(circle, white 50%, transparent 100%);
-    mask-image: radial-gradient(circle, white 20%, transparent 100%);
-    background: #000;
-    animation: fadeIn 1s ease-out forwards;
-}
-
-.CommanderSideProfile{
-    border-radius: 20px;
-    padding: 20px;
-    margin: 10px;
-    width: 300px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.AbilityBox{
-  width: 100%;
-  margin: 20px;
+  width: 700px;
+  height: auto;
   animation: fadeIn 1s ease-out forwards;
 }
 
-.Ability{
-  margin: 2px;
-  padding: 2%;
-  background-color: #252525;
-  background: linear-gradient(to right, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0) 88%);
-
-}
-
-.PrimaryStat{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
-    font-style: italic;
-    color: #ffffff;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-}
-
-.abilityTitle{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-    font-weight: bold;
-}
-
-.abilityInfo{
-  text-align: left;
-  margin: 1%;
-}
-
-.abilityThumbnail{
-    width: 80px;
-    height: auto;
-    border: solid 1px rgb(174, 232, 240);
-}
-
-.abilityVideo{
-
-}
-
-
-
-  .DifficultyIcon{
-    width: 55px;
-    height: auto;
-    transition: transform 0.3s ease;
-  }
-
-  .DifficultyIcon:hover {
-    animation: zoomWiggle 0.6s ease forwards;
-  }
-  
-  @keyframes zoomWiggle {
-    0% {
-      transform: scale(1) rotate(0deg);
-    }
-    10% {
-      transform: scale(1.05) rotate(0deg);
-    }
-    20% {
-      transform: scale(1.05) rotate(5deg);
-    }
-    30% {
-      transform: scale(1.05) rotate(-5deg);
-    }
-    40% {
-      transform: scale(1.05) rotate(3deg);
-    }
-    50% {
-      transform: scale(1.05) rotate(-3deg);
-    }
-    60% {
-      transform: scale(1.05) rotate(2deg);
-    }
-    100% {
-      transform: scale(1.05) rotate(0deg);
-    }
-  }
-  
-  .logo{
-    width:440px;
-    height: auto;
+.CommanderSideProfile{
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .roster{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px;
 }
 
 .heroFrame{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 200px;
-    height: 350px;
-    padding: 10px;
-    font-size: 12px;
-    font-style: italic;
-    white-space: nowrap;
-    transition: ease 0.3s;
-    cursor: pointer;
-    transition: opacity 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 200px;
+  height: 350px;
+  padding: 0px 5px 0px 5px;
+  font-size: 12px;
+  font-style: italic;
+  white-space: nowrap;
+  transition: ease 0.3s;
+  cursor: pointer;
+  transition: opacity 0.5s ease;
 }
 
+.characterDescription{
+  text-align: left;
+  font-style: italic;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 20px;
+  width: 80%;
+}
 
 .splashArt{
-    display: block;
-    object-fit: cover;
-    width: 200px;
-    height: 300px;
-    border: solid 1px rgb(174, 232, 240);
+  display: block;
+  object-fit: cover;
+  width: 200px;
+  height: 300px;
+  border: solid 1px rgb(174, 232, 240);
 }
 
 .splashArt:hover{
-    display: block;
-    object-fit: cover;
-    width: 210px;
-    height: 300px;
-    border: solid 1px rgb(174, 232, 240);
-    transition: ease 0.3s;
-    box-shadow: 0 0 10px rgba(0, 238, 255, 0.5);
+  display: block;
+  object-fit: cover;
+  width: 210px;
+  height: 300px;
+  border: solid 1px rgb(174, 232, 240);
+  transition: ease 0.3s;
+  box-shadow: 0 0 10px rgba(0, 238, 255, 0.5);
 }
 
 .comList{
     transform-style: preserve-3d;
-    transform: perspective(5000px);
+    transform: perspective(2000px);
 }
 
 .comList .comImg{
@@ -239,7 +180,7 @@
 
 .comList .comImg:hover{
     filter: brightness(1);
-    transform: translateZ(100px);
+    transform: translateY(5px);
 }
 
 .hoverTitle {
@@ -276,44 +217,41 @@
       transform: translateY(0);
     }
   }
-  
-.CharacterRenderFont{
-    font-family: "Bebas Neue", sans-serif;
-}
 
-.statsText{
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 20px;
-    color: #ffffff;
-    text-align: center;
-    margin: 0px;
-    padding: 0px;
-  }
-
-  .statRenderBox{
+  .commanderSortDropdownContainer{
     display: flex;
-    flex-direction: row;
-    align-items: left;
-    justify-content: left;
-    margin: 2px;
-    padding: 5px;
+    justify-content: flex-start;
+    padding-left: 1% ;
   }
 
-  .Bio{
+  .strengthText{
+    color: rgb(192, 11, 11);
+    font-size: 68px;
     font-family: "Bebas Neue", sans-serif;
-    font-size: 60px;
-    margin: 0px;
-    padding: 0px;
-    border-bottom: 2px solid #ffffff;
+    margin-bottom: 0px;
   }
 
-  .BioFrame{
-    display: flex;
-    text-align: left;
-    margin-bottom: 10px;
-    padding: 20px;
-    border-bottom: 2px solid #ffffff;
+  .agilityText{
+    color: rgb(103, 255, 103);
+    font-size: 68px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 0px;
+
   }
+
+  .intelligenceText{
+    color: rgb(118, 255, 255);
+    font-size: 68px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 0px;
+  }
+
+  .dropDownMenu{
+    border: solid 2px #00eeff;
+    overflow: hidden;
+    transition: max-height 0.4s cubic-bezier(0.4,0,0.2,1), opacity 0.3s;
+  }
+
 
   @keyframes fadeInLeft {
   0% {
