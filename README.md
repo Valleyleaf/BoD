@@ -7,6 +7,7 @@ This is a website for the fictional videogame title "Battle of Dominanace". This
 - ✅ React based Front & Backend
 - ✅ MongoDB API
 - ✅ MongoDB Database
+- ❌ react-i18next implementation
 - ❌ User Logins
 - ❌ Admin Article Submission system
 - ✅ Search Function
