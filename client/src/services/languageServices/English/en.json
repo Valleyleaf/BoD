@@ -1,0 +1,11 @@
+{
+    "home": [
+        {"videoLoadError": "Video could not be loaded"},
+        {"Welcome": "Welcome to Battle of Dominance"},
+        {"homeDescription": "A custom MOBA-style map for WARCRAFT III, 15 years in development."},
+        {"homeButton": "Play for free with Warcraft III"},
+        {"carouselTitle": "LEGENDS ARE BORN HERE."},
+        {"carouselDescription": "With over 60 characters to choose from, find the one that suits your playstyle and dominate the battlefield!"},
+        {"carouselButton": "View all Commanders"}
+    ]
+}
