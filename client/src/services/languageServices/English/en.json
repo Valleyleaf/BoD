@@ -7,5 +7,20 @@
         {"carouselTitle": "LEGENDS ARE BORN HERE."},
         {"carouselDescription": "With over 60 characters to choose from, find the one that suits your playstyle and dominate the battlefield!"},
         {"carouselButton": "View all Commanders"}
+    ],
+    "navBar": [
+        {"home": "Home"},
+        {"news": "News"},
+        {"commanders": "Commanders"},
+        {"items": "Items"},
+        {"patchnotes": "Patch Notes"}
+    ],
+    "header": [
+        {"download": "Download"}
+    ],
+    "footer": [
+        {"contact": "Contact Us"},
+        {"privacy": "Privacy Policy"},
+        {"copyrightText": "Copyright © 2025 Battle of Dominance"}
     ]
 }
