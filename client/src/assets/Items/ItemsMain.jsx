@@ -4,6 +4,8 @@ import './items.css';
 
 
 function ItemsMain() {
+  const allItems = ItemsRenderer();
+
   return (
     <div className='flexColumn'>
         <div className='fade-slide-up'>
@@ -12,7 +14,7 @@ function ItemsMain() {
             <p>Each item has unique properties and can be combined with others to create powerful synergies.</p>
             <p>Explore the items to find the best combinations for your playstyle!</p>
         </div>
-        <ItemsRenderer />
+        <ItemsRenderer items={allItems} />
     </div>
   );
 }
