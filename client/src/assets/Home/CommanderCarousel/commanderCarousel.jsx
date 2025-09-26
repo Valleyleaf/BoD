@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import commanderService from '../../../services/commanderService.js';
 import Loading from '../../Loading/Loading.jsx'
 import './commanderCarousel.css';
+const placeholder = 'https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg';
 
 
 function Commandercarousel() {
@@ -63,7 +64,7 @@ function Commandercarousel() {
                     src={commander.thumbnail} 
                     alt={commander.title}
                     onError={(e) => {
-                        e.target.src = '/src/assets/img/placeholder.png';
+                        e.target.src = placeholder;
                     }}
                 />
                 <div className="commander-name">{commander.title}</div>
