@@ -23,11 +23,11 @@ export default function Navbar(){
                     Commanders
                 </Link>
 
-                <Link 
+                {/* <Link 
                     to="/Items"
                     className='NavbuttonClass'>
                     Items
-                </Link>
+                </Link> */}
 
                 {/* <Link 
                     to="/Game"
