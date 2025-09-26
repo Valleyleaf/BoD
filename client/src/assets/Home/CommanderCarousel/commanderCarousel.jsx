@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
-import commanderService from '../../services/commanderService';
+import commanderService from '../../../services/commanderService.js';
 import Loading from '../../Loading/Loading.jsx'
 import './commanderCarousel.css';
 
