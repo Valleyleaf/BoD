@@ -131,3 +131,33 @@
     box-shadow: 0 0 30px 10px #50c5bb;
   }
 }
+
+@media (max-width: 900px) {
+  .topicInternal{
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .topicContainer{
+    margin: 0px;
+  }
+  .gameInfoBox{
+    width: auto;
+    height: 400px;
+  }
+  .gameImageBox {
+    position: relative;
+    width: 90vw;
+    max-width: 95vw;
+    min-width: 15vw;
+    aspect-ratio: 1 / 1; 
+    border-radius: 50%;
+    box-shadow: 0 0 30px 10px #50c5bb;
+    animation: pulseGlow 8s infinite;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+  }
+}
