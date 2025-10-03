@@ -1,24 +1,52 @@
 
-
+import React, { useState, useEffect } from "react";
 import { Link } from 'react-router-dom';
-import Characters from '../../Info/Commanders/A_index.js';
+import commanderService from '../../../services/commanderService.js';
+import Loading from '../../Loading/Loading.jsx'
 import './commanderCarousel.css';
+const placeholder = 'https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg';
+
 
 function Commandercarousel() {
+// Break out below to seperate service. Used here and in Commanders.
+  const [commanders, setCommanders] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchCommanders = async () => {
+      try {
+        const data = await commanderService.getAllCommanders();
+        setCommanders(data);
+      } catch (err) {
+        setError('Failed to load commanders');
+        console.error(err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchCommanders();
+  }, []);
+
+    if (loading) {
+    return <Loading/>;
+  }
+
+  if (error) {
+    return <div className="commander-carousel">{error}</div>;
+  }
     // Ensure we have commanders to display
-    if (!Characters || Characters.length === 0) {
+    if (!commanders || commanders.length === 0) {
         return <div className="commander-carousel">No commanders available</div>;
     }
 
     // Split commanders into three groups for three rows
-    const totalCommanders = Characters.length;
+    const totalCommanders = commanders.length;
     const commandersPerRow = Math.ceil(totalCommanders / 3);
     
-    const row1 = Characters.slice(0, commandersPerRow);
-    const row2 = Characters.slice(commandersPerRow, commandersPerRow * 2);
-    const row3 = Characters.slice(commandersPerRow * 2);
-    //Above slices A_index into 3 columns. Reminder that this will need to be changed when
-    //I introduce mongoDB into this.
+    const row1 = commanders.slice(0, commandersPerRow);
+    const row2 = commanders.slice(commandersPerRow, commandersPerRow * 2);
+    const row3 = commanders.slice(commandersPerRow * 2);
     
     // Duplicate arrays multiple times for smooth infinite scrolling
     const duplicatedRow1 = [...row1, ...row1, ...row1];
@@ -36,7 +64,7 @@ function Commandercarousel() {
                     src={commander.thumbnail} 
                     alt={commander.title}
                     onError={(e) => {
-                        e.target.src = '/src/assets/img/placeholder.png';
+                        e.target.src = placeholder;
                     }}
                 />
                 <div className="commander-name">{commander.title}</div>

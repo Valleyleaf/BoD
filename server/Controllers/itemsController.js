@@ -6,7 +6,7 @@ export const getAllItems = async (req, res) => {
 };
 
 export const getItemById = async (req, res) => {
-  const commander = await Commander.findById(req.params.id);
-  if (!commander) return res.status(404).json({ error: "Not found" });
-  res.json(commander);
+  const item = await Items.findById(req.params.id);
+  if (!item) return res.status(404).json({ error: "Not found" });
+  res.json(item);
 };

@@ -1,8 +1,8 @@
 import express from "express";
-import { getAllCommanders, getCommanderById } from "../Controllers/commanderController.js";
+import { getAllItems, getItemById } from "../Controllers/itemsController.js";
 const router = express.Router();
 
-router.get("/", getAllCommanders);
-router.get("/:id", getCommanderById);
+router.get("/", getAllItems);
+router.get("/:id", getItemById);
 
 export default router;
