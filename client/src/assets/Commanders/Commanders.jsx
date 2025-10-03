@@ -5,6 +5,7 @@ import "./commanderRender.css";
 import commanderService from '../../services/commanderService';
 import CommanderGroupedList from './CommanderGroupedByAttribute.jsx';
 import CommanderGroupedByFaction from './CommanderGroupedByFaction';
+import CommanderGroupedByDifficulty from './CommanderGroupedByDifficulty.jsx';
 
 function Commanders() {
   const [commanders, setCommanders] = useState([]);
@@ -70,6 +71,8 @@ function Commanders() {
           <CommanderGroupedList commanders={sortedCommanders} />
         ) : sortOption === "Faction" ? (
           <CommanderGroupedByFaction commanders={sortedCommanders} />
+        ) : sortOption === "Difficulty" ? (
+          <CommanderGroupedByDifficulty commanders={sortedCommanders} />
         ) : (
           <div className='roster comList'>
             <CommanderRenderDefault commanders={sortedCommanders} />

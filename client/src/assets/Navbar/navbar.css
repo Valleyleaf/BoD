@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-
 .navbarClass{
     display: flex;
     flex-direction: row;
     font-size: 28px;
     width: 20%;
-    min-width: 800px;
+    margin-right: auto;
     font-family: "Bebas Neue", sans-serif;
 }
 
