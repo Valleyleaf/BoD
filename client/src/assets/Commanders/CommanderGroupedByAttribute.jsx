@@ -34,16 +34,7 @@ const CommanderGroupedList = ({ commanders }) => {
             <h3 className={statClassMap[stat] || "Pstat Missing"} style={{marginTop: '1em'}}>{stat}</h3>
             <div className="homeDivider"></div>
             <div className='roster comList'>
-              {groups[stat].map(data => (
-                <Link to={`/commanders/${data.slug}`} key={data.name} className='heroFrame comImg'>
-                  {data.image ? (
-                    <img className='splashArt' src={data.image} alt={data.thumbnailAlt || data.name} loading="lazy" onError={(e) => { e.target.src = 'default-placeholder.png'; }}/>
-                  ) : (
-                    <img className='splashArt' src={placeholder} alt="Placeholder"/>
-                  )}
-                  <h2 className='hoverTitle'>{data.title}</h2>
-                </Link>
-              ))}
+              <CommanderRenderDefault commanders={groups[stat]} />
             </div>
           </div>
         )

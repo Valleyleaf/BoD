@@ -43,16 +43,7 @@ const CommanderGroupedByFaction = ({ commanders }) => {
           <div key={faction}>
             <h3 className="commanderPageText" style={{marginTop: '1em'}}>{faction}</h3>
             <div className='roster comList'>
-              {groups[faction].map(data => (
-                <Link to={`/commanders/${data.slug}`} key={data.name} className='heroFrame comImg'>
-                  {data.image ? (
-                    <img className='splashArt' src={data.image} alt={data.thumbnailAlt || data.name} loading="lazy" onError={(e) => { e.target.src = 'default-placeholder.png'; }}/>
-                  ) : (
-                    <img className='splashArt' src={placeholder} alt="Placeholder"/>
-                  )}
-                  <h2 className='hoverTitle'>{data.title}</h2>
-                </Link>
-              ))}
+              <CommanderRenderDefault commanders={groups[faction]}/>
             </div>
           </div>
         )

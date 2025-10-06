@@ -19,4 +19,5 @@ const CommanderRenderDefault = ({ commanders }) => {
 };
 
 export default CommanderRenderDefault;
-// Not a big deal but the above naming convention is horrible and doesn't actually explain what this does. This renders the individual panels in the Commander selection screen.
+//This renders the individual panels in the Commander selection screen.
+//Lesson to be learned here. Even a simple component like this is worth breaking out into its own file.
