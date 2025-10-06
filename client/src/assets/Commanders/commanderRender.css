@@ -1,4 +1,3 @@
-/* Show difficulty stars above each commander when sorting by Difficulty */
 .commander-default-wrapper {
   display: flex;
   flex-direction: column;
@@ -275,6 +274,7 @@
 }
 
 @media (max-width: 900px) {
+
   .commanderTopText{
     transform: scale(0.9);
   }
@@ -302,6 +302,9 @@
   width: 100px;
   height: 200px;
   border: solid 1px rgb(174, 232, 240);
-}
+  }
+  .commanderPageText{
+    font-size: 50px;
+  }
 
 }

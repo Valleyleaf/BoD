@@ -69,3 +69,27 @@
         background-position: center;
         background-repeat: no-repeat;
 }
+
+@media (max-width: 768px) {
+    .carouselContainer{
+        height: 400px;
+    }
+
+    .heroCarouselTitle{
+        font-size: 50px;
+    }
+
+    .homeDivider{
+        width: 40%;
+        height: 5px;
+        border-radius: 45px;
+        background-color: #50c5bb;
+        margin: 0px auto;
+    }
+
+    .pffButton{
+        font-size: 20px;
+        padding: 5px 10px;
+        margin-bottom: 15px;
+    }
+}
