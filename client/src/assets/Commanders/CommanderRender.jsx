@@ -93,7 +93,7 @@ function CommanderDetail() {
       </div>
         </div>
       <div>
-  <CommanderBio character={character}/>
+        <CommanderBio character={character}/>
       </div>
     </div>
   );
@@ -102,3 +102,4 @@ function CommanderDetail() {
 export default CommanderDetail;
 
 //This is getting big, be careful and remember to break it into smaller components if needed.
+//Might want to redo how I render this due to the background image not working well with mobile.
