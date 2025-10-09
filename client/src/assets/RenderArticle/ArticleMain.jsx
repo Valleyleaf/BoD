@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import RenderArticle from "./RenderArticle.jsx";
 import {Articles} from "../Info/Articles/Articles.js";
+import articleService from "../../services/articleService.js";
 
 export default function Home({ articles }) {
     const [currentPage, setCurrentPage] = useState(1);
@@ -32,17 +33,23 @@ export default function Home({ articles }) {
                 ))}
             </div>
             <div>
-                <button onClick={handlePreviousPage} disabled={currentPage === 1}>
+                <button 
+                    className="ArticlePageButton"
+                    onClick={handlePreviousPage} 
+                    disabled={currentPage === 1}>
                     Previous
                 </button>
                 <button
+                className="ArticlePageButton"
                     onClick={handleNextPage}
-                    disabled={currentPage === Math.ceil(Articles.length / articlesPerPage)}
-                    //Hide above if there are no articles to display or grey out?
-                >
+                    disabled={currentPage === Math.ceil(Articles.length / articlesPerPage)}>
+                    {/* Hide above if there are no articles to display or grey out */}
                     Next
                 </button>
             </div>
         </div>
     );
 }
+
+// Need to set up backend for Articles. Create search function for articles, including keywords, tags, categories, etc. Articles will be stored on Atlas.
+// How to generate articles? Add a form to the admin panel that allows for article creation and editing maybe.
