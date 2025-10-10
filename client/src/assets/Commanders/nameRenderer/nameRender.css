@@ -1,0 +1,91 @@
+.name{
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0px;
+  padding: 0px;
+  color: #ffffff;
+  font-size: 50px;
+  opacity: 0;
+  animation: fadeInLeft 1s ease-out forwards;
+}
+
+.title{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 120px;
+  color: #ffffff;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-top: -50px;
+  margin-bottom: -50px;
+  padding: 0px;
+  opacity: 0;
+  animation: fadeInLeft 1s ease-out forwards;
+}
+
+.CommanderNamePlate{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 10px;
+  padding: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.PrimaryStat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 35px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+  .strengthText{
+    color: rgb(192, 11, 11);
+    font-size: 68px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 0px;
+  }
+
+  .agilityText{
+    color: rgb(103, 255, 103);
+    font-size: 68px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 0px;
+
+  }
+
+  .intelligenceText{
+    color: rgb(118, 255, 255);
+    font-size: 68px;
+    font-family: "Bebas Neue", sans-serif;
+    margin-bottom: 0px;
+  }
+
+  @keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+  @keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+
+  }
+}

@@ -54,48 +54,10 @@
     border-bottom: solid 3px rgba(0, 0, 0, 0.356);
 }
 
-.name{
-  font-family: "Bebas Neue", sans-serif;
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  margin: 0px;
-  padding: 0px;
-  color: #ffffff;
-  font-size: 50px;
-  opacity: 0;
-  animation: fadeInLeft 1s ease-out forwards;
-}
-
 .attributeIcon{
   width: 50px;
   height: 50px;
   margin-right: 5px;
-}
-
-.CommanderNamePlate{
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
-  border-radius: 10px;
-  padding: 20px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
-}
-
-.title{
-  font-family: "Bebas Neue", sans-serif;
-  font-size: 120px;
-  color: #ffffff;
-  text-align: center;
-  white-space: nowrap;
-  overflow: hidden;
-  margin-top: -50px;
-  margin-bottom: -50px;
-  padding: 0px;
-  opacity: 0;
-  animation: fadeInLeft 1s ease-out forwards;
-
 }
 
 .DisplayImage{
@@ -223,29 +185,7 @@
     justify-content: flex-start;
     padding-left: 1% ;
   }
-
-  .strengthText{
-    color: rgb(192, 11, 11);
-    font-size: 68px;
-    font-family: "Bebas Neue", sans-serif;
-    margin-bottom: 0px;
-  }
-
-  .agilityText{
-    color: rgb(103, 255, 103);
-    font-size: 68px;
-    font-family: "Bebas Neue", sans-serif;
-    margin-bottom: 0px;
-
-  }
-
-  .intelligenceText{
-    color: rgb(118, 255, 255);
-    font-size: 68px;
-    font-family: "Bebas Neue", sans-serif;
-    margin-bottom: 0px;
-  }
-
+  
   .dropDownMenu{
     border: solid 2px #00eeff;
     overflow: hidden;

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import {Link} from 'react-router-dom';
+import commanderNamePlate from './nameRenderer/commanderNamePlate.jsx';
 import AbilityRender from './AbilityRender/AbilityRender.jsx'
 import StatRenderer from './StatRender/StatRenderer.jsx';
 import DifficultyRender from './DifficultyRender/DifficultyRender.jsx';
@@ -17,11 +18,7 @@ function CommanderDetail() {
   const [error, setError] = useState(null);
   
   const decodedName = decodeURIComponent(name);
-  const attributeColors = {
-    Strength: "var(--strength-color)",
-    Agility: "var(--agility-color)",
-    Intelligence: "var(--intelligence-color)"
-  };
+
 
   useEffect(() => {
     let intervalId;
@@ -54,19 +51,8 @@ function CommanderDetail() {
         backgroundPosition: 'center top',
         backgroundRepeat: 'no-repeat'
       }}>
+          <nameRenderer character={character}/>
         <div className='flexColumn' >
-            <div className="CommanderNamePlate">
-              <h1 className='name'>{character.name}</h1>
-              <h2 className='title'>The {character.title}</h2>
-                <DifficultyRender character={character}/>
-                <div className='flexRow'>
-                      <h2 className='PrimaryStat'>Primary:&nbsp;</h2>
-                      <p className='PrimaryStat' style={{ color: attributeColors[character.primaryStat] || "white" }}>
-                        {character.primaryStat}
-                      </p>
-                      {/* Above is adapted to Collector due to double primaryStat. might change to a gradient var() later? */}
-                </div>
-            </div>
         {/* <img className="DisplayImage" src={character.image} alt={character.name} /> */}
         <p className='characterDescription'>{character.description}</p>
           <div className="flexColumn CommanderSideProfile">
