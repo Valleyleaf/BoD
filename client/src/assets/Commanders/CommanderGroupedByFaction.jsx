@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import placeholder from '../img/placeholder.png';
+import CommanderRenderDefault from "./CommanderRenderDefault";
 import './commanderRender.css'
 
 const FACTION_ORDER = [

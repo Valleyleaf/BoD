@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import placeholder from '../img/placeholder.png';
 
 const CommanderRenderDefault = ({ commanders }) => {
   return commanders.map((data) => (
