@@ -27,3 +27,34 @@
     transition: ease 0.3s;
     transform: scale(1.01);
 }
+
+.navbar-toggle {
+    display: none;
+}
+
+@media (max-width: 900px) {
+    .navbarClass {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        min-width: unset;
+        font-size: 20px;
+        background: #222;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        display: none; 
+        z-index: 1000;
+    }
+    .navbarClass.open {
+        display: flex;
+        margin-top: 82px;
+    }
+    .navbar-toggle {
+        display: block;
+        cursor: pointer;
+        font-size: 32px;
+        color: #fff;
+        margin: 10px;
+    }
+}

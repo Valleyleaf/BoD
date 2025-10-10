@@ -67,7 +67,7 @@ function Commandercarousel() {
                         e.target.src = placeholder;
                     }}
                 />
-                <div className="commander-name">{commander.title}</div>
+                {/* <div className="commander-name">{commander.title}</div> */}
                 {/* Don't need the name really but keeping for now as it makes for a good placeholder visual */}
             </div>
         </Link>

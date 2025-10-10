@@ -59,3 +59,22 @@
     height: 40px;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .FooterBase{
+        padding: 10px;
+    }
+
+    .esrbBox p{
+        font-size: 10px;
+    }
+
+    .esrbLogo{
+        height: 70px;
+        margin-right: 5px;
+    }
+
+    .socialMediaIcon{
+        height: 30px;
+    }
+}

@@ -28,7 +28,6 @@
 .Loadinglogo{
     width:840px;
     height: auto;
-
 }
 
   @keyframes pulseGlow {
@@ -57,3 +56,9 @@
     animation: bounce 2s infinite;
   }
   
+  @media (max-width: 768px) {
+    .Loadinglogo {
+      width:440px;
+      height: auto;
+    }
+  }
