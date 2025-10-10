@@ -20,7 +20,7 @@ This is a website for the fictional videogame title "Battle of Dominanace". This
 Clone the repository and install dependencies.
 
 
-## 📖 Lessons (What has this project teached me)
+## 📖 Lessons (What has this project taught me)
 - Choose and research hosting platform beforehand. I went through 3 seperate platforms before landing with render.
 - Go with a mobile first approach for css. It's easier to scale something up than it is to scale something down.
 - Separating functions away from react components can make for cleaner code with proper documentation.
