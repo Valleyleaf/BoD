@@ -13,13 +13,14 @@
 .abilityContainer{
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin-top: 4%;
   min-width: 800px;
 }
 
 .AbilityBox {
   display: block;
-  width: 100%;
+  width: 600px;
   min-width: 600px;  
   box-sizing: border-box;
   margin: 20px;
@@ -47,6 +48,7 @@
   padding: 2%;
   background-color: #252525;
   background: linear-gradient(to right, rgba(49, 49, 49, 0.616) 0%, rgba(255,255,255,0) 88%);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
 .abilityText{

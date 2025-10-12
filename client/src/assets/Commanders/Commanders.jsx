@@ -5,6 +5,7 @@ import "./commanderRender.css";
 import commanderService from '../../services/commanderService';
 import CommanderGroupedList from './CommanderGroupedByAttribute.jsx';
 import CommanderGroupedByFaction from './CommanderGroupedByFaction';
+import CommanderGroupedByDifficulty from './CommanderGroupedByDifficulty.jsx';
 
 function Commanders() {
   const [commanders, setCommanders] = useState([]);
@@ -51,11 +52,10 @@ function Commanders() {
 
   return (
     <div className='commanders'>
-      <div className="commanderTopText">
-        <h2 className='commanderPageText'>Your legend awaits.</h2>
-          <div className="homeDivider"></div>
-        <p>With over 60 Commanders and counting. Your playstyle is represented on the battlefield.</p>
-      </div>
+      <h2 className='commanderPageText'>Your legend awaits.</h2>
+        <div className="homeDivider"></div>
+      <p>With over 60 Commanders and counting. Your playstyle is represented on the battlefield.</p>
+      
       <div className="commanderSortDropdownContainer" style={{ margin: "1em 0" }}>
         <label htmlFor="sortDropdown" style={{ marginRight: "0.5em" }}>Sort by:</label>
         <select className="dropDownMenu" id="sortDropdown" value={sortOption} onChange={handleSortChange}>
@@ -65,11 +65,14 @@ function Commanders() {
           <option value="Difficulty">Difficulty (1-5)</option>
         </select>
       </div>
+
       <div className="commanderRenderBackground fade-slide-up">
         {sortOption === "Primary Stat" ? (
           <CommanderGroupedList commanders={sortedCommanders} />
         ) : sortOption === "Faction" ? (
           <CommanderGroupedByFaction commanders={sortedCommanders} />
+        ) : sortOption === "Difficulty" ? (
+          <CommanderGroupedByDifficulty commanders={sortedCommanders} />
         ) : (
           <div className='roster comList'>
             <CommanderRenderDefault commanders={sortedCommanders} />

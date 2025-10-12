@@ -6,9 +6,9 @@ import GameRender from "./GameRender.jsx";
 
 export default function Game(){
     return(
-            <div>
-                <GameRender />
-            </div>
+        <div>
+            <GameRender />
+        </div>
     );
 };
 

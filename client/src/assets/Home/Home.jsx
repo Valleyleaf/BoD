@@ -38,6 +38,7 @@ export default function Home() {
 
     return (
         <div className="flexColumn">
+            {/* Add flexRow with 3 divs, center video, add feather element on each side with absolute. */}
             <div className="hero-section">
                 {!videoError ? (
                     <video 
@@ -56,6 +57,7 @@ export default function Home() {
                         <p>Video could not be loaded</p>
                     </div>
                 )}
+                {/* Add feather here? */}
                 <div className="hero-content">
                     <h2 className='HomeTitle'>Welcome to Battle of Dominance</h2>
                     <div className="homeDivider"></div>

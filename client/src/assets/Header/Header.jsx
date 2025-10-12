@@ -16,6 +16,7 @@ export default function Header(){
                     <a href="https://www.hiveworkshop.com/threads/battle-of-dominance-v2-0-arcane-showdown.326630/" target="_blank" rel="noopener noreferrer">
                         <button className="downloadButton">DOWNLOAD</button>
                     </a>
+                    {/* Above needs to be better styled to help with smaller screens. Need better use of Flex rather than margin+padding */}
                 </div>
             </header>
     );

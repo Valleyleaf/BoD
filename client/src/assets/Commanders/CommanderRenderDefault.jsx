@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import placeholder from '../img/placeholder.png';
 
 const CommanderRenderDefault = ({ commanders }) => {
   return commanders.map((data) => (
@@ -19,4 +18,6 @@ const CommanderRenderDefault = ({ commanders }) => {
 };
 
 export default CommanderRenderDefault;
-// Not a big deal but the above naming convention is horrible and doesn't actually explain what this does. This renders the individual panels in the Commander selection screen.
+//Naming could be better here.
+//This renders the individual panels in the Commander selection screen.
+//Lesson to be learned here. Even a simple component like this is worth breaking out into its own file.

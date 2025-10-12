@@ -22,6 +22,3 @@ export default function Footer(){
             </footer>
     );
 };
-
-//Add contact information here.
-//Add links to social media here.

@@ -25,9 +25,11 @@ export default function GameRender() {
                     </div>
                 </div>
                 <div className="gameImageBox">
-                    <img src={topic[current].thumbnail} alt={topic[current].alt} />
+                    <img src={topic[current].thumbnail} alt={topic[current].alt}/>
                 </div>
             </div>
         </div>
     );
 }
+
+//Change topic.thumbnail to cloudinary. Imgur load slow. Do I want to tie this to Atlas?
