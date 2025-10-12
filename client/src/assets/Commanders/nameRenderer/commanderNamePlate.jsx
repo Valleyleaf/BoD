@@ -1,8 +1,9 @@
 
 import React from "react";
+import DifficultyRender from "../DifficultyRender/DifficultyRender.jsx";
 import "./nameRender.css";
 
-function nameRenderer({ character }) {
+function NameRenderer({ character }) {
       const attributeColors = {
         Strength: "var(--strength-color)",
         Agility: "var(--agility-color)",
@@ -27,4 +28,4 @@ function nameRenderer({ character }) {
     );
 }
 
-export default nameRenderer;
+export default NameRenderer;

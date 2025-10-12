@@ -33,9 +33,20 @@
   flex-direction: column;
 }
 
-.commanderBackground{
+.characterRow{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.characterInfo{
+  max-width: 700px;
+  min-width: 550px;
+}
+
+.commanderBackground{
+  display: flex;
+  flex-direction: column;
   justify-content: space-between;
   min-width: auto;
   min-height: 70vh;
@@ -212,4 +223,15 @@
     opacity: 1;
 
   }
+}
+
+@media screen and (max-width: 798px) {
+
+  
+  .characterRow{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
 }

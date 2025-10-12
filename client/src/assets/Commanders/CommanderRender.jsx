@@ -1,15 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import {Link} from 'react-router-dom';
-import commanderNamePlate from './nameRenderer/commanderNamePlate.jsx';
+import NameRenderer from './nameRenderer/commanderNamePlate.jsx';
 import AbilityRender from './AbilityRender/AbilityRender.jsx'
 import StatRenderer from './StatRender/StatRenderer.jsx';
-import DifficultyRender from './DifficultyRender/DifficultyRender.jsx';
-import bioplaceholder from '../Info/LoreSheets/A_PlaceholderBio.json'
+import RoleRenderer from './RoleRenderer/RoleRender.jsx';
 import Loading from '../Loading/Loading.jsx'
 import CommanderBio from './BioRender/CommanderBioRender.jsx';
-import "./commanderRender.css";
 import commanderService from '../../services/commanderService';
+import "./commanderRender.css";
 
 function CommanderDetail() {
   const { name } = useParams();
@@ -43,7 +41,7 @@ function CommanderDetail() {
   if (error || !character) return <h2>Character "{decodedName}" not found.</h2>;
   
   return (
-    <div className='commanderContainer'>
+    <>
       <div className="commanderBackground"       
         style={{
         backgroundImage: `url(${character.image})`,
@@ -51,37 +49,30 @@ function CommanderDetail() {
         backgroundPosition: 'center top',
         backgroundRepeat: 'no-repeat'
       }}>
-          <nameRenderer character={character}/>
-        <div className='flexColumn' >
-        {/* <img className="DisplayImage" src={character.image} alt={character.name} /> */}
-        <p className='characterDescription'>{character.description}</p>
-          <div className="flexColumn CommanderSideProfile">
+          <NameRenderer character={character}/>
+        <div className='characterRow'>
+          <div className='flexColumn characterInfo' >
+          {/* <img className="DisplayImage" src={character.image} alt={character.name} /> */}
+          <p className='characterDescription'>{character.description}</p>
+            <div className="flexColumn CommanderSideProfile">
+            </div>
+            <div>
+              <StatRenderer character={character}/>
+              <RoleRenderer character={character}/>
+            </div>
           </div>
-          <div>
-            <StatRenderer character={character}/>
-              <div className='flexRow'>
-                <p className='Bio'>Faction: </p>
-                <p className='Bio'>{character.faction}</p>
-                {/* Line 78 will need a function to display a vector logo based on character faction after the name once I have those done. */}
-              </div>
-              <div className='flexRow'>
-                <p className='Bio'>Roles:</p>
-                <p className='Bio'>{character.roles.join(', ')}</p>
-                {/* Make class logos instead of text? */}
-              </div>
+          <div className="abilityContainer">
+          <h1 className='abilityHeader'>Abilities</h1>
+          <div className='AbilityBox'>
+            <AbilityRender character={character}/>
           </div>
-        </div>
-        <div className="abilityContainer">
-        <h1 className='abilityHeader'>Abilities</h1>
-        <div className='AbilityBox'>
-          <AbilityRender character={character}/>
         </div>
       </div>
         </div>
       <div>
         <CommanderBio character={character}/>
       </div>
-    </div>
+    </>
   );
 }
 
