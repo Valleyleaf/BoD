@@ -61,16 +61,12 @@
 }
 
 .commander-thumbnail {
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    background: linear-gradient(135deg, #2a2a2a, #1a1a1a);
     display: flex;
     flex-direction: column;
     position: relative;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
 }
 
 .commander-thumbnail:hover {
@@ -173,4 +169,13 @@
         gap: 10px;
         animation-duration: 45s;
     }
+
+    .carousel-row {
+    display: flex;
+    align-items: center;
+    margin: 0px 0;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
 }

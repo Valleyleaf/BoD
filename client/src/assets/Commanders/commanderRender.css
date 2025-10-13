@@ -231,5 +231,19 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  }
+
+  .splashArt{
+  display: block;
+  object-fit: cover;
+  width: 100px;
+  height: 250px;
+  border: solid 1px rgb(174, 232, 240);
 }
+.heroFrame{
+  width: 100px;
+  height: 125px;
+  padding: 0px 5px 10px 5px;
+}
+
 }
