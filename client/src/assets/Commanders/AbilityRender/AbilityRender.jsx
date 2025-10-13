@@ -7,7 +7,7 @@ function AbilityRender({ character }) {
     if (!character) return <h2>Character data is missing.</h2>;
 
     return (
-        <div className="flexColumn AbilityBox">
+        <div className="flexColumn">
             {character.abilities?.map((ability, i) => (
                 <div key={`ability-${i}`} className="flexRow Ability">
                     <div className="flexColumn">

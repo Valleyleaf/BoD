@@ -7,8 +7,8 @@ function CommanderGroupedByDifficulty({ commanders }) {
     stars,
     commanders: commanders.filter(c => c.difficulty === stars)
   }));
-  const star = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freepnglogos.com%2Fuploads%2Fstar-png%2Fstar-png-transparent-image-pngpix-5.png&f=1&nofb=1&ipt=522d07ec9aeee2658ce812a36f98270345e7925864f6296f11529463e3c72428";
-  const nostar = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.freepnglogos.com%2Fuploads%2Fstar-png%2Fstar-png-transparent-image-pngpix-5.png&f=1&nofb=1&ipt=522d07ec9aeee2658ce812a36f98270345e7925864f6296f11529463e3c72428";
+  const star = 'https://res.cloudinary.com/dvutcekav/image/upload/v1760391057/DifficultyIcon_nqklrj.svg'
+  const noStar = 'https://res.cloudinary.com/dvutcekav/image/upload/v1760391087/DifficultyIconEmpty_oqyzpa.svg'
   
   return (
     <div className="flexColumn">
@@ -28,7 +28,7 @@ function CommanderGroupedByDifficulty({ commanders }) {
                 <img
                   className="DifficultyIcon"
                   key={`empty-${i}`}
-                  src={nostar}
+                  src={noStar}
                   alt={`Empty Difficulty Star ${i + 1}`}
                 />
               ))}

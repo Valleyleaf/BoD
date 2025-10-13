@@ -5,7 +5,7 @@
     align-items: center;
     height: 120px;
     padding: 10px;
-    background-color: #161616;
+    background-color: var(--menuColor);
     border-bottom: solid 2px var(--button-color);
     box-shadow: 15 44px 18px rgba(0, 0, 0, 0.1);
 }
