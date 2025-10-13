@@ -8,7 +8,7 @@ function RoleRender({ character }) {
     if (!character) return <h2>Character name data is missing.</h2>;
 
     return (
-        <div className="">
+        <div className="roleFactionContainer">
                 <div className='flexRow'>
                   <p className='faction'>Faction: </p>
                   <p className='faction'>{character.faction}</p>
