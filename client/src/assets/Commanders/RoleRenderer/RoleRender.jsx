@@ -12,7 +12,6 @@ function RoleRender({ character }) {
                 <div className='flexRow'>
                   <p className='faction'>Faction: </p>
                   <p className='faction'>{character.faction}</p>
-                  {/* Line 78 will need a function to display a vector logo based on character faction after the name once I have those done. */}
                 </div>
                 <div className='roleList'>
                   <div>

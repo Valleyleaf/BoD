@@ -44,5 +44,4 @@ function CommanderGroupedByDifficulty({ commanders }) {
 }
 
 export default CommanderGroupedByDifficulty;
-//Change this to display the actual stars rather then the ascii stuff (★ and ☆).
-//Grouped vs linear list?
+//This is duplicated code. Pull from DifficultyRender.jsx instead.
