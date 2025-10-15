@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from "react";
-import CommanderRenderDefault from './CommanderRenderDefault.jsx';
+import CommanderRenderCard from './CommanderRenderCard.jsx';
 import Loading from '../Loading/Loading.jsx';
 import "./commanderRender.css";
 import commanderService from '../../services/commanderService';
@@ -75,7 +75,7 @@ function Commanders() {
           <CommanderGroupedByDifficulty commanders={sortedCommanders} />
         ) : (
           <div className='roster comList'>
-            <CommanderRenderDefault commanders={sortedCommanders} />
+            <CommanderRenderCard commanders={sortedCommanders} />
           </div>
         )}
       </div>
