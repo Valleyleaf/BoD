@@ -5,7 +5,7 @@ import App from './App.jsx'
 import './index.css'
 import Home from './assets/Home/Home.jsx'
 import Commanders from './assets/Commanders/Commanders.jsx'
-import Game from './assets/Game/Game.jsx'
+import GameRender from './assets/Game/GameRender.jsx'
 import News from './assets/RenderArticle/ArticleMain.jsx'
 import PatchNotes from './assets/PatchNotes/PatchNotePage.jsx'
 import CommanderRender from './assets/Commanders/CommanderRender.jsx'
@@ -24,7 +24,7 @@ const router = createBrowserRouter([{
       element: <Commanders />,},
     {
       path: 'game',
-      element: <Game />,
+      element: <GameRender />,
     },
       {
       path: 'Items',

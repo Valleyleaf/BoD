@@ -1,12 +1,15 @@
-
-import bioplaceholder from '../../Info/LoreSheets/A_PlaceholderBio.json'
 import './bioRender.css'
 
 function CommanderBio({ character }) {
+  const bioplaceholder = {
+    title: ["Lore"],
+    bio: ["Comming Soon"]
+  }
+
   if (!character || !character.lore || !Array.isArray(character.lore.bio)) {
     return (
       <div className='flexColumn'>
-        <h2 className='Bio'>Comming Soon</h2>
+        <h2 className='Bio'>{bioplaceholder.title}</h2>
         <div className="BioFrame flexColumn">
           {bioplaceholder.bio ? bioplaceholder.bio.map((text, i) => <p key={i}>{text}</p>) : "No lore available."}
         </div>
