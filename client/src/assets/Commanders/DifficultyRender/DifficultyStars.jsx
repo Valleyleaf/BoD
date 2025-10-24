@@ -27,3 +27,5 @@ const DifficultyStars = ({ difficulty }) => {
 };
 
 export default DifficultyStars;
+
+//What is this used for?

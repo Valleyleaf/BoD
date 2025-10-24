@@ -1,4 +1,3 @@
-
 import React from "react";
 const placeholder = 'https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg';
 import './abilityRender.css';

@@ -1,9 +1,6 @@
 import React from "react";
 import "./loading.css"
-
 import { TailSpin } from 'react-loader-spinner';
-
-
 import Logo from '../img/BoDlogo.png'
 
 export default function Loading(){

@@ -43,21 +43,6 @@
   min-width: 550px;
 }
 
-.commanderBackground{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-width: auto;
-  min-height: 70vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  animation: fadeIn 1s ease-out forwards;
-  position: relative;
-  box-shadow: inset 0 0 1800px 1000px rgba(0, 0, 0, 0.3);
-}
-
 .commanderRenderBackground{
     background-color: #1a1a1a;
     border-top: solid 3px rgba(0, 0, 0, 0.356);
@@ -99,12 +84,10 @@
 .heroFrame{
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   color: white;
-  width: 200px;
-  height: 350px;
-  padding: 0px 5px 0px 5px;
+  padding: 0px 2px 0px 2px;
+  margin: 5px;
   font-size: 12px;
   font-style: italic;
   white-space: nowrap;
@@ -119,7 +102,7 @@
   font-size: 16px;
   color: #ffffff;
   margin: 20px;
-  width: 80%;
+  max-width: 70ch;
 }
 
 .splashArt{
@@ -131,10 +114,6 @@
 }
 
 .splashArt:hover{
-  display: block;
-  object-fit: cover;
-  width: 210px;
-  height: 300px;
   border: solid 1px rgb(174, 232, 240);
   transition: ease 0.3s;
   box-shadow: 0 0 10px rgba(0, 238, 255, 0.5);
@@ -157,7 +136,7 @@
 
 .hoverTitle {
     position: absolute;
-    top: 50%;
+    top: 55%;
     transform: translate(0%, 400%);
     display: none;
     opacity: 0;
@@ -170,7 +149,7 @@
     color: white;
     transition: opacity 0.3s ease;
     background: linear-gradient(to top, #000000, #feb47b00);
-    width: 90%;
+    width: 100%;
 }
 
 .fade-slide-up {
@@ -246,4 +225,40 @@
   padding: 0px 5px 10px 5px;
 }
 
+}
+
+.commanderBackgroundWrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.commanderBackgroundImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  z-index: 1;
+  box-shadow: inset 0 0 1800px 1000px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.commanderContent {
+  position: relative;
+  z-index: 2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .commanderBackgroundImage {
+    background-position: center center;
+  }
+  .commanderContent {
+    padding: 1rem;
+  }
 }

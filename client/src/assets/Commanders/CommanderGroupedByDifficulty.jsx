@@ -1,5 +1,5 @@
 import React from "react";
-import CommanderRenderDefault from './CommanderRenderDefault.jsx';
+import CommanderRenderDefault from './CommanderRenderCard.jsx';
 
 function CommanderGroupedByDifficulty({ commanders }) {
   // Group commanders by difficulty (1-5)
@@ -44,5 +44,4 @@ function CommanderGroupedByDifficulty({ commanders }) {
 }
 
 export default CommanderGroupedByDifficulty;
-//Change this to display the actual stars rather then the ascii stuff (★ and ☆).
-//Grouped vs linear list?
+//This is duplicated code. Pull from DifficultyRender.jsx instead.

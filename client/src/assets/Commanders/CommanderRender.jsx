@@ -42,33 +42,33 @@ function CommanderDetail() {
   
   return (
     <>
-      <div className="commanderBackground"       
-        style={{
-        backgroundImage: `url(${character.image})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center top',
-        backgroundRepeat: 'no-repeat'
-      }}>
+      <div className="commanderBackgroundWrapper">
+        <div
+          className="commanderBackgroundImage"
+          style={{
+            backgroundImage: `url(${character.image})`,
+          }}
+        />
+        <div className="commanderContent">
           <NameRenderer character={character}/>
-        <div className='characterRow'>
-          <div className='flexColumn characterInfo' >
-          {/* <img className="DisplayImage" src={character.image} alt={character.name} /> */}
-          <p className='characterDescription'>{character.description}</p>
-            <div className="flexColumn CommanderSideProfile">
+          <div className='characterRow'>
+            <div className='flexColumn characterInfo'>
+              <p className='characterDescription'>{character.description}</p>
+              <div className="flexColumn CommanderSideProfile"></div>
+              <div>
+                <StatRenderer character={character}/>
+                <RoleRenderer character={character}/>
+              </div>
             </div>
-            <div>
-              <StatRenderer character={character}/>
-              <RoleRenderer character={character}/>
+            <div className="abilityContainer">
+              <h1 className='abilityHeader'>Abilities</h1>
+              <div className='AbilityBox'>
+                <AbilityRender character={character}/>
+              </div>
             </div>
-          </div>
-          <div className="abilityContainer">
-          <h1 className='abilityHeader'>Abilities</h1>
-          <div className='AbilityBox'>
-            <AbilityRender character={character}/>
           </div>
         </div>
       </div>
-        </div>
       <div>
         <CommanderBio character={character}/>
       </div>
@@ -79,4 +79,3 @@ function CommanderDetail() {
 export default CommanderDetail;
 
 //This is getting big, be careful and remember to break it into smaller components if needed.
-//Might want to redo how I render this due to the background image not working well with mobile.
