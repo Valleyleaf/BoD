@@ -27,7 +27,9 @@ function CommanderBio({ character }) {
       }}
       >
         {character.lore.title && <h2 className='Bio'>{character.lore.title}</h2>}
-        {character.lore.bio.map((text, i) => <p key={i}>{text}</p>)}
+        <div className="BioText">
+          {character.lore.bio.map((text, i) => <p key={i}>{text}</p>)}
+        </div>
       </div>
     </div>
   );
