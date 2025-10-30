@@ -7,6 +7,7 @@
         "faction1": {
             "title": "Mechanisms",
             "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+            "crestAlt": "Mechanisms Crest",
             "description": "Lopsum Ipsum"
         }
 }}

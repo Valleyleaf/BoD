@@ -1,7 +1,7 @@
-import './learntoplay.scss';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import factionsJson from './factionsJSON.json';
+import './learnfactions.css';
 
 const LearnFactions = () => {
   const { t } = useTranslation();
@@ -23,7 +23,7 @@ const LearnFactions = () => {
           <li key={index}>
             <div>
               <h3>{faction.title}</h3>
-              <img src={faction.crest} alt="" />
+              <img src={faction.crest} alt={faction.crestAlt} />
               <p>{faction.description}</p>
             </div>
           </li>

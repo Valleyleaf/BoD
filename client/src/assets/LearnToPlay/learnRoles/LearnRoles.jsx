@@ -1,7 +1,7 @@
-import './learntoplay.scss';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import rolesJson from './rolesJSON.json';
+import './learnroles.css';
 
 const LearnRoles = () => {
   const { t } = useTranslation();
@@ -23,7 +23,7 @@ const LearnRoles = () => {
           <li key={index}>
             <div>
               <h3>{role.title}</h3>
-              <img src={role.crest} alt="" />
+              <img src={role.crest} alt={role.crestAlt} />
               <p>{role.description}</p>
             </div>
           </li>
