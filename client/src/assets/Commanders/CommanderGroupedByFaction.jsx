@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CommanderRenderDefault from "./CommanderRenderDefault";
+import CommanderRenderCard from "./CommanderRenderCard.jsx";
 import './commanderRender.css'
 
 const FACTION_ORDER = [
@@ -43,7 +43,7 @@ const CommanderGroupedByFaction = ({ commanders }) => {
           <div key={faction}>
             <h3 className="commanderPageText" style={{marginTop: '1em'}}>{faction}</h3>
             <div className='roster comList'>
-              <CommanderRenderDefault commanders={groups[faction]}/>
+              <CommanderRenderCard commanders={groups[faction]}/>
             </div>
           </div>
         )

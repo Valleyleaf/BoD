@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import CommanderRenderDefault from "./CommanderRenderDefault";
+import CommanderRenderCard from "./CommanderRenderCard.jsx";
 
 import './commanderRender.css'
 
@@ -35,7 +35,7 @@ const CommanderGroupedList = ({ commanders }) => {
             <h3 className={statClassMap[stat] || "Pstat Missing"} style={{marginTop: '1em'}}>{stat}</h3>
             <div className="homeDivider"></div>
             <div className='roster comList'>
-              <CommanderRenderDefault commanders={groups[stat]} />
+              <CommanderRenderCard commanders={groups[stat]} />
             </div>
           </div>
         )

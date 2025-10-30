@@ -1,5 +1,5 @@
 import React from "react";
-import CommanderRenderDefault from './CommanderRenderDefault.jsx';
+import CommanderRenderDefault from './CommanderRenderCard.jsx';
 
 function CommanderGroupedByDifficulty({ commanders }) {
   // Group commanders by difficulty (1-5)
