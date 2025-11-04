@@ -1,6 +1,8 @@
 import './learntoplay.scss';
 import React from 'react';
 import LearnRoles from './learnRoles/LearnRoles.jsx';
+import LearnIsland from './learnIsland/LearnIsland.jsx';
+import LearnObjectives from './learnObjectives/LearnObjectives.jsx';
 import { useTranslation } from 'react-i18next';
 
 const LearnToPlay = () => {
@@ -10,9 +12,9 @@ const LearnToPlay = () => {
     <div className="learn-to-play">
         <h2>{t('learnToPlay.title')}</h2>
         {LearnRoles()}
-        {/* {LearnFactions()}
+        {LearnFactions()}
         {LearnIsland()}
-        {LearnObjectives()} */}
+        {LearnObjectives()}
     </div>
   );
 };
