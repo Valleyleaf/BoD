@@ -1,13 +1,24 @@
 {
-    "English": {
+    "en": {
         "learnFactions": {
             "title": "Learn Your Faction",
             "description": "Understanding your faction is crucial for success in the game. Each faction has unique characteristics and abilities."
         },
-        "faction1": {
+        "factions": [
+            {
+            "key": "faction1",
             "title": "Mechanisms",
             "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
             "crestAlt": "Mechanisms Crest",
             "description": "Lopsum Ipsum"
-        }
-}}
+            },
+            {
+            "key": "faction2",
+            "title": "Void Whisperers",
+            "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+            "crestAlt": "VoidWhisperers Crest",
+            "description": "Lopsum Ipsum"
+            }
+        ]
+    }
+}

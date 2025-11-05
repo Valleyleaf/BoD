@@ -41,12 +41,12 @@ export default function Navbar() {
                     Items
                 </Link> */}
 
-                {/* <Link 
-                    to="/Game"
+                <Link 
+                    to="/LearntoPlay"
                     className='NavbuttonClass'
                     onClick={() => setIsOpen(false)}>
-                    Game
-                </Link> */}
+                    Learn to Play
+                </Link>
 
                 <Link 
                     to="/PatchNotes"

@@ -1,24 +1,22 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import objectivesJson from './factionsJSON.json';
+import objectivesJson from './objectivesJSON.json';
 import './learnobjectives.css';
 
 const LearnObjectives = () => {
-  const { t } = useTranslation();
+  const { i18n } = useTranslation();
 
-  const objectives = objectivesJson.map(objective => ({
-    title: t(`learnObjectives.${objective}.title`),
-    description: t(`learnObjectives.${objective}.description`),
-    crest: (`learnObjectives.${objective}.crest`)
-  }));
+  const languageData = objectivesJson[i18n.language] || objectivesJson.en;
+  const { learnObjectives, objectives } = languageData;
 
   return (
     <div className="learn-objectives">
-      <div className='objectives-header'>
-        <h2>{t('learnObjectives.title')}</h2>
-        <p>{t('learnObjectives.description')}</p>
+      <div className="objectives-header">
+        <h2>{learnObjectives.title}</h2>
+        <p>{learnObjectives.description}</p>
       </div>
-      <ul className='flexColumn center-content'>
+
+      <ul className="flexColumn center-content">
         {objectives.map((objective, index) => (
           <li key={index}>
             <div>

@@ -4,21 +4,19 @@ import factionsJson from './factionsJSON.json';
 import './learnfactions.css';
 
 const LearnFactions = () => {
-  const { t } = useTranslation();
+  const { i18n } = useTranslation();
 
-  const factions = factionsJson.map(faction => ({
-    title: t(`learnFactions.${faction}.title`),
-    description: t(`learnFactions.${faction}.description`),
-    crest: (`learnFactions.${faction}.crest`)
-  }));
+  const languageData = factionsJson[i18n.language] || factionsJson.en;
+  const { learnFactions, factions } = languageData;
 
   return (
     <div className="learn-factions">
-      <div className='factions-header'>
-        <h2>{t('learnFactions.title')}</h2>
-        <p>{t('learnFactions.description')}</p>
+      <div className="factions-header">
+        <h2>{learnFactions.title}</h2>
+        <p>{learnFactions.description}</p>
       </div>
-      <ul className='flexColumn center-content'>
+
+      <ul className="flexColumn center-content">
         {factions.map((faction, index) => (
           <li key={index}>
             <div>

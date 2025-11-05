@@ -4,29 +4,29 @@ import rolesJson from './rolesJSON.json';
 import './learnroles.css';
 
 const LearnRoles = () => {
-  const { t } = useTranslation();
+  const { i18n } = useTranslation();
 
-  const roles = rolesJson.map(role => ({
-    title: t(`learnRoles.${role}.title`),
-    description: t(`learnRoles.${role}.description`),
-    crest: (`learnRoles.${role}.crest`)
-  }));
+  const languageData = rolesJson[i18n.language] || rolesJson.en;
+  const { learnRoles, roles } = languageData;
 
   return (
     <div className="learn-roles">
-      <div className='roles-header'>
-        <h2>{t('learnRoles.title')}</h2>
-        <p>{t('learnRoles.description')}</p>
+      <div className="roles-header">
+        <h2>{learnRoles.title}</h2>
+        <p>{learnRoles.description}</p>
       </div>
-      <ul className='flexColumn center-content'>
+
+      <ul className="flexColumn center-content">
         {roles.map((role, index) => (
-          <li key={index}>
-            <div>
+          <div key={index}>
+            <div className='rolesContainer'>
+              <div>
               <h3>{role.title}</h3>
-              <img src={role.crest} alt={role.crestAlt} />
               <p>{role.description}</p>
+              </div>
+              <img src={role.crest} alt={role.crestAlt}/>
             </div>
-          </li>
+          </div>
         ))}
       </ul>
     </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import islandJson from './factionsJSON.json';
+import islandJson from './islandJSON.json';
 import './learnisland.css';
 
 const LearnIsland = () => {
