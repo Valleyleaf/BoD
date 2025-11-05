@@ -4,29 +4,29 @@ import islandJson from './islandJSON.json';
 import './learnisland.css';
 
 const LearnIsland = () => {
-  const { t } = useTranslation();
+  const { i18n } = useTranslation();
 
-  const islands = islandJson.map(island => ({
-    title: t(`learnIsland.${island}.title`),
-    description: t(`learnIsland.${island}.description`),
-    crest: (`learnIsland.${island}.crest`)
-  }));
+  const languageData = islandJson[i18n.language] || islandJson.en;
+  const { learnIsland, island } = languageData;
 
   return (
     <div className="learn-island">
-      <div className='island-header'>
-        <h2>{t('learnIsland.title')}</h2>
-        <p>{t('learnIsland.description')}</p>
+      <div className="island-header">
+        <h2>{learnIsland.title}</h2>
+        <p>{learnIsland.description}</p>
       </div>
-      <ul className='flexColumn center-content'>
-        {islands.map((island, index) => (
-          <li key={index}>
-            <div>
+
+      <ul className="flexColumn center-content">
+        {island.map((island, index) => (
+          <div key={index}>
+            <div className='islandContainer'>
+              <div>
               <h3>{island.title}</h3>
-              <img src={island.crest} alt={island.crestAlt} />
               <p>{island.description}</p>
+              </div>
+              <img src={island.crest} alt={island.crestAlt}/>
             </div>
-          </li>
+          </div>
         ))}
       </ul>
     </div>

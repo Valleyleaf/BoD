@@ -1,31 +1,211 @@
 {
-    "en": {
-        "learnRoles": {
-        "title": "Learn Your Role",
-        "description": "Understanding your role is crucial for success in the game. Each role has unique responsibilities and abilities."
+  "en": {
+    "learnRoles": {
+      "title": "Learn Your Role",
+      "description": "Understanding your role is crucial for success in the game. Each role has unique responsibilities and abilities."
     },
     "roles": [
-        {
+      {
         "key": "role1",
         "title": "Explorer",
         "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
         "crestAlt": "Explorer Crest",
         "description": "As an explorer, it is your duty to scout the land and find new resources for your settlement. You will often be the first to encounter new challenges and opportunities."
-        },
-        {
+      },
+      {
         "key": "role2",
         "title": "HomeGuard",
         "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
         "crestAlt": "HomeGuard Crest",
         "description": "As a HomeGuard, your role is to protect your allies from external threats. You will be responsible for fortifying defenses and ensuring the safety of your fellow settlers."
-        },
-        {
+      },
+      {
         "key": "role3",
         "title": "Settler",
         "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
         "crestAlt": "Settler Crest",
         "description": "As a Settler, your role is to establish and develop your settlement. You will be responsible for gathering resources, building structures, and expanding your territory."
-        }
+      }
     ]
-    }
+  },
+
+  "es": {
+    "learnRoles": {
+      "title": "Aprende tu Rol",
+      "description": "Comprender tu rol es crucial para tener éxito en el juego. Cada rol tiene responsabilidades y habilidades únicas."
+    },
+    "roles": [
+      {
+        "key": "role1",
+        "title": "Explorador",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "Cresta del Explorador",
+        "description": "Como explorador, tu deber es explorar la tierra y encontrar nuevos recursos para tu asentamiento. A menudo serás el primero en enfrentar nuevos desafíos y oportunidades."
+      },
+      {
+        "key": "role2",
+        "title": "Guardia del Hogar",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "Cresta del Guardia del Hogar",
+        "description": "Como Guardia del Hogar, tu rol es proteger a tus aliados de amenazas externas. Serás responsable de fortalecer las defensas y garantizar la seguridad de tus compañeros."
+      },
+      {
+        "key": "role3",
+        "title": "Colono",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "Cresta del Colono",
+        "description": "Como Colono, tu rol es establecer y desarrollar tu asentamiento. Serás responsable de recolectar recursos, construir estructuras y expandir tu territorio."
+      }
+    ]
+  },
+
+  "fr": {
+    "learnRoles": {
+      "title": "Apprenez Votre Rôle",
+      "description": "Comprendre votre rôle est essentiel pour réussir dans le jeu. Chaque rôle a des responsabilités et des capacités uniques."
+    },
+    "roles": [
+      {
+        "key": "role1",
+        "title": "Explorateur",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "Blason d’Explorateur",
+        "description": "En tant qu’explorateur, votre devoir est d’explorer le territoire et de trouver de nouvelles ressources pour votre colonie. Vous serez souvent le premier à faire face à de nouveaux défis et opportunités."
+      },
+      {
+        "key": "role2",
+        "title": "Garde-Domicile",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "Blason de Garde-Domicile",
+        "description": "En tant que Garde-Domicile, votre rôle est de protéger vos alliés des menaces extérieures. Vous serez chargé de fortifier les défenses et de garantir la sécurité des habitants."
+      },
+      {
+        "key": "role3",
+        "title": "Colon",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "Blason de Colon",
+        "description": "En tant que Colon, votre rôle est d’établir et développer votre colonie. Vous serez responsable de collecter des ressources, construire des structures et étendre votre territoire."
+      }
+    ]
+  },
+
+  "zh": {
+    "learnRoles": {
+      "title": "学习你的角色",
+      "description": "了解你的角色对游戏成功至关重要。每个角色都有独特的职责和能力。"
+    },
+    "roles": [
+      {
+        "key": "role1",
+        "title": "探索者",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "探索者徽章",
+        "description": "作为探索者，你的职责是侦察土地并为你的定居点寻找新资源。你通常会最先面对新的挑战和机遇。"
+      },
+      {
+        "key": "role2",
+        "title": "家卫",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "家卫徽章",
+        "description": "作为家卫，你的角色是保护盟友免受外部威胁。你将负责加固防御并确保定居者的安全。"
+      },
+      {
+        "key": "role3",
+        "title": "定居者",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "定居者徽章",
+        "description": "作为定居者，你的任务是建立和发展你的定居点。你将负责收集资源、建造建筑并扩展领地。"
+      }
+    ]
+  },
+
+  "sv": {
+    "learnRoles": {
+      "title": "Lär dig din Roll",
+      "description": "Att förstå din roll är avgörande för framgång i spelet. Varje roll har unika ansvar och förmågor."
+    },
+    "roles": [
+      {
+        "key": "role1",
+        "title": "Upptäckare",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "Upptäckarvapen",
+        "description": "Som upptäckare är det din plikt att utforska landet och hitta nya resurser för din bosättning. Du kommer ofta vara den första att möta nya utmaningar och möjligheter."
+      },
+      {
+        "key": "role2",
+        "title": "Hemvakt",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "Hemvaktens vapen",
+        "description": "Som Hemvakt är din roll att skydda dina allierade från yttre hot. Du ansvarar för att stärka försvaret och säkerställa tryggheten i bosättningen."
+      },
+      {
+        "key": "role3",
+        "title": "Nybyggare",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "Nybyggarvapen",
+        "description": "Som nybyggare är din roll att etablera och utveckla din bosättning. Du ansvarar för att samla resurser, bygga strukturer och expandera territoriet."
+      }
+    ]
+  },
+
+  "ja": {
+    "learnRoles": {
+      "title": "役割を学ぶ",
+      "description": "役割を理解することは、ゲームで成功するために重要です。各役割には独自の責任と能力があります。"
+    },
+    "roles": [
+      {
+        "key": "role1",
+        "title": "探検家",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "探検家の紋章",
+        "description": "探検家として、あなたの任務は土地を偵察し、入植地の新しい資源を見つけることです。新たな挑戦や機会に最初に直面することが多いでしょう。"
+      },
+      {
+        "key": "role2",
+        "title": "ホームガード",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "ホームガードの紋章",
+        "description": "ホームガードとして、あなたの役割は味方を外部の脅威から守ることです。防御を強化し、入植者の安全を確保する責任があります."
+      },
+      {
+        "key": "role3",
+        "title": "入植者",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "入植者の紋章",
+        "description": "入植者として、あなたの役割は入植地を確立し発展させることです。資源を集め、建造物を建て、領土を拡大する責任があります。"
+      }
+    ]
+  },
+
+  "de": {
+    "learnRoles": {
+      "title": "Lerne Deine Rolle",
+      "description": "Das Verständnis deiner Rolle ist entscheidend für den Erfolg im Spiel. Jede Rolle hat einzigartige Verantwortlichkeiten und Fähigkeiten."
+    },
+    "roles": [
+      {
+        "key": "role1",
+        "title": "Entdecker",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "Entdeckerwappen",
+        "description": "Als Entdecker ist es deine Aufgabe, das Land zu erkunden und neue Ressourcen für deine Siedlung zu finden. Du wirst oft der Erste sein, der neuen Herausforderungen und Chancen begegnet."
+      },
+      {
+        "key": "role2",
+        "title": "Heimwache",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "Heimwachenwappen",
+        "description": "Als Heimwache besteht deine Aufgabe darin, deine Verbündeten vor äußeren Bedrohungen zu schützen. Du wirst dafür verantwortlich sein, die Verteidigung zu stärken und die Sicherheit deiner Siedler zu gewährleisten."
+      },
+      {
+        "key": "role3",
+        "title": "Siedler",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "crestAlt": "Siedlerwappen",
+        "description": "Als Siedler besteht deine Rolle darin, deine Siedlung aufzubauen und weiterzuentwickeln. Du wirst Ressourcen sammeln, Gebäude errichten und dein Gebiet erweitern."
+      }
+    ]
+  }
 }

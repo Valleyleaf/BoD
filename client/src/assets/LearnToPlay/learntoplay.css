@@ -6,3 +6,15 @@
     height: 100%;
     margin-left: 15px;
 }
+
+.testbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: solid red 1px;
+    border-bottom: solid blue 1px;
+    border-right: solid purple 1px;
+    border-left: solid green 1px;
+    padding-bottom: 1%;
+
+}
