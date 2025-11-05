@@ -1,7 +1,15 @@
 {
-    "English": {
-        "learnIsland": {
-            "title": "Learn Your Faction",
+    "en": {
+        "learnObjectives": {
+            "title": "Objectives",
             "description": "Understanding your faction is crucial for success in the game. Each faction has unique characteristics and abilities."
-        }
+        },
+        "objectives": [
+            {            
+                "objective": "Something",
+                "thumbnail": "Example",
+                "thumbnailalt": "alt",
+                "description": "Example"
+            }
+        ]
 }}

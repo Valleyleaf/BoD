@@ -7,7 +7,7 @@ const LearnIsland = () => {
   const { i18n } = useTranslation();
 
   const languageData = islandJson[i18n.language] || islandJson.en;
-  const { learnIsland, island } = languageData;
+  const { learnIsland, islandTopics } = languageData;
 
   return (
     <div className="learn-island">
@@ -17,14 +17,14 @@ const LearnIsland = () => {
       </div>
 
       <ul className="flexColumn center-content">
-        {island.map((island, index) => (
+        {islandTopics.map((island, index) => (
           <div key={index}>
             <div className='islandContainer'>
               <div>
               <h3>{island.title}</h3>
               <p>{island.description}</p>
               </div>
-              <img src={island.crest} alt={island.crestAlt}/>
+              <img src={island.thumbnail} alt={island.thumbnailAlt}/>
             </div>
           </div>
         ))}

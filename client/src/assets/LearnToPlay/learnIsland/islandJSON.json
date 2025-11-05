@@ -1,7 +1,15 @@
 {
     "en": {
         "learnIsland": {
-            "title": "Learn Your Faction",
+            "title": "The Island",
             "description": "Understanding your faction is crucial for success in the game. Each faction has unique characteristics and abilities."
+        },
+    "islandTopics": [
+        {
+        "title": "title",
+        "description": "description",
+        "thumbnail": "example",
+        "thumbnailAlt": "thumbnailalt"
         }
+    ]
 }}

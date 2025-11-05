@@ -21,7 +21,7 @@ const LearnObjectives = () => {
           <li key={index}>
             <div>
               <h3>{objective.title}</h3>
-              <img src={objective.crest} alt={objective.crestAlt} />
+              <img src={objective.thumbnail} alt={objective.thumbnail} />
               <p>{objective.description}</p>
             </div>
           </li>
