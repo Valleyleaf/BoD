@@ -20,7 +20,7 @@ function RoleRender({ character }) {
                   </div>
                   {/* <p className='roles'>{character.roles.join(', ')}</p> */}
                   <div>
-                    {character.roles.map((text, i) => <p key={i} className='roles'>{text}</p>)}
+                    {character.roles.map((text, i) => <p key={i} className='roles'> &diams; {text}</p>)}
                   </div>
                 </div>
             </div>

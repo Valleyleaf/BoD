@@ -81,21 +81,6 @@
   margin: 15px;
 }
 
-.heroFrame{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  color: white;
-  padding: 0px 2px 0px 2px;
-  margin: 5px;
-  font-size: 12px;
-  font-style: italic;
-  white-space: nowrap;
-  transition: ease 0.3s;
-  cursor: pointer;
-  transition: opacity 0.5s ease;
-}
-
 .characterDescription{
   text-align: left;
   font-style: italic;
@@ -103,53 +88,6 @@
   color: #ffffff;
   margin: 20px;
   max-width: 70ch;
-}
-
-.splashArt{
-  display: block;
-  object-fit: cover;
-  width: 200px;
-  height: 300px;
-  border: solid 1px rgb(174, 232, 240);
-}
-
-.splashArt:hover{
-  border: solid 1px rgb(174, 232, 240);
-  transition: ease 0.3s;
-  box-shadow: 0 0 10px rgba(0, 238, 255, 0.5);
-}
-
-.comList{
-    transform-style: preserve-3d;
-    transform: perspective(2000px);
-}
-
-.comList .comImg{
-    transition: .5s;
-    filter: brightness(0.5);
-}
-
-.comList .comImg:hover{
-    filter: brightness(1);
-    transform: translateY(5px);
-}
-
-.hoverTitle {
-    position: absolute;
-    top: 55%;
-    transform: translate(0%, 400%);
-    display: none;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.heroFrame:hover .hoverTitle {
-    display: block;
-    opacity: 1;
-    color: white;
-    transition: opacity 0.3s ease;
-    background: linear-gradient(to top, #000000, #feb47b00);
-    width: 100%;
 }
 
 .fade-slide-up {
@@ -212,19 +150,6 @@
   align-items: center;
   }
 
-  .splashArt{
-  display: block;
-  object-fit: cover;
-  width: 100px;
-  height: 250px;
-  border: solid 1px rgb(174, 232, 240);
-}
-.heroFrame{
-  width: 100px;
-  height: 125px;
-  padding: 0px 5px 10px 5px;
-}
-
 }
 
 .commanderBackgroundWrapper {
@@ -253,7 +178,6 @@
   z-index: 2;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .commanderBackgroundImage {
     background-position: center center;
