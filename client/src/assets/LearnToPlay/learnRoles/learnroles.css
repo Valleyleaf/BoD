@@ -1,3 +1,13 @@
+.learn-roles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 1%;
+}
+
 .roles-header {
     display: flex;
     flex-direction: column;
@@ -7,8 +17,30 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+.learnRolestitle{
+    font-size: 32px;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 20px;
+}
+
 .rolesContainer{
     display: flex;
     flex-direction: row;
-    
+    width: 100%;
+    height: auto;
+    background: linear-gradient(to top, #000000, #feb47b00);
+}
+
+.rolesTitle{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-family: "Bebas Neue", sans-serif;
+    padding: 1%;
+    margin: 1%;
+}
+
+.roleCrest{
+    width: 600px;
+    height: auto;
 }

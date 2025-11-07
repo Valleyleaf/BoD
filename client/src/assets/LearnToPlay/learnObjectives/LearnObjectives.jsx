@@ -21,7 +21,23 @@ const LearnObjectives = () => {
           <li key={index}>
             <div>
               <h3>{objective.title}</h3>
-              <img src={objective.thumbnail} alt={objective.thumbnail} />
+                {!videoError ? (
+                    <video 
+                        ref={videoRef}
+                        className="objectiveVideo"
+                        autoPlay
+                        loop
+                        muted
+                        playsInline
+                        preload="auto"
+                        onError={handleVideoError}>
+                        <source src={objective.video} type="video/mp4" />
+                    </video>
+                ) : (
+                    <div className="video-fallback">
+                        <p>Video could not be loaded</p>
+                    </div>
+                )}
               <p>{objective.description}</p>
             </div>
           </li>
