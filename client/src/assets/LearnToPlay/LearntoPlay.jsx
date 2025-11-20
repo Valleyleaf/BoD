@@ -18,7 +18,7 @@ const LearnToPlay = () => {
   const topics = [
     LearnRoles,
     LearnFactions,
-    LearnIsland,
+    // LearnIsland,
     LearnObjectives,
   ];
 
