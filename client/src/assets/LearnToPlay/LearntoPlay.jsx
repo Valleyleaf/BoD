@@ -24,7 +24,8 @@ const LearnToPlay = () => {
 
   return (
     <div className="learn-to-play">
-      <h2>{title}</h2>
+      <h2 className='l2pTitle'>{title}</h2>
+        <div className="homeDivider"></div>
       <p>{description}</p>
       {topics.map((Topic, index) => (
         <div className="testbox" key={index}>

@@ -6,9 +6,9 @@
         },
         "objectives": [
             {            
-                "objective": "Something",
-                "thumbnail": "Example",
-                "thumbnailalt": "alt",
+                "title": "Something",
+                "video": "https://res.cloudinary.com/dvutcekav/video/upload/v1758154917/Promo2_qvz6qi.mp4",
+                "videoAlt": "alt",
                 "description": "Example"
             }
         ]

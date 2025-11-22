@@ -1,18 +1,42 @@
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { useTranslation } from 'react-i18next';
 import objectivesJson from './objectivesJSON.json';
 import './learnobjectives.css';
 
 const LearnObjectives = () => {
+  const videoRef = useRef(null);
   const { i18n } = useTranslation();
   const [videoError, setVideoError] = useState(false);
   const languageData = objectivesJson[i18n.language] || objectivesJson.en;
   const { learnObjectives, objectives } = languageData;
-  const tempVideo = "https://res.cloudinary.com/dvutcekav/video/upload/v1758154917/Promo2_qvz6qi.mp4"
   const handleVideoError = (e) => {
       console.error('Video error:', e);
       setVideoError(true);
   };
+
+  useEffect(() => {
+      const video = videoRef.current;
+      
+      if (video) {
+          // Add a small delay to ensure the video is loaded
+          setTimeout(() => {
+              const playPromise = video.play();
+              if (playPromise !== undefined) {
+                  playPromise
+                      .then(() => {
+                          console.log('Video is playing successfully');
+                      })
+                      .catch(error => {
+                          console.log('Autoplay failed:', error);
+                          // Try again after user interaction
+                          document.addEventListener('click', () => {
+                              video.play().catch(e => console.log('Manual play failed:', e));
+                          }, { once: true });
+                      });
+              }
+          }, 1000);
+      }
+  }, []);
 
   return (
     <div className="learn-objectives">
@@ -20,12 +44,15 @@ const LearnObjectives = () => {
         <h2>{learnObjectives.title}</h2>
         <p>{learnObjectives.description}</p>
       </div>
-      <ul className="flexColumn center-content">
+      <div className="flexColumn center-content">
         {objectives.map((objective, index) => (
-          <li key={index}>
+          <div className="flexRow center-content" key={index}>
             <div>
-              <h3>{objective.title}</h3>
-                {!videoError ? (
+              <h2>{objective.title}</h2>
+              <p>{objective.description}</p>
+            </div>
+            <div>
+              {!videoError ? (
                     <video 
                         ref={videoRef}
                         className="objectiveVideo"
@@ -35,18 +62,17 @@ const LearnObjectives = () => {
                         playsInline
                         preload="auto"
                         onError={handleVideoError}>
-                        <source src={tempVideo} type="video/mp4" />
+                        <source src={objective.video} type="video/mp4" />
                     </video>
                 ) : (
                     <div className="video-fallback">
                         <p>Video could not be loaded</p>
                     </div>
                 )}
-              <p>{objective.description}</p>
             </div>
-          </li>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
