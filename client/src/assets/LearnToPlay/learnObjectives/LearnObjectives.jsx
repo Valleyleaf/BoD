@@ -51,7 +51,7 @@ const LearnObjectives = () => {
               <h2>{objective.title}</h2>
               <p>{objective.description}</p>
             </div>
-            <div>
+            {/* <div>
               {!videoError ? (
                     <video 
                         ref={videoRef}
@@ -69,7 +69,7 @@ const LearnObjectives = () => {
                         <p>Video could not be loaded</p>
                     </div>
                 )}
-            </div>
+            </div> */}
           </div>
         ))}
       </div>

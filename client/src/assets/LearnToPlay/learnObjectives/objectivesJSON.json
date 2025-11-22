@@ -2,14 +2,68 @@
     "en": {
         "learnObjectives": {
             "title": "Objectives",
-            "description": "Understanding your faction is crucial for success in the game. Each faction has unique characteristics and abilities."
+            "description": "The Island is home to boundless resources and opportunities. Mastering its terrain and secrets is key to thriving in the game."
         },
         "objectives": [
-            {            
-                "title": "Something",
-                "video": "https://res.cloudinary.com/dvutcekav/video/upload/v1758154917/Promo2_qvz6qi.mp4",
-                "videoAlt": "alt",
-                "description": "Example"
+            {
+            "title": "The Temple of the Mortal Throne",
+            "description": "The centre stage of this conflict. The Temple of the Mortal Throne is a massive structure that houses the seat of power for whoever controls it. At it's peak lies the Mortal Throne itself,",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt"
+            },
+            {
+            "title": "Clash Points",
+            "description": "There are several spots around the Island known as 'Clash Points'. These are areas of strategic importance. Your faction must vie for control over these points to gain advantages in resources and tactical positioning.",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt"
+            },
+            {
+            "title": "Clash Units",
+            "description": "Clash Units are specialized forces deployed by each faction to gain control over Clash Points. These units are periodicaly dispatched from your faction's Headquarters.",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt"
+            },
+            {
+            "title": "Headquarters",
+            "description": "This is your main base of operations on the Island. From here you are able to specialize your faction's strengths.",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt"
+            },
+            {
+            "title": "Gate Keeper",
+            "description": "This radiant stone stands at the centre of your landing zone. It serves as warden, protecting your faction's territory from enemy incursions. Shall it fall, it will take you with it.",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt"
+            },
+            {
+            "title": "Crystal Mines",
+            "description": "Through years of conflict, the Island has become rich in mana Crystals. This precious resource is essential for powering your Headquarters and deploying Clash Units. Securing and controlling Crystal Mines is vital for your faction's survival and dominance on the Island.",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt"
+            },
+            {
+            "title": "The Faithless",
+            "description": "Found around the Island are rogue entities known as the Faithless. These beings operate outside the control of any faction, and have their own motives for being on these shores. Strike them down and claim whatever resources they have gathered for your own faction's benefit.",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt"
+            },
+            {
+            "title": "The Library and Temple of the Seas",
+            "description": "Located to the north-east and south-west of the Island respectively, these ancient structures are home to the Islands most powerful residents. Defeating them will yield God Metals.",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt"
+            },
+            {
+            "title": "God Metals",
+            "description": "These ancient alloys are imbued with powerful magical properties. Bring a God Metal, along with a forgable item to the Mortal Throne to forge a Mythic Item.",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt"
+            },
+            {
+            "title": "Example",
+            "description": "Example",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt"
             }
         ]
 }}

@@ -10,14 +10,28 @@
             "title": "Mechanisms",
             "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
             "crestAlt": "Mechanisms Crest",
-            "description": "Lopsum Ipsum"
+            "description": "The Mechanisms are a versatile faction, known for their adaptability and resourcefulness. Their focus lies in a balanced approach to offensive and defensive strategies."
             },
             {
             "key": "faction2",
             "title": "Void Whisperers",
             "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
             "crestAlt": "VoidWhisperers Crest",
-            "description": "Lopsum Ipsum"
+            "description": "The Void Whisperers excel in ground control. Focusing on territorial dominance and key use of strong global abilities, they are formidable opponents in any confrontation."
+            },
+            {
+            "key": "faction3",
+            "title": "Inferno Crusade",
+            "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+            "crestAlt": "Inferno Crusade Crest",
+            "description": "The Inferno Crusade is considered the most agressive of factions, focusing primarally on offensive capabilities. Their strength lies in overwhelming their opponents with sheer power and relentless attacks."
+            },
+            {
+            "key": "faction4",
+            "title": "The Green Order",
+            "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+            "crestAlt": "Green Order Crest",
+            "description": "The Green Order is known for their resilience and strategic defense. They excel in fortifying positions and outlasting their opponents."
             }
         ]
     }
