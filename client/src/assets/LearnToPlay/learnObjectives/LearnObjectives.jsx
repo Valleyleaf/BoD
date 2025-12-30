@@ -47,9 +47,9 @@ const LearnObjectives = () => {
       <div className="flexColumn center-content">
         {objectives.map((objective, index) => (
           <div className="flexRow center-content" key={index}>
-            <div>
-              <h2>{objective.title}</h2>
-              <p>{objective.description}</p>
+            <div className="objectiveTextContainer">
+              <h2 className="objectiveTitle">{objective.title}</h2>
+              <p className="objectiveDisc">{objective.description}</p>
             </div>
             {/* <div>
               {!videoError ? (

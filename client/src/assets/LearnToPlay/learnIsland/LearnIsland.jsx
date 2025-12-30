@@ -20,11 +20,11 @@ const LearnIsland = () => {
         {islandTopics.map((island, index) => (
           <div key={index}>
             <div className='islandContainer'>
-              <div>
+              <div className='islandTextContainer'>
               <h3>{island.title}</h3>
               <p>{island.description}</p>
               </div>
-              <img src={island.thumbnail} alt={island.thumbnailAlt}/>
+              <img className="islandThumbnail" src={island.thumbnail} alt={island.thumbnailAlt}/>
             </div>
           </div>
         ))}

@@ -29,18 +29,31 @@
     width: 100%;
     height: auto;
     background: linear-gradient(to top, #000000, #feb47b00);
+    padding: 4px;
+    margin: 1%;
 }
 
-.rolesTitle{
+.rolesTextContainer{
     display: flex;
     flex-direction: column;
-    font-size: 16px;
     font-family: "Bebas Neue", sans-serif;
     padding: 1%;
     margin: 1%;
 }
 
+.rolesTitle{
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 2px;
+}
+
+.rolesDisc{
+    font-size: 18px;
+}
+
 .roleCrest{
-    width: 200px;
+    width: 150px;
     height: auto;
+    padding: 2%;
+    margin: 4px;
 }

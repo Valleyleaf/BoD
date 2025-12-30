@@ -19,10 +19,12 @@ const LearnFactions = () => {
       <ul className="flexColumn center-content">
         {factions.map((faction, index) => (
           <li key={index}>
-            <div>
-              <h3>{faction.title}</h3>
+            <div className="factionContainer">
+              <div className="factionTextContainer">
+                <h3>{faction.title}</h3>
+                <p>{faction.description}</p>
+              </div>
               <img src={faction.crest} alt={faction.crestAlt} />
-              <p>{faction.description}</p>
             </div>
           </li>
         ))}

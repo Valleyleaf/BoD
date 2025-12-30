@@ -20,9 +20,9 @@ const LearnRoles = () => {
         {roles.map((role, index) => (
           <div key={index}>
             <div className='rolesContainer'>
-              <div className='rolesTitle'>
-              <h3>{role.title}</h3>
-              <p>{role.description}</p>
+              <div className='rolesTextContainer'>
+              <h3 className='rolesTitle'>{role.title}</h3>
+              <p className='rolesDisc'>{role.description}</p>
               </div>
               <img className='roleCrest' src={role.crest} alt={role.crestAlt}/>
             </div>
