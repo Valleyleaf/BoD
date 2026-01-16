@@ -25,4 +25,4 @@ function RenderPatchNote({ note }) {
 
 export default RenderPatchNote;
 
-//This is garbage. Change it. Make smaller components like the Dota page. Limit properties.
+//Will need to set this up to render based on information probided by mongoDB. Empty fields will be present so stylings will need to accomodate.
