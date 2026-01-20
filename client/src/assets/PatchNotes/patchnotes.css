@@ -1,3 +1,13 @@
-.patchnotesMain{
-    
+.patch-note-card {
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+.patch-thumbnail {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+  /* Hide if the src is broken */
+  &:not([src]) { display: none; }
 }
