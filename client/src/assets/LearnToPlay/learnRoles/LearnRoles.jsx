@@ -13,7 +13,7 @@ const LearnRoles = () => {
     <div className="learn-roles">
       <div className="roles-header">
         <h2 className='learnRolestitle'>{learnRoles.title}</h2>
-        <p className='RoleHeaderDisc'>{learnRoles.description}</p>
+        {/* <p className='RoleHeaderDisc'>{learnRoles.description}</p> */}
       </div>
 
       <div className="flexRow">

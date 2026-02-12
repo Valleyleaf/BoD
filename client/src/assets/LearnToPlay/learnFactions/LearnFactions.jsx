@@ -9,6 +9,18 @@ const LearnFactions = () => {
   const languageData = factionsJson[i18n.language] || factionsJson.en;
   const { learnFactions, factions } = languageData;
 
+  function sampleAbility(faction) {
+    return (
+      <div className='sampleAbilityContainer'>
+        <h2 className='sampleAbilityTitle'>Perk: {faction.sampleAbilityTitle}</h2>
+        <div className='flexRow'>
+          <img className='factionIcon' src={faction.sampleAbilityImage} alt={faction.crestAlt}/>
+          <p className='sampleAbilityDisc'>{faction.sampleAbilityDisc}</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="learn-factions">
       <div className="factions-header">
@@ -16,7 +28,7 @@ const LearnFactions = () => {
         <p>{learnFactions.description}</p>
       </div>
 
-      <ul className="flexColumn center-content">
+      <ul className="factionGrid">
         {factions.map((faction, index) => (
           <div key={index}>
             <div className="factionContainer"
@@ -28,10 +40,13 @@ const LearnFactions = () => {
               }}
             >
               <div className="factionTextContainer">
-                <h3>{faction.title}</h3>
+                <div className='flexRow center-content'>
+                  <h3 className='factionTitle'>{faction.title}</h3>
+                  <img className='factionIcon' src={faction.crest} alt={faction.crestAlt}/>
+                </div>
                 <p>{faction.description}</p>
               </div>
-              <img src={faction.crest} alt={faction.crestAlt} />
+                {sampleAbility(faction)}
             </div>
           </div>
         ))}

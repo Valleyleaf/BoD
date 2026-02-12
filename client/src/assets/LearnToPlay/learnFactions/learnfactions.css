@@ -1,11 +1,69 @@
+.factionGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    justify-items: center;
+    align-items: start;
+}
+
+@media (max-width: 600px) {
+    .factionGrid {
+        grid-template-columns: 1fr; 
+    }
+}
+
 .factionContainer{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-bottom: 20px;
+    flex-direction: column;
+    width: 300px;
+    height: 800px;
+    padding: 30px;
+    margin: 1%;
+    border: solid #05ddcb 2px;
+    box-shadow: 0px 0px 5px #00ffff57, 0px 0px 10px #00ffff, 0px 0px 20px #00ffff52;;
+    transform: ease-in-out 0.3s;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 0px 0px 175px 175px;
+}
+
+.factionTitle{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 38px;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 5px #00ffff57, 0px 0px 10px #00ffff, 0px 0px 20px #00ffff52;
+    margin-right: 15px;
 }
 
 .factionTextContainer{
+    height: 300px;
     margin-bottom: 10px;
-    text-align: flex-start;
+    text-align: left;
+}
+
+.factionIcon{
+    width: 50px;
+    height: 50px;
+}
+
+.sampleAbilityTitle{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 28px;
+    text-align: left;
+    text-wrap: none;
+    margin: 0px 20px 0px 0px;
+    text-shadow: 0px 0px 5px #00ffff57, 0px 0px 10px #00ffff, 0px 0px 20px #00ffff52;
+}
+
+.sampleAbilityContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 400px;
+    margin-top: 10px;
+}
+
+.sampleAbilityDisc{
+    font-size: 14px;
+    text-align: left;
+    margin: 0px 0px 0px 5px;
 }
