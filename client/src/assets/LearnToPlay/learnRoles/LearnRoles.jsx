@@ -13,22 +13,31 @@ const LearnRoles = () => {
     <div className="learn-roles">
       <div className="roles-header">
         <h2 className='learnRolestitle'>{learnRoles.title}</h2>
-        <p>{learnRoles.description}</p>
+        <p className='RoleHeaderDisc'>{learnRoles.description}</p>
       </div>
 
-      <ul className="flexColumn center-content">
+      <div className="flexRow">
         {roles.map((role, index) => (
           <div key={index}>
-            <div className='rolesContainer'>
+            <div className='rolesContainer'
+              style={{
+                backgroundImage: `linear-gradient(rgba(26, 26, 26, 0.16), rgba(26, 26, 26, 0.99)), url(${role.backgroundImage})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center top',
+                backgroundRepeat: 'no-repeat'
+              }}
+            >
               <div className='rolesTextContainer'>
-              <h3 className='rolesTitle'>{role.title}</h3>
+                <div className='roleTitleContainer'>
+                  <h3 className='rolesTitle'>{role.title}</h3>
+                  <img className='roleCrest' src={role.crest} alt={role.crestAlt}/>
+                </div>
               <p className='rolesDisc'>{role.description}</p>
               </div>
-              <img className='roleCrest' src={role.crest} alt={role.crestAlt}/>
             </div>
           </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

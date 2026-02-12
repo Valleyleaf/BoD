@@ -1,7 +1,7 @@
 {
   "en": {
     "learnRoles": {
-      "title": "Learn Your Role",
+      "title": "Roles",
       "description": "Understanding your role is crucial for success in the game. Each role has unique responsibilities and abilities."
     },
     "roles": [
@@ -9,6 +9,7 @@
         "key": "role1",
         "title": "Explorer",
         "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
         "crestAlt": "Explorer Crest",
         "description": "As an explorer, it is your duty to scout the land and find new resources for your settlement. You will often be the first to encounter new challenges and opportunities."
       },
@@ -16,6 +17,7 @@
         "key": "role2",
         "title": "HomeGuard",
         "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
         "crestAlt": "HomeGuard Crest",
         "description": "As a HomeGuard, your role is to protect your allies from external threats. You will be responsible for fortifying defenses and ensuring the safety of your fellow settlers."
       },
@@ -23,6 +25,7 @@
         "key": "role3",
         "title": "Settler",
         "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+        "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
         "crestAlt": "Settler Crest",
         "description": "As a Settler, your role is to establish and develop your settlement. You will be responsible for gathering resources, building structures, and expanding your territory."
       }

@@ -18,15 +18,22 @@ const LearnFactions = () => {
 
       <ul className="flexColumn center-content">
         {factions.map((faction, index) => (
-          <li key={index}>
-            <div className="factionContainer">
+          <div key={index}>
+            <div className="factionContainer"
+                style={{
+                backgroundImage: `linear-gradient(rgba(26, 26, 26, 0.16), rgba(26, 26, 26, 0.99)), url(${faction.backgroundImage})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center top',
+                backgroundRepeat: 'no-repeat'
+              }}
+            >
               <div className="factionTextContainer">
                 <h3>{faction.title}</h3>
                 <p>{faction.description}</p>
               </div>
               <img src={faction.crest} alt={faction.crestAlt} />
             </div>
-          </li>
+          </div>
         ))}
       </ul>
     </div>
