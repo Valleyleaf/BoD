@@ -21,11 +21,22 @@ const LearnFactions = () => {
     );
   }
 
+    function sampleHQ(faction) {
+    return (
+      <div className='sampleAbilityContainer'>
+        <h2 className='sampleAbilityTitle'>Headquarter: {faction.sampleHQTitle}</h2>
+        <div className='flexRow'>
+          <img className='factionIcon' src={faction.sampleHQImage} alt={faction.crestAlt}/>
+          <p className='sampleAbilityDisc'>{faction.sampleHQDisc}</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="learn-factions">
       <div className="factions-header">
-        <h2>{learnFactions.title}</h2>
-        <p>{learnFactions.description}</p>
+        <h2 className='factionTitle'>{learnFactions.title}</h2>
       </div>
 
       <ul className="factionGrid">
@@ -47,6 +58,7 @@ const LearnFactions = () => {
                 <p>{faction.description}</p>
               </div>
                 {sampleAbility(faction)}
+                {sampleHQ(faction)}
             </div>
           </div>
         ))}

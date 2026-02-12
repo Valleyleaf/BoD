@@ -16,7 +16,7 @@
 
 }
 
-.testbox{
+/* .testbox{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,8 +25,7 @@
     border-right: solid purple 1px;
     border-left: solid green 1px;
     padding-bottom: 1%;
-
-}
+} */
 
   @keyframes fadeSlideUp {
     0% {

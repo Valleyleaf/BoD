@@ -14,7 +14,10 @@
             "description": "The Mechanisms are a versatile faction, known for their adaptability and resourcefulness. Their focus lies in a balanced approach to offensive and defensive strategies.",
             "sampleAbilityTitle": "Steel Plated",
             "sampleAbilityDisc":"Causes your Commander to gain 4 armor plates. Each plate blocks portional damage.",
-            "sampleAbilityImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg"
+            "sampleAbilityImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+            "sampleHQTitle": "The Factory",
+            "sampleHQDisc": "The Factory is a powerful structure that allows you to produce units.",
+            "sampleHQImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg"
             },
             {
             "key": "faction2",
@@ -25,7 +28,10 @@
             "description": "The Void Whisperers excel in ground control. Focusing on territorial dominance and key use of strong global abilities, they are formidable opponents in any confrontation.",
             "sampleAbilityTitle": "Void Rats",
             "sampleAbilityDisc":"Attacking enemy units can cause rats to spawn. Rats will attack the nearest enemy unit.",
-            "sampleAbilityImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg"
+            "sampleAbilityImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+            "sampleHQTitle": "The Void Gate",
+            "sampleHQDisc": "The Void Gate is a powerful structure that allows you to summon units from the void.",
+            "sampleHQImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg"
             },
             {
             "key": "faction3",
@@ -36,7 +42,10 @@
             "description": "The Inferno Crusade is considered the most aggressive of factions, focusing primarily on offensive capabilities. Their strength lies in overwhelming their opponents with sheer power and relentless attacks.",
             "sampleAbilityTitle": "Brimstone Enchant",
             "sampleAbilityDisc":"Targeted spells deal additional damage over time.",
-            "sampleAbilityImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg"
+            "sampleAbilityImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+            "sampleHQTitle": "The Inferno Forge",
+            "sampleHQDisc": "The Inferno Forge is a powerful structure that allows you to forge powerful weapons and units.",
+            "sampleHQImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg"
             },
             {
             "key": "faction4",
@@ -47,7 +56,10 @@
             "description": "The Green Order is known for their resilience and strategic defense. They excel in fortifying positions and outlasting their opponents.",
             "sampleAbilityTitle": "Nature's Resilience",
             "sampleAbilityDisc":"While inside your territory, gain bonus health regeneration.",
-            "sampleAbilityImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg"
+            "sampleAbilityImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+            "sampleHQTitle": "The Grove",
+            "sampleHQDisc": "The Grove is a powerful structure that allows you to grow powerful plants and units.",
+            "sampleHQImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg"
             }
         ]
     }
