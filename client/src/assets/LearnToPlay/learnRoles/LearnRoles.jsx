@@ -18,15 +18,15 @@ const LearnRoles = () => {
 
       <div className="flexRow">
         {roles.map((role, index) => (
-          <div key={index}>
-            <div className='rolesContainer'
-              style={{
-                backgroundImage: `linear-gradient(rgba(26, 26, 26, 0.16), rgba(26, 26, 26, 0.99)), url(${role.backgroundImage})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center top',
-                backgroundRepeat: 'no-repeat'
-              }}
-            >
+          <div 
+            key={index} 
+            className='rolesContainer'
+            style={{
+              backgroundImage: `linear-gradient(rgba(26, 26, 26, 0.16), rgba(26, 26, 26, 0.99)), url(${role.backgroundImage})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center top',
+              backgroundRepeat: 'no-repeat'
+            }}>
               <div className='rolesTextContainer'>
                 <div className='roleTitleContainer'>
                   <h3 className='rolesTitle'>{role.title}</h3>
@@ -34,7 +34,6 @@ const LearnRoles = () => {
                 </div>
               <p className='rolesDisc'>{role.description}</p>
               </div>
-            </div>
           </div>
         ))}
       </div>
