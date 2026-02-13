@@ -25,6 +25,7 @@
     border-right: solid purple 1px;
     border-left: solid green 1px;
     padding-bottom: 1%;
+    width: 100%;
 } */
 
   @keyframes fadeSlideUp {

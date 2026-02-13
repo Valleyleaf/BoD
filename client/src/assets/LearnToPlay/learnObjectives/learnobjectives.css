@@ -1,38 +1,65 @@
 .learn-objectives{
     display: flex;
     flex-direction: column;
+    width: 100vw;
+}
+
+.objectiveContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .objectives-header{
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 0px 0px 5px #05050557, 0px 0px 10px #080808, 0px 0px 20px #0f0f0f52;
+    font-size: 42px;
     margin-bottom: 20px;
     text-align: center;
 }
 
 .objectiveVideo{
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 650px;
+    height: auto;
     object-fit: cover;
     opacity: 1;
-    border-radius: 150px;
+    border-radius: 15px;
 }
 
 .objectiveTextContainer{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
     margin-top: 10px;
-    padding: 2%;
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
 }
 
 .objectiveTitle{
-    font-size: 18px;
+    font-size: 38px;
     font-weight: bold;
-    margin-top: 10px;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 10px 0px 0px 0px;
+    text-shadow: 0px 0px 5px #05050557, 0px 0px 10px #080808, 0px 0px 20px #0f0f0f52;
 }
 
 .objectiveDisc{
-    font-size: 14px;
+    width: 450px;
+    text-align: left;
+    font-size: 18px;
     margin-top: 5px;
+    padding: 2%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.objectiveContent{
+    display: flex;
+    text-transform: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
 }

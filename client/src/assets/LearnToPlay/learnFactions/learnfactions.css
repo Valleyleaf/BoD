@@ -1,29 +1,21 @@
 .factionGrid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); 
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
     justify-items: center;
-    align-items: start;
-}
-
-@media (max-width: 600px) {
-    .factionGrid {
-        grid-template-columns: 1fr; 
-    }
+    align-items: center;
 }
 
 .factionContainer{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 300px;
-    height: 800px;
-    padding: 30px;
-    margin: 1%;
+    height: 630px;
+    padding: 0px 15px 0px 15px;
+    margin: 0px 15px 50px 15px;
     border: solid #05ddcb 2px;
     box-shadow: 0px 0px 5px #00ffff57, 0px 0px 10px #00ffff, 0px 0px 20px #00ffff52;;
-    transform: ease-in-out 0.3s;
-    transition: transform 0.3s ease-in-out;
-    border-radius: 0px 0px 175px 175px;
+    border-radius: 5px;
 }
 
 .factionTitle{
@@ -43,6 +35,12 @@
 .factionIcon{
     width: 50px;
     height: 50px;
+}
+
+.sampleAbilityIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 180px;
 }
 
 .sampleAbilityTitle{

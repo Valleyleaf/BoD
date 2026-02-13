@@ -12,9 +12,9 @@ const LearnFactions = () => {
   function sampleAbility(faction) {
     return (
       <div className='sampleAbilityContainer'>
-        <h2 className='sampleAbilityTitle'>Perk: {faction.sampleAbilityTitle}</h2>
+        <h2 className='sampleAbilityTitle'>Unique Perk: {faction.sampleAbilityTitle}</h2>
         <div className='flexRow'>
-          <img className='factionIcon' src={faction.sampleAbilityImage} alt={faction.crestAlt}/>
+          <img className='sampleAbilityIcon' src={faction.sampleAbilityImage} alt={faction.crestAlt}/>
           <p className='sampleAbilityDisc'>{faction.sampleAbilityDisc}</p>
         </div>
       </div>
@@ -39,12 +39,12 @@ const LearnFactions = () => {
         <h2 className='factionTitle'>{learnFactions.title}</h2>
       </div>
 
-      <ul className="factionGrid">
+      <div className="factionGrid">
         {factions.map((faction, index) => (
           <div key={index}>
             <div className="factionContainer"
                 style={{
-                backgroundImage: `linear-gradient(rgba(26, 26, 26, 0.16), rgba(26, 26, 26, 0.99)), url(${faction.backgroundImage})`,
+                backgroundImage: `linear-gradient(rgba(26, 26, 26, 0.64), rgba(26, 26, 26, 0.99)), url(${faction.backgroundImage})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center top',
                 backgroundRepeat: 'no-repeat'
@@ -62,7 +62,7 @@ const LearnFactions = () => {
             </div>
           </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

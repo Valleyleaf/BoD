@@ -13,7 +13,7 @@ const LearnObjectives = () => {
       console.error('Video error:', e);
       setVideoError(true);
   };
-
+  
   useEffect(() => {
       const video = videoRef.current;
       
@@ -40,36 +40,44 @@ const LearnObjectives = () => {
 
   return (
     <div className="learn-objectives">
-      <div className="objectives-header">
-        <h2>{learnObjectives.title}</h2>
-        <p>{learnObjectives.description}</p>
-      </div>
-      <div className="flexColumn center-content">
+        <h2 className="objectives-header">{learnObjectives.title}</h2>
+      <div className="objectiveContainer">
         {objectives.map((objective, index) => (
-          <div className="flexRow center-content" key={index}>
-            <div className="objectiveTextContainer">
-              <h2 className="objectiveTitle">{objective.title}</h2>
-              <p className="objectiveDisc">{objective.description}</p>
-            </div>
-            {/* <div>
-              {!videoError ? (
-                    <video 
-                        ref={videoRef}
-                        className="objectiveVideo"
-                        autoPlay
-                        loop
-                        muted
-                        playsInline
-                        preload="auto"
-                        onError={handleVideoError}>
-                        <source src={objective.video} type="video/mp4" />
-                    </video>
-                ) : (
-                    <div className="video-fallback">
-                        <p>Video could not be loaded</p>
-                    </div>
-                )}
-            </div> */}
+          <div 
+          className="objectiveTextContainer" 
+          key={index}
+          style={{
+          backgroundImage: `linear-gradient(rgba(26, 26, 26, 0.16), rgba(26, 26, 26, 0.99)), url(${objective.sampleBackground})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center top',
+          backgroundRepeat: 'no-repeat'
+          }}
+          >
+              <div className="objectiveContent">
+                <div>
+                  <h2 className="objectiveTitle">{objective.title}</h2>
+                  <p className="objectiveDisc">{objective.description}</p>
+                </div>
+                  <div>
+                    {!videoError ? (
+                          <video 
+                              ref={videoRef}
+                              className="objectiveVideo"
+                              autoPlay
+                              loop
+                              muted
+                              playsInline
+                              preload="auto"
+                              onError={handleVideoError}>
+                              <source src={objective.sampleVideo} type="video/mp4" />
+                          </video>
+                      ) : (
+                          <div className="video-fallback">
+                              <p>Video could not be loaded</p>
+                          </div>
+                      )}
+                  </div>
+                </div>
           </div>
         ))}
       </div>
