@@ -5,7 +5,6 @@ import './learnroles.css';
 
 const LearnRoles = () => {
   const { i18n } = useTranslation();
-
   const languageData = rolesJson[i18n.language] || rolesJson.en;
   const { learnRoles, roles } = languageData;
 
