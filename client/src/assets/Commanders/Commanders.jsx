@@ -6,6 +6,7 @@ import commanderService from '../../services/commanderService';
 import CommanderGroupedList from './CommanderGroupedByAttribute.jsx';
 import CommanderGroupedByFaction from './CommanderGroupedByFaction';
 import CommanderGroupedByDifficulty from './CommanderGroupedByDifficulty.jsx';
+import Error from '../Error/Error.jsx';
 
 function Commanders() {
   const [commanders, setCommanders] = useState([]);
@@ -48,7 +49,7 @@ function Commanders() {
 
 
   if (loading) return <Loading/>;
-  if (error) return <div>Error: {error}</div>;
+  if (error) return <Error />;
 
   return (
     <div className='commanders'>

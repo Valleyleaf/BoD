@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import { useTranslation } from 'react-i18next';
 import objectivesJson from './objectivesJSON.json';
 import './learnobjectives.css';
+import Error from "../../Error/Error";
 
 const LearnObjectives = () => {
   const videoRef = useRef(null);
@@ -72,7 +73,7 @@ const LearnObjectives = () => {
                               <source src={objective.sampleVideo} type="video/mp4" />
                           </video>
                       ) : (
-                          <div className="video-fallback">
+                          <div className="objectiveVideo">
                               <p>Video could not be loaded</p>
                           </div>
                       )}
@@ -86,3 +87,5 @@ const LearnObjectives = () => {
 };
 
 export default LearnObjectives;
+
+// There is an issue here where if one video fails to load, they all go into the ):( else state.

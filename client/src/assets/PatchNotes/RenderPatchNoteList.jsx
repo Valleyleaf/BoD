@@ -2,6 +2,7 @@ import RenderPatchNote from "./RenderPatchNote.jsx";
 import patchService from '../../services/patchService';
 import { useState, useEffect } from 'react';
 import Loading from '../Loading/Loading.jsx';
+import Error from '../Error/Error.jsx';
 
 function PatchNotesList() {
   const [patches, setPatches] = useState([]);
@@ -28,7 +29,7 @@ function PatchNotesList() {
   }, []);
 
   if (loading) return <Loading />;
-  if (error) return <h2 className="center-content">{error}</h2>;
+  if (error) return <Error />;
   if (patches.length === 0) return <h2 className="center-content">No updates found.</h2>;
 
   return (
