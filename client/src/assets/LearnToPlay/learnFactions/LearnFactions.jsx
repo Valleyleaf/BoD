@@ -26,7 +26,7 @@ const LearnFactions = () => {
       <div className='sampleAbilityContainer'>
         <h2 className='sampleAbilityTitle'>Headquarter: {faction.sampleHQTitle}</h2>
         <div className='flexRow'>
-          <img className='factionIcon' src={faction.sampleHQImage} alt={faction.crestAlt}/>
+          <img className='factionHQIcon' src={faction.sampleHQImage} alt={faction.crestAlt}/>
           <p className='sampleAbilityDisc'>{faction.sampleHQDisc}</p>
         </div>
       </div>
@@ -50,10 +50,10 @@ const LearnFactions = () => {
                 backgroundRepeat: 'no-repeat'
               }}
             >
-              <div className="factionTextContainer">
-                <div className='flexRow center-content'>
+              <div className="factionMainContainer">
+                <div className='factionTitleContainer'>
                   <h3 className='factionTitle'>{faction.title}</h3>
-                  <img className='factionIcon' src={faction.crest} alt={faction.crestAlt}/>
+                  <img className='factionCrestIcon' src={faction.crest} alt={faction.crestAlt}/>
                 </div>
                 <p>{faction.description}</p>
               </div>

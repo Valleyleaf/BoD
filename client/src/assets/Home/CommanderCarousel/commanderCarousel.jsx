@@ -5,7 +5,7 @@ import commanderService from '../../../services/commanderService.js';
 import Loading from '../../Loading/Loading.jsx'
 import './commanderCarousel.css';
 const placeholder = 'https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg';
-
+import Error from "../../Error/Error.jsx";
 
 function Commandercarousel() {
 // Break out below to seperate service. Used here and in Commanders.
@@ -33,7 +33,7 @@ function Commandercarousel() {
   }
 
   if (error) {
-    return <div className="commander-carousel">{error}</div>;
+    return <Error message={error} />;
   }
     // Ensure we have commanders to display
     if (!commanders || commanders.length === 0) {
