@@ -14,7 +14,7 @@
     padding: 0px 15px 0px 15px;
     margin: 0px 15px 50px 15px;
     border: solid #05ddcb 2px;
-    box-shadow: 0px 0px 5px #00ffff57, 0px 0px 10px #00ffff, 0px 0px 20px #00ffff52;;
+    box-shadow: var(--neon-glow);
     border-radius: 5px;
 }
 
@@ -50,7 +50,7 @@
     height: 60px;
     border-radius: 75px;
     border: solid #05ddcb 2px;
-    box-shadow: 0px 0px 5px #00ffff57, 0px 0px 10px #00ffff, 0px 0px 20px #00ffff52;;
+    box-shadow: var(--neon-glow);
 }
 
 .sampleAbilityIcon{
@@ -58,7 +58,7 @@
     height: 50px;
     border-radius: 180px;
     border: solid #05ddcb 2px;
-    box-shadow: 0px 0px 5px #00ffff57, 0px 0px 10px #00ffff, 0px 0px 20px #00ffff52;;
+    box-shadow: var(--neon-glow);
 }
 
 .sampleAbilityTitle{

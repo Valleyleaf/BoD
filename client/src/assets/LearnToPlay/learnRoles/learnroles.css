@@ -38,7 +38,7 @@
     padding: 30px;
     margin: 1%;
     border: solid #05ddcb 2px;
-    box-shadow: 0px 0px 5px #00ffff57, 0px 0px 10px #00ffff, 0px 0px 20px #00ffff52;;
+    box-shadow: var(--neon-glow);
     transform: ease-in-out 0.3s;
     transition: transform 0.3s ease-in-out;
     border-radius: 0px 0px 15px 15px;
@@ -48,7 +48,6 @@
 .rolesTextContainer{
     display: flex;
     flex-direction: column;
-    font-family: "Bebas Neue", sans-serif;
     padding: 1%;
     margin: 1%;
 }
@@ -64,6 +63,7 @@
 }
 
 .rolesTitle{
+    font-family: "Bebas Neue", sans-serif;
     font-weight: bold;
     font-size: 65px;
     margin: 5px 5px 0px 0px;
@@ -72,7 +72,7 @@
 .rolesDisc{
     text-align: left;
     text-wrap: wrap;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .roleCrest{
@@ -82,5 +82,5 @@
     margin: 4px;
     border-radius: 75px;
     border: solid #05ddcb 2px;
-    box-shadow: 0px 0px 5px #00ffff57, 0px 0px 10px #00ffff, 0px 0px 20px #00ffff52;;
+    box-shadow: var(--neon-glow);
 }

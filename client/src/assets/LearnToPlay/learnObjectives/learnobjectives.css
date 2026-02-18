@@ -6,7 +6,7 @@
 
 .objectiveContainer{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -22,19 +22,25 @@
 
 .objectiveVideo{
     position: relative;
-    width: 650px;
+    width: 400px;
     height: auto;
     object-fit: cover;
     opacity: 1;
-    border-radius: 15px;
+    border-radius: 5px;
+    border: solid #05ddcb 2px;
+    box-shadow: var(--neon-glow);
 }
 
 .objectiveTextContainer{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 500px;
     height: 500px;
+    margin: 1%;
     transition: transform 0.3s ease-in-out;
+    border-radius: 15px;
+    border: solid #05ddcb 2px;
+    box-shadow: var(--neon-glow);
 }
 
 .objectiveTitle{
@@ -48,16 +54,16 @@
 .objectiveDisc{
     width: 450px;
     text-align: left;
-    font-size: 18px;
+    font-size: 15px;
     margin-top: 5px;
     padding: 2%;
-    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0px 0px 5px #05050557, 0px 0px 10px #080808, 0px 0px 20px #0f0f0f52;
 }
 
 .objectiveContent{
     display: flex;
     text-transform: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     padding: 15px;

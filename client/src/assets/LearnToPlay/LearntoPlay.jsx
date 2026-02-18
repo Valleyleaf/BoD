@@ -4,6 +4,7 @@ import LearnFactions from './learnFactions/LearnFactions.jsx';
 import LearnIsland from './learnIsland/LearnIsland.jsx';
 import LearnObjectives from './learnObjectives/LearnObjectives.jsx';
 import learnToPlay from './learntoplayJSON.json'
+import LearnGameFlow from './learnGameFlow/LearnGameFlow.jsx';
 import { useTranslation } from 'react-i18next';
 import './learntoplay.css';
 
@@ -20,6 +21,7 @@ const LearnToPlay = () => {
     LearnFactions,
     // LearnIsland,
     LearnObjectives,
+    LearnGameFlow
   ];
 
   return (

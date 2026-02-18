@@ -48,7 +48,7 @@ const LearnObjectives = () => {
           className="objectiveTextContainer" 
           key={index}
           style={{
-          backgroundImage: `linear-gradient(rgba(26, 26, 26, 0.16), rgba(26, 26, 26, 0.99)), url(${objective.sampleBackground})`,
+          backgroundImage: `linear-gradient(rgba(26, 26, 26, 0.73), rgba(3, 3, 3, 0.99)), url(${objective.sampleBackground})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center top',
           backgroundRepeat: 'no-repeat'
@@ -57,9 +57,7 @@ const LearnObjectives = () => {
               <div className="objectiveContent">
                 <div>
                   <h2 className="objectiveTitle">{objective.title}</h2>
-                  <p className="objectiveDisc">{objective.description}</p>
-                </div>
-                  <div>
+                    <div>
                     {!videoError ? (
                           <video 
                               ref={videoRef}
@@ -78,6 +76,8 @@ const LearnObjectives = () => {
                           </div>
                       )}
                   </div>
+                  <p className="objectiveDisc">{objective.description}</p>
+                </div>
                 </div>
           </div>
         ))}
