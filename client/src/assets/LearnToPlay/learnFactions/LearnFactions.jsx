@@ -5,7 +5,7 @@ import './learnfactions.css';
 
 const LearnFactions = () => {
   const { i18n } = useTranslation();
-
+  const bgimg = 'https://res.cloudinary.com/dvutcekav/image/upload/v1771006889/Gemini_Generated_Image_ia2prcia2prcia2p_ihwwno.jpg';
   const languageData = factionsJson[i18n.language] || factionsJson.en;
   const { learnFactions, factions } = languageData;
 
@@ -34,11 +34,16 @@ const LearnFactions = () => {
   }
 
   return (
-    <div className="learn-factions">
-      <div className="factions-header">
+    <div 
+    className="learn-factions"
+    style={{
+    backgroundImage: `linear-gradient(rgba(26, 26, 26, 0.16), rgba(26, 26, 26, 0.99)), url(${bgimg})`,
+    backgroundSize: 'cover',
+    backgroundPosition: 'center top',
+    backgroundRepeat: 'no-repeat'
+  }}
+    >
         <h2 className='factionTitle'>{learnFactions.title}</h2>
-      </div>
-
       <div className="factionGrid">
         {factions.map((faction, index) => (
           <div key={index}>

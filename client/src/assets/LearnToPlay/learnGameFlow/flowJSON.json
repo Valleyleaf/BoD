@@ -5,15 +5,45 @@
       "description": "Understanding the game flow is essential for success in the game. The game progresses through distinct phases with unique objectives and challenges."
     },
     "flow": [
-      {
+    {
         "key": "flow1",
         "title": "Initial Stage",
         "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1771262514/ability_paladin_empoweredsealstruth_xbt0ps.jpg",
         "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
         "crestAlt": "Explorer Crest",
-        "sampleVideo":"",
-        "SampleVideoAlt":"",
+        "sampleImage":"https://i.imgur.com/If0bitk.png",
+        "SampleImageAlt":"StageOneImage",
         "description": "In the initial stage of the game, you will select your faction, Commander and Role. Select your role to learn more about the next Stage."
+      },
+ {
+        "key": "flow2",
+        "title": "Explorers Stage",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1771262514/ability_paladin_empoweredsealstruth_xbt0ps.jpg",
+        "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+        "crestAlt": "Explorer Crest",
+        "sampleImage":"https://i.imgur.com/If0bitk.png",
+        "SampleImageAlt":"StageOneImage",
+        "description": "Once you have selected your role and purchased a few starting items, the horn of battle will sound and the gates to your Garrison will open. As an explorer, it is your job to scout the island and find resources."
+      },
+       {
+        "key": "flow3",
+        "title": "Homeguard Stage",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1771262514/ability_paladin_empoweredsealstruth_xbt0ps.jpg",
+        "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+        "crestAlt": "Homeguard Crest",
+        "sampleImage":"https://i.imgur.com/If0bitk.png",
+        "SampleImageAlt":"StageOneImage",
+        "description": "Once you have selected your role and purchased a few starting items, the horn of battle will sound and the gates to your Garrison will open. As a homeguard, it is your job to defend your allies against enemy combatants."
+        },
+        {
+        "key": "flow4",
+        "title": "Settler Stage",
+        "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1771262514/ability_paladin_empoweredsealstruth_xbt0ps.jpg",
+        "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+        "crestAlt": "Settler Crest",
+        "sampleImage":"https://i.imgur.com/If0bitk.png",
+        "SampleImageAlt":"StageOneImage",
+        "description": "Once you have selected your role and purchased a few starting items, the horn of battle will sound and the gates to your Garrison will open. As a settler, it is your job to build and expand your territory."
       }
     ]
   }

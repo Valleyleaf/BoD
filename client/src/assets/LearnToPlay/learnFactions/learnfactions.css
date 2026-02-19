@@ -1,7 +1,14 @@
+.learn-factions{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color2);
+    width: 100%;
+    padding-top: 20px;
+}
+
 .factionGrid {
     display: flex;
-    flex-wrap: wrap;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
 }
 
@@ -30,7 +37,6 @@
     font-size: 38px;
     margin-bottom: 10px;
     text-shadow: 0px 0px 5px #05050557, 0px 0px 10px #080808, 0px 0px 20px #0f0f0f52;
-    margin-right: 5px;
 }
 
 .factionMainContainer{

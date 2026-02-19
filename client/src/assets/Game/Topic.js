@@ -37,14 +37,14 @@ let topic = [
     },
         {
         "id": 5,
-        "title": "Natives",
+        "title": "Faithless",
         "thumbnail": "https://i.imgur.com/e79bFiR.jpeg",
         "alt":"A video showing some of the natives",
         "content": "Creatures native to the Island, known as Natives, roam the land and can be found in various locations. They are powerful foes that can drop items and resources when defeated."
     },
     {
         "id": 6,
-        "title": "Minion Scouts",
+        "title": "Clash Units",
         "thumbnail": "https://i.imgur.com/kn5Kqni.png",
         "alt":"A video showing the clash between Minion Scouts and enemy forces",
         "content": "Your allies in combat, these warriors will spawn from your Headquarter and will attempt to capture and control valuable chokepoints around the Island. They will also attack any enemy Commanders they encounter."

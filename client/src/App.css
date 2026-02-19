@@ -2,6 +2,7 @@
   width: 100%;
   text-align: center;
   background-color: #1b282c;
+  --background-color2: rgb(43, 54, 54);
   --menuColor: #0f0f0f;
   --button-color: #2edbdbde;
   --ArticleBGColor: #50505046;

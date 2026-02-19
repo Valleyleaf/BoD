@@ -30,7 +30,7 @@ const LearnToPlay = () => {
         <div className="homeDivider"></div>
       <p>{description}</p>
       {topics.map((Topic, index) => (
-        <div key={index}>
+        <div className='TopicContainer' key={index}>
           <Topic/>
         </div>
       ))}

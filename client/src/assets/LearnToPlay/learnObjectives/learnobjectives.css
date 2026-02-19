@@ -1,7 +1,6 @@
 .learn-objectives{
     display: flex;
     flex-direction: column;
-    width: 100vw;
 }
 
 .objectiveContainer{
