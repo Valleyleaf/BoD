@@ -1,0 +1,69 @@
+.learn-objectives{
+    display: flex;
+    flex-direction: column;
+}
+
+.objectiveContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.objectives-header{
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 0px 0px 5px #05050557, 0px 0px 10px #080808, 0px 0px 20px #0f0f0f52;
+    font-size: 42px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.objectiveVideo{
+    position: relative;
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    opacity: 1;
+    border-radius: 5px;
+    border: solid #05ddcb 2px;
+    box-shadow: var(--neon-glow);
+}
+
+.objectiveTextContainer{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin: 1%;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 15px;
+    border: solid #05ddcb 2px;
+    box-shadow: var(--neon-glow);
+}
+
+.objectiveTitle{
+    font-size: 38px;
+    font-weight: bold;
+    font-family: "Bebas Neue", sans-serif;
+    margin: 10px 0px 0px 0px;
+    text-shadow: 0px 0px 5px #05050557, 0px 0px 10px #080808, 0px 0px 20px #0f0f0f52;
+}
+
+.objectiveDisc{
+    width: 450px;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 5px;
+    padding: 2%;
+    text-shadow: 0px 0px 5px #05050557, 0px 0px 10px #080808, 0px 0px 20px #0f0f0f52;
+}
+
+.objectiveContent{
+    display: flex;
+    text-transform: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+}

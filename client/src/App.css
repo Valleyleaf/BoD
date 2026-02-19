@@ -1,13 +1,17 @@
 #root {
   width: 100%;
   text-align: center;
-  background-color: #252525;
+  background-color: #1b282c;
+  --background-color2: rgb(43, 54, 54);
   --menuColor: #0f0f0f;
   --button-color: #2edbdbde;
   --ArticleBGColor: #50505046;
   --strength-color: #e74c3c;
   --agility-color: #27ae60;
   --intelligence-color: #2980b9;
+  --neon-glow:  0px 0px 5px #00ffff57, 
+                0px 0px 10px #00ffff, 
+                0px 0px 20px #00ffff52;
 }
 
 .flexColumn{
@@ -61,3 +65,13 @@
   filter: blur(8px);
 }
 
+.sr-only{
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}

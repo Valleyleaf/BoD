@@ -1,0 +1,91 @@
+.learn-factions{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--background-color2);
+    width: 100%;
+    padding-top: 20px;
+}
+
+.factionGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.factionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 630px;
+    padding: 0px 15px 0px 15px;
+    margin: 0px 15px 50px 15px;
+    border: solid #05ddcb 2px;
+    box-shadow: var(--neon-glow);
+    border-radius: 5px;
+}
+
+.factionTitleContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.factionTitle{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 38px;
+    margin-bottom: 10px;
+    text-shadow: 0px 0px 5px #05050557, 0px 0px 10px #080808, 0px 0px 20px #0f0f0f52;
+}
+
+.factionMainContainer{
+    height: 270px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.factionCrestIcon{
+    width: 80px;
+    height: 80px;
+    border-radius: 75px;
+}
+
+.factionHQIcon{
+    width: 60px;
+    height: 60px;
+    border-radius: 75px;
+    border: solid #05ddcb 2px;
+    box-shadow: var(--neon-glow);
+}
+
+.sampleAbilityIcon{
+    width: 50px;
+    height: 50px;
+    border-radius: 180px;
+    border: solid #05ddcb 2px;
+    box-shadow: var(--neon-glow);
+}
+
+.sampleAbilityTitle{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 24px;
+    text-align: left;
+    text-wrap: none;
+    margin: 0px 20px 0px 0px;
+    text-shadow: 0px 0px 5px #05050557, 0px 0px 10px #080808, 0px 0px 20px #0f0f0f52;
+}
+
+.sampleAbilityContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.sampleAbilityDisc{
+    font-size: 14px;
+    text-align: left;
+    margin: 0px 0px 0px 5px;
+}

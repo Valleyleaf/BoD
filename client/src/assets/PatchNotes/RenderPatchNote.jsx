@@ -1,28 +1,53 @@
 import React, { useEffect, useState } from "react";
-//note gets passed from RenderPatchNote.jsx
+import "./PatchNotes.css";
+
 function RenderPatchNote({ note }) {
   const [markdown, setMarkdown] = useState("");
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    fetch(note.content)
-      .then(res => res.text())
-      .then(setMarkdown);
+    if (note.content) {
+      setLoading(true);
+      fetch(note.content)
+        .then((res) => (res.ok ? res.text() : "Content unavailable."))
+        .then((text) => {
+          setMarkdown(text);
+          setLoading(false);
+        })
+        .catch(() => {
+          setMarkdown("Error loading content.");
+          setLoading(false);
+        });
+    }
   }, [note.content]);
 
+  if (!note) return null;
+
   return (
-    <div>
-        <div className="flexColumn">
-            <h1>{note.title}</h1>
-            <p>{note.date}</p>
-        </div>
-        <div>
-            <img src={note.thumbnail} alt={note.title} />
-            <pre style={{ whiteSpace: "pre-wrap" }}>{markdown}</pre>
-        </div>
-    </div>
+    <article className="patch-note-card">
+      <div className="flexColumn">
+        {note.title && <h1>{note.title}</h1>}
+        {note.date && <p className="patch-date">{note.date}</p>}
+      </div>
+
+      <div className="patch-body">
+        {note.thumbnail && (
+          <img 
+            src={note.thumbnail} 
+            alt={note.title || "Patch thumbnail"} 
+            className="patch-thumbnail"
+          />
+        )}
+
+        {loading ? (
+          <p>Loading details...</p>
+        ) : (
+          <pre style={{ whiteSpace: "pre-wrap" }}>{markdown}</pre>
+        )}
+      </div>
+      <hr /> {/* Visual separator between patches */}
+    </article>
   );
 }
 
 export default RenderPatchNote;
-
-//This is garbage. Change it. Make smaller components like the Dota page. Limit properties.

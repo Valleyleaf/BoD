@@ -1,21 +1,48 @@
-import React from "react";
-import { PatchNotes } from "../Info/PatchNotes/PatchNotes.js";
 import RenderPatchNote from "./RenderPatchNote.jsx";
-//Below passes PatchNotes into RenderPatchNote.jsx using it's function PatchNoteRender.
-//to bring back a result. Technically could just fuse the two. Would that make it easier to read?
+import patchService from '../../services/patchService';
+import { useState, useEffect } from 'react';
+import Loading from '../Loading/Loading.jsx';
+import Error from '../Error/Error.jsx';
+
 function PatchNotesList() {
+  const [patches, setPatches] = useState([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchPatches = async () => {
+      try {
+        const data = await patchService.getAllPatches();
+        setPatches(data);
+        setError(null);
+      } catch (err) {
+        setError('Failed to load the latest patches.');
+        console.error(err);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchPatches();
+    const intervalId = setInterval(fetchPatches, 60000); 
+    return () => clearInterval(intervalId);
+  }, []);
+
+  if (loading) return <Loading />;
+  if (error) return <Error />;
+  if (patches.length === 0) return <h2 className="center-content">No updates found.</h2>;
+
   return (
-    <div>
-      <h2 className="Bio center-content">Comming soon</h2>
-      {/* {PatchNotes.map(note => (
-        <RenderPatchNote key={note.id} note={note} />
-      ))} */}
-      
+    <div className="patch-notes-container">
+      <h2 className="Bio center-content">Latest Updates</h2>
+      <div className="patch-list">
+        {patches.map((patch) => (
+          <RenderPatchNote key={patch._id || patch.id} note={patch} />
+          // Reminder: Note comes from RenderPatchNote.jsx
+        ))}
+      </div>
     </div>
   );
 }
-//This will need to be changed to allow filtering.
 
 export default PatchNotesList;
-
-//This is garbage. Change it.

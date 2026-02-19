@@ -1,0 +1,66 @@
+{
+    "en": {
+        "learnFactions": {
+            "title": "Factions",
+            "description": "Understanding your faction is crucial for success in the game. Each faction has unique characteristics and abilities."
+        },
+        "factions": [
+            {
+            "key": "faction1",
+            "title": "Mechanisms",
+            "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+            "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1771274577/Gemini_Generated_Image_2hrzbm2hrzbm2hrz_dntykh.png",
+            "crestAlt": "Mechanisms Crest",
+            "description": "The Mechanisms are a versatile faction, known for their adaptability and resourcefulness. Their focus lies in a balanced approach to offensive and defensive strategies.",
+            "sampleAbilityTitle": "Steel Plated",
+            "sampleAbilityDisc":"Causes your Commander to gain 4 armor plates. Each plate blocks portional damage and regenerate over time.",
+            "sampleAbilityImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1771337653/inv_shoulder_plate_dragonquest_b_01_kmryir.jpg",
+            "sampleHQTitle": "The Beacon",
+            "sampleHQDisc": "A balance of offense and defense. Timing the output of The Beacon is key to success.",
+            "sampleHQImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1771338034/achievement_zone_thaldraszus_elrzca.jpg"
+            },
+            {
+            "key": "faction2",
+            "title": "Void Whisperers",
+            "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+            "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1771274577/Gemini_Generated_Image_2hrzbm2hrzbm2hrz_dntykh.png",
+            "crestAlt": "VoidWhisperers Crest",
+            "description": "The Void Whisperers excel in ground control. Focusing on territorial dominance and key use of strong global abilities, they are formidable opponents in any confrontation.",
+            "sampleAbilityTitle": "Void Rats",
+            "sampleAbilityDisc":"Attacking enemy units can cause rats to spawn. Rats will attack the nearest enemy unit.",
+            "sampleAbilityImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1771337729/inv_mawratmount_02_uypvpg.jpg",
+            "sampleHQTitle": "The Void Gate",
+            "sampleHQDisc": "The Island is ours. The Void Gate allows for map control and strategic positioning.",
+            "sampleHQImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1771338030/achievement_dungeon_theotherside_rpscp4.jpg"
+            },
+            {
+            "key": "faction3",
+            "title": "Inferno Crusade",
+            "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+            "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1771274577/Gemini_Generated_Image_2hrzbm2hrzbm2hrz_dntykh.png",
+            "crestAlt": "Inferno Crusade Crest",
+            "description": "The Inferno Crusade is considered the most aggressive of factions, focusing primarily on offensive capabilities. Their strength lies in overwhelming their opponents with sheer power and relentless attacks.",
+            "sampleAbilityTitle": "Brimstone Enchant",
+            "sampleAbilityDisc":"Targeted spells deal additional damage over time.",
+            "sampleAbilityImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1771337778/spell_mage_flameorb_qudqgx.jpg",
+            "sampleHQTitle": "The Inferno Forge",
+            "sampleHQDisc": "Pure firepower and strength, The Inferno Forge provides strong offensive capabilities.",
+            "sampleHQImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1771337827/achievement_dungeon_firelandsraid_xdlo0f.jpg"
+            },
+            {
+            "key": "faction4",
+            "title": "The Green Order",
+            "crest": "https://res.cloudinary.com/dvutcekav/image/upload/v1757090475/trade_engineering_mpfplp.jpg",
+            "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1771274577/Gemini_Generated_Image_2hrzbm2hrzbm2hrz_dntykh.png",
+            "crestAlt": "Green Order Crest",
+            "description": "The Green Order is known for their resilience and strategic defense. They excel in fortifying positions and outlasting their opponents.",
+            "sampleAbilityTitle": "Nature's Resilience",
+            "sampleAbilityDisc":"While inside your territory, gain bonus health regeneration.",
+            "sampleAbilityImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1771338117/achievement_zone_nagrand_02_tsgfmy.jpg",
+            "sampleHQTitle": "The Grove",
+            "sampleHQDisc": "Just like the dense forest of the Green Order, The Grove is a powerful defensive structure that keeps your territory secure.",
+            "sampleHQImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1771337951/achievement_zone_tanaanjungle_qtsj3u.jpg"
+            }
+        ]
+    }
+}

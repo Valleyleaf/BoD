@@ -1,0 +1,57 @@
+{
+    "en": {
+        "learnObjectives": {
+            "title": "Objectives",
+            "description": "The Island is home to boundless resources and opportunities. Mastering its terrain and secrets is key to thriving in the game."
+        },
+        "objectives": [
+            {
+            "title": "The Mortal Throne",
+            "description": "The centre stage of this conflict. The Temple of the Mortal Throne is a massive structure that houses the seat of power for whoever controls it. At it's peak lies the Mortal Throne itself along with the Forge of Kings. Bringing a God Metal to the forge allows you to create a Mythic item of which only one can be carried at a time.",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt",
+            "sampleVideo":"https://res.cloudinary.com/dvutcekav/video/upload/v1771006997/Island_s_Diverse_Regions_and_Factions_g6ecwr.mp4",
+            "sampleBackground":"https://res.cloudinary.com/dvutcekav/image/upload/v1771006889/Gemini_Generated_Image_ia2prcia2prcia2p_ihwwno.jpg"
+            },
+            {
+            "title": "Garrisons",
+            "description": "Home to you and your allies Headquarters along with your Gate Keeper. This serves as your base of operations and safehaven on the Island. Protect it at all costs, as its destruction will lead to your defeat.",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt",
+            "sampleVideo":"https://res.cloudinary.com/dvutcekav/video/upload/v1758154917/Promo2_qvz6qi.mp4",
+            "sampleBackground":"https://res.cloudinary.com/dvutcekav/image/upload/v1771006889/Gemini_Generated_Image_ia2prcia2prcia2p_ihwwno.jpg"
+            },
+            {
+            "title": "Clashes",
+            "description": "There are several spots around the Island known as 'Clash Points'. These are areas of strategic importance. Your faction must vie for control over these points to gain advantages in resources and tactical positioning. Guide your troops and fight alongside them to gain control of these strategic locations.",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt",
+            "sampleVideo":"https://res.cloudinary.com/dvutcekav/video/upload/v1771006997/Island_s_Diverse_Regions_and_Factions_g6ecwr.mp4",
+            "sampleBackground":"https://res.cloudinary.com/dvutcekav/image/upload/v1771006889/Gemini_Generated_Image_ia2prcia2prcia2p_ihwwno.jpg"
+            },
+            {
+            "title": "Faithless",
+            "description": "Found around the Island are rogue entities known as the Faithless. These beings operate outside the control of any faction, and have their own motives for being on these shores. Strike them down and claim whatever resources they have gathered for your own faction's benefit.",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt",
+            "sampleVideo":"https://res.cloudinary.com/dvutcekav/video/upload/v1758154917/Promo2_qvz6qi.mp4",
+            "sampleBackground":"https://res.cloudinary.com/dvutcekav/image/upload/v1771006889/Gemini_Generated_Image_ia2prcia2prcia2p_ihwwno.jpg"
+            },
+            {
+            "title": "Mana Crystals",
+            "description": "Through years of conflict, the Island has become rich in Mana Crystals. This precious resource is essential for teleporting in reinforcements and is required to upgrade your structures. These crystals can be found scattered across the Island. Gather as many as you can.",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt",
+            "sampleVideo":"https://res.cloudinary.com/dvutcekav/video/upload/v1771006997/Island_s_Diverse_Regions_and_Factions_g6ecwr.mp4",
+            "sampleBackground":"https://res.cloudinary.com/dvutcekav/image/upload/v1771006889/Gemini_Generated_Image_ia2prcia2prcia2p_ihwwno.jpg"
+            },
+            {
+            "title": "Ancient Ones",
+            "description": "Around the Island, you will find strong foes. Some of which can not be faced alone. These foes are known as Ancient ones. Defeating them will yield God Metals.",
+            "thumbnail": "example",
+            "thumbnailAlt": "thumbnailalt",
+            "sampleVideo":"https://res.cloudinary.com/dvutcekav/video/upload/v1758154917/Promo2_qvz6qi.mp4",
+            "sampleBackground":"https://res.cloudinary.com/dvutcekav/image/upload/v1771006889/Gemini_Generated_Image_ia2prcia2prcia2p_ihwwno.jpg"
+            }
+        ]
+}}

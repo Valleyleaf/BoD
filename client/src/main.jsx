@@ -10,6 +10,7 @@ import News from './assets/RenderArticle/ArticleMain.jsx'
 import PatchNotes from './assets/PatchNotes/PatchNotePage.jsx'
 import CommanderRender from './assets/Commanders/CommanderRender.jsx'
 import Items from './assets/Items/ItemsMain.jsx'
+import LearnToPlay from './assets/LearnToPlay/LearnToPlay.jsx'
 
 const router = createBrowserRouter([{
   path: '/',
@@ -49,6 +50,10 @@ const router = createBrowserRouter([{
     {
       path: 'Patchnotes/:slug',
       element: <PatchNotes />
+    },
+    {
+      path: 'learntoplay',
+      element: <LearnToPlay />
     },
 
   ],
