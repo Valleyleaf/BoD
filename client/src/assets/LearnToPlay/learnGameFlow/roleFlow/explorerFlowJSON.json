@@ -1,0 +1,21 @@
+{
+    "en":{
+        "explorerFlow": {
+            "title": "Explorer Flow",
+            "duties": [
+                {
+                    "title": "Planning Phase",
+                    "description": "In this phase, players discuss and strategize their moves. They can share information, make alliances, or deceive others to gain an advantage."
+                },
+                {
+                    "title": "Action Phase",
+                    "description": "Players execute their planned actions. This could involve moving to different locations, attacking other players, or using special abilities."
+                },
+                {
+                    "title": "Resolution Phase",
+                    "description": "The outcomes of the actions taken in the Action Phase are determined. Players may gain rewards, suffer consequences, or trigger events based on their actions."
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.roleContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.roleDuty{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.duty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    max-width: 800px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    box-shadow: var(--neon-glow);
+}
