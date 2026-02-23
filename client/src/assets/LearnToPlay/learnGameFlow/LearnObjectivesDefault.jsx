@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 import flowJson from './flowJSON.json';
 import roleFlowJSON from './flowRoleJSON.json';
 import './learnGameFlow.css';
-
+import LearnGameFlowMenu from './LearnGameFlowMenu';
 const LearnObjectivesDefault = () => {
   const { i18n } = useTranslation();
   const languageData = flowJson[i18n.language] || flowJson.en;
@@ -26,11 +26,12 @@ const LearnObjectivesDefault = () => {
                 <div className='gameFlowTextContainer'>
                   <h3 className='gameFlowStageTitle'>{flow.title}</h3>
                   <p className='gameFlowStageDescription'>{flow.description}</p>
-                  <div className='roleButtons'>
+                  {/* <div className='roleButtons'>
                     <button id='Explorer'><img src={flow.roleButton1Image} alt={flow.roleButton1}/></button>
                     <button id="HomeGuard"><img src={flow.roleButton2Image} alt={flow.roleButton2}/></button>
                     <button id="Settler"><img src={flow.roleButton3Image} alt={flow.roleButton3}/></button>
-                  </div>
+                  </div> */}
+                  <LearnGameFlowMenu/>
                 </div>
                 <img className='gameFlowVisualContainer' src={flow.sampleImage} alt={flow.sampleImageAlt}/>
           </div>

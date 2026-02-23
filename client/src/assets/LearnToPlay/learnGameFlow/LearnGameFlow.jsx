@@ -18,11 +18,9 @@ const LearnGameFlow = () => {
       <div>
         <h2 className='gameFlowStageTitle'>{learnGameFlow.title}</h2>
       </div>
-      <div id='roleContainer' className='flexColumn center-content'>
         <LearnObjectivesDefault />
-        <ExplorerFlow/>
+        {/* <ExplorerFlow/> */}
       </div>
-    </div>
   );
 };
 
