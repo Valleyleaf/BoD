@@ -5,9 +5,37 @@
     width: 100%;
 }
 
+.roleTitle{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    width: 100%;
+    margin: 40px;
+}
+
+.roleTitle h2{
+    font-size: 66px;
+    margin-bottom: 0px;
+}
+
+.roleTitle p{
+    font-size: 26px;
+}
+
+.roleTitle button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
 .roleDuty{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin-bottom: 20px;
 }
