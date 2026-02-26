@@ -10,16 +10,13 @@
     grid-template-columns: auto 1fr auto;
     align-items: center;
     width: 100%;
-    margin: 40px;
+    margin: 40px 40px 40px 4%;
+    
 }
 
 .roleTitle h2{
     font-size: 66px;
     margin-bottom: 0px;
-}
-
-.roleTitle p{
-    font-size: 26px;
 }
 
 .roleTitle button{
@@ -42,12 +39,16 @@
 
 .duty{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    width: 400px;
-    max-width: 800px;
-    padding: 20px;
+    margin: 20px;
+    padding: 50px;
     border-radius: 10px;
     background-color: #1a1a1a;
     box-shadow: var(--neon-glow);
+}
+
+.duty img{
+    width: 100px;
+    height: auto;
 }

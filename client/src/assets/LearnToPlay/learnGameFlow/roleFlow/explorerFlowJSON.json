@@ -5,15 +5,21 @@
             "duties": [
                 {
                     "title": "Planning Phase",
-                    "description": "In this phase, players discuss and strategize their moves. They can share information, make alliances, or deceive others to gain an advantage."
+                    "description": "As an Explorer, you start the game by planning your route. Pick the items needed.",
+                    "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
                 },
                 {
-                    "title": "Action Phase",
-                    "description": "Players execute their planned actions. This could involve moving to different locations, attacking other players, or using special abilities."
+                    "title": "Game Phase",
+                    "description": "Explorers will typically focus on quickly exploring the map, slaying Faithless and gathering the unique items that they can find.",
+                    "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
                 },
                 {
                     "title": "Resolution Phase",
-                    "description": "The outcomes of the actions taken in the Action Phase are determined. Players may gain rewards, suffer consequences, or trigger events based on their actions."
+                    "description": "The outcomes of the actions taken in the Action Phase are determined. Players may gain rewards, suffer consequences, or trigger events based on their actions.",
+                    "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
                 }
             ],
             "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"

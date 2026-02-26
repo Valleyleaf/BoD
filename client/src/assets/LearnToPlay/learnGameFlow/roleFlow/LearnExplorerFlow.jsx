@@ -21,14 +21,19 @@ const ExplorerFlow = ({ onBack }) => {
             <button id='back' onClick={onBack}>Back</button>
             <div>
                 <h2>Explorer</h2>
-                <p>Flavor Text</p>
             </div>
         </div>
             <div className='roleDuty'>
-                <div className=''>
+                <div>
                     {explorerFlow.duties.map((duty, index) => (
                         <div
                         className='duty'
+                        style={{
+                        backgroundImage: `linear-gradient(rgba(26, 26, 26, 0.73), rgba(3, 3, 3, 0.99)), url(${duty.backgroundImage})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center top',
+                        backgroundRepeat: 'no-repeat'
+                        }}
                         key={index}>
                             <div className='dutyTextContainer'>
                                 <h3>{duty.title}</h3>
