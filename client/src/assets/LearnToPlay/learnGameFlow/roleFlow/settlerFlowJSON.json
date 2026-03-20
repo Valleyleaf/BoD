@@ -1,23 +1,23 @@
 {
     "en":{
-        "explorerFlow": {
-            "title": "Explorer Flow",
+        "settlerFlow": {
+            "title": "Settler Flow",
             "duties": [
                 {
                     "title": "Early Game",
-                    "description": "As an Explorer, you will start the game by planning your route and purchasing necessary items. Once the gates are open, you will be able to earn \"Explorers\" experience by entering unexplored areas of the map. Additionally, you are able to find relics by slaying Faithless.",
+                    "description": "As a settler, your primary focus in the early game will be to join your Homeguard in establishing outposts and securing Clash Points. As you gain influence over the Island, you will gain access to Mana Crystals which can be used to expand your influence.",
                     "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
                     "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
                 },
                 {
                     "title": "Mid Game",
-                    "description": "As you continue to explore the island, you will occasionally find yourself in direct combat with opposing factions. As an Explorer, your job is ideally to avoid combat and continue to explore the island.",
+                    "description": "As the game progresses, it is your duty to ensure the safety of your allies and the expansion of your faction's influence. This will involve working with your allies to defend Clash Points from opposing factions and occasionally launching attacks to take control of new points.",
                     "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
                     "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
                 },
                 {
                     "title": "Late Game",
-                    "description": "Once the Island has been explored, it is time to utilize the knowledge you have gained to help your faction win. As an Explorer, you will typically be ahead of your allies in terms of raw power. This means that you will be able to take on more difficult challenges and help your allies secure clash points and expand your influence on the Island.",
+                    "description": "Once you have established control over the Island, it is time to push the advantage and secure victory for your faction. Keep up the momentum by summoning additional Clash units and press the assult on your enemies.",
                     "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
                     "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
                 }
