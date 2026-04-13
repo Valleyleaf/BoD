@@ -1,4 +1,4 @@
-import React from 'react';
+import {react, useState} from 'react';
 import { useTranslation } from 'react-i18next';
 import rolesJson from './rolesJSON.json';
 import './learnroles.css';
@@ -14,7 +14,7 @@ const LearnRoles = () => {
         <h2 className='learnRolestitle'>{learnRoles.title}</h2>
       </div>
 
-      <div className="flexRow">
+      <div className="l2pContent">
         {roles.map((role, index) => (
           <div 
             key={index} 
@@ -31,6 +31,7 @@ const LearnRoles = () => {
                   <img className='roleCrest' src={role.crest} alt={role.crestAlt}/>
                 </div>
               <p className='rolesDisc'>{role.description}</p>
+              <p className='rolesHover'>Hover card to learn more</p>
               </div>
           </div>
         ))}

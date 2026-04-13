@@ -1,0 +1,28 @@
+{
+    "en":{
+        "homeGuardFlow": {
+            "title": "Homeguard Flow",
+            "duties": [
+                {
+                    "title": "Early Game",
+                    "description": "As an Homeguard, you are responsible for defending and expanding your factions influence over the Island. Once the gates open, you will join your scouts at Clash Points. Claim victory at these points to expand your influence and secure resources for your faction.",
+                    "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
+                },
+                {
+                    "title": "Mid Game",
+                    "description": "As the game progresses, it is your job to ensure that your faction maintains control over the Clash Points. This will involve working with your allies to defend these points from opposing factions and occasionally launching attacks to take control of new points.",
+                    "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
+                },
+                {
+                    "title": "Late Game",
+                    "description": "Once the Island has been explored, it is time to utilize the knowledge you have gained to help your faction win. As an Explorer, you will typically be ahead of your allies in terms of raw power. This means that you will be able to take on more difficult challenges and help your allies secure clash points and expand your influence on the Island.",
+                    "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
+                }
+            ],
+            "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
+        }
+    }
+}
