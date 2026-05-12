@@ -20,7 +20,7 @@ const PlayNow = () => {
             <div>
                 <h2 className='l2pTitle'>Ready to claim your victory?</h2>
                 <a href="https://www.hiveworkshop.com/threads/battle-of-dominance-v2-0-arcane-showdown.326630/" target="_blank" rel="noopener noreferrer">
-                    <button className="downloadButton">PLAY NOW</button>
+                    <button className="playButton">PLAY NOW</button>
                 </a>
             </div>
         </div>
