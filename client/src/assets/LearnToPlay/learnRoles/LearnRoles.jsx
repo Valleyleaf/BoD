@@ -11,7 +11,6 @@ const LearnRoles = () => {
   const languageData = rolesJson[i18n.language] || rolesJson.en;
   const { learnRoles, roles } = languageData;
   const [activeView, setActiveView] = useState(null);
-
   
   const handleBack = () => {
     setActiveView(null);

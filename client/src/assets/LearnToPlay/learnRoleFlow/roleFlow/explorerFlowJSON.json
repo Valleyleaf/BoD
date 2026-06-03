@@ -1,27 +1,53 @@
 {
     "en":{
         "explorerFlow": {
-            "title": "Explorer Flow",
+            "title": "Explorers Duties",
             "duties": [
                 {
-                    "title": "Early Game",
-                    "description": "As an Explorer, you will start the game by planning your route and purchasing necessary items. Once the gates are open, you will be able to earn \"Explorers\" experience by entering unexplored areas of the map. Additionally, you are able to find relics by slaying Faithless.",
+                    "title": "The Explorers Perk",
+                    "description": "As an Explorer, Killing a level 5 or higher creep now drops unique items. Upon entering a new area, gain explorers experience. Seekers now have exclusive access to Island items.",
                     "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
                     "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
                 },
                 {
-                    "title": "Mid Game",
-                    "description": "As you continue to explore the island, you will occasionally find yourself in direct combat with opposing factions. As an Explorer, your job is ideally to avoid combat and continue to explore the island.",
+                    "title": "The Avatar",
+                    "description": "Explorers gain access to the Avatar as their HeadQuarter. The Avatar allows you to cast blessings upon your Commander in exchange for Crystals.",
                     "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
                     "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
                 },
                 {
-                    "title": "Late Game",
-                    "description": "Once the Island has been explored, it is time to utilize the knowledge you have gained to help your faction win. As an Explorer, you will typically be ahead of your allies in terms of raw power. This means that you will be able to take on more difficult challenges and help your allies secure clash points and expand your influence on the Island.",
+                    "title": "Gameplay",
+                    "description": "As an Explorer. You will typically have a level advantage over your allies. Use this advantage to support them in their endevors. Join Clashes and help expand your domain.",
                     "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
                     "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
                 }
+
             ],
+            "roleExamples": {
+                "roleExamplesTitleCard": {
+                    "title": "Examples of Explorers",
+                    "description": "While any Commander can be an Explorer, these are some of the key examples that exemplify the role.",
+                    "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
+                    },
+                "roleExampleItems": [
+                    {
+                    "ExampleTitle":"Night Hunter",
+                    "ExampleImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "ExampleCharacterLink": "https://battleofdominance.onrender.com/commanders/night-hunter"
+                    },
+                    {
+                    "ExampleTitle":"Salamander",
+                    "ExampleImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "ExampleCharacterLink": "https://battleofdominance.onrender.com/commanders/salamander"
+                    },
+                    {
+                    "ExampleTitle":"Arcane Overlord",
+                    "ExampleImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "ExampleCharacterLink": "https://battleofdominance.onrender.com/commanders/arcane-overlord"
+                    }    
+                ]   
+            },
             "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
         }
     }

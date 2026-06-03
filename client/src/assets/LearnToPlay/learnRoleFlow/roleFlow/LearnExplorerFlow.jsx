@@ -19,9 +19,7 @@ const ExplorerFlow = ({ onBack }) => {
     >
         <div className='roleTitle'>
             <button id='back' onClick={onBack}>Back</button>
-            <div>
-                <h2>Explorer</h2>
-            </div>
+        <h3>{explorerFlow.title}</h3>
         </div>
             <div className='roleDuty'>
                 <div>
@@ -42,7 +40,17 @@ const ExplorerFlow = ({ onBack }) => {
                             <img src={duty.image} alt={duty.title} />
                         </div>
                     ))}
-                </div>       
+                    {explorerFlow.roleExamples.roleExampleItems.map((example, index) => (
+                        <div
+                        className='roleExampleContainer'
+                        key={index}>
+                            <img classname='roleExampleThumbnail' src={example.ExampleImage} alt={example.ExampleTitle} />
+                            <div className='roleExampleItems'>
+                                <h3>{example.ExampleTitle}</h3>
+                            </div>
+                        </div>
+                    ))}
+                </div>     
             </div>   
     </div>
     );
