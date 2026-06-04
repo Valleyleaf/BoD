@@ -1,12 +1,14 @@
 import './roleFlow.css';
 import { useTranslation } from 'react-i18next';
 import explorerFlowJSON from './explorerFlowJSON.json';
+import { useNavigate } from "react-router-dom";
 
 const ExplorerFlow = ({ onBack }) => {
     const { i18n } = useTranslation();
     const languageData = explorerFlowJSON[i18n.language] || explorerFlowJSON.en;
     const { explorerFlow } = languageData;
-    
+    const navigate = useNavigate();
+
     return (
     <div 
     className='roleContainer'
@@ -22,7 +24,6 @@ const ExplorerFlow = ({ onBack }) => {
         <h3>{explorerFlow.title}</h3>
         </div>
             <div className='roleDuty'>
-                <div>
                     {explorerFlow.duties.map((duty, index) => (
                         <div
                         className='duty'
@@ -40,17 +41,28 @@ const ExplorerFlow = ({ onBack }) => {
                             <img src={duty.image} alt={duty.title} />
                         </div>
                     ))}
-                    {explorerFlow.roleExamples.roleExampleItems.map((example, index) => (
-                        <div
-                        className='roleExampleContainer'
-                        key={index}>
-                            <img classname='roleExampleThumbnail' src={example.ExampleImage} alt={example.ExampleTitle} />
-                            <div className='roleExampleItems'>
-                                <h3>{example.ExampleTitle}</h3>
-                            </div>
+                    <div 
+                    className='roleExampleMain'>
+                        <div>
+                            <h2>{explorerFlow.roleExamples.roleExamplesTitleCard.title}</h2>
+                            <p>{explorerFlow.roleExamples.roleExamplesTitleCard.description}</p>
                         </div>
-                    ))}
-                </div>     
+                        <div className='roleExampleItemContainer'>
+                            {explorerFlow.roleExamples.roleExampleItems.map((example, index) => (
+                                <button
+                                className='roleExampleItem'
+                                type="button"
+                                onClick={() => navigate({ pathname: example.ExampleCharacterLink })}
+                                style={{ background: "none", border: "none", padding: 0, cursor: "pointer" }}
+                                key={index}>
+                                    <img className='roleExampleThumbnail' src={example.ExampleImage} alt={example.ExampleTitle} />
+                                    <div>
+                                        <h3>{example.ExampleTitle}</h3>
+                                    </div>
+                                </button>
+                            ))}
+                        </div>
+                    </div>
             </div>   
     </div>
     );

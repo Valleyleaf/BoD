@@ -34,17 +34,17 @@
                     {
                     "ExampleTitle":"Night Hunter",
                     "ExampleImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
-                    "ExampleCharacterLink": "https://battleofdominance.onrender.com/commanders/night-hunter"
+                    "ExampleCharacterLink": "/commanders/night-hunter"
                     },
                     {
                     "ExampleTitle":"Salamander",
                     "ExampleImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
-                    "ExampleCharacterLink": "https://battleofdominance.onrender.com/commanders/salamander"
+                    "ExampleCharacterLink": "/commanders/salamander"
                     },
                     {
                     "ExampleTitle":"Arcane Overlord",
                     "ExampleImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
-                    "ExampleCharacterLink": "https://battleofdominance.onrender.com/commanders/arcane-overlord"
+                    "ExampleCharacterLink": "/commanders/arcane-overlord"
                     }    
                 ]   
             },
