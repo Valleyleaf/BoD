@@ -25,3 +25,4 @@ Clone the repository and install dependencies.
 - Go with a mobile first approach for css. It's easier to scale something up than it is to scale something down.
 - Separating functions away from react components can make for cleaner code with proper documentation.
 - Accessability is important. Remember to follow and properly use the tools that were developed for their intended needs.
+- It is very easy to fall into old bad habits and auto-pilot on smaller scopes than intended. This will lead to segmentations of the project not following a joint standard.
