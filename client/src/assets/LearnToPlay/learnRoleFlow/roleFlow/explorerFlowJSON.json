@@ -1,0 +1,54 @@
+{
+    "en":{
+        "explorerFlow": {
+            "title": "Explorers Duties",
+            "duties": [
+                {
+                    "title": "The Explorers Perk",
+                    "description": "As an Explorer, Killing a level 5 or higher creep now drops unique items. Upon entering a new area, gain explorers experience. Seekers now have exclusive access to Island items.",
+                    "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
+                },
+                {
+                    "title": "The Avatar",
+                    "description": "Explorers gain access to the Avatar as their HeadQuarter. The Avatar allows you to cast blessings upon your Commander in exchange for Crystals.",
+                    "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
+                },
+                {
+                    "title": "Gameplay",
+                    "description": "As an Explorer. You will typically have a level advantage over your allies. Use this advantage to support them in their endevors. Join Clashes and help expand your domain.",
+                    "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
+                }
+
+            ],
+            "roleExamples": {
+                "roleExamplesTitleCard": {
+                    "title": "Examples of Explorers",
+                    "description": "While any Commander can be an Explorer, these are some of the key examples that exemplify the role.",
+                    "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
+                    },
+                "roleExampleItems": [
+                    {
+                    "ExampleTitle":"Night Hunter",
+                    "ExampleImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "ExampleCharacterLink": "/commanders/night-hunter"
+                    },
+                    {
+                    "ExampleTitle":"Salamander",
+                    "ExampleImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "ExampleCharacterLink": "/commanders/salamander"
+                    },
+                    {
+                    "ExampleTitle":"Arcane Overlord",
+                    "ExampleImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "ExampleCharacterLink": "/commanders/arcane-overlord"
+                    }    
+                ]   
+            },
+            "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
+        }
+    }
+}

@@ -2,11 +2,31 @@ import {react, useState} from 'react';
 import { useTranslation } from 'react-i18next';
 import rolesJson from './rolesJSON.json';
 import './learnroles.css';
+import ExplorerFlow from '../learnRoleFlow/roleFlow/LearnExplorerFlow';
+import HomeGuardFlow from '../learnRoleFlow/roleFlow/LearnExplorerFlow';
+import SettlerFlow from '../learnRoleFlow/roleFlow/LearnExplorerFlow';
 
 const LearnRoles = () => {
   const { i18n } = useTranslation();
   const languageData = rolesJson[i18n.language] || rolesJson.en;
   const { learnRoles, roles } = languageData;
+  const [activeView, setActiveView] = useState(null);
+  
+  const handleBack = () => {
+    setActiveView(null);
+  };
+
+  if (activeView === "Explorer") {
+    return <ExplorerFlow onBack={handleBack} />;
+  }
+
+  if (activeView === "HomeGuard") {
+    return <HomeGuardFlow onBack={handleBack} />;
+  }
+
+  if (activeView === "Settler") {
+    return <SettlerFlow onBack={handleBack} />;
+  }
 
   return (
     <div className="learn-roles" >
@@ -16,8 +36,10 @@ const LearnRoles = () => {
 
       <div className="l2pContent">
         {roles.map((role, index) => (
-          <div 
-            key={index} 
+          <button 
+            key={index}
+            id={role.title}
+            onClick={() => setActiveView(role.title)}
             className='rolesContainer'
             style={{
               backgroundImage: `linear-gradient(rgba(26, 26, 26, 0.16), rgba(26, 26, 26, 0.99)), url(${role.backgroundImage})`,
@@ -31,9 +53,9 @@ const LearnRoles = () => {
                   <img className='roleCrest' src={role.crest} alt={role.crestAlt}/>
                 </div>
               <p className='rolesDisc'>{role.description}</p>
-              <p className='rolesHover'>Hover card to learn more</p>
+              <p className='rolesHover'>{learnRoles.click}</p>
               </div>
-          </div>
+          </button>
         ))}
       </div>
     </div>

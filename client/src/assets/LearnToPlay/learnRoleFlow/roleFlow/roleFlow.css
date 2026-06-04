@@ -10,8 +10,6 @@
     grid-template-columns: auto 1fr auto;
     align-items: center;
     width: 100%;
-    margin: 40px 40px 40px 4%;
-    
 }
 
 .roleTitle h2{
@@ -33,6 +31,7 @@
 .roleDuty{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -51,5 +50,42 @@
 
 .duty img{
     width: 100px;
+    height: auto;
+}
+
+.roleExampleMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 20px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    box-shadow: var(--neon-glow);
+}
+
+.roleExampleItemContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.roleExampleItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    color: white;
+    transition: transform 0.2s ease-in-out;
+}
+
+.roleExampleItem:hover{
+    transform: scale(1.05);
+}
+
+.roleExampleThumbnail{
+    width: 40px;
     height: auto;
 }

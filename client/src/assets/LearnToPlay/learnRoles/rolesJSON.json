@@ -2,7 +2,8 @@
   "en": {
     "learnRoles": {
       "title": "Roles",
-      "description": "Understanding your role is crucial for success in the game. Each role has unique responsibilities and abilities."
+      "description": "Understanding your role is crucial for success in the game. Each role has unique responsibilities and abilities.",
+      "click":"CLICK CARD TO LEARN MORE"
     },
     "roles": [
       {
