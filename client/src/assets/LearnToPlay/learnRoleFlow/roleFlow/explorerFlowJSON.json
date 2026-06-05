@@ -25,7 +25,7 @@
             ],
             "roleExamples": {
                 "roleExamplesTitleCard": {
-                    "title": "Examples of Explorers",
+                    "title": "Explorer Examples",
                     "description": "While any Commander can be an Explorer, these are some of the key examples that exemplify the role.",
                     "image": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
                     "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"
@@ -45,7 +45,27 @@
                     "ExampleTitle":"Arcane Overlord",
                     "ExampleImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
                     "ExampleCharacterLink": "/commanders/arcane-overlord"
-                    }    
+                    },
+                    {
+                    "ExampleTitle":"Berserker",
+                    "ExampleImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "ExampleCharacterLink": "/commanders/berserker"
+                    },
+                    {
+                    "ExampleTitle":"Gunslinger",
+                    "ExampleImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "ExampleCharacterLink": "/commanders/gunslinger"
+                    },
+                    {
+                    "ExampleTitle":"Golden Conqueror",
+                    "ExampleImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "ExampleCharacterLink": "/commanders/golden-conqueror"
+                    },
+                    {
+                    "ExampleTitle":"Bounty Huntress",
+                    "ExampleImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg",
+                    "ExampleCharacterLink": "/commanders/bounty-huntress"
+                    }
                 ]   
             },
             "backgroundImage": "https://res.cloudinary.com/dvutcekav/image/upload/v1761272572/S3Rxpw0_oyyxkb.jpg"

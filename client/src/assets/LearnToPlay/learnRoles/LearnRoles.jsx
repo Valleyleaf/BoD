@@ -1,31 +1,40 @@
-import {react, useState} from 'react';
+import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import rolesJson from './rolesJSON.json';
 import './learnroles.css';
-import ExplorerFlow from '../learnRoleFlow/roleFlow/LearnExplorerFlow';
-import HomeGuardFlow from '../learnRoleFlow/roleFlow/LearnExplorerFlow';
-import SettlerFlow from '../learnRoleFlow/roleFlow/LearnExplorerFlow';
+import RoleFlow from '../learnRoleFlow/roleFlow/LearnRoleFlow.jsx';
+// import learntoPlayService from '../../services/learntoPlayService';
+import Error from '../../Error/Error.jsx';
 
 const LearnRoles = () => {
   const { i18n } = useTranslation();
   const languageData = rolesJson[i18n.language] || rolesJson.en;
   const { learnRoles, roles } = languageData;
-  const [activeView, setActiveView] = useState(null);
+  const [activeRoleKey, setActiveRoleKey] = useState(null);
   
+  useEffect(() => {
+    const fetchLearnToPlay = async () => {
+      try {
+        const data = await learntoPlayService.getl2pData();
+        setCommanders(data);
+      } catch (err) {
+        setError('Failed to load Learn to Play Data');
+        console.error(err);
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchLearnToPlay();
+  }, []);
+
+
+
   const handleBack = () => {
-    setActiveView(null);
+    setActiveRoleKey(null);
   };
 
-  if (activeView === "Explorer") {
-    return <ExplorerFlow onBack={handleBack} />;
-  }
-
-  if (activeView === "HomeGuard") {
-    return <HomeGuardFlow onBack={handleBack} />;
-  }
-
-  if (activeView === "Settler") {
-    return <SettlerFlow onBack={handleBack} />;
+  if (activeRoleKey) {
+    return <RoleFlow activeRoleKey={activeRoleKey} onBack={handleBack} />;
   }
 
   return (
@@ -38,8 +47,8 @@ const LearnRoles = () => {
         {roles.map((role, index) => (
           <button 
             key={index}
-            id={role.title}
-            onClick={() => setActiveView(role.title)}
+            id={role.key}
+            onClick={() => setActiveRoleKey(role.key)}
             className='rolesContainer'
             style={{
               backgroundImage: `linear-gradient(rgba(26, 26, 26, 0.16), rgba(26, 26, 26, 0.99)), url(${role.backgroundImage})`,
@@ -58,6 +67,7 @@ const LearnRoles = () => {
           </button>
         ))}
       </div>
+      {/* Above renders each role based on return value from rolesJSON. Should be easy to refactor to run off MongoDB instead. */}
     </div>
   );
 };
