@@ -5,18 +5,23 @@ import './learnroles.css';
 import RoleFlow from '../learnRoleFlow/roleFlow/LearnRoleFlow.jsx';
 // import learntoPlayService from '../../services/learntoPlayService';
 import Error from '../../Error/Error.jsx';
+import Loading from '../../Loading/Loading.jsx'
 
 const LearnRoles = () => {
   const { i18n } = useTranslation();
   const languageData = rolesJson[i18n.language] || rolesJson.en;
   const { learnRoles, roles } = languageData;
   const [activeRoleKey, setActiveRoleKey] = useState(null);
-  
+  const [l2pdata, setL2pdata] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+  const decodedName = decodeURIComponent(name);
+
   useEffect(() => {
     const fetchLearnToPlay = async () => {
       try {
         const data = await learntoPlayService.getl2pData();
-        setCommanders(data);
+        setL2pdata(data);
       } catch (err) {
         setError('Failed to load Learn to Play Data');
         console.error(err);
@@ -27,7 +32,9 @@ const LearnRoles = () => {
     fetchLearnToPlay();
   }, []);
 
-
+  if (loading) return <Loading/>;
+  if (error || !l2pdata) return <h2>L2PData "{decodedName}" not found.</h2>;
+  
 
   const handleBack = () => {
     setActiveRoleKey(null);
