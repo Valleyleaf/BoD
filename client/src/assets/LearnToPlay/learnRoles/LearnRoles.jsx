@@ -33,7 +33,7 @@ const LearnRoles = () => {
   }, []);
 
   if (loading) return <Loading/>;
-  if (error || !l2pdata) return <h2>L2PData "{decodedName}" not found.</h2>;
+  if (error || !l2pdata) return <h2>404 - L2PData "{decodedName}" not found.</h2>;
   
 
   const handleBack = () => {

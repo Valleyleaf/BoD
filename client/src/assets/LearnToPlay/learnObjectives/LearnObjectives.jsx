@@ -88,4 +88,4 @@ const LearnObjectives = () => {
 
 export default LearnObjectives;
 
-// There is an issue here where if one video fails to load, they all go into the ):( else state.
+// There is an issue here where if one video fails to load, they all go into the ):( else state. Probably going to redo the whole thing anyway.

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import GameRender from "../../Game/GameRender.jsx"
 import Commandercarousel from "../CommanderCarousel/commanderCarousel.jsx";
+import PlayNow from "../../LearnToPlay/PlayNow.jsx";
 import './homeContent.css';
 
 function HomeContent(){
@@ -18,7 +19,8 @@ function HomeContent(){
                     <Commandercarousel/>
                 </div>
             <div className="flexColumn center-content topicBGImage">
-                    <GameRender/>
+                    {/* <GameRender/> */}
+                    <PlayNow/>
             </div>
         </div>
     )
