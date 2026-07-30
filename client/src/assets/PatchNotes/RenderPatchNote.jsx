@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./PatchNotes.css";
+import "./patchnotes.css";
 
 function RenderPatchNote({ note }) {
   const [markdown, setMarkdown] = useState("");
