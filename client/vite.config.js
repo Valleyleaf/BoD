@@ -11,6 +11,14 @@ export default defineConfig({
     open: false, // Don't auto-open browser
   },
   //Dunno if I need to keep the above but I am running into VPN issues.
+    optimizeDeps: {
+    include: ['react-i18next']
+  },
+  build: {
+    commonjsOptions: {
+      include: [/react-i18next/, /node_modules/]
+    },
+  },
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
@@ -21,4 +29,5 @@ export default defineConfig({
     },
   },
   base: '/',
+  
 })
