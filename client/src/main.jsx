@@ -10,7 +10,7 @@ import News from './assets/RenderArticle/ArticleMain.jsx'
 import PatchNotes from './assets/PatchNotes/PatchNotePage.jsx'
 import CommanderRender from './assets/Commanders/CommanderRender.jsx'
 import Items from './assets/Items/ItemsMain.jsx'
-import LearnToPlay from './assets/LearnToPlay/LearnToPlay.jsx'
+import LearnToPlay from './assets/LearnToPlay/LearntoPlay.jsx'
 
 const router = createBrowserRouter([{
   path: '/',
