@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useState, useRef } from "react";
 import { useTranslation } from 'react-i18next';
 import objectivesJson from './objectivesJSON.json';
 import './learnobjectives.css';
@@ -10,34 +10,7 @@ const LearnObjectives = () => {
   const [videoError, setVideoError] = useState(false);
   const languageData = objectivesJson[i18n.language] || objectivesJson.en;
   const { learnObjectives, objectives } = languageData;
-  const handleVideoError = (e) => {
-      console.error('Video error:', e);
-      setVideoError(true);
-  };
-  
-  useEffect(() => {
-      const video = videoRef.current;
-      
-      if (video) {
-          // Add a small delay to ensure the video is loaded
-          setTimeout(() => {
-              const playPromise = video.play();
-              if (playPromise !== undefined) {
-                  playPromise
-                      .then(() => {
-                          console.log('Video is playing successfully');
-                      })
-                      .catch(error => {
-                          console.log('Autoplay failed:', error);
-                          // Try again after user interaction
-                          document.addEventListener('click', () => {
-                              video.play().catch(e => console.log('Manual play failed:', e));
-                          }, { once: true });
-                      });
-              }
-          }, 1000);
-      }
-  }, []);
+
 
   return (
     <div className="learn-objectives">
